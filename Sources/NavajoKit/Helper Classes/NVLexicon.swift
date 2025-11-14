@@ -299,7 +299,7 @@ public class NVLexicon {
 
 		var data: [[String]] = []
 
-		if let path = Bundle.main.path(forResource: named, ofType: "csv") {
+		if let path = Bundle.navajoKit.path(forResource: named, ofType: "csv") {
 			let url = URL(fileURLWithPath: path)
 
 			do {
