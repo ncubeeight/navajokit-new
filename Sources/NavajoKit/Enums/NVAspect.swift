@@ -8,7 +8,7 @@
 public enum NVAspect: String, Codable {
 	case future, imperfective, iterative, optative, perfective, progressive, unspecified
 
-	init(rawValue: String?) {
+	public init(rawValue: String?) {
 
 		switch rawValue?.lowercased() {
 			case "perfective", "perfect", "past", "perf": self = .perfective

@@ -8,7 +8,7 @@
 public enum NVPlurality: String, Codable {
 	case singular, dual, plural, singularOrDual, dualOrPlural, any
 
-	init(rawValue: String?) {
+	public init(rawValue: String?) {
 
 		switch rawValue?.lowercased() {
 			case "singular", "1", "s": self = .singular
