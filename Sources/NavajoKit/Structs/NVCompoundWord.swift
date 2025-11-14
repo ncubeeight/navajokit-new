@@ -15,7 +15,7 @@ public struct NVCompoundWord {
 	public let validated: Bool?
 	public let proper: Bool?
 
-	init(words: [NVWord], english: String, partOfSpeech:String, validated: Bool, proper: Bool) {
+	public init(words: [NVWord], english: String, partOfSpeech:String, validated: Bool, proper: Bool) {
 
 		self.words = words
 		self.english = english

@@ -7,11 +7,11 @@
 
 public struct NVTaggedWord {
 	//Word
-	var token: String
+	public var token: String
 	//Part-of-speech
-	var label: String
+	public var label: String
 	//English version
-	var translation: NVWord?
+	public var translation: NVWord?
 	//No direct match by part-of-speech, used direct word match
-	var isFallback: Bool = false
+	public var isFallback: Bool = false
 }

@@ -6,14 +6,14 @@
 //
 
 public struct NVWordToken: Equatable {
-	var token: String
-	var adjustedToken: String
-	var pos: String?
-	var translation: String?
-	var person: NVPerson?
-	var plurality: NVPlurality?
-	var transitive: Bool?
-	var aspect: String?
-	var infinitive: String?
-	var components: [NVWordToken] = []
+	public var token: String
+	public var adjustedToken: String
+	public var pos: String?
+	public var translation: String?
+	public var person: NVPerson?
+	public var plurality: NVPlurality?
+	public var transitive: Bool?
+	public var aspect: String?
+	public var infinitive: String?
+	public var components: [NVWordToken] = []
 }
