@@ -18,17 +18,17 @@ public class NVTokenizer {
 		}
 
 		///Treat the standard apostrophe (0x27) as the glottal stop character
-		static let aposAsGlottalStop = Options(rawValue: 1 << 0)
+		public static let aposAsGlottalStop = Options(rawValue: 1 << 0)
 		///Ignore case when tokenizing
-		static let caseInsensitive = Options(rawValue: 1 << 1)
+		public static let caseInsensitive = Options(rawValue: 1 << 1)
 		///Remove all digits from the text
-		static let stripDigits = Options(rawValue: 1 << 2)
+		public static let stripDigits = Options(rawValue: 1 << 2)
 		///Include punctuations as their own tokens
-		static let tokenizePunctuation = Options(rawValue: 1 << 3)
+		public static let tokenizePunctuation = Options(rawValue: 1 << 3)
 		///Include whitespaces as their own tokens
-		static let tokenizeWhitespace = Options(rawValue: 1 << 4)
+		public static let tokenizeWhitespace = Options(rawValue: 1 << 4)
 		///Strip implied glottal stops from words leading with vowels
-		static let stripLeadingGlottalStops = Options(rawValue: 1 << 5)
+		public static let stripLeadingGlottalStops = Options(rawValue: 1 << 5)
 	}
 
 	///Divisions of the text string to tokenize
@@ -387,7 +387,7 @@ public class NVTokenizer {
 
 	//MARK: Init / Deinit
 
-	init() {
+	public init() {
 
 		for (key, graphemes) in graphemeList {
 
@@ -420,7 +420,7 @@ public class NVTokenizer {
 	//MARK: Public functions
 
 	///Tokenize the specified string by units and options
-	func tokenize(_ string: String, by unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
+	public func tokenize(_ string: String, by unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
 
 		var string = string
 		let options = options ?? []
