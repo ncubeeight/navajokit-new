@@ -21,6 +21,8 @@ let package = Package(
 			name: "NavajoKit",
 			dependencies: [],
 			resources: [
+				.copy("Resources/NVCompoundWords.csv"),
+				.copy("Resources/NVLexicon.csv"),
 				.process("Resources/NavajoTagger.mlmodel")
 			]
 		),
