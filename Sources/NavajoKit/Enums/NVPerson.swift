@@ -8,7 +8,7 @@
 public enum NVPerson: String, Codable {
 	case first, second, third, fourth, spatial, firstOrSecond, reciprocal, reflexive, unspecified, indefinite
 
-	init(rawValue: String?) {
+	public init(rawValue: String?) {
 
 		switch rawValue?.lowercased() {
 			case "first", "1", "1st": self = .first

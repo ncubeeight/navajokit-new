@@ -12,7 +12,7 @@ public class NVLexicon {
 	public var lexiconList: [NVWord] = []
 	public var compoundLexiconList: [NVCompoundWord] = []
 
-	init() {
+	public init() {
 		print("Start loading lexicon...")
 		loadWords()
 		loadCompoundWords()
