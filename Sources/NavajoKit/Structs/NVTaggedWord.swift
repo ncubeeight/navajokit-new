@@ -14,4 +14,12 @@ public struct NVTaggedWord {
 	public var translation: NVWord?
 	//No direct match by part-of-speech, used direct word match
 	public var isFallback: Bool = false
+
+	public init(token: String, label: String, translation: NVWord? = nil, isFallback: Bool) {
+	
+		self.token = token
+		self.label = label
+		self.translation = translation
+		self.isFallback = isFallback
+	}
 }
