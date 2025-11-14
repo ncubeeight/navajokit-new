@@ -37,7 +37,7 @@ public struct NVWord: Codable {
 	///Additional translation notes
 	public let notes: String?
 
-	init(navajo: String, english: String, partOfSpeech: String, validated: Bool, aspect: NVAspect? = nil, subject: NVInflection? = nil, object: NVInflection? = nil, infinitive: String? = nil, proper: Bool? = nil, prefix: String? = nil, stem: String? = nil, suffix: String? = nil, notes: String? = nil) {
+	public init(navajo: String, english: String, partOfSpeech: String, validated: Bool, aspect: NVAspect? = nil, subject: NVInflection? = nil, object: NVInflection? = nil, infinitive: String? = nil, proper: Bool? = nil, prefix: String? = nil, stem: String? = nil, suffix: String? = nil, notes: String? = nil) {
 
 		self.navajo = navajo
 		self.english = english
