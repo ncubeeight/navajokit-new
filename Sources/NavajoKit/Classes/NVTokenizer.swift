@@ -1,15 +1,19 @@
 //
 //  NVTokenizer.swift
-//  Navajo Translator
+//  NavajoKit
 //
 //  Created by Daniel Gump on 11/29/24.
 //
 
 import Foundation
 
-///Class for tokenizing a string of Navajo text into specified unit lengths with optional settings
+///Tokenizing a string of Navajo text into specified unit lengths with optional settings
 public class NVTokenizer {
 
+	///Singleton
+	public var shared = NVTokenizer()
+
+	///Customizations for the tokenization process
 	public struct Options: OptionSet, Sendable {
 		public let rawValue: Int
 
@@ -387,6 +391,7 @@ public class NVTokenizer {
 
 	//MARK: Init / Deinit
 
+	///Initializer
 	public init() {
 
 		for (key, graphemes) in graphemeList {
@@ -413,14 +418,23 @@ public class NVTokenizer {
 
 	}
 
+	///Deinitializer
 	deinit {
 
 	}
 
 	//MARK: Public functions
 
-	///Tokenize the specified string by units and options
-	public func tokenize(_ string: String, by unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
+	/**
+		Tokenize the specified string by units and options
+
+		- Parameters:
+			- text: Full text string
+			- unit: tokenization unit
+			- options: modifications to methodology
+		- Returns: Tuple with with string modified by any of the options and an array of tokenization ranges within that string
+	*/
+	public func tokenize(text string: String, unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
 
 		var string = string
 		let options = options ?? []

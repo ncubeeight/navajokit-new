@@ -1,14 +1,18 @@
 //
-//  NVSubwordTokenizer.swift
-//  Navajo Translator
+//  NVPolysyntheticTokenizer.swift
+//  NavajoKit
 //
 //  Created by Daniel Gump on 7/21/25.
 //
 
 import Foundation
 
-///Class for tokenizing a Navajo word into its subcomponents
-public class NVSubwordTokenizer {
+///Tokenizing a Navajo word into its subcomponents by language-specific word components
+/// > Important: This class is very early in development
+public class NVPolysyntheticTokenizer {
+
+	///Singleton
+	public var shared = NVPolysyntheticTokenizer()
 
 	public struct Options: OptionSet, Sendable {
 		public let rawValue: Int
@@ -172,7 +176,19 @@ public class NVSubwordTokenizer {
 		"zánághah": "around"
 	]
 
-	public func tokenizeAdverb(_ token: NVWordToken) -> NVWordToken {
+	//Initializer
+	public init() {
+
+	}
+
+	/**
+		Tokenize an adverb using Navajo polysynthetic rules
+
+		- Parameters:
+			- adverb: Tokenized word object
+		- Returns: Modified object with subcomponent array included
+	 */
+	public func tokenize(adverb token: NVWordToken) -> NVWordToken {
 
 		if token.pos?.lowercased() != "adv" {
 			return token
@@ -204,7 +220,15 @@ public class NVSubwordTokenizer {
 
 	}
 
-	public func tokenizeNoun(_ token: NVWordToken, skipPossessive: Bool = false) -> NVWordToken {
+	/**
+		Tokenize a noun using Navajo polysynthetic rules
+
+		- Parameters:
+			- noun: Tokenized word object
+			- skipPossessive: Flag for whether or not a possessive prefix should be considered in the tokenization
+		- Returns: Modified object with subcomponent array included
+	 */
+	public func tokenize(noun token: NVWordToken, skipPossessive: Bool = false) -> NVWordToken {
 
 		//This function only accepts nouns
 		if token.pos?.lowercased().prefix(1) != "n" {
@@ -251,7 +275,7 @@ public class NVSubwordTokenizer {
 
 					//Further recurse through the noun then return
 					token.components.append(
-						self.tokenizeNoun(base, skipPossessive: true)
+						self.tokenize(noun: base, skipPossessive: true)
 					)
 
 					break
