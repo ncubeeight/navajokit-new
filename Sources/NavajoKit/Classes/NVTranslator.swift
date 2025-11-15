@@ -8,10 +8,10 @@
 import Foundation
 
 ///Core class for translation tasks
-public class NVTranslator {
+public actor NVTranslator {
 
 	///Singleton
-	public var shared = NVTranslator()
+	public static let shared = NVTranslator()
 
 	///Array of single words, constructed from NVSingleWords.csv
 	public var lexiconList: [NVWord] = []
@@ -34,8 +34,10 @@ public class NVTranslator {
 			print("Start loading lexicon...")
 		}
 
-		loadWords()
-		loadCompoundWords()
+		let words = Self.loadWords()
+
+		lexiconList = words.0
+		compoundLexiconList = words.1
 
 		if debug {
 			print("Lexicon loaded.")
@@ -180,21 +182,27 @@ public class NVTranslator {
 		return words.filter({ return $0.token != "_" })
 	}
 
-	private func loadWords() {
+	private nonisolated static func loadWords() -> ([NVWord], [NVCompoundWord]) {
 
-		let parsedCSV = NVTranslator.loadCSV(named: "NVSingleWords")
+		var loadedWords: [NVWord] = []
+		var loadedCompoundWords: [NVCompoundWord] = []
 
-		let title = parsedCSV.first!.map({ return String($0) })
-		//print("Title: \(title.debugDescription)")
+		let parsedWordsCSV = NVTranslator.loadCSV(named: "NVSingleWords")
+		let parsedCompoundWordsCSV = NVTranslator.loadCSV(named: "NVCompoundWords")
 
-		let body = parsedCSV.dropFirst()
+		let wordsTitle = parsedWordsCSV.first!.map({ return String($0) })
+		let wordsBody = parsedWordsCSV.dropFirst()
 
-		for row in body {
+		let compoundWordsTitle = parsedCompoundWordsCSV.first!.map({ return String($0) })
+		let compoundWordsBody = parsedCompoundWordsCSV.dropFirst()
+
+		//Process single words
+		for row in wordsBody {
 
 			var word: [String: String] = [:]
 			for i in 0..<row.count {
-				if i < title.count && !row[i].isEmpty {
-					word[title[i]] = row[i]
+				if i < wordsTitle.count && !row[i].isEmpty {
+					word[wordsTitle[i]] = row[i]
 				}
 			}
 
@@ -231,27 +239,17 @@ public class NVTranslator {
 					notes: word["notes"]
 				)
 
-				self.lexiconList.append(word)
+				loadedWords.append(word)
 			}
 		}
 
-	}
-
-	private func loadCompoundWords() {
-
-		let parsedCSV = NVTranslator.loadCSV(named: "NVCompoundWords")
-
-		let title = parsedCSV.first!.map({ return String($0) })
-		//print("Title: \(title.debugDescription)")
-
-		let body = parsedCSV.dropFirst()
-
-		for row in body {
+		//Process compound words
+		for row in compoundWordsBody {
 
 			var word: [String: String] = [:]
 			for i in 0..<row.count {
-				if i < title.count && !row[i].isEmpty {
-					word[title[i]] = row[i]
+				if i < compoundWordsTitle.count && !row[i].isEmpty {
+					word[compoundWordsTitle[i]] = row[i]
 				}
 			}
 
@@ -290,7 +288,7 @@ public class NVTranslator {
 
 				for i in 0..<tokens.count {
 
-					if let w = lexiconList.filter({
+					if let w = loadedWords.filter({
 
 						//Ignore cases
 						var pos = $0.partOfSpeech
@@ -326,14 +324,15 @@ public class NVTranslator {
 					proper: word["proper"] == "TRUE"
 				)
 
-				self.compoundLexiconList.append(word)
+				loadedCompoundWords.append(word)
 			}
 		}
 
+		return (loadedWords, loadedCompoundWords)
 	}
 
 	///Load a CSV file from the local project name, handle quoted fields
-	public static func loadCSV(named: String) -> [[String]] {
+	public nonisolated static func loadCSV(named: String) -> [[String]] {
 
 		var data: [[String]] = []
 

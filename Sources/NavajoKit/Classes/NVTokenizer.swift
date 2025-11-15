@@ -8,10 +8,10 @@
 import Foundation
 
 ///Tokenizing a string of Navajo text into specified unit lengths with optional settings
-public class NVTokenizer {
+public actor NVTokenizer {
 
 	///Singleton
-	public var shared = NVTokenizer()
+	public static let shared = NVTokenizer()
 
 	///Customizations for the tokenization process
 	public struct Options: OptionSet, Sendable {
@@ -434,9 +434,9 @@ public class NVTokenizer {
 			- options: modifications to methodology
 		- Returns: Tuple with with string modified by any of the options and an array of tokenization ranges within that string
 	*/
-	public func tokenize(text string: String, unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
+	public func tokenize(text: String, unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
 
-		var string = string
+		var string = text
 		let options = options ?? []
 
 		if options.contains(.aposAsGlottalStop) {

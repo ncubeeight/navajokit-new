@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
 	name: "NavajoKit",
 	platforms: [
-		.iOS(.v12),
-		.macOS(.v10_14)
+		.iOS(.v15),
+		.macOS(.v12)
 	],
 	products: [
 		.library(

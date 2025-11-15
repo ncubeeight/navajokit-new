@@ -9,10 +9,10 @@ import CoreML
 import NaturalLanguage
 
 ///Tag tokenized text using the built-in parts-of-speech tagger model
-public class NVTagger {
+public actor NVTagger {
 
 	///Singleton
-	public var shared = NVTagger()
+	public static let shared = NVTagger()
 
 	private var debug = false
 	private var nvModel: NLModel?
@@ -27,7 +27,7 @@ public class NVTagger {
 
 		self.debug = debug
 
-		loadModel()
+		nvModel = Self.loadModel()
 	}
 
 	/**
@@ -53,25 +53,13 @@ public class NVTagger {
 		return tags
 	}
 
-	private func loadModel() {
+	private nonisolated static func loadModel() -> NLModel {
 
-		do {
-			let model = try MLModel.loadModel(named: "NavajoTagger", configuration: MLModelConfiguration())
+		let model = try! MLModel.loadModel(named: "NavajoTagger", configuration: MLModelConfiguration())
 
-			nvModel = try NLModel(mlModel: model)
+		let nlModel = try! NLModel(mlModel: model)
 
-			if debug {
-				print("Model loaded.")
-			}
-
-		} catch let error {
-
-			if debug {
-				print("Error loading model: \(error.localizedDescription)")
-			}
-
-		}
-
+		return nlModel
 	}
 
 
