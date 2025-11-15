@@ -1,13 +1,26 @@
 //
 //  NVPlurality.swift
-//  Navajo Translator
+//  NavajoKit
 //
 //  Created by Daniel Gump on 1/19/25.
 //
 
+///Plurality applied to several parts-of-speech, both subjects and objects
 public enum NVPlurality: String, Codable {
-	case singular, dual, plural, singularOrDual, dualOrPlural, any
 
+	case singular
+	case dual
+	///Distributive plural (i.e. 3 or more)
+	case plural
+
+	///Third and fourth person verbs group singular and dual subjects
+	case singularOrDual
+	///Many prefixes combine dual and distributive plural
+	case dualOrPlural
+	
+	case any
+
+	///Initializer for raw strings
 	public init(rawValue: String?) {
 
 		switch rawValue?.lowercased() {
@@ -21,6 +34,7 @@ public enum NVPlurality: String, Codable {
 
 	}
 
+	///Initializer for decodin from JSON objects
 	public init(from decoder: Decoder) throws {
 
 		let container = try decoder.singleValueContainer()

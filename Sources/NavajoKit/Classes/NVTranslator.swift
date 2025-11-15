@@ -1,29 +1,59 @@
 //
-//  NVLexicon.swift
-//  Navajo Translator
+//  NVTranslator.swift
+//  NavajoKit
 //
 //  Created by Daniel Gump on 1/5/25.
 //
 
 import Foundation
 
-public class NVLexicon {
+///Core class for translation tasks
+public class NVTranslator {
 
+	///Singleton
+	public var shared = NVTranslator()
+
+	///Array of single words, constructed from NVSingleWords.csv
 	public var lexiconList: [NVWord] = []
+	///Array of compound words, constructed from NVCompoundWords.csv
 	public var compoundLexiconList: [NVCompoundWord] = []
 
-	public init() {
-		print("Start loading lexicon...")
+	private var debug = false
+
+	/**
+		Initializer
+
+		- Parameters:
+			- debug: activate console logging
+	 */
+	public init(debug: Bool = false) {
+
+		self.debug = debug
+
+		if debug {
+			print("Start loading lexicon...")
+		}
+
 		loadWords()
 		loadCompoundWords()
-		print("Done.")
+
+		if debug {
+			print("Lexicon loaded.")
+		}
 	}
 
 	//MARK: Functions
 
-	public func replace(_ tag: NVTaggedWord) -> NVTaggedWord {
+	/**
+		Direct translation of a single word
 
-		let lower = tag.token.lowercased()
+		- Parameters:
+			- word: The untranslated Navajo tagged word object
+		- Returns: Modified object with an English translation applied
+	 */
+	public func translate(word: NVTaggedWord) -> NVTaggedWord {
+
+		let lower = word.token.lowercased()
 
 		//Get list of all matching Navajo words, regardless of POS
 		let trans: [NVWord] = lexiconList.filter({
@@ -32,8 +62,8 @@ public class NVLexicon {
 
 		if trans.count == 0 {
 			return NVTaggedWord(
-				token: tag.token,
-				label: tag.label,
+				token: word.token,
+				label: word.label,
 				translation: nil
 			)
 		}
@@ -41,7 +71,7 @@ public class NVLexicon {
 		var filteredTrans: [NVWord] = []
 
 		//Narrow down list of matching Navajo words to correct POS
-		switch tag.label {
+		switch word.label {
 
 			case "NAdp", "NObj", "NRel", "NSub":
 				filteredTrans = trans.filter({
@@ -60,7 +90,7 @@ public class NVLexicon {
 
 			default:
 				filteredTrans = trans.filter({
-					return $0.partOfSpeech == tag.label
+					return $0.partOfSpeech == word.label
 				})
 
 		}
@@ -69,24 +99,32 @@ public class NVLexicon {
 
 			//Return word with direct translation
 			return NVTaggedWord(
-				token: tag.token,
-				label: tag.label,
+				token: word.token,
+				label: word.label,
 				translation: filteredTrans.first
 			)
 		}
 
 		//Return guessed translation
 		return NVTaggedWord(
-			token: tag.token,
-			label: "\(tag.label) -> \(trans.first?.partOfSpeech ?? "")",
+			token: word.token,
+			label: "\(word.label) -> \(trans.first?.partOfSpeech ?? "")",
 			translation: trans.first,
 			isFallback: true
 		)
 	}
 
-	public func replace(_ words: [NVTaggedWord], combiningCompounds: Bool = false) -> [NVTaggedWord] {
+	/**
+		Direct translation for a series of words with the option to identify compound words during the translation process
 
-		var words = words.map({ return replace($0) })
+		- Parameters:
+			- words: The Navajo tagged word object array to replace with its English equivalents
+			- combiningCompounds: Identify and merge Navajo compound words to properly translate them as groups
+		- Returns: Modified array of objects with an English translations applied
+	 */
+	public func translate(words: [NVTaggedWord], combiningCompounds: Bool = false) -> [NVTaggedWord] {
+
+		var words = words.map({ return translate(word: $0) })
 
 		if !combiningCompounds {
 			return words
@@ -144,7 +182,7 @@ public class NVLexicon {
 
 	private func loadWords() {
 
-		let parsedCSV = NVLexicon.loadCSV(named: "NVLexicon")
+		let parsedCSV = NVTranslator.loadCSV(named: "NVSingleWords")
 
 		let title = parsedCSV.first!.map({ return String($0) })
 		//print("Title: \(title.debugDescription)")
@@ -201,7 +239,7 @@ public class NVLexicon {
 
 	private func loadCompoundWords() {
 
-		let parsedCSV = NVLexicon.loadCSV(named: "NVCompoundWords")
+		let parsedCSV = NVTranslator.loadCSV(named: "NVCompoundWords")
 
 		let title = parsedCSV.first!.map({ return String($0) })
 		//print("Title: \(title.debugDescription)")
@@ -295,7 +333,7 @@ public class NVLexicon {
 	}
 
 	///Load a CSV file from the local project name, handle quoted fields
-	static func loadCSV(named: String) -> [[String]] {
+	public static func loadCSV(named: String) -> [[String]] {
 
 		var data: [[String]] = []
 
@@ -351,7 +389,6 @@ public class NVLexicon {
 			} catch let error as NSError {
 
 				print("Error loading CSV: \(error.debugDescription)")
-
 			}
 
 		}

@@ -1,13 +1,30 @@
 //
 //  NVAspect.swift
-//  Navajo Translator
+//  NavajoKit
 //
 //  Created by Daniel Gump on 1/20/25.
 //
 
+///Verb aspects/tenses
 public enum NVAspect: String, Codable {
-	case future, imperfective, iterative, optative, perfective, progressive, unspecified
 
+	///Roughly equivalent to past tense in English
+	case perfective
+	///Roughly equivalent to present tense in English
+	case imperfective
+	///Roughly equivalent to future aspect/tense in English
+	case future
+	///Roughly equivalent to present progressive tense in English
+	case progressive
+	///Repeated actions
+	case iterative
+	///Possible actions
+	case optative
+	
+	///Fallback
+	case unspecified
+
+	///Initializer for raw strings
 	public init(rawValue: String?) {
 
 		switch rawValue?.lowercased() {
@@ -22,6 +39,7 @@ public enum NVAspect: String, Codable {
 
 	}
 
+	///Initializer for decodin from JSON objects
 	public init(from decoder: Decoder) throws {
 
 		let container = try decoder.singleValueContainer()
