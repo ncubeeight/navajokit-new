@@ -9,10 +9,10 @@ import Foundation
 
 ///Tokenizing a Navajo word into its subcomponents by language-specific word components
 /// > Important: This class is very early in development
-public class NVPolysyntheticTokenizer {
+public actor NVPolysyntheticTokenizer {
 
 	///Singleton
-	public var shared = NVPolysyntheticTokenizer()
+	public static let shared = NVPolysyntheticTokenizer()
 
 	public struct Options: OptionSet, Sendable {
 		public let rawValue: Int
@@ -188,13 +188,13 @@ public class NVPolysyntheticTokenizer {
 			- adverb: Tokenized word object
 		- Returns: Modified object with subcomponent array included
 	 */
-	public func tokenize(adverb token: NVWordToken) -> NVWordToken {
+	public func tokenize(adverb: NVWordToken) -> NVWordToken {
 
-		if token.pos?.lowercased() != "adv" {
-			return token
+		if adverb.pos?.lowercased() != "adv" {
+			return adverb
 		}
 
-		var token = token
+		var token = adverb
 
 		//Check if the Adverb is formed by adding a Postposition suffix to a base
 		for suffix in postpositionSuffixList {
@@ -228,15 +228,15 @@ public class NVPolysyntheticTokenizer {
 			- skipPossessive: Flag for whether or not a possessive prefix should be considered in the tokenization
 		- Returns: Modified object with subcomponent array included
 	 */
-	public func tokenize(noun token: NVWordToken, skipPossessive: Bool = false) -> NVWordToken {
+	public func tokenize(noun: NVWordToken, skipPossessive: Bool = false) -> NVWordToken {
 
 		//This function only accepts nouns
-		if token.pos?.lowercased().prefix(1) != "n" {
-			return token
+		if noun.pos?.lowercased().prefix(1) != "n" {
+			return noun
 		}
 
 		//Copy to variable for further handling
-		var token = token
+		var token = noun
 
 		//Check for possessive prefix
 		if !skipPossessive {
