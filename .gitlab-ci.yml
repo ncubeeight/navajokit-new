@@ -1,7 +1,10 @@
-#
-//  .gitlab-ci.yml
-//  
-//
-//  Created by Daniel Gump on 11/15/25.
-//
-
+pages:
+  stage: deploy
+  script:
+    - mkdir -p public
+    - cp file -r Documentation/* public/   # copy everything into the Pages artifact
+  artifacts:
+    paths:
+      - public
+  only:
+    - main   # or whatever branch you want
