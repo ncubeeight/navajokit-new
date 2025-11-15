@@ -29,9 +29,9 @@ public enum NVPerson: String, Codable {
 	case unspecified
 
 	///Initializer for raw strings
-	public init(rawValue: String?) {
+	public init?(rawValue: String) {
 
-		switch rawValue?.lowercased() {
+		switch rawValue.lowercased() {
 			case "first", "1", "1st": self = .first
 			case "second", "2", "2nd": self = .second
 			case "third", "3", "3rd": self = .third
@@ -39,11 +39,21 @@ public enum NVPerson: String, Codable {
 			case "spatial", "spat", "sp": self = .spatial
 			case "reciprocal", "recip": self = .reciprocal
 			case "reflexive", "reflex", "refl": self = .reflexive
-			case "firstOrSecond", "12", "1st/2nd": self = .firstOrSecond
+			case "firstorsecond", "12", "1st/2nd": self = .firstOrSecond
 			case "indefinite", "indef": self = .indefinite
 			default: self = .unspecified
 		}
 
+	}
+
+	///Custom initizer to handle nil cases
+	public init(rawValue: String?) {
+
+		if let raw = rawValue {
+			self = Self(rawValue: raw) ?? .unspecified
+		} else {
+			self = .unspecified
+		}
 	}
 
 	///Initializer for decodin from JSON objects

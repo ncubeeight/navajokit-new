@@ -204,7 +204,7 @@ public class NVPolysyntheticTokenizer {
 		Tokenize an adverb using Navajo polysynthetic rules
 
 		- Parameters:
-			- adverb: Tokenized word object
+			- adv: Tokenized word object
 		- Returns: Modified object with subcomponent array included
 	 */
 	public func tokenize(adv: NVWordToken) -> NVWordToken {
