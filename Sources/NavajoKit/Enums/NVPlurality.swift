@@ -21,17 +21,27 @@ public enum NVPlurality: String, Codable {
 	case any
 
 	///Initializer for raw strings
-	public init(rawValue: String?) {
+	public init?(rawValue: String) {
 
-		switch rawValue?.lowercased() {
+		switch rawValue.lowercased() {
 			case "singular", "1", "s": self = .singular
-			case "dual", "duoplural", "pair", "2", "d": self = .dual
+			case "dual", "duoplural", "2", "d": self = .dual
 			case "plural", "distributive", "distributiveplural", "3", "3+", "p": self = .plural
 			case "singularordual", "singularorduoplural", "12", "sd": self = .singularOrDual
 			case "dualorplural", "23", "dp": self = .dualOrPlural
 			default: self = .any
 		}
 
+	}
+
+	///Custom initizer to handle nil cases
+	public init(rawValue: String?) {
+
+		if let raw = rawValue {
+			self = Self(rawValue: raw) ?? .any
+		} else {
+			self = .any
+		}
 	}
 
 	///Initializer for decodin from JSON objects

@@ -25,9 +25,9 @@ public enum NVAspect: String, Codable {
 	case unspecified
 
 	///Initializer for raw strings
-	public init(rawValue: String?) {
+	public init?(rawValue: String) {
 
-		switch rawValue?.lowercased() {
+		switch rawValue.lowercased() {
 			case "perfective", "perfect", "past", "perf": self = .perfective
 			case "imperfective", "imperfect", "present", "impf": self = .imperfective
 			case "future", "fut": self = .future
@@ -39,7 +39,17 @@ public enum NVAspect: String, Codable {
 
 	}
 
-	///Initializer for decodin from JSON objects
+	///Custom initizer to handle nil cases
+	public init(rawValue: String?) {
+
+		if let raw = rawValue {
+			self = Self(rawValue: raw) ?? .unspecified
+		} else {
+			self = .unspecified
+		}
+	}
+
+	///Initializer for decoding from JSON objects
 	public init(from decoder: Decoder) throws {
 
 		let container = try decoder.singleValueContainer()
