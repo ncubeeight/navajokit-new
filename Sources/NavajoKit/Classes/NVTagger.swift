@@ -9,9 +9,10 @@ import CoreML
 import NaturalLanguage
 
 ///Tag tokenized text using the built-in parts-of-speech tagger model
-public actor NVTagger {
+public class NVTagger {
 
 	///Singleton
+	@MainActor
 	public static let shared = NVTagger()
 
 	private var debug = false
@@ -37,7 +38,7 @@ public actor NVTagger {
 			- Array of pre-tokenized `String` text
 		- Returns: Array of `NVTaggedWord` objects constructed from the model's most-probable predictions
 	 */
-	public func tag(_ tokenText: [String]) -> [NVTaggedWord] {
+	public func tag(_ tokenText: [String]) async -> [NVTaggedWord] {
 
 		let labels = nvModel?.predictedLabels(forTokens: tokenText.map({ return $0.lowercased() })) ?? []
 

@@ -8,9 +8,10 @@
 import Foundation
 
 ///Core class for translation tasks
-public actor NVTranslator {
+public class NVTranslator {
 
 	///Singleton
+	@MainActor
 	public static let shared = NVTranslator()
 
 	///Array of single words, constructed from NVSingleWords.csv

@@ -8,9 +8,10 @@
 import Foundation
 
 ///Tokenizing a string of Navajo text into specified unit lengths with optional settings
-public actor NVTokenizer {
+public class NVTokenizer {
 
 	///Singleton
+	@MainActor
 	public static let shared = NVTokenizer()
 
 	///Customizations for the tokenization process

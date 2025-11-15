@@ -9,9 +9,10 @@ import Foundation
 
 ///Tokenizing a Navajo word into its subcomponents by language-specific word components
 /// > Important: This class is very early in development
-public actor NVPolysyntheticTokenizer {
+public class NVPolysyntheticTokenizer {
 
 	///Singleton
+	@MainActor
 	public static let shared = NVPolysyntheticTokenizer()
 
 	public struct Options: OptionSet, Sendable {
