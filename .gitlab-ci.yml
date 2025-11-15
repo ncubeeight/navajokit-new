@@ -2,7 +2,7 @@ pages:
   stage: deploy
   script:
     - mkdir -p public
-    - cp file -r Documentation/* public/   # copy everything into the Pages artifact
+    - cp -r Documentation/* public/   # copy everything into the Pages artifact
   artifacts:
     paths:
       - public
