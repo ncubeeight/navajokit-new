@@ -87,8 +87,8 @@ public class NVPolysyntheticTokenizer {
 		"l": ["transitive": true, "reciprocal": true]
 	]
 
-	//Postposition suffixes can be applied to many parts of speech
-	private let postpositionSuffixList: [String: String] = [
+	//Postposition stems
+	private let postpositionStemList: [String: String] = [
 		"ʼoh": "less than",
 		"ʼąą": "beyond",
 		"aa": "to",
@@ -177,6 +177,24 @@ public class NVPolysyntheticTokenizer {
 		"zánághah": "around"
 	]
 
+	///Enclitic suffixes, used to convert words into adverbs
+	///> Note: These are a subset of the postposition list
+	private let encliticList: [String: String] = [
+		"dą́ą́ʼ": "of past time",
+		"dę́ę́ʼ": "from", //time/location (general)
+		"di": "at", //location
+		"dóó": "from then", //time/location (specific)
+		"ę́ędą́ą́ʼ": "back when",
+		"gi": "at location", //specific
+		"góó": "toward", //time/location
+		"íjígo": "toward", //direction (location)
+		"jigo": "toward", //direction
+		"jí": "alongside", //direction/manner
+		"jį́ʼ": "to the limit of",
+		"jíkʼehgo": "in manner of",
+		"yę́ędą́ą́’": "back when"
+	]
+
 	//Initializer
 	public init() {
 
@@ -189,28 +207,28 @@ public class NVPolysyntheticTokenizer {
 			- adverb: Tokenized word object
 		- Returns: Modified object with subcomponent array included
 	 */
-	public func tokenize(adverb: NVWordToken) -> NVWordToken {
+	public func tokenize(adv: NVWordToken) -> NVWordToken {
 
-		if adverb.pos?.lowercased() != "adv" {
-			return adverb
+		if adv.pos?.lowercased() != "adv" {
+			return adv
 		}
 
-		var token = adverb
+		var token = adv
 
-		//Check if the Adverb is formed by adding a Postposition suffix to a base
-		for suffix in postpositionSuffixList {
+		//Check if the Adverb is formed by adding an enclitic suffix to a base
+		for suffix in encliticList {
 
 			if token.token.hasSuffix(suffix.key) {
 
 				let base = "\(token.token.dropLast(suffix.key.count))"
 
-				//Place postposition at the beginning
-				token.components.append(NVWordToken(token: suffix.key, adjustedToken: suffix.key, pos: "Adp",
-				translation: suffix.value))
-
-				//Place stem at the end
+				//Place stem at the beginning
 				//For the moment, we don't know the part-of-speech
 				token.components.append(NVWordToken(token: base, adjustedToken: base))
+
+				//Place postposition at the beginning
+				token.components.append(NVWordToken(token: suffix.key, adjustedToken: suffix.key, pos: "Adv",
+				translation: suffix.value))
 
 				break
 			}
@@ -270,7 +288,7 @@ public class NVPolysyntheticTokenizer {
 					let base = NVWordToken(
 						token: newToken,
 						adjustedToken: adjustedNewToken,
-						pos: "n",
+						pos: "N",
 						translation: token.translation
 					)
 
@@ -288,6 +306,77 @@ public class NVPolysyntheticTokenizer {
 		} else {
 
 
+
+		}
+
+		return token
+
+	}
+
+	/**
+		Tokenize a postposition using Navajo polysynthetic rules
+
+		- Parameters:
+			- adp: Tokenized word object
+		- Returns: Modified object with subcomponent array included
+	 */
+	public func tokenize(adp: NVWordToken) -> NVWordToken {
+
+		//This function only accepts postpositions
+		if adp.pos?.lowercased() != "adp" {
+			return adp
+		}
+
+		//Copy to variable for further handling
+		var token = adp
+
+		//Check if the Postposition is formed by adding a possessive prefix to a base
+		for prefix in possessivePrefixList {
+
+			//Prefix fount
+			if token.adjustedToken.hasPrefix(prefix.token) {
+
+				//Possessive prefix
+				token.components.append(
+					NVWordToken(
+						token: prefix.token,
+						adjustedToken: prefix.adjustedToken,
+						pos: "ProObj",
+						translation: prefix.translation,
+						person: prefix.person,
+						plurality: prefix.plurality
+					)
+				)
+
+				//Remove possessive prefix
+				let newToken = "\(token.adjustedToken.dropFirst(prefix.adjustedToken.count))"
+
+				var adjustedNewToken = newToken
+
+				//Find postposition by exact match
+				if postpositionStemList[newToken] == nil {
+
+					//Prepend the last character from the prefix
+					adjustedNewToken = "\(prefix.token.last!)\(newToken)"
+
+				}
+
+				//Find postposition by exact match
+				if let stem = postpositionStemList[adjustedNewToken] {
+
+					token.components.append(
+						NVWordToken(
+							token: newToken,
+							adjustedToken: adjustedNewToken,
+							pos: "Adp",
+							translation: stem
+						)
+					)
+
+					break
+				}
+
+			}
 
 		}
 

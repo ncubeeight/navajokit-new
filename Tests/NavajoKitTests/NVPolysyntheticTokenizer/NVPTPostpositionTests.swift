@@ -1,18 +1,14 @@
 //
-//  NVSubwordTokenizerTests.swift
+//  NVPTPostpositionTests.swift
+//  NavajoKit
 //
-//  Created by Daniel Gump on 7/23/25.
+//  Created by Daniel Gump on 11/15/25.
 //
 
 import XCTest
 @testable import NavajoKit
 
-final class NVSubwordTokenizerTests: XCTestCase {
-
-	struct TestCase {
-		let input: NVWordToken
-		let expected: NVWordToken
-	}
+final class NVPTPostpositionTests: XCTestCase {
 
 	private let tokenizer = NVPolysyntheticTokenizer()
 
@@ -24,71 +20,80 @@ final class NVSubwordTokenizerTests: XCTestCase {
 
     }
 
-    func testPossessiveNoun() throws {
+	func testPostpositionObject() throws {
 
-		let nounList: [TestCase] = [
-			TestCase(
+		let postpositionList: [NVPTTestCase] = [
+			NVPTTestCase(
 				input: NVWordToken(
-					token: "shimá",
-					adjustedToken: "shimá",
-					pos: "n",
+					token: "shił",
+					adjustedToken: "shił",
+					pos: "adp",
 					components: []
 				),
 				expected: NVWordToken(
-					token: "shimá",
-					adjustedToken: "shimá",
-					pos: "n",
+					token: "shił",
+					adjustedToken: "shił",
+					pos: "Adp",
 					components: [
 						NVWordToken(
 							token: "shi",
 							adjustedToken: "shi",
-							translation: "my",
+							pos: "ProObj",
+							translation: "me",
 							person: .first,
 							plurality: .singular
 						),
 						NVWordToken(
-							token: "má",
-							adjustedToken: "amá",
-							pos: "n"
+							token: "ł",
+							adjustedToken: "ił",
+							pos: "Adp",
+							translation: "with"
 						),
 					]
 				)
 			),
-			TestCase(
+			NVPTTestCase(
 				input: NVWordToken(
-					token: "nihízhiʼ",
-					adjustedToken: "nihízhiʼ",
-					pos: "n",
+					token: "yichʼą́ą́h",
+					adjustedToken: "yichʼą́ą́h",
+					pos: "Adp",
 					components: []
 				),
 				expected: NVWordToken(
-					token: "nihízhiʼ",
-					adjustedToken: "nihízhiʼ",
-					pos: "n",
+					token: "yichʼą́ą́h",
+					adjustedToken: "yichʼą́ą́h",
+					pos: "Adp",
 					components: [
 						NVWordToken(
-							token: "nihí",
-							adjustedToken: "nihi",
-							translation: "our/your",
-							person: .firstOrSecond,
-							plurality: .dual
+							token: "yi",
+							adjustedToken: "yi",
+							pos: "ProObj",
+							translation: "him/her/it/them",
+							person: .third,
+							plurality: .any
 						),
 						NVWordToken(
-							token: "zhiʼ",
-							adjustedToken: "ázhiʼ",
-							pos: "n"
+							token: "chʼą́ą́h",
+							adjustedToken: "chʼą́ą́h",
+							pos: "Adp",
+							translation: "blocking",
 						),
 					]
 				)
 			),
 		]
 
-		for testCase in nounList {
-			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).token, testCase.expected.token)
-			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).adjustedToken, testCase.expected.adjustedToken)
-			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).pos, testCase.expected.pos)
-			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input), testCase.expected)
-			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).components, testCase.expected.components)
+		for testCase in postpositionList {
+			let processed = tokenizer.tokenize(adp: testCase.input)
+			let expected = testCase.expected
+
+			XCTAssertEqual(processed.token, expected.token)
+			XCTAssertEqual(processed.adjustedToken, expected.adjustedToken)
+			XCTAssertEqual(processed.components[0].token, expected.components[0].token)
+			XCTAssertEqual(processed.components[0].adjustedToken, expected.components[0].adjustedToken)
+			XCTAssertEqual(processed.components[1].token, expected.components[1].token)
+			XCTAssertEqual(processed.components[1].adjustedToken, expected.components[1].adjustedToken)
+			XCTAssertEqual(processed.components[1].translation, expected.components[1].translation)
 		}
     }
 

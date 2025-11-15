@@ -435,7 +435,7 @@ public class NVTokenizer {
 			- options: modifications to methodology
 		- Returns: Tuple with with string modified by any of the options and an array of tokenization ranges within that string
 	*/
-	public func tokenize(text: String, unit: Unit, options: NVTokenizer.Options? = []) -> (String, [Range<String.Index>]) {
+	public func tokenize(text: String, unit: Unit, options: NVTokenizer.Options? = []) async -> (String, [Range<String.Index>]) {
 
 		var string = text
 		let options = options ?? []
