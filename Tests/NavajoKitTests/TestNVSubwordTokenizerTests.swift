@@ -14,7 +14,7 @@ final class NVSubwordTokenizerTests: XCTestCase {
 		let expected: NVWordToken
 	}
 
-	private let tokenizer = NVSubwordTokenizer()
+	private let tokenizer = NVPolysyntheticTokenizer()
 
     override func setUpWithError() throws {
 
@@ -84,11 +84,11 @@ final class NVSubwordTokenizerTests: XCTestCase {
 		]
 
 		for testCase in nounList {
-			XCTAssertEqual(tokenizer.tokenizeNoun(testCase.input).token, testCase.expected.token)
-			XCTAssertEqual(tokenizer.tokenizeNoun(testCase.input).adjustedToken, testCase.expected.adjustedToken)
-			XCTAssertEqual(tokenizer.tokenizeNoun(testCase.input).pos, testCase.expected.pos)
-			XCTAssertEqual(tokenizer.tokenizeNoun(testCase.input), testCase.expected)
-			XCTAssertEqual(tokenizer.tokenizeNoun(testCase.input).components, testCase.expected.components)
+			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).token, testCase.expected.token)
+			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).adjustedToken, testCase.expected.adjustedToken)
+			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).pos, testCase.expected.pos)
+			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input), testCase.expected)
+			XCTAssertEqual(tokenizer.tokenize(noun: testCase.input).components, testCase.expected.components)
 		}
     }
 
