@@ -1,7 +1,7 @@
 pages:
   script:
     - mkdir -p public
-    - cp -r Documentation/. public/   # ← copies index.html + static/ + data/ directly into public/
+    - cp -r Documentation/. public/
   artifacts:
     paths:
       - public
