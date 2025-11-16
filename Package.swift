@@ -15,7 +15,9 @@ let package = Package(
 			targets: ["NavajoKit"]
 		),
 	],
-	dependencies: [],
+	dependencies: [
+		.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.4.0")
+	],
 	targets: [
 		.target(
 			name: "NavajoKit",
@@ -24,7 +26,7 @@ let package = Package(
 				.copy("Resources/NVCompoundWords.csv"),
 				.copy("Resources/NVSingleWords.csv"),
 				.process("Resources/NavajoTagger.mlmodel")
-			]
+			],
 		),
 		.testTarget(
 			name: "NavajoKitTests",
