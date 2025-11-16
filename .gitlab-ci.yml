@@ -1,10 +1,9 @@
 pages:
-  stage: deploy
   script:
     - mkdir -p public
-    - cp -r Documentation/* public/   # copy everything into the Pages artifact
+    - cp -r Documentation/navajokit/. public/   # ← copies index.html + static/ + data/ directly into public/
   artifacts:
     paths:
       - public
-  only:
-    - main   # or whatever branch you want
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
