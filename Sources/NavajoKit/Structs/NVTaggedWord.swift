@@ -5,8 +5,9 @@
 //  Created by Daniel Gump on 1/2/25.
 //
 
+///Word with part-of-speech tag applied
 public struct NVTaggedWord {
-	//Word
+	///Navajo word
 	public var token: String
 	//Part-of-speech
 	public var label: String
