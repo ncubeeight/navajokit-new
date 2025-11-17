@@ -12,7 +12,14 @@ Yáʼátʼééh and Hello!
 
 This project's goal is to become a viable translation tool for the Navajo (Diné) language to convert any provided text into accurate American English.
 
-Eventually, the secondard goal would be to translate the other direction, as well.
+Eventually, the secondary goal would be to translate the other direction, as well.
+
+## License
+
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Credit must be given to Daniel Gump with a link to the [GitLab page](https://gitlab.com/HullBreach/navajokit). 
+* Adaptations must be shared under the same terms.
+* Commercial usage is permitted.
 
 ## Status
 
