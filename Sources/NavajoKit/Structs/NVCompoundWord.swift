@@ -5,14 +5,17 @@
 //  Created by Daniel Gump on 3/27/25.
 //
 
-/**
-Representation of a several Navajo words that translate into a compound word or phrase
-*/
+///Representation of a several Navajo words that translate into a compound word or phrase
 public struct NVCompoundWord {
+	///Component words
 	public let words: [NVWord]
+	///English translation of compound word
 	public let english: String
+	///Grammatical part of speech for entire compound word
 	public let partOfSpeech: String
+	///Whether or not the translation has been validated from a reliable source
 	public let validated: Bool?
+	///Proper noun
 	public let proper: Bool?
 
 	public init(words: [NVWord], english: String, partOfSpeech:String, validated: Bool, proper: Bool) {
