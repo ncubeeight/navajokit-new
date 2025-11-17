@@ -55,8 +55,6 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
 "aa,yílyáii","Adp,NSub",donation,NSub,,,,,,,,,,TRUE,,MATCH
 "áádóó,bikʼijįʼ","Conj,Adp",thereafter,Conj,,,,,,,,,,TRUE,and then + after that,MATCH
-"tʼáá,ádzíłtso","Part,ProSub",everyone,NSub,,,,,,,,,,TRUE,(just) + all those,MATCH
-"ayóó,átʼé","Adv,VImpf",the great one,NSub,,,,,,,,,,TRUE,very + is/are,MATCH
 "ąąh,azlá","Adv,NSub",pawn,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
 "ąąh,dah,hazʼą́","Adv,Adv,VPerf",illness/sickness,NObj,3rd,S,,,,,,,,TRUE,alongside + up + ??,MATCH
 "ąąh,dah,hazʼą́","Adv,Adv,VPerf",illness/sickness,NSub,3rd,S,,,,,,,,TRUE,alongside + up + ??,MATCH
@@ -75,6 +73,11 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "aahwiinítʼį́,bá,hooghan","NAdp,Adp,NSub",courthouse,NSub,,,,,,,,,,TRUE,trial + for + house,MATCH
 "Áákinsoo,Hahoodzo","NSub,NSub",Arkansas,NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,MATCH
 "Aárish,bizaad","NSub,NSub",Irish language,NSub,,,,,,TRUE,,,,TRUE,(loanword) + their language,MATCH
+"áás,asbáala","NSub,NSub",ace of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,báabas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,báasdos","NSub,NSub",ace of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,góobas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,óola","NSub,NSub",ace of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
 "Áawah,Hahoodzo","NSub,NSub",Iowa,NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,MATCH
 "abąąh,náátʼiʼ","Adp,VImpf",border strand,NObj,,,,,,,,,,TRUE,,MATCH
 "abąąh,náátʼiʼ","Adp,VImpf",border strand,NSub,,,,,,,,,,TRUE,,MATCH
@@ -246,6 +249,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "akááʼ,ałtsoozígíí","Adp,NSub",condom,NSub,,,,,,,,,,TRUE,on its surface + that which is slender,MATCH
 "akááʼ,ałtsóózígíí","Adp,NSub",condom,NSub,,,,,,,,,,TRUE,on its surface + that which is slender,MATCH
 "akétłʼóól,łichxííʼí,yázhí","NSub,NSub,NSub",radish,NSub,,,,,,,,,,TRUE,root + the orange one + the little one,MATCH
+"akʼah,bee,sitʼé ","NAdp,Adp,VImpf",fried food,NSub,,,,,,,,,,TRUE,grease + by means of + is cooked,MATCH
+"akʼah,diltłiʼí","NSub,VImpf",candle,NSub,,,,,,,,,,TRUE,fire is burning,MATCH
+"akʼah,níyizígíí","NSub,NSub",candle,NSub,,,,,,,,,,TRUE,wax cylinder,MATCH
 "áłah,aleeh","Adv,VImpf",meeting takes place,VImpf,Unspec,,,,meet,,,,,TRUE,together + become,MATCH
 "áłah,azlį́į́ʼ","Adv,VPerf",meeting took place,VPerf,Unspec,,,,meet,,,,,TRUE,together + became,MATCH
 "áłah,daahłeeh","Adv,VImpf",meet,VImpf,2nd,P,,,meet,,,,,TRUE,together + become,MATCH
@@ -334,6 +340,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "atsá,biyáázh","NSub,NSub",eaglet (February),NSub,,,,,,,,,,TRUE,eagle's son,MATCH
 "atsą́,hodiniih","NSub,VImpf",stomach ache,NSub,,,,,,,,,,TRUE,stomach + it hurts,MATCH
 "atsiniltłʼish,bá,hooghan","NAdp,Adp,NSub",power plant,NSub,,,,,,,,,,TRUE,electricity + for + house,MATCH
+"atsiniltłʼish,bee,adinídíín","NAdp,Adp,NSub",electric light,NSub,,,,,,,,,,TRUE,electricity + by way of + light,MATCH
 "atsiniltłʼish,ííłʼínígíí","NSub,NSub",electric eel,NSub,,,,,,,,,,TRUE,electricity + eel,MATCH
 "átʼé,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "átʼé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
@@ -350,6 +357,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "átʼéé,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "awééʼ,yázhí","NSub,NSub",little baby,NSub,,,,,,,,,,TRUE,baby + small,MATCH
 "awooʼ,diniih","NSub,NSub",toothache,NSub,,,,,,,,,,TRUE,tooth + ache,MATCH
+"ayóó,átʼé","Adv,VImpf",the great one,NSub,,,,,,,,,,TRUE,very + is/are,MATCH
 "azeeʼ,ííłʼíní","NSub,NSub",doctor,NSub,,,,,,,,,,TRUE,,MATCH
 "azeeʼ,neikahi","NSub,NSub",nurse,NSub,,,,,,,,,,TRUE,,MATCH
 "azeeʼ,tsiʼnaaʼiiłáhí","NSub,NSub",recreational drug,NSub,,,,,,,,,,TRUE,,MATCH
@@ -389,6 +397,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "baa,yá,náhásįįh","Adp,Adp,VIter",does embarass,VIter,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
 "baa,yidoojih","Adp,VFut",will give,VFut,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yíjááh","Adp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yínííł","Adp,VImpf",gives/give,VImpf,3rd,SD,3rd,,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yiníjaaʼ","Adp,VPerf",gave,VPerf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yíníjaaʼ","Adp,VPerf",gave,VPerf,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "bą́ą́h,ajílį́","Adp,VImpf",is/are worth,VImpf,4th,SD,,,,,,,,TRUE,by it + be worth,MATCH
@@ -404,6 +413,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bąąh,háájil","Adp,VPerf",owed a debt,Perf,3rd,,,,,,,,,TRUE,on + stick out,MATCH
 "bąąh,hadoojił","Adp,VFut",will owe a debt,Fut,3rd,,,,,,,,,TRUE,on + stick out,MATCH
 "bą́ą́h,ílį́","Adp,VImpf",is/are worth,VImpf,3rd,SD,,,,,,,,TRUE,by it + be worth,MATCH
+"bąąhági,ádaatʼéii","Adv,VImpf",sins,NSub,,,,,,,,,,TRUE,immorally + are,MATCH
+"bąąhági,áhátʼį́","Adv,VImpf",misbehavior,NSub,,,,,,,,,,TRUE,immorally + happens,MATCH
+"bąąhági,átʼéii","Adv,VImpf",sin,NSub,,,,,,,,,,TRUE,immorally + is,MATCH
 "Bálgaa,bizaad","NSub,NSub",Bulgarian language,NSub,,,,,,TRUE,,,,TRUE,(loanword) + their language,MATCH
 "bee,ádéestʼį́į́ʼ","Adp,NSub",binocular/telescope,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,MATCH
 "bee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,3rd,,lack,,,,,TRUE,by means of him/her/it/them + is absent,MATCH
@@ -437,6 +449,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "beeʼeldííl,dahsinil","NSub,Adv",Albuquerque,NSub,,,,,,,,,,TRUE,that with which ringing (bells) is done + above large objects in place,MATCH
 "beeʼeldííl,dahsinilgóó","NSub,Adv",to Albuquerque,Adv,,,,,,,,,,TRUE,that with which ringing (bells) is done + to/above the large objects in place,MATCH
 "beeʼeldǫǫh,tʼáá,bíniʼdii,bikʼaʼ,ádiih,yiyiinííłígíí","NSub,Part,NAdp,NAdp,Adp,NSub",machine gun,NSub,,,,,,,,,,TRUE,gun + (just) + one that allows? + its bullets + into it + one that puts them into it,MATCH
+"Beʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,MATCH
+"beʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,MATCH
 "bibéeso,bizis","NSub,NSub",his/her wallet,NSub,3rd,,,,,,,,,TRUE,money + its sack,MATCH
 "bibid,dijoolí","NSub,NSub",his/her/its duodenum(s),NSub,3rd,,,,,,,,,TRUE,stomach + ball,MATCH
 "bichoʼ,bizis","NSub,NSub",his/their scrotum,NSub,3rd,,,,,,,,,TRUE,male genitalia + its sack,MATCH
@@ -491,6 +505,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bizééʼ,yishtʼįįh","NObj,VImpf",am causing death,VImpf,1st,S,3rd,,,,,,,TRUE,death + make,MATCH
 "bizééʼ,yitʼįįh","NObj,VImpf",is/are causing death,VImpf,3rd,SD,3rd,,,,,,,TRUE,death + make,MATCH
 "Biʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,MATCH
+"biʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,MATCH
 "bóhólníihii,bisodizin","NSub,NSub",The Lord's Prayer,NSub,,,,,,TRUE,,,,TRUE,lord's prayer,MATCH
 "chąąʼ,bá,hooghan","NAdp,Adp,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,feces + for it + house,MATCH
 "chąąʼ,báhooghan","NSub,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,faces + house for,MATCH
@@ -498,6 +513,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "Chéchʼil,Ńtʼiʼí,Hahoodzo","NSub,NSub,NSub",North Carolina,NSub,,,,,,TRUE,,,,TRUE,oak + that which extends along + state,MATCH
 "chidí,bigaan","NSub,NSub",front wheel,NSub,,,,,,,,,,TRUE,vehicle + its arm,MATCH
 "chidí,naatʼaʼí","NSub,NSub",airplane,NSub,,,,,,,,,,TRUE,car + one that flies,MATCH
+"chidí,naatʼaʼí,ńdandaahígíí","NSub,NSub,NSub",airport,NSub,,,,,,,,,,TRUE,car + one that flies + ??,MATCH
+"chidí,naatʼaʼí,nídandaahígíí","NSub,NSub,NSub",airport,NSub,,,,,,,,,,TRUE,car + one that flies + ??,MATCH
 "chidí,naaʼnaʼí","NSub,NSub",tractor,NSub,,,,,,,,,,TRUE,car + it crawls about,MATCH
 "chidí,naaʼnaʼí,beeʼeldǫǫh,bikááʼ,dah,naaznilígíí","NSub,NSub,NSub,NSub,Adv,NSub",military tank,NSub,,,,,,,,,,TRUE,,MATCH
 "Christ,yida’ałíinii ","NSub,NSub",Christian,NSub,,,,,,TRUE,,,,TRUE,Christ + ??,MATCH
@@ -520,6 +537,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "danihąąh,haajííł","Adp,VImpf",owe a debt,VImpf,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
 "danihąąh,háájil","Adp,VPerf",owed a debt,Perf,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
 "danihąąh,hadoojił","Adp,VFut",will owe a debt,Fut,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
+"daniheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
 "danihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,P,,,,,,,,TRUE,money + its sack,MATCH
 "danihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,P,,,,,,,,TRUE,stomach + ball,MATCH
 "danihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,P,,,,,,,,TRUE,male genitalia + its sack,MATCH
@@ -530,6 +548,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "danihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
 "danihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,MATCH
 "danihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,P,,,,,danihi,,,TRUE,our/your sheep + little one,MATCH
+"danihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
 "dayooʼį́į,doo","VImpf,Part",will see,VFut,3rd,P,3rd,,,,,,,TRUE,see + (future),MATCH
 "dáʼákaz,łikaní","NSub,NSub",sugar cane,NSub,,,,,,,,,,TRUE,cornstalk + the sweet one,MATCH
 "daʼnijahí,góneʼ","NAdp,Adp",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,MATCH
@@ -547,6 +566,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "didzétsoh,yázhí","NSub,NSub",apricot,NSub,,,,,,,,,,TRUE,peach + the small one,MATCH
 "díí,jį́","ProDem,NSub",today,NSub,,,,,,,,,,TRUE,this + day,MATCH
 "diné,bizaad","NSub,NSub",people's language (Navajo),NSub,,,,,,,,,,TRUE,people's words,MATCH
+"Diné,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
 "diné,tʼóó,ahayóí","NSub,Adv,Adv",the crowd,NSub,,,,,,,,,,TRUE,person + just + many,MATCH
 "diné,yázhí","NSub,NSub",midget,NSub,,,,,,,,,,TRUE,person + little,MATCH
 "diyin,ayóo,átʼéii","NSub,Adv,NSub",Almighty God,NSub,,,,,,,,,,TRUE,the holy one + very + that which is,MATCH
@@ -578,6 +598,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ééʼ,ííłʼíní","NSub,NSub",tailor,NSub,,,,,,,,,,TRUE,clothing + one who makes,MATCH
 "ééʼ,neishoodii","NSub,NSub",clergyman,NSub,,,,,,,,,,TRUE,shirt + one who drags it around,MATCH
 "ééʼ,neishoodii,bikin","NSub,NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt + one who drags it around + his house,MATCH
+"ééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,clothing + without,MATCH
 "ééʼneishoodii,bikin","NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt one drags around + his house,MATCH
 "gohwééh,hashtłʼishí","NSub,NSub",cocoa,NSub,,,,,,,,,,TRUE,coffee + ??,MATCH
 "gólízhii,noodǫ́zígíí","NSub,NSub",striped skunk,NSub,,,,,,,,,,TRUE,skunk + ??,MATCH
@@ -648,8 +669,10 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "hazhóʼó,baa,nídahołnih","Adv,Adp,VIter",do explain,VIter,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
 "hazhóʼó,baa,nídahwiilnih","Adv,Adp,VIter",do explain,VIter,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
 "hee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,TRUE,by means of one/others + is absent,MATCH
+"hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
 "ił,naalbąąsí","Adp,NSub",wheelchair,NSub,,,,,,,,,,TRUE,with + ??,MATCH
 "ił,náhodighááh","Adp,VImpf",dizziness,NSub,,,,,,,,,,TRUE,with + starts to go around the area,MATCH
+"Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,TRUE,,MATCH
 "Ízrel,dineʼé","NSub,NSub",Israelites,NSub,,,,,,TRUE,,,,TRUE,Israel + people,MATCH
 "iʼiiʼnííł,bijį́","NSub,NSub",election day,NSub,,,,,,,,,,TRUE,voting + its day,MATCH
 "jáád,łánii","NSub,NSub",centipede/millipede,NSub,,,,,,,,,,TRUE,leg + one with many,MATCH
@@ -732,16 +755,20 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "łeetsoh,bee,atsiniltłʼish,álʼį́","NAdp,Adp,NSub,VImpf",nuclear power,NSub,,,,,,,,,,TRUE,uranium + by means of + electricity + is made,MATCH
 "łeeyiʼ,chʼosh","Adv,NObj",earthworm,NObj,,,,,,,,,,TRUE,in the ground + insect,MATCH
 "łeeyiʼ,chʼosh","Adv,NSub",earthworm,NSub,,,,,,,,,,TRUE,in the ground + insect,MATCH
+"łį́ʼígíí,asbáala","NSub,NSub",queen of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,báabas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,báasdos","NSub,NSub",queen of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,góobas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,óola","NSub,NSub",queen of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
 "łóóʼ,adishishí","NSub,NSub",skate/stingray,NSub,,,,,,,,,,TRUE,fish + ??,MATCH
 "łóóʼ,adishishí,nitsxaaígíí","NSub,NSub,NSub",manta ray,NSub,,,,,,,,,,TRUE,fish + ?? + really big one,MATCH
 "łóóʼ,adishishí,ntsxaaígíí","NSub,NSub,NSub",manta ray,NSub,,,,,,,,,,TRUE,fish + ?? + really big one,MATCH
 "łóóʼ,bichį́į́h,nineezíʼ","NSub,NSub,NSub",swordfish,NSub,,,,,,,,,,TRUE,fish's nose + the long one,MATCH
 "łóóʼ,bigaan,dahólónígíí","NSub,NSub,NSub",cephalopod,NSub,,,,,,,,,,TRUE,fish's arm + those which exist,MATCH
-"łóóʼ,bitsʼaʼ,dahólónígíí","NSub,NSub,NSub",shellfish,NSub,,,,,,,,,,TRUE,fish's shell + that which exist,MATCH
 "łóóʼ,bigaan,neeznání","NSub,NSub,NSub",squid,NSub,,,,,,,,,,TRUE,fish's arms + the ten,MATCH
-"łóóʼntsxaaí,łikizhígíí","NSub,NSub",whale shark,NSub,,,,,,,,,,TRUE,really large fish + that is spotted,MATCH
-"náshdóí,łikizhígíí","NSub,NSub",ocelot,NSub,,,,,,,,,,TRUE,wildcat + that is spotted,MATCH
 "łóóʼ,bigaan,tseebíí","NSub,NSub,NumC",octopus,NSub,,,,,,,,,,TRUE,fish's arms + eight,MATCH
+"łóóʼ,bikʼah","NSub,NSub",code liver oil,NSub,,,,,,,,,,TRUE,fish's fat,MATCH
+"łóóʼ,bitsʼaʼ,dahólónígíí","NSub,NSub,NSub",shellfish,NSub,,,,,,,,,,TRUE,fish's shell + that which exist,MATCH
 "łóóʼ,hashkéhé","NSub,NSub",shark,NSub,,,,,,,,,,TRUE,fish + angry one,MATCH
 "łóóʼ,hashkéhé,bíchį́į́hnézí","NSub,NSub,NSub",goblin shark,NSub,,,,,,,,,,TRUE,fish + angry one + its long nose,MATCH
 "łóóʼ,hashkéhé,dootłʼizhígíí","NSub,NSub,NSub",blue shark,NSub,,,,,,,,,,TRUE,fish + angry one + blue/turquoise one,MATCH
@@ -751,6 +778,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "łóóʼ,niteeltsoh","NSub,NSub",ocean sunfish,NSub,,,,,,,,,,TRUE,fish + big wide one,MATCH
 "łóóʼ,nteeltsoh","NSub,NSub",ocean sunfish,NSub,,,,,,,,,,TRUE,fish + big wide one,MATCH
 "łóóʼ,ooshgę́ęzhii","NSub,NSub",cartilaginous fish,NSub,,,,,,,,,,TRUE,fish + cartilaginous one,MATCH
+"łóóʼntsxaaí,łikizhígíí","NSub,NSub",whale shark,NSub,,,,,,,,,,TRUE,really large fish + that is spotted,MATCH
 "łóóʼtsoh,dootłizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,TRUE,whale + the one that is blue,MATCH
 "łóóʼtsoh,dootłʼizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,TRUE,whale + the one that is blue,MATCH
 "mąʼii,łitsooí","NSub,NSub",red fox,NSub,,,,,,,,,,TRUE,coyote + the yellow one,MATCH
@@ -759,7 +787,6 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,TRUE,Navajo's area,MATCH
 "Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,TRUE,Navajo's word,MATCH
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
-"Diné,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
 "naadą́ą́ʼ,bisgąʼ","NSub,NSub",corn chip,NSub,,,,,,,,,,TRUE,corn + ??,MATCH
 "naadą́ą́ʼ,bitsiighaʼ","NSub,NSub",corn silk,NSub,,,,,,,,,,TRUE,corn's mane/hair,MATCH
 "nąąh,haajííł","Adp,VImpf",owe a debt,VImpf,2nd,S,,,,,,,,TRUE,on + stick out,MATCH
@@ -783,6 +810,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "Nahasdzáán,Bikáaʼgi,Kéyah,Naaznilgo,Ałhidadiidzooígíí","NSub,Adv,NSub,Adv,NSub",United Nations,NSub,,,,,,TRUE,,,,TRUE,the earth + upon it + land + since they are located around + federation,MATCH
 "náhásdzo,hayázhí,dikʼą́","NSub,NSub,VImpf",acre,NSub,,,,,,,,,,TRUE,area + the little area? + it is square,MATCH
 "náhásdzo,yázhí","NSub,NSub",acre,NSub,,,,,,,,,,TRUE,area + the small one,MATCH
+"náshdóí,łikizhígíí","NSub,NSub",ocelot,NSub,,,,,,,,,,TRUE,wildcat + that is spotted,MATCH
 "náshdóítsoh,bitsiijįʼ,daditłʼooígíí","NSub,NSub,NSub",lion,NSub,,,,,,,,,,TRUE,,MATCH
 "náshdóítsoh,bitsiijįʼ,diʼilígíí","NSub,NSub,NSub",lion,NSub,,,,,,,,,,TRUE,,MATCH
 "náshdóítsoh,noodǫ́zígíí","NSub,NSub",tiger,NSub,,,,,,,,,,TRUE,,MATCH
@@ -794,7 +822,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ndaʼiiníísh,yáʼátʼéehii","NSub,NSub",Good Friday,NSub,,,,,,,,,,TRUE,Friday + good one,MATCH
 "ńdíshchííʼ,bigaan","NSub,NSub",pine branch,NSub,,,,,,,,,,TRUE,pine + its arm,MATCH
 "nee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,2nd,S,lack,,,,,TRUE,by means of you + is absent,MATCH
+"neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,MATCH
 "neeznáá,góneʼ","NumO,NumO",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),MATCH
+"neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,MATCH
 "nibéeso,bizis","NSub,NSub",your wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,MATCH
 "nibid,dijoolí","NSub,NSub",your duodenum,NSub,2nd,S,,,,,,,,TRUE,stomach + ball,MATCH
 "nichoʼ,bizis","NSub,NSub",your scrotum,NSub,1st,S,,,,,,,,TRUE,male genitalia + its sack,MATCH
@@ -809,6 +839,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nihąąh,háájil","Adp,VPerf",owed a debt,Perf,1st/2nd,D,,,,,,,,TRUE,on + stick out,MATCH
 "nihąąh,hadoojił","Adp,VFut",will owe a debt,Fut,1st/2nd,D,,,,,,,,TRUE,on + stick out,MATCH
 "nihee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st/2nd,DP,lack,,,,,TRUE,by means of us/you + is absent,MATCH
+"niheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
 "nihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,D,,,,,,,,TRUE,money + its sack,MATCH
 "nihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,D,,,,,,,,TRUE,stomach + ball,MATCH
 "nihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,D,,,,,,,,TRUE,male genitalia + its sack,MATCH
@@ -819,8 +850,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
 "nihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,MATCH
 "nihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,D,,,,,nihi,,,TRUE,one's/others' mother + little one,MATCH
+"nihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
 "nihokááʼ,dineʼé","NSub,NSub",people of the world,NSub,,,,,,,,,,TRUE,Earth surface + people,MATCH
-"tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,TRUE,just + the one does,MATCH
 "níłchʼi,dineʼé","NSub,NSub",spirits,NSub,,,,,,,,,,TRUE,wind + people,MATCH
 "níłchʼi,diyinii","NSub,NSub",Holy Spirit,NSub,,,,,,TRUE,,,,TRUE,wind + holy one,MATCH
 "níłchʼih,naalkidí","NSub,NSub",television,NSub,,,,,,,,,,TRUE,,MATCH
@@ -828,7 +859,11 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "níłtsą́,biʼáád","NSub,NSub",shower,NSub,,,,,,,,,,TRUE,,MATCH
 "nimá,yazhí","NSub,NSub",your maternal aunt,NSub,2nd,S,,,,,ni,,,TRUE,your mother + little one,MATCH
 "nímasii,bisgąʼ","NSub,NSub",potato chip,NSub,,,,,,,,,,TRUE,potato + ??,MATCH
+"niʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,MATCH
 "ńló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,TRUE,hail + the small one,MATCH
+"óola,niłtólí","NSub,Adv",diamond,NSub,,,,,,,,,,TRUE,gold + of glass,MATCH
+"óola,niłtólí,ílínígíí","NSub,Adv,NSub",diamond,NSub,,,,,,,,,,TRUE,gold + of glass + ??,MATCH
+"ooljééʼ,bee,adinídíín","NAdp,Adp,NSub",moonlight,NSub,,,,,,,,,,TRUE,moon + by way of + light,MATCH
 "shąąh,haajííł","Adp,VImpf",owe a debt,VImpf,1st,S,,,,,,,,TRUE,on + stick out,MATCH
 "shąąh,háájil","Adp,VPerf",owed a debt,VPerf,1st,S,,,,,,,,TRUE,on + stick out,MATCH
 "shąąh,hadoojił","Adp,VFut",will owe a debt,VFut,1st,S,,,,,,,,TRUE,on + stick out,MATCH
@@ -839,6 +874,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shash,nidilnaʼii","NSub,NSub",sloth bear,NSub,,,,,,,,,,TRUE,bear + sloth,MATCH
 "shash,yáázh","NSub,NSub",bear cub,NSub,,,,,,,,,,TRUE,bear + offspring,MATCH
 "shee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st,S,lack,,,,,TRUE,by means of me + is absent,MATCH
+"sheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,MATCH
 "shí,nalí,asdzaan","ProSub,NSub,NSub",my paternal grandmother,NSub,,,,,,,,,,TRUE,I + ?? + older woman,MATCH
 "shibéeso,bizis","NSub,NSub",my wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,MATCH
 "shibid,dijoolí","NSub,NSub",my duodenum,NSub,1st,S,,,,,,,,TRUE,stomach + ball,MATCH
@@ -851,6 +887,12 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",my ukelele,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the little one,MATCH
 "shimá,yazhí","NSub,NSub",my maternal aunt,NSub,1st,S,,,,,shi,,,TRUE,my mother + little one,MATCH
 "shitah,hoditłid","Adp,VImpf",am shaking,VImpf,1st,S,,,,,,,,TRUE,,MATCH
+"shiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,MATCH
+"sóóda,asbáala","NSub,NSub",jack of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,báabas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,báasdos","NSub,NSub",jack of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,góobas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,óola","NSub,NSub",jack of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
 "sǫʼtah,anah","NSub,NSub",Star Wars,NSub,,,,,,TRUE,,,,TRUE,star + wars,MATCH
 "t’áá,sáhí","Part,Adv",alone,Adv,,,,,,,,,,TRUE,just + ??,MATCH
 "tábąąh,dlǫ́ʼii","NSub,NSub",mink,NSub,,,,,,,,,,TRUE,beach + weasel,MATCH
@@ -884,6 +926,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tsinsitą́,dikʼą́","NSub,VImpf",square mile,NSub,,,,,,,,,,TRUE,mile + it is squared,MATCH
 "tʼáá,aaníí","Part,NSub",truly,Adv,,,,,,,,,,TRUE,just + that which is true,MATCH
 "tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,TRUE,just + toward that which is true,MATCH
+"tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,TRUE,just + the one does,MATCH
+"tʼáá,ádzíłtso","Part,ProSub",everyone,NSub,,,,,,,,,,TRUE,(just) + all those,MATCH
 "tʼáá,ájíłtso","Part,Adv",all of others,NSub,,,,,,,,,,TRUE,just + the others are complete,MATCH
 "tʼáá,ałtso","Part,Adv",all of them,NSub,,,,,,,,,,TRUE,just + it is complete,MATCH
 "tʼáá,ałtsoní","Part,NSub",everything,NSub,,,,,,,,,,TRUE,just + the complete one,MATCH
@@ -917,6 +961,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yę́ę,áníshdin","Adv,VImpf",have died,VImpf,1st,S,,,die,,,,,TRUE,aforementioned + is absent,MATCH
 "yę́ę,ánóhdin","Adv,VImpf",have died,VImpf,2nd,D,,,die,,,,,TRUE,aforementioned + is absent,MATCH
 "yee,dahiná","Adp,VImpf",live by means of,VImpf,3rd,P,,,live,,,,,TRUE,by means of + live,MATCH
+"yeʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
 "yibéeso,bizis","NSub,NSub",one's/others' wallet,NSub,4th,,,,,,,,,TRUE,money + its sack,MATCH
 "yibid,dijoolí","NSub,NSub",one's/others' duodenum(s),NSub,4th,,,,,,,,,TRUE,stomach + ball,MATCH
 "yichoʼ,bizis","NSub,NSub",one's/others' scrotum,NSub,4th,,,,,,,,,TRUE,male genitalia + its sack,MATCH
@@ -930,33 +975,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yiską́,damį́įgo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,MATCH
 "yiską́,damóo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,MATCH
 "yitʼíní,ályaa","NSub,NSub",apocalypse,NSub,,,,,,TRUE,,,,TRUE,?? + is made (passive),MATCH
-"łóóʼ,bikʼah","NSub,NSub",code liver oil,NSub,,,,,,,,,,TRUE,fish's fat,MATCH
-"akʼah,diltłiʼí","NSub,VImpf",candle,NSub,,,,,,,,,,TRUE,fire is burning,MATCH
-"akʼah,níyizígíí","NSub,NSub",candle,NSub,,,,,,,,,,TRUE,wax cylinder,MATCH
-"akʼah,bee,sitʼé ","NAdp,Adp,VImpf",fried food,NSub,,,,,,,,,,TRUE,grease + by means of + is cooked,MATCH
-"ooljééʼ,bee,adinídíín","NAdp,Adp,NSub",moonlight,NSub,,,,,,,,,,TRUE,moon + by way of + light,MATCH
-"atsiniltłʼish,bee,adinídíín","NAdp,Adp,NSub",electric light,NSub,,,,,,,,,,TRUE,electricity + by way of + light,MATCH
-"łį́ʼígíí,asbáala","NSub,NSub",queen of spades,NSub,,,,,,,,,,TRUE,,MATCH
-"łį́ʼígíí,báasdos","NSub,NSub",queen of clubs,NSub,,,,,,,,,,TRUE,,MATCH
-"łį́ʼígíí,góobas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"łį́ʼígíí,báabas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"łį́ʼígíí,óola","NSub,NSub",queen of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
-"áás,asbáala","NSub,NSub",ace of spades,NSub,,,,,,,,,,TRUE,,MATCH
-"áás,báasdos","NSub,NSub",ace of clubs,NSub,,,,,,,,,,TRUE,,MATCH
-"áás,góobas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"áás,báabas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"áás,óola","NSub,NSub",ace of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
+"yiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
 "zhéí,asbáala","NSub,NSub",king of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"zhéí,báabas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
 "zhéí,báasdos","NSub,NSub",king of clubs,NSub,,,,,,,,,,TRUE,,MATCH
 "zhéí,góobas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"zhéí,báabas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
 "zhéí,óola","NSub,NSub",king of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
-"sóóda,asbáala","NSub,NSub",jack of spades,NSub,,,,,,,,,,TRUE,,MATCH
-"sóóda,báasdos","NSub,NSub",jack of clubs,NSub,,,,,,,,,,TRUE,,MATCH
-"sóóda,góobas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"sóóda,báabas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
-"sóóda,óola","NSub,NSub",jack of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
-"óola,niłtólí","NSub,Adv",diamond,NSub,,,,,,,,,,TRUE,gold + of glass,MATCH
-"óola,niłtólí,ílínígíí","NSub,Adv,NSub",diamond,NSub,,,,,,,,,,TRUE,gold + of glass + ??,MATCH
-"Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,TRUE,,MATCH
-"neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,MATCH
