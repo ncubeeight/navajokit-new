@@ -428,6 +428,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "béésh,áłtsʼózí ","NSub,VImpf",wire,NSub,,,,,,,,,,TRUE,metal + it is slender,MATCH
 "béésh,astʼogii","NSub,NSub",flint arrowhead,NSub,,,,,,,,,,TRUE,flint + that which is stuck in something,MATCH
 "béésh,ászólí","NSub,NSub",aluminum,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
+"béésh,bee,akʼeʼelchíhí","NSub,Adp,NSub",typewriter,NSub,,,,,,,,,,TRUE,metal + by meanf of it + writer,MATCH
 "béésh,dildǫʼí","NSub,NSub",tin,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
 "béésh,dootłʼizh","NSub,NSub",zinc,NSub,,,,,,,,,,TRUE,metal + blue/turquoise,MATCH
 "béésh,ílį́įnii","NSub,NSub",precious metal,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
@@ -462,6 +463,11 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",his/her ukelele,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the little one,MATCH
 "bįįh,yáázh","NSub,NSub",fawn,NSub,,,,,,,,,,TRUE,deer + offspring,MATCH
 "bįįh,yildeeʼį́","NSub,NSub",gooseberry/groundcherry,NSub,,,,,,,,,,TRUE,deer + food,MATCH
+"bił,doosih","Adp,VFut",will be satisfied with,VFut,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,násih","Adp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,sih","Adp,VImpf",is satisfied with,VImpf,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,wósih","Adp,VOpt",could be satisfied with,VOpt,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,yísih","Adp,VPerf",was satisfied with,VPerf,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
 "bilagáana,bizaad","NSub,NSub",English language,NSub,,,,,,,,,,TRUE,Caucasian's word,MATCH
 "bilagáana,tʼáá,biʼałkʼiijééʼ","NSub,Part,VImpf",American Civil War,NSub,,,,,,TRUE,,,,TRUE,Caucasian + just + ??,MATCH
 "bílaʼ,ashdlaʼii","NSub,NSub",human being,NSub,,,,,,,,,,TRUE,his fingers + the five,MATCH
@@ -824,6 +830,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,2nd,S,lack,,,,,TRUE,by means of you + is absent,MATCH
 "neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,MATCH
 "neeznáá,góneʼ","NumO,NumO",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),MATCH
+"neeznáago,bikʼeh,óʼooʼníiłii ","NumC,Adv,NSub",Ten Commandments,NSub,,,,,,,,,,TRUE,ten + according to him + commandment,MATCH
 "neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,MATCH
 "nibéeso,bizis","NSub,NSub",your wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,MATCH
 "nibid,dijoolí","NSub,NSub",your duodenum,NSub,2nd,S,,,,,,,,TRUE,stomach + ball,MATCH
