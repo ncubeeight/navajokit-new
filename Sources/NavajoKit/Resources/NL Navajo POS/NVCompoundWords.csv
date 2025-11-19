@@ -1,0 +1,990 @@
+TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person,object-plural,infinitive,proper,prefix,stem,suffix,validated,notes,
+"ąą,ábidiʼdoolnííł","Adv,VFut",will be opened,VFut,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,ábiʼdiilyaa","Adv,VPerf",was opened,VPerf,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,ábiʼdilnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,ádaahłééh","Adv,VImpf",are opening,VImpf,2nd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádadiilnííł","Adv,VFut",will open,VFut,1st,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádadoohłííł","Adv,VFut",will open,VFut,2nd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádajiilaa","Adv,VPerf",opened,VPerf,4th,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádajilééh","Adv,VImpf",are opening,VImpf,4th,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádaoohłaa","Adv,VPerf",opened,VPerf,2nd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádayiilaa","Adv,VPerf",opened,VPerf,3rd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádazhdoolííł","Adv,VFut",will open,VFut,4th,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádeeshłííł","Adv,VFut",will open,VFut,1st,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádeidoolííł","Adv,VFut",will open,VFut,3rd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádeiilnééh","Adv,VImpf",are opening,VImpf,1st,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádeiilyaa","Adv,VPerf",opened,VPerf,1st,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádeilééh","Adv,VImpf",are opening,VImpf,3rd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádíílííł","Adv,VFut",will open,VFut,2nd,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádiilnííł","Adv,VFut",will open,VFut,1st,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádoohłííł","Adv,VFut",will open,VFut,2nd,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ádoolnííł","Adv,VFut",will be opened,VFut,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,áhályáanii","Adv,NSub",bodyguard,NSub,,,,,,,,,,TRUE,beyond + those who care for them,MATCH
+"ąą,ájiilaa","Adv,VPerf",opened,VPerf,4th,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ájílééh","Adv,VImpf",is/are opening,VImpf,4th,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,álnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,ályaa","Adv,VPerf",was opened,VPerf,3rd,,,,make,,,,,TRUE,beyond + make (passive),MATCH
+"ąą,ánáoołʼįįh","Adv,VIter",do open,VIter,2nd,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ánáyiilʼįįh","Adv,VIter",do(es) open,VIter,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áńdajiilʼįįh","Adv,VIter",do open,VIter,4th,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áńdaoołʼįįh","Adv,VIter",do open,VIter,2nd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áńdayiilʼįįh","Adv,VIter",do open,VIter,3rd,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áńdeiilʼįįh","Adv,VIter",do open,VIter,1st,P,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ánéiilʼįįh","Adv,VIter",do open,VIter,1st,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ánéilʼįįh","Adv,VIter",do open,VIter,2nd,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ánéishʼįįh","Adv,VIter",do open,VIter,1st,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ánílééh","Adv,VImpf",are opening,VImpf,2nd,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áńjiilʼįįh","Adv,VIter",do(es) open,VIter,4th,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áshłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áshłééh","Adv,VImpf",am opening,VImpf,1st,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,áyiilaa","Adv,VPerf",opened,VPerf,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,ázhdoolííł","Adv,VFut",will open,VFut,4th,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"aa,deetʼą́","Adp,NSub",transfer (of ownership),NSub,,,,,,,,,,TRUE,,MATCH
+"aa,hojoobáʼí","Adp,NSub",poor one,NSub,,,,,,,,,,TRUE,,MATCH
+"aa,hwiinítʼį́","Adp,NSub",trial (at law),NSub,,,,,,,,,,TRUE,,MATCH
+"aa,hwiinítʼį́,bá,hooghan","Adp,NAdp,Adp,NSub",courthouse,NSub,,,,,,,,,,TRUE,,MATCH
+"aa,hwiinítʼįįhígíí","Adp,NSub",upcoming court session,NSub,,,,,,,,,,TRUE,,MATCH
+"ąą,íidoolííł","Adv,VFut",will open,VFut,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,íílééh","Adv,VImpf",is/are opening,VImpf,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,íílnééh","Adv,VImpf",are opening,VImpf,1st,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,íilyaa","Adv,VPerf",opened,VPerf,1st,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,íinilaa","Adv,VPerf",opened,VPerf,2nd,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,íishłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,kwáániił","Adv,VImpf",is/are expanding,VImpf,,,,,,,,,,TRUE,,MATCH
+"ąą,óhłééh","Adv,VImpf",are opening,VImpf,2nd,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,make,,,,,TRUE,beyond + make,MATCH
+"aa,yílyáii","Adp,NSub",donation,NSub,,,,,,,,,,TRUE,,MATCH
+"áádóó,bikʼijįʼ","Conj,Adp",thereafter,Conj,,,,,,,,,,TRUE,and then + after that,MATCH
+"ąąh,azlá","Adv,NSub",pawn,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,dah,hazʼą́","Adv,Adv,VPerf",illness/sickness,NObj,3rd,S,,,,,,,,TRUE,alongside + up + ??,MATCH
+"ąąh,dah,hazʼą́","Adv,Adv,VPerf",illness/sickness,NSub,3rd,S,,,,,,,,TRUE,alongside + up + ??,MATCH
+"ąąh,dah,hoyoołʼaałii","Adv,Adv,NSub",illness/sickness,NSub,,,,,,,,,,TRUE,alongside + up + ??,MATCH
+"ąąh,dah,sitání","Adv,Adv,NSub",license place,NSub,,,,,,,,,,TRUE,alongside + ?? + ??,MATCH
+"ąąh,dahazʼą́","Adv,NSub",illness/sickness,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,dahoyoołʼaałii","Adv,NSub",disease,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,háátʼiʼ","Adv,NSub",fringes (saddle),NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,hááʼá","Adv,NSub",debt,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,haʼajeeh,tó,daʼdiisoołígíí","Adv,VImpf,NSub,NSub",chicken pox,NSub,,,,,,,,,,TRUE,alongside + ?? + water + ??,MATCH
+"ąąh,naaznilę́ę","Adv,NSub",the pawns,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,nahóókaad","Adv,NSub",disappointment,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,nehelghaał","Adv,VImpf",sarcasm,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,niʼítʼaah","Adv,NSub",plaster cast,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"ąąh,sitaʼ","Adv,NSub",cervical,NSub,,,,,,,,,,TRUE,alongside + ??,MATCH
+"aahwiinítʼį́,bá,hooghan","NAdp,Adp,NSub",courthouse,NSub,,,,,,,,,,TRUE,trial + for + house,MATCH
+"Áákinsoo,Hahoodzo","NSub,NSub",Arkansas,NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,MATCH
+"Aárish,bizaad","NSub,NSub",Irish language,NSub,,,,,,TRUE,,,,TRUE,(loanword) + their language,MATCH
+"áás,asbáala","NSub,NSub",ace of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,báabas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,báasdos","NSub,NSub",ace of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,góobas","NSub,NSub",ace of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"áás,óola","NSub,NSub",ace of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
+"Áawah,Hahoodzo","NSub,NSub",Iowa,NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,MATCH
+"abąąh,náátʼiʼ","Adp,VImpf",border strand,NObj,,,,,,,,,,TRUE,,MATCH
+"abąąh,náátʼiʼ","Adp,VImpf",border strand,NSub,,,,,,,,,,TRUE,,MATCH
+"abéeso,bizis","NSub,NSub",wallet,NSub,Unspec,,,,,,,,,TRUE,money + its sack,MATCH
+"abeʼ,astseʼ","NSub,NSub",udder/mammary gland,NSub,,,,,,,,,,TRUE,milk + ??,MATCH
+"abeʼ,bee,neezmasí","NAdp,Adp,NSub",pancake,NSub,,,,,,,,,,TRUE,milk + with it + one that becomes round,MATCH
+"abeʼ,neeskʼįhígíí","NSub,NSub",cottage cheese,NSub,,,,,,,,,,TRUE,milk + that which is curdled,MATCH
+"abeʼ,yistiní","NSub,NSub",ice cream,NSub,,,,,,,,,,TRUE,milk + frozen one,MATCH
+"abeʼé,chʼil","NSub,NSub",milkweed,NSub,,,,,,,,,,TRUE,milks?? + weed,MATCH
+"abid,dijoolí","NSub,NSub",duodenum,NSub,,,,,,,,,,TRUE,stomach + ball,MATCH
+"achoʼ,bizis","NSub,NSub",scrotum,NSub,,,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"achʼííʼ,bitsʼániʼnísą́","NSub,NSub",appendix (anatomy),NSub,,,,,,,,,,TRUE,intestine + ??,MATCH
+"achʼííʼ,yázhí","NSub,NSub",hot dog,NSub,,,,,,,,,,TRUE,sausage + the little one,MATCH
+"ádąąh,dah,daahtįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dadiitį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dadoohtį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dajistą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dajitįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dasiitą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dasoohtą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,dazhdootį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,deeshtį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,deidootį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,deiitįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,deistą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,deitįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,diitį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,díítį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,doohtį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,jidootį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,jistą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,jitįįh","Adp,Adv,VImpf",is/are strapping onto (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,nitįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,siitą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,sínítą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,sistą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,soohtą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,wohtįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,yidootį́į́ł","Adp,Adv,VFut",will strap onto (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,yiitįįh","Adp,Adv,VImpf",are strapping onto (refl),VImpf,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,yishtįįh","Adp,Adv,VImpf",am strapping onto (refl),VImpf,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,yistą́","Adp,Adv,VPerf",strapped onto (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádąąh,dah,yitįįh","Adp,Adv,VImpf",is/are strapping onto (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),MATCH
+"ádaatʼé,nítʼééʼ","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaatʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaatʼé,ntʼééʼ","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaatʼé,ńtʼééʼ","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaatʼée,doo","VImpf,Part",will be,VFut,3rd,P,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"ádajítʼé,nítʼééʼ","VImpf,Part",were,VPerf,4th,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádajítʼé,ntʼééʼ","VImpf,Part",were,VPerf,4th,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádajítʼé,ntʼééʼ","VImpf,Part",were,VPerf,4th,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádajítʼé,ńtʼééʼ","VImpf,Part",were,VPerf,4th,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádajítʼée,doo","VImpf,Part",will be,VFut,4th,P,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"ádaniitʼé,nítʼééʼ","VImpf,Part",were,VPerf,1st,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaniitʼé,ntʼééʼ","VImpf,Part",were,VPerf,1st,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaniitʼé,ntʼééʼ","VImpf,Part",were,VPerf,1st,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaniitʼé,ńtʼééʼ","VImpf,Part",were,VPerf,1st,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádaniitʼée,doo","VImpf,Part",will be,VFut,1st,P,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"ádanohtʼé,nítʼééʼ","VImpf,Part",were,VPerf,2nd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádanohtʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,2nd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádanohtʼé,ntʼééʼ","VImpf,Part",were,VPerf,2nd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádanohtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,P,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ádanohtʼée,doo","VImpf,Part",will be,VFut,2nd,P,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"adéesʼeez,dikʼą́","NSub,VImpf",square foot,NSub,,,,,,,,,,TRUE,pace + it is squared,MATCH
+"ádiih,daahdzííd","Adp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,daahkaah","Adp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,daałtʼood","Adp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,dadiidził","Adp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dadiikááł","Adp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dadiiltʼoł","Adp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,dadoohdził","Adp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dadoohkááł","Adp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dadoołtʼoł","Adp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,dajidzííd","Adp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dajikaah","Adp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dajiltʼood","Adp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,dajiską́","Adp,VPerf",injected (refl),VPerf,4th,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dajoodziid","Adp,VPerf",injected (refl),VPerf,4th,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,daoohdziid","Adp,VPerf",injected (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dasiiką́","Adp,VPerf",injected (refl),VPerf,1st,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dasoohką́","Adp,VPerf",injected (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dayoodziid","Adp,VPerf",injected (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dazhdoodził","Adp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,dazhdookááł","Adp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dazhdooltʼoł","Adp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,deesdził","Adp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,deeshkááł","Adp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,deeshtʼoł","Adp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,deidoodził","Adp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,deidookááł","Adp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,deidooltʼoł","Adp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,deidzííd","Adp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,deiidziid","Adp,VPerf",injected (refl),VPerf,1st,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,deiidzííd","Adp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,deiikaah","Adp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,deiiltʼood","Adp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,deikaah","Adp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,deiltʼood","Adp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,deiską́","Adp,VPerf",injected (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,diidził","Adp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,díídził","Adp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,diikááł","Adp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,dííkááł","Adp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,diiltʼoł","Adp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,dííltʼoł","Adp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,doohdził","Adp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,doohkááł","Adp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,doołtʼoł","Adp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,jidoodził","Adp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,jidookááł","Adp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,jidooltʼoł","Adp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,jidzííd","Adp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,jikaah","Adp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,jiltʼood","Adp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,joodziid","Adp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,jooką́","Adp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,jooltʼóód","Adp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,nidzííd","Adp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,nikaah","Adp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,niltʼood","Adp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,wohdzííd","Adp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,wohkaah","Adp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,wołtʼood","Adp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,woohdziid","Adp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,woohką́","Adp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,woołtʼóód","Adp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yidoodził","Adp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yidookááł","Adp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yidooltʼoł","Adp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yidzííd","Adp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yiidziid","Adp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yiidzííd","Adp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yiiką́","Adp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yiikaah","Adp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yiiltʼood","Adp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yiiltʼóód","Adp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yikaah","Adp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yiltʼood","Adp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yínídziid","Adp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yíníką́","Adp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yíníltʼóód","Adp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yisdziid","Adp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yisdzííd","Adp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yishką́","Adp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yishkaah","Adp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yishtʼood","Adp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yishtʼóód","Adp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + suck,MATCH
+"ádiih,yoodziid","Adp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + pour,MATCH
+"ádiih,yooką́","Adp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),MATCH
+"ádiih,yooltʼóód","Adp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + suck,MATCH
+"adijiłii,bíchį́į́hnézí","NSub,NSub",echidna,NSub,,,,,,,,,,TRUE,hedgehog's long nose,MATCH
+"Adinídíín,Neitinígíí","NSub,NSub",Jedi,NSub,,,,,,TRUE,,,,TRUE,light + one who is carrying a stick around,MATCH
+"agaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",mandolin,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that is round,MATCH
+"agaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",harp,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that curls up,MATCH
+"agaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",banjo,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that is round,MATCH
+"agaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",ukelele,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the little one,MATCH
+"Ahééhałtį́į́h,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,TRUE,place where it rains year-round + state,MATCH
+"Ahééháshį́į́h,Hahoodzo","NSub,NSub",California,NSub,,,,,,TRUE,,,,TRUE,place where it's always summer + state,MATCH
+"ahéheeʼ,nitsaago","Interj,Adv",many thanks,Interj,,,,,,,,,,TRUE,thanks + many,MATCH
+"Ahidiitłʼintsoh,Daʼííłʼíní,Bikéyah","NSub,NSub,NSub",Egypt,NSub,,,,,,,,,,TRUE,big pile of converging stones + those who make them + their land,MATCH
+"ahił,haneʼ","Adp,NSub",conversation,NSub,,,,,,,,,,TRUE,with each other + story,MATCH
+"ajaayiʼ,hodiniih","Adv,VImpf",ear ache,NObj,,,,,,,,,,TRUE,inside of ear + it hurts,MATCH
+"ajaayiʼ,hodiniih","Adv,VImpf",ear ache,NSub,,,,,,,,,,TRUE,inside of ear + it hurts,MATCH
+"ájítʼé,nítʼééʼ","VImpf,Part",was/were,VPerf,4th,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ájítʼé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,4th,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ájítʼé,ntʼééʼ","VImpf,Part",was/were,VPerf,4th,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ájítʼé,ńtʼééʼ","VImpf,Part",was/were,VPerf,4th,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ájítʼée,doo","VImpf,Part",will be,VFut,4th,SD,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"akááʼ,ałtsoozígíí","Adp,NSub",condom,NSub,,,,,,,,,,TRUE,on its surface + that which is slender,MATCH
+"akááʼ,ałtsóózígíí","Adp,NSub",condom,NSub,,,,,,,,,,TRUE,on its surface + that which is slender,MATCH
+"akétłʼóól,łichxííʼí,yázhí","NSub,NSub,NSub",radish,NSub,,,,,,,,,,TRUE,root + the orange one + the little one,MATCH
+"akʼah,bee,sitʼé ","NAdp,Adp,VImpf",fried food,NSub,,,,,,,,,,TRUE,grease + by means of + is cooked,MATCH
+"akʼah,diltłiʼí","NSub,VImpf",candle,NSub,,,,,,,,,,TRUE,fire is burning,MATCH
+"akʼah,níyizígíí","NSub,NSub",candle,NSub,,,,,,,,,,TRUE,wax cylinder,MATCH
+"áłah,aleeh","Adv,VImpf",meeting takes place,VImpf,Unspec,,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,azlį́į́ʼ","Adv,VPerf",meeting took place,VPerf,Unspec,,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,daahłeeh","Adv,VImpf",meet,VImpf,2nd,P,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,daaleeh","Adv,VImpf",meet,VImpf,3rd,P,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,daazlį́į́ʼ","Adv,VPerf",met,VPerf,3rd,P,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,dadiidleeł","Adv,VFut",will meet,VFut,1st,P,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dadoohłeeł","Adv,VFut",will meet,VFut,2nd,P,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dadooleeł","Adv,VFut",will meet,VFut,3rd,P,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dajileeh","Adv,VImpf",meet,VImpf,4th,P,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,dajizlį́į́ʼ","Adv,VPerf",met,VPerf,4th,P,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,dajóleʼ","Adv,VOpt",could meet,VOpt,4th,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,daóleʼ","Adv,VOpt",could meet,VOpt,3rd,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,daoohłeʼ","Adv,VOpt",could meet,VOpt,2nd,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,daooleʼ","Adv,VOpt",could meet,VOpt,1st,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,dasiidlį́į́ʼ","Adv,VPerf",met,VPerf,1st,P,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,dasoolį́į́ʼ","Adv,VPerf",met,VPerf,2nd,P,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,dazhdooleeł","Adv,VFut",will meet,VFut,4th,P,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dazhdooleeł","Adv,VIter",do meet,VIter,4th,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,deeshłeeł","Adv,VFut",will meet,VFut,1st,S,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,deiidleeh","Adv,VImpf",meet,VImpf,1st,P,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,diidleeł","Adv,VFut",will meet,VFut,1st,D,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dííleeł","Adv,VFut",will meet,VFut,2nd,S,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,doohłeeł","Adv,VFut",will meet,VFut,2nd,D,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,dooleeł","Adv,VFut",will meet,VFut,3rd,SD,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,haleeh","Adv,VImpf",meet,VImpf,Spat,,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,hazlį́į́ʼ","Adv,VPerf",met,VPerf,Spat,,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,hodooleeł","Adv,VFut",will meet,VFut,Spat,,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,jidooleeł","Adv,VFut",will meet,VFut,4th,SD,,,meet,,,,,TRUE,together + will become,MATCH
+"áłah,jileeh","Adv,VImpf",meets/meet,VImpf,4th,SD,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,jizlį́į́ʼ","Adv,VPerf",met,VPerf,4th,SD,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,jóleʼ","Adv,VOpt",could meet,VOpt,4th,SD,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nádleeh","Adv,VIter",do(es) meet,VIter,3rd,SD,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,náhdleeh","Adv,VIter",do meet,VIter,2nd,D,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nánídleeh","Adv,VIter",do meet,VIter,2nd,S,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,náshdleeh","Adv,VIter",do meet,VIter,1st,S,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,néiidleeh","Adv,VIter",do meet,VIter,1st,D,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nídaadleeh","Adv,VIter",do meet,VIter,3rd,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nídaahdleeh","Adv,VIter",do meet,VIter,2nd,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nídajidleeh","Adv,VIter",do meet,VIter,4th,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nídeiidleeh","Adv,VIter",do meet,VIter,1st,P,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,níjídleeh","Adv,VIter",do(es) meet,VIter,4th,SD,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,nileeh","Adv,VImpf",meet,VImpf,2nd,S,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,ńjídleeh","Adv,VIter",do(es) meet,VIter,4th,SD,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,sélį́į́ʼ","Adv,VPerf",met,VPerf,1st,S,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,siidlį́į́ʼ","Adv,VPerf",met,VPerf,1st,D,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,silį́į́ʼ","Adv,VPerf",met,VPerf,3rd,SD,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,sínílį́į́ʼ","Adv,VPerf",met,VPerf,2nd,S,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,soolį́į́ʼ","Adv,VPerf",met,VPerf,2nd,D,,,meet,,,,,TRUE,together + became,MATCH
+"áłah,wohłeeh","Adv,VImpf",meet,VImpf,2nd,D,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,wóleʼ","Adv,VOpt",could meet,VOpt,3rd,SD,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,woohłeʼ","Adv,VOpt",could meet,VOpt,2nd,D,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,wooleʼ","Adv,VOpt",could meet,VOpt,1st,D,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,wóóleʼ","Adv,VOpt",could meet,VOpt,2nd,S,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,wóshłeʼ","Adv,VOpt",could meet,VOpt,1st,S,,,meet,,,,,TRUE,together + do become,MATCH
+"áłah,yiidleeh","Adv,VImpf",meet,VImpf,1st,D,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,yileeh","Adv,VImpf",meets/meet,VImpf,3rd,SD,,,meet,,,,,TRUE,together + become,MATCH
+"áłah,yishłeeh","Adv,VImpf",meet,VImpf,1st,S,,,meet,,,,,TRUE,together + become,MATCH
+"alizh,bizis","VImpf,NSub",bladder,NSub,,,,,,,,,,TRUE,is/are urinating + its sack,MATCH
+"áłtsé,hastiin","Part,NSub",First Man,NSub,,,,,,TRUE,,,,TRUE,first + man,MATCH
+"amá,yazhí","NSub,NSub",maternal aunt,NSub,,,,,,,,,,TRUE,mother + small,MATCH
+"amá,yázhí","NSub,NSub",maternal aunt,NSub,,,,,,,,,,TRUE,mother + small,MATCH
+"ániitʼé,nítʼééʼ","VImpf,Part",were,VPerf,1st,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ániitʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,1st,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ániitʼé,ntʼééʼ","VImpf,Part",were,VPerf,1st,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ániitʼé,ńtʼééʼ","VImpf,Part",were,VPerf,1st,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ániitʼée,doo","VImpf,Part",will be,VFut,1st,D,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"áníshtʼé,nítʼééʼ","VImpf,Part",was,VPerf,1st,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áníshtʼé,ńtʼę́ę́","VImpf,Part",was,VPerf,1st,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áníshtʼé,ntʼééʼ","VImpf,Part",was,VPerf,1st,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áníshtʼé,ńtʼééʼ","VImpf,Part",was,VPerf,1st,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áníshtʼée,doo","VImpf,Part",will be,VFut,1st,S,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"ánóhtʼé,nítʼééʼ","VImpf,Part",were,VPerf,2nd,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ánóhtʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,2nd,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ánóhtʼé,ntʼééʼ","VImpf,Part",were,VPerf,2nd,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ánóhtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,D,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"ánóhtʼée,doo","VImpf,Part",will be,VFut,2nd,D,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"áńtʼé,nítʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áńtʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áńtʼé,ntʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áńtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"áńtʼée,doo","VImpf,Part",will be,VFut,2nd,S,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"ásaaʼ,yilghaałí","NSub,NSub",musical drum,NSub,,,,,,,,,,TRUE,jar/pot + ??,MATCH
+"ashdlaʼáadah,góneʼ","NumO,NumO",fifteenth,NumO,,,,,,,,,,TRUE,fifteen + (ordinal),MATCH
+"Áshįįh,biiʼtó,Hahoodzo","NSub,Adv,NSub",Utah,NSub,,,,,,TRUE,,,,TRUE,salt + in it water + state,MATCH
+"áshįįh,łikan","NSub,VImpf",sugar,NSub,,,,,,,,,,TRUE,salt + is it sweet,MATCH
+"atsá,biyáázh","NSub,NSub",eaglet (February),NSub,,,,,,,,,,TRUE,eagle's son,MATCH
+"atsą́,hodiniih","NSub,VImpf",stomach ache,NSub,,,,,,,,,,TRUE,stomach + it hurts,MATCH
+"atsiniltłʼish,bá,hooghan","NAdp,Adp,NSub",power plant,NSub,,,,,,,,,,TRUE,electricity + for + house,MATCH
+"atsiniltłʼish,bee,adinídíín","NAdp,Adp,NSub",electric light,NSub,,,,,,,,,,TRUE,electricity + by way of + light,MATCH
+"atsiniltłʼish,ííłʼínígíí","NSub,NSub",electric eel,NSub,,,,,,,,,,TRUE,electricity + eel,MATCH
+"átʼé,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼé,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼée,doo","VImpf,Part",will be,VFut,3rd,SD,,,be,,,-tʼé,,TRUE,be + (future),MATCH
+"átʼée,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼéé,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼée,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼéé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼée,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼée,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼéé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"átʼéé,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
+"awééʼ,yázhí","NSub,NSub",little baby,NSub,,,,,,,,,,TRUE,baby + small,MATCH
+"awooʼ,diniih","NSub,NSub",toothache,NSub,,,,,,,,,,TRUE,tooth + ache,MATCH
+"ayóó,átʼé","Adv,VImpf",the great one,NSub,,,,,,,,,,TRUE,very + is/are,MATCH
+"azeeʼ,ííłʼíní","NSub,NSub",doctor,NSub,,,,,,,,,,TRUE,,MATCH
+"azeeʼ,neikahi","NSub,NSub",nurse,NSub,,,,,,,,,,TRUE,,MATCH
+"azeeʼ,tsiʼnaaʼiiłáhí","NSub,NSub",recreational drug,NSub,,,,,,,,,,TRUE,,MATCH
+"baa,dadiijih","Adp,VFut",will give,VFut,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,dadoohjih","Adp,VFut",will give,VFut,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,dajíjááh","Adp,VImpf",are giving,VImpf,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,dajizhjaaʼ","Adp,VPerf",gave,VPerf,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,daniijááh","Adp,VImpf",are giving,VImpf,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,daniijaaʼ","Adp,VPerf",gave,VPerf,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,danohjááh","Adp,VImpf",are giving,VImpf,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,danoojaaʼ","Adp,VPerf",gave,VPerf,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,dazhdoojih","Adp,VFut",will give,VFut,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,deeshjih","Adp,VFut",will give,VFut,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,deetʼą́","Adp,VPerf",was dedicated to them,VPerf,3rd,SD,,,,,,,,TRUE,to + was ??,MATCH
+"baa,deetʼáanii","Adp,NSub",dedication,NSub,,,,,,,,,,TRUE,to + that which was given,MATCH
+"baa,deidoojih","Adp,VFut",will give,VFut,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,deíjááh","Adp,VImpf",are giving,VImpf,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,deizhjaaʼ","Adp,VPerf",gave,VPerf,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,diijih","Adp,VFut",will give,VFut,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,dííjih","Adp,VFut",will give,VFut,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,doohjih","Adp,VFut",will give,VFut,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,jidoojih","Adp,VFut",will give,VFut,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,jíjááh","Adp,VImpf",is/are giving,VImpf,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,jiníjaaʼ","Adp,VPerf",gave,VPerf,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,nídiikai","Adp,VPerf",started to work on,VPerf,1st,D,3rd,S,,,,,,TRUE,,MATCH
+"baa,niijááh","Adp,VImpf",are giving,VImpf,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,niijaaʼ","Adp,VPerf",gave,VPerf,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,níjááh","Adp,VImpf",are giving,VImpf,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,níjaaʼ","Adp,VPerf",gave,VPerf,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,nishjááh","Adp,VImpf",am giving,VImpf,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,nohjááh","Adp,VImpf",are giving,VImpf,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,noojaaʼ","Adp,VPerf",gave,VPerf,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yá,hasįįh","Adp,Adp,VImpf",embarasses,VImpf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"baa,yá,hodoosįįł","Adp,Adp,VFut",will embarass,VFut,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"baa,yá,hóósįįd","Adp,Adp,VPerf",embarassed,VPerf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"baa,yá,hósįįh","Adp,Adp,VOpt",could embarass,VOpt,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"baa,yá,náhásįįh","Adp,Adp,VIter",does embarass,VIter,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"baa,yidoojih","Adp,VFut",will give,VFut,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yíjááh","Adp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yínííł","Adp,VImpf",gives/give,VImpf,3rd,SD,3rd,,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yiníjaaʼ","Adp,VPerf",gave,VPerf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"baa,yíníjaaʼ","Adp,VPerf",gave,VPerf,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
+"bą́ą́h,ajílį́","Adp,VImpf",is/are worth,VImpf,4th,SD,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,aniidlį́","Adp,VImpf",are worth,VImpf,1st,D,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,anílį́","Adp,VImpf",are worth,VImpf,2nd,S,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,anishłį́","Adp,VImpf",am worth,VImpf,1st,S,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,anohłį́","Adp,VImpf",are worth,VImpf,2nd,D,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,daʼílį́","Adp,VImpf",are worth,VImpf,3rd,P,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,daʼjílį́","Adp,VImpf",are worth,VImpf,4th,P,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,daʼniidlį́","Adp,VImpf",are worth,VImpf,1st,P,,,,,,,,TRUE,by it + be worth,MATCH
+"bą́ą́h,daʼnohłį́","Adp,VImpf",are worth,VImpf,2nd,P,,,,,,,,TRUE,by it + be worth,MATCH
+"bąąh,haajííł","Adp,VImpf",owes/owe a debt,VImpf,3rd,,,,,,,,,TRUE,on + stick out,MATCH
+"bąąh,háájil","Adp,VPerf",owed a debt,Perf,3rd,,,,,,,,,TRUE,on + stick out,MATCH
+"bąąh,hadoojił","Adp,VFut",will owe a debt,Fut,3rd,,,,,,,,,TRUE,on + stick out,MATCH
+"bą́ą́h,ílį́","Adp,VImpf",is/are worth,VImpf,3rd,SD,,,,,,,,TRUE,by it + be worth,MATCH
+"bąąhági,ádaatʼéii","Adv,VImpf",sins,NSub,,,,,,,,,,TRUE,immorally + are,MATCH
+"bąąhági,áhátʼį́","Adv,VImpf",misbehavior,NSub,,,,,,,,,,TRUE,immorally + happens,MATCH
+"bąąhági,átʼéii","Adv,VImpf",sin,NSub,,,,,,,,,,TRUE,immorally + is,MATCH
+"Bálgaa,bizaad","NSub,NSub",Bulgarian language,NSub,,,,,,TRUE,,,,TRUE,(loanword) + their language,MATCH
+"bee,ádéestʼį́į́ʼ","Adp,NSub",binocular/telescope,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,MATCH
+"bee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,3rd,,lack,,,,,TRUE,by means of him/her/it/them + is absent,MATCH
+"bee,ałkʼíniilkaałí","Adp,NSub",wedge,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,MATCH
+"béégashii,bitsįʼ","NSub,NSub",beef,NSub,,,,,,,,,,TRUE,cow + its flesh,MATCH
+"béégashii,yáázh","NSub,NSub",calf,NSub,,,,,,,,,,TRUE,cow + offspring,MATCH
+"béésh,adeeʼ","NSub,NSub",spoon,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
+"béésh,adishahí","NSub,NSub",barbed wire,NSub,,,,,,,,,,TRUE,metal + that which snags,MATCH
+"béésh,áłtsʼóózí ","NSub,VImpf",wire,NSub,,,,,,,,,,TRUE,metal + it is slender,MATCH
+"béésh,áłtsʼózí ","NSub,VImpf",wire,NSub,,,,,,,,,,TRUE,metal + it is slender,MATCH
+"béésh,astʼogii","NSub,NSub",flint arrowhead,NSub,,,,,,,,,,TRUE,flint + that which is stuck in something,MATCH
+"béésh,ászólí","NSub,NSub",aluminum,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
+"béésh,bee,akʼeʼelchíhí","NSub,Adp,NSub",typewriter,NSub,,,,,,,,,,TRUE,metal + by meanf of it + writer,MATCH
+"béésh,dildǫʼí","NSub,NSub",tin,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
+"béésh,dootłʼizh","NSub,NSub",zinc,NSub,,,,,,,,,,TRUE,metal + blue/turquoise,MATCH
+"béésh,ílį́įnii","NSub,NSub",precious metal,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
+"béésh,łichíiʼii","NSub,NSub",copper,NSub,,,,,,,,,,TRUE,metal + red one,MATCH
+"béésh,łichíʼí","NSub,NSub",copper (or bronze),NSub,,,,,,,,,,TRUE,metal + red one,MATCH
+"béésh,łigai","NSub,NSub",silver,NSub,,,,,,,,,,TRUE,metal + white,MATCH
+"béésh,łitsoii","NSub,NSub",brass,NSub,,,,,,,,,,TRUE,metal + yellow one,MATCH
+"béésh,naalkaah","NSub,NSub",metallurgy,NSub,,,,,,,,,,TRUE,metal + examination,MATCH
+"béésh,ńtʼiʼ","NSub,VImpf",railway,NSub,,,,,,,,,,TRUE,metal + it extends along,MATCH
+"béésh,óola","NSub,NSub",gold,NSub,,,,,,,,,,TRUE,metal + gold,MATCH
+"béésh,tó,nílínígíí","NSub,NSub,NSub",waterpipe,NSub,,,,,,,,,,TRUE,metal + water + that which flows along,MATCH
+"béeso,adaʼhaʼnį́į́ł","NSub,NSub",fundraiser,NSub,,,,,,,,,,TRUE,money + moving it??,MATCH
+"béeso,bá,hooghan","NAdp,Adp,NSub",bank,NSub,,,,,,,,,,TRUE,money + for it + house,MATCH
+"béeso,báhooghan","NSub,NSub",bank,NSub,,,,,,,,,,TRUE,money + house for,MATCH
+"béeso,bisgąʼ","NSub,NSub",credit card,NSub,,,,,,,,,,TRUE,money + chip,MATCH
+"béeso,bizis","NSub,NSub",wallet,NSub,,,,,,,,,,TRUE,money + its sack,MATCH
+"béeso,neizooí","NSub,NSub",accountant,NSub,,,,,,,,,,TRUE,money + ??,MATCH
+"béeso,yázhí","NSub,NSub",coin,NSub,,,,,,,,,,TRUE,money + small,MATCH
+"beeʼeldííl,dahsinil","NSub,Adv",Albuquerque,NSub,,,,,,,,,,TRUE,that with which ringing (bells) is done + above large objects in place,MATCH
+"beeʼeldííl,dahsinilgóó","NSub,Adv",to Albuquerque,Adv,,,,,,,,,,TRUE,that with which ringing (bells) is done + to/above the large objects in place,MATCH
+"beeʼeldǫǫh,tʼáá,bíniʼdii,bikʼaʼ,ádiih,yiyiinííłígíí","NSub,Part,NAdp,NAdp,Adp,NSub",machine gun,NSub,,,,,,,,,,TRUE,gun + (just) + one that allows? + its bullets + into it + one that puts them into it,MATCH
+"Beʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,MATCH
+"beʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,MATCH
+"bibéeso,bizis","NSub,NSub",his/her wallet,NSub,3rd,,,,,,,,,TRUE,money + its sack,MATCH
+"bibid,dijoolí","NSub,NSub",his/her/its duodenum(s),NSub,3rd,,,,,,,,,TRUE,stomach + ball,MATCH
+"bichoʼ,bizis","NSub,NSub",his/their scrotum,NSub,3rd,,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"bichʼííʼ,bitsʼániʼnísą́","NSub,NSub",his/her appendix (anatomy),NSub,3rd,,,,,,,,,TRUE,intestine + ??,MATCH
+"bidibé,yázhí","NSub,NSub",his/her/its lamb(s),NSub,3rd,,,,,,,,,TRUE,his sheep + little one,MATCH
+"bigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",his/her mandolin,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,MATCH
+"bigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",his/her harp,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that curls up,MATCH
+"bigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",his/her banjo,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,MATCH
+"bigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",his/her ukelele,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the little one,MATCH
+"bįįh,yáázh","NSub,NSub",fawn,NSub,,,,,,,,,,TRUE,deer + offspring,MATCH
+"bįįh,yildeeʼį́","NSub,NSub",gooseberry/groundcherry,NSub,,,,,,,,,,TRUE,deer + food,MATCH
+"bił,doosih","Adp,VFut",will be satisfied with,VFut,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,násih","Adp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,sih","Adp,VImpf",is satisfied with,VImpf,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,wósih","Adp,VOpt",could be satisfied with,VOpt,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,yísih","Adp,VPerf",was satisfied with,VPerf,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bilagáana,bizaad","NSub,NSub",English language,NSub,,,,,,,,,,TRUE,Caucasian's word,MATCH
+"bilagáana,tʼáá,biʼałkʼiijééʼ","NSub,Part,VImpf",American Civil War,NSub,,,,,,TRUE,,,,TRUE,Caucasian + just + ??,MATCH
+"bílaʼ,ashdlaʼii","NSub,NSub",human being,NSub,,,,,,,,,,TRUE,his fingers + the five,MATCH
+"bílaʼ,dį́įʼii","NSub,NSub",fork,NSub,,,,,,,,,,TRUE,his hand + the four,MATCH
+"bimá,yazhí","NSub,NSub",his/her/its maternal aunt(s),NSub,3rd,,,,,,bi,,,TRUE,his mother + little one,MATCH
+"biniiyé,ábidiiʼní","Adp,VImpf",ask,VImpf,1st,D,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ábidiní","Adp,VImpf",ask,VImpf,2nd,S,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ábidishní","Adp,VImpf",ask,VImpf,1st,S,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ábidohní","Adp,VImpf",ask,VImpf,2nd,D,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ábijiní","Adp,VImpf",asks/ask,VImpf,4th,SD,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ádabidiiʼní","Adp,VImpf",ask,VImpf,1st,P,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ádabidohní","Adp,VImpf",ask,VImpf,2nd,P,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ádabijiní","Adp,VImpf",ask,VImpf,4th,P,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ádeiłní","Adp,VImpf",ask,VImpf,3rd,P,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biniiyé,ííłní","Adp,VImpf",asks/ask,VImpf,3rd,SD,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
+"biníłchʼi,diyinii","NSub,NSub",His Holy Spirit,NSub,3rd,S,,,,TRUE,,,,TRUE,his wind + holy one,MATCH
+"bisóodi,bitsįʼ","NSub,NSub",pork,NSub,,,,,,,,,,TRUE,pig's flesh,MATCH
+"bizééʼ,daahtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dadiitʼįįł","NObj,VFut",will cause death,VFut,1st,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dadoohtʼįįł","NObj,VFut",will cause death,VFut,2nd,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dajistʼįįd","NObj,VPerf",caused death,VPerf,4th,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dajitʼįįh","NObj,VImpf",are causing death,VImpf,4th,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dasiitʼįįd","NObj,VPerf",caused death,VPerf,1st,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dasoohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,dazhdootʼįįł","NObj,VFut",will cause death,VFut,4th,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,deeshtʼįįł","NObj,VFut",will cause death,VFut,1st,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,deiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,P,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,diitʼįįł","NObj,VFut",will cause death,VFut,1st,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,díítʼįįł","NObj,VFut",will cause death,VFut,2nd,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,doohtʼįįł","NObj,VFut",will cause death,VFut,2nd,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,jidootʼįįł","NObj,VFut",will cause death,VFut,4th,SD,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,jistʼįįd","NObj,VPerf",caused death,VPerf,4th,SD,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,jitʼįįh","NObj,VImpf",is/are causing death,VImpf,4th,SD,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,nitʼįįh","NObj,VImpf",are causing death,VImpf,2nd,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,siitʼįįd","NObj,VPerf",caused death,VPerf,1st,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,sínítʼįįd","NObj,VPerf",caused death,VPerf,2nd,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,sistʼįįd","NObj,VPerf",caused death,VPerf,1st,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,soohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,wohtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,yiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,D,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,yishtʼįįh","NObj,VImpf",am causing death,VImpf,1st,S,3rd,,,,,,,TRUE,death + make,MATCH
+"bizééʼ,yitʼįįh","NObj,VImpf",is/are causing death,VImpf,3rd,SD,3rd,,,,,,,TRUE,death + make,MATCH
+"Biʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,MATCH
+"biʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,MATCH
+"bóhólníihii,bisodizin","NSub,NSub",The Lord's Prayer,NSub,,,,,,TRUE,,,,TRUE,lord's prayer,MATCH
+"chąąʼ,bá,hooghan","NAdp,Adp,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,feces + for it + house,MATCH
+"chąąʼ,báhooghan","NSub,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,faces + house for,MATCH
+"chéchʼil,binááʼ","NSub,NSub",acorn,NSub,,,,,,,,,,TRUE,oak's seed,MATCH
+"Chéchʼil,Ńtʼiʼí,Hahoodzo","NSub,NSub,NSub",North Carolina,NSub,,,,,,TRUE,,,,TRUE,oak + that which extends along + state,MATCH
+"chidí,bigaan","NSub,NSub",front wheel,NSub,,,,,,,,,,TRUE,vehicle + its arm,MATCH
+"chidí,naatʼaʼí","NSub,NSub",airplane,NSub,,,,,,,,,,TRUE,car + one that flies,MATCH
+"chidí,naatʼaʼí,ńdandaahígíí","NSub,NSub,NSub",airport,NSub,,,,,,,,,,TRUE,car + one that flies + ??,MATCH
+"chidí,naatʼaʼí,nídandaahígíí","NSub,NSub,NSub",airport,NSub,,,,,,,,,,TRUE,car + one that flies + ??,MATCH
+"chidí,naaʼnaʼí","NSub,NSub",tractor,NSub,,,,,,,,,,TRUE,car + it crawls about,MATCH
+"chidí,naaʼnaʼí,beeʼeldǫǫh,bikááʼ,dah,naaznilígíí","NSub,NSub,NSub,NSub,Adv,NSub",military tank,NSub,,,,,,,,,,TRUE,,MATCH
+"Christ,yida’ałíinii ","NSub,NSub",Christian,NSub,,,,,,TRUE,,,,TRUE,Christ + ??,MATCH
+"chʼééh,digháhii","Adv,NSub",turtle/tortoise,NSub,,,,,,,,,,TRUE,in vain + one that starts to go along slowly,MATCH
+"chʼééh,digháhiitsoh","Adv,NSub",Galápagos tortoise,NSub,,,,,,,,,,TRUE,in vain + big one one that starts to go along slowly,MATCH
+"chʼikę́ę́h,łóóʼ","NSub,NSub",mermaid,NSub,,,,,,,,,,TRUE,maiden + fish,MATCH
+"chʼil,łichxíʼí","NSub,NSub",tomato,NSub,,,,,,,,,,TRUE,plant + red,MATCH
+"chʼil,łitsxooí","NSub,NSub",orange (fruit),NSub,,,,,,,,,,TRUE,plant + orange,MATCH
+"dah,alzhin","NSub,NSub",minute (time),NSub,,,,,,,,,,TRUE,upward + ??,MATCH
+"dah,azką́","Adv,NSub",mesa,NSub,,,,,,,,,,TRUE,upward + ??,MATCH
+"dah,nídiikai","Adp,VPerf",started back,VPerf,3rd,P,,,,,,,,TRUE,upward + ??,MATCH
+"dah,woozh","Adv,NSub",strawberry,NSub,,,,,,,,,,TRUE,upward + ??,MATCH
+"dahwiilne’go,bide’yiniilniish","Adv,VImpf",ministry,NSub,,,,,,,,,,FALSE,preach + work?,MATCH
+"damį́įgo,yázhí","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,little Sunday,MATCH
+"damóo,biiskání","NSub,NSub",Monday,NSub,,,,,,TRUE,,,,TRUE,Sunday on the next day,MATCH
+"damóó,dóó,dįʼí,jį́","NSub,Conj,NumO,NSub",Thursday,NSub,,,,,,TRUE,,,,TRUE,Sunday and fourth day,MATCH
+"damóó,dóó,naaki,jį́","NSub,Conj,NumC,NSub",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Sunday and two days,MATCH
+"damóó,dóó,tágí,jį́","NSub,Conj,NumO,NSub",Wednesday,NSub,,,,,,TRUE,,,,TRUE,Sunday and third day,MATCH
+"damóo,yázhí","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,Sunday + little one,MATCH
+"danihąąh,haajííł","Adp,VImpf",owe a debt,VImpf,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
+"danihąąh,háájil","Adp,VPerf",owed a debt,Perf,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
+"danihąąh,hadoojił","Adp,VFut",will owe a debt,Fut,1st/2nd,P,,,,,,,,TRUE,on + stick out,MATCH
+"daniheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
+"danihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,P,,,,,,,,TRUE,money + its sack,MATCH
+"danihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,P,,,,,,,,TRUE,stomach + ball,MATCH
+"danihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,P,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"danihichʼííʼ,bitsʼániʼnísą́","NSub,NSub",our/your appendix (anatomy),NSub,1st/2nd,P,,,,,,,,TRUE,intestine + ??,MATCH
+"danihidibé,yázhí","NSub,NSub",our/your lamb(s),NSub,1st/2nd,P,,,,,,,,TRUE,our/your sheep + little one,MATCH
+"danihigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",our/your mandolin,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
+"danihigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",our/your harp,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that curls up,MATCH
+"danihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
+"danihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,MATCH
+"danihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,P,,,,,danihi,,,TRUE,our/your sheep + little one,MATCH
+"danihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
+"dayooʼį́į,doo","VImpf,Part",will see,VFut,3rd,P,3rd,,,,,,,TRUE,see + (future),MATCH
+"dáʼákaz,łikaní","NSub,NSub",sugar cane,NSub,,,,,,,,,,TRUE,cornstalk + the sweet one,MATCH
+"daʼnijahí,góneʼ","NAdp,Adp",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,MATCH
+"daʼnílʼį́,bá,hooghanígíí ","NAdp,Adp,NSub",movie theater,NSub,,,,,,,,,,TRUE,movie + for + its house ,MATCH
+"daʼnjahí,góneʼ","NAdp,Adp",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,MATCH
+"deijiʼ,ééʼ","NSub,NSub",shirt,NSub,,,,,,,,,,TRUE,upper part + clothing,MATCH
+"deijiʼ,sheʼééʼ","NSub,NSub",my shirt,NSub,1st,S,,,,,,,,TRUE,upper part + my clothing,MATCH
+"dibé,tsaʼii","NSub,NSub",ewe,NSub,,,,,,,,,,TRUE,sheep + ??,MATCH
+"dibé,yázhí","NSub,NSub",lamb(s),NSub,,,,,,,,,,TRUE,sheep + small,MATCH
+"dichin,hasįįh","NObj,VImpf",makes famished,VImpf,,,,,,,,,,TRUE,hunger + cause to feel,MATCH
+"dichin,hodoosįįł","NObj,VFut",will make famished,VFut,,,,,,,,,,TRUE,hunger + cause to feel,MATCH
+"dichin,hóósįįd","NObj,VPerf",made famished,VPerf,,,,,,,,,,TRUE,hunger + cause to feel,MATCH
+"dichin,hósįįh","NObj,VOpt",could make famished,VOpt,,,,,,,,,,TRUE,hunger + cause to feel,MATCH
+"dichin,náhásįįh","NObj,VIter",does make famished,VIter,,,,,,,,,,TRUE,hunger + cause to feel,MATCH
+"didzétsoh,yázhí","NSub,NSub",apricot,NSub,,,,,,,,,,TRUE,peach + the small one,MATCH
+"díí,jį́","ProDem,NSub",today,NSub,,,,,,,,,,TRUE,this + day,MATCH
+"diné,bizaad","NSub,NSub",people's language (Navajo),NSub,,,,,,,,,,TRUE,people's words,MATCH
+"Diné,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
+"diné,tʼóó,ahayóí","NSub,Adv,Adv",the crowd,NSub,,,,,,,,,,TRUE,person + just + many,MATCH
+"diné,yázhí","NSub,NSub",midget,NSub,,,,,,,,,,TRUE,person + little,MATCH
+"diyin,ayóo,átʼéii","NSub,Adv,NSub",Almighty God,NSub,,,,,,,,,,TRUE,the holy one + very + that which is,MATCH
+"diyin,bizaad","NSub,NSub",Holy Bible,NSub,,,,,,TRUE,,,,TRUE,holy one + his word,MATCH
+"diyin,god","NSub,NSub",Holy God,NSub,,,,,,TRUE,,,,TRUE,holy being + god,MATCH
+"diyin,god,biníłchʼi,diyinii","NSub,NSub,NSub,NSub",God's Holy Spirit,NSub,,,,,,TRUE,,,,TRUE,holy one + god + his wind + holy one,MATCH
+"diyin,god,bizaad","NSub,NSub,NSub",God's Holy Word,NSub,,,,,,TRUE,,,,TRUE,holy one + God + his word,MATCH
+"dįʼí,jį́,ndaʼanish","NumO,NSub,VImpf",Thursday,NSub,,,,,,TRUE,,,,TRUE,For four days they work.,MATCH
+"dįʼí,jį́,nidaʼanish","NumO,NSub,VImpf",Thursday,NSub,,,,,,TRUE,,,,TRUE,For four days they work.,MATCH
+"dlǫ́ʼii,łizhiní","NSub,NSub",black-footed ferret,NSub,,,,,,,,,,TRUE,weasel + black one,MATCH
+"dlǫ́ʼii,yázhí","NSub,NSub",least weasel,NSub,,,,,,,,,,TRUE,weasel + little,MATCH
+"dóó,baʼąą","Conj,Adv",additionally,Adv,,,,,,,,,,TRUE,and + ??,MATCH
+"doo,bidziil,da","Adv,NSub,Adv",his/her/its weakness,NSub,3rd,,,,,,,,,TRUE,not + strength + (not),MATCH
+"dóó,biʼaan","Conj,Adv",and over,Adv,,,,,,,,,,TRUE,and + over,MATCH
+"doo,danihidziil,da","Adv,NSub,Adv",our/your weakness,NSub,1st/2nd,P,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,dziil,da","Adv,NSub,Adv",weakness,NSub,,,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,háájí,da","Adv,Adv,Adv",nowhere,Adv,,,,,,,,,,TRUE,not + ?? + (not),MATCH
+"doo,hadziil,da","Adv,NSub,Adv",one's/others' weakness,NSub,4th,,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,nagháí,da","Adv,ProSub,Adv",nobody,NSub,,,,,,,,,,TRUE,not + ?? + (not),MATCH
+"doo,nidziil,da","Adv,NSub,Adv",your weakness,NSub,2nd,S,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,nihidziil,da","Adv,NSub,Adv",our/your weakness,NSub,1st/2nd,D,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,shidziil,da","Adv,NSub,Adv",my weakness,NSub,1st,S,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,yáʼátʼééh,da","Adv,VImpf,Adv",bad,VImpf,3rd,S,,,,,,,,TRUE,not + it is good + (not),MATCH
+"doo,yidziil,da","Adv,NSub,Adv",one's/others' weakness,NSub,4th,,,,,,,,,TRUE,not + strength + (not),MATCH
+"Dził,Dahazkánídę́ę́ʼ","NSub,NSub","Mesa, Arizona",NSub,,,,,,TRUE,,,,TRUE,mountain + ??,MATCH
+"Dziłgaiitsoh,Honeezkʼazii","NSub,NSub",Himalayas,NSub,,,,,,TRUE,,,,TRUE,big white mountain + area that has become cool,MATCH
+"dziłghą́ʼiʼ,bizaad","NSub,NSub",Apache language,NSub,,,,,,TRUE,,,,TRUE,Apache + their words,MATCH
+"ééʼ,bee,naatʼáhí","NAdp,Adp,NSub",suitcase,NSub,,,,,,,,,,TRUE,clothing + with + ??,MATCH
+"ééʼ,ííłʼíní","NSub,NSub",tailor,NSub,,,,,,,,,,TRUE,clothing + one who makes,MATCH
+"ééʼ,neishoodii","NSub,NSub",clergyman,NSub,,,,,,,,,,TRUE,shirt + one who drags it around,MATCH
+"ééʼ,neishoodii,bikin","NSub,NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt + one who drags it around + his house,MATCH
+"ééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,clothing + without,MATCH
+"ééʼneishoodii,bikin","NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt one drags around + his house,MATCH
+"gohwééh,hashtłʼishí","NSub,NSub",cocoa,NSub,,,,,,,,,,TRUE,coffee + ??,MATCH
+"gólízhii,noodǫ́zígíí","NSub,NSub",striped skunk,NSub,,,,,,,,,,TRUE,skunk + ??,MATCH
+"hąąh,haajííł","Adp,VImpf",owes/owe a debt,VImpf,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"hąąh,háájil","Adp,VPerf",owed a debt,Perf,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"hąąh,hadoojił","Adp,VFut",will owe a debt,Fut,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"habéeso,bizis","NSub,NSub",one's/others' wallet,NSub,4th,,,,,,,,,TRUE,money + its sack,MATCH
+"habid,dijoolí","NSub,NSub",one's/others' duodenum(s),NSub,4th,,,,,,,,,TRUE,stomach + ball,MATCH
+"hachoʼ,bizis","NSub,NSub",one's/others' scrotum,NSub,4th,,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"hachʼííʼ,bitsʼániʼnísą́","NSub,NSub",one's/others' appendix (anatomy),NSub,4th,,,,,,,,,TRUE,intestine + ??,MATCH
+"hadibé,yázhí","NSub,NSub",one's/others' lamb(s),NSub,4th,,,,,,,,,TRUE,one's/others' sheep + little one,MATCH
+"hado,dóó,hakʼaz,neiłkidígíí","NSub,Conj,NSub,NSub",thermometer,NSub,,,,,,,,,,TRUE,heat + and + cold + thing that slides,MATCH
+"hadoh,dóó,hakʼaz,neiłkidígíí","NSub,Conj,NSub,NSub",thermometer,NSub,,,,,,,,,,TRUE,heat + and + cold + thing that slides,MATCH
+"hagaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",one's/others' mandolin,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + the one that is round,MATCH
+"hagaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",one's/others' harp,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + the one that curls up,MATCH
+"hagaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",one's/others' banjo,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + the one that is round,MATCH
+"hagaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",one's/others' ukelele,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + the little one,MATCH
+"hamá,yazhí","NSub,NSub",one's/others' maternal aunt(s),NSub,4th,,,,,,ha,,,TRUE,one's/others' mother + little one,MATCH
+"hashtłʼish,gohwééh","NSub,NSub",hot chocolate,NSub,,,,,,,,,,TRUE,?? + coffee,MATCH
+"hazhóʼó,baa,dahalneʼ","Adv,Adp,VImpf",are explaining,VImpf,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahodiilnih","Adv,Adp,VFut",will explain,VFut,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahodoolnih","Adv,Adp,VFut",will explain,VFut,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahodoołnih","Adv,Adp,VFut",will explain,VFut,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahojilneʼ","Adv,Adp,VImpf",are explaining,VImpf,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahojólneʼ","Adv,Adp,VOpt",could explain,VOpt,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahojoolneʼ","Adv,Adp,VPerf",explained,VPerf,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahołneʼ","Adv,Adp,VImpf",are explaining,VImpf,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahólneʼ","Adv,Adp,VOpt",could explain,VOpt,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahoolneʼ","Adv,Adp,VOpt",could explain,VOpt,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahoolneʼ","Adv,Adp,VOpt",could explain,VOpt,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahoolneʼ","Adv,Adp,VPerf",explained,VPerf,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahoołneʼ","Adv,Adp,VPerf",explained,VPerf,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahozhdoolnih","Adv,Adp,VFut",will explain,VFut,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahwiilneʼ","Adv,Adp,VImpf",are explaining,VImpf,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,dahwiilneʼ","Adv,Adp,VPerf",explained,VPerf,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,halneʼ","Adv,Adp,VImpf",is/are explaining,VImpf,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hashneʼ","Adv,Adp,VImpf",am explaining,VImpf,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hodeeshnih","Adv,Adp,VFut",will explain,VFut,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hodiilnih","Adv,Adp,VFut",will explain,VFut,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hodíílnih","Adv,Adp,VFut",will explain,VFut,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hodoolnih","Adv,Adp,VFut",will explain,VFut,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hodoołnih","Adv,Adp,VFut",will explain,VFut,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hojilneʼ","Adv,Adp,VImpf",is/are explaining,VImpf,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hojólneʼ","Adv,Adp,VOpt",could explain,VOpt,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hojoolneʼ","Adv,Adp,VPerf",explained,VPerf,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hołneʼ","Adv,Adp,VImpf",are explaining,VImpf,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hólneʼ","Adv,Adp,VImpf",are explaining,VImpf,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hólneʼ","Adv,Adp,VOpt",could explain,VOpt,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hoolneʼ","Adv,Adp,VOpt",could explain,VOpt,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hoolneʼ","Adv,Adp,VOpt",could explain,VOpt,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hoolneʼ","Adv,Adp,VPerf",explained,VPerf,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hoołneʼ","Adv,Adp,VPerf",explained,VPerf,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hóólneʼ","Adv,Adp,VOpt",could explain,VOpt,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hóshneʼ","Adv,Adp,VOpt",could explain,VOpt,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hozhdoolnih","Adv,Adp,VFut",will explain,VFut,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hweeshneʼ","Adv,Adp,VPerf",explained,VPerf,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hwiilneʼ","Adv,Adp,VImpf",are explaining,VImpf,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hwiilneʼ","Adv,Adp,VPerf",explained,VPerf,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,hwíínílneʼ","Adv,Adp,VPerf",explained,VPerf,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náhálnih","Adv,Adp,VIter",do(es) explain,VIter,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náháshnih","Adv,Adp,VIter",do explain,VIter,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náhojilnih","Adv,Adp,VIter",do(es) explain,VIter,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náhólnih","Adv,Adp,VIter",do explain,VIter,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náhółnih","Adv,Adp,VIter",do explain,VIter,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,náhwiilnih","Adv,Adp,VIter",do explain,VIter,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,nídahalnih","Adv,Adp,VIter",do explain,VIter,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,nídahojilnih","Adv,Adp,VIter",do explain,VIter,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,nídahołnih","Adv,Adp,VIter",do explain,VIter,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hazhóʼó,baa,nídahwiilnih","Adv,Adp,VIter",do explain,VIter,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
+"hee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,TRUE,by means of one/others + is absent,MATCH
+"hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
+"ił,naalbąąsí","Adp,NSub",wheelchair,NSub,,,,,,,,,,TRUE,with + ??,MATCH
+"ił,náhodighááh","Adp,VImpf",dizziness,NSub,,,,,,,,,,TRUE,with + starts to go around the area,MATCH
+"Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,TRUE,,MATCH
+"Ízrel,dineʼé","NSub,NSub",Israelites,NSub,,,,,,TRUE,,,,TRUE,Israel + people,MATCH
+"iʼiiʼnííł,bijį́","NSub,NSub",election day,NSub,,,,,,,,,,TRUE,voting + its day,MATCH
+"jáád,łánii","NSub,NSub",centipede/millipede,NSub,,,,,,,,,,TRUE,leg + one with many,MATCH
+"jesus,biʼdiisxíné̜e̜dá̜á̜ʼ,bééhániih","NSub,Adv,VImpf",Good Friday,NSub,,,,,,,,,,TRUE,Jesus + back when he was killed + it is remembered,MATCH
+"jew,dineʼé","NSub,NSub",Jews,NSub,,,,,,TRUE,,,,TRUE,Jew + people,MATCH
+"jóhonaaʼéí,yináádáłígíí","NSub,NSub",planet,NSub,,,,,,,,,,TRUE,the Sun + that which is walking around it,MATCH
+"jooł,iihnálniihhígíí","NSub,NSub",basketball,NSub,,,,,,,,,,TRUE,ball + ??,MATCH
+"jooł,nímazgo,yitalí","NSub,Adv,NSub",soccer ball,NSub,,,,,,,,,,TRUE,ball + while round + that which is kicked,MATCH
+"jooł,yikalí","NSub,NSub",baseball/softball,NSub,,,,,,,,,,TRUE,ball + that which is swatted,MATCH
+"jooł,yitalí","NSub,NSub",(American) football,NSub,,,,,,,,,,TRUE,ball + that which is kicked,MATCH
+"kéédahatʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,3rd,P,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kéédahohtʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,2nd,P,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kéédahojitʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,4th,P,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kéédahwiitʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,1st,P,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kééhashtʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,1st,S,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kééhatʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,3rd,SD,,,reside,,,,,TRUE,dwells/dwell + (past),MATCH
+"kééhohtʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,2nd,D,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kééhojitʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,4th,SD,,,reside,,,,,TRUE,dwells/dwell + (past),MATCH
+"kééhótʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,2nd,S,,,reside,,,,,TRUE,dwell + (past),MATCH
+"kééhwiitʼį́,ńtʼééʼ","VImpf,Part",resided,VPerf,1st,D,,,reside,,,,,TRUE,dwell + (past),MATCH
+"Késhmish,Yázhí","NSub,NSub",Thanksgiving,NSub,,,,,,,,,,TRUE,Christmas + the small one,MATCH
+"kéyah,binantʼaʼí","NSub,NSub",secretary of the interior,NSub,,,,,,,,,,TRUE,land's supervisor,MATCH
+"Kéyah,Dańlíinii","NSub,NSub",Philippines,NSub,,,,,,TRUE,,,,TRUE,,MATCH
+"kéyah,haʼdéísná","NSub,VImpf",earthquake,NSub,,,,,,,,,,TRUE,land + ??,MATCH
+"kéyah,yádiłhił,biiʼ,hólónígíí","NSub,NAdp,Adp,NSub",planet,NSub,,,,,,,,,,TRUE,land + inside of the heavens + that which exists,MATCH
+"kin,haalʼá ","NSub,VImpf",city,NSub,,,,,,,,,,FALSE,town + ??,MATCH
+"kin,łání","NSub,NSub",town/city,NSub,,,,,,,,,,TRUE,house + many ones,MATCH
+"kǫʼ,naʼałbąąsii","NSub,NSub",train/locomotive,NSub,,,,,,,,,,TRUE,fire + driver,MATCH
+"kʼaaʼ,biziiz","NSub,NSub",arrow quiver,NSub,,,,,,,,,,TRUE,arrow's belt,MATCH
+"laanaa,yáʼátʼéehgo,késhmish","Interj,Adv,NSub",merry Christmas ,Interj,,,,,,,,,,TRUE,,MATCH
+"łahgo,ábidiʼdoolnííł","Adv,VFut",will be changed,VFut,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ábiʼdiilyaa","Adv,VPerf",was changed,VPerf,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ábiʼdilnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ádaahłééh","Adv,VImpf",are changing,VImpf,2nd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádadiilnííł","Adv,VFut",will change,VFut,1st,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádadoohłííł","Adv,VFut",will change,VFut,2nd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádajiilaa","Adv,VPerf",changed,VPerf,4th,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádajilééh","Adv,VImpf",are changing,VImpf,4th,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádaoohłaa","Adv,VPerf",changed,VPerf,2nd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádayiilaa","Adv,VPerf",changed,VPerf,3rd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádazhdoolííł","Adv,VFut",will change,VFut,4th,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádeeshłííł","Adv,VFut",will change,VFut,1st,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádeidoolííł","Adv,VFut",will change,VFut,3rd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádeiilnééh","Adv,VImpf",are changing,VImpf,1st,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádeiilyaa","Adv,VPerf",changed,VPerf,1st,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádeilééh","Adv,VImpf",are changing,VImpf,3rd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádíílííł","Adv,VFut",will change,VFut,2nd,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádiilnííł","Adv,VFut",will change,VFut,1st,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádoohłííł","Adv,VFut",will change,VFut,2nd,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ádoolnííł","Adv,VFut",will be changed,VFut,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ájiilaa","Adv,VPerf",changed,VPerf,4th,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ájílééh","Adv,VImpf",is/are changing,VImpf,4th,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,álnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ályaa","Adv,VPerf",was changed,VPerf,3rd,,,,make,,,,,TRUE,differently + make (passive),MATCH
+"łahgo,ánáoołʼįįh","Adv,VIter",do change,VIter,2nd,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ánáyiilʼįįh","Adv,VIter",do(es) change,VIter,3rd,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áńdajiilʼįįh","Adv,VIter",do change,VIter,4th,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áńdaoołʼįįh","Adv,VIter",do change,VIter,2nd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áńdayiilʼįįh","Adv,VIter",do change,VIter,3rd,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áńdeiilʼįįh","Adv,VIter",do change,VIter,1st,P,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ánéiilʼįįh","Adv,VIter",do change,VIter,1st,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ánéilʼįįh","Adv,VIter",do change,VIter,2nd,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ánéishʼįįh","Adv,VIter",do change,VIter,1st,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ánílééh","Adv,VImpf",are changing,VImpf,2nd,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áńjiilʼįįh","Adv,VIter",do(es) change,VIter,4th,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áshłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áshłééh","Adv,VImpf",am changing,VImpf,1st,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,áyiilaa","Adv,VPerf",changed,VPerf,3rd,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,ázhdoolííł","Adv,VFut",will change,VFut,4th,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íidoolííł","Adv,VFut",will change,VFut,3rd,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íílééh","Adv,VImpf",is/are changing,VImpf,3rd,SD,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íílnééh","Adv,VImpf",are changing,VImpf,1st,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íilyaa","Adv,VPerf",changed,VPerf,1st,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íinilaa","Adv,VPerf",changed,VPerf,2nd,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,íishłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,óhłééh","Adv,VImpf",are changing,VImpf,2nd,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łahgo,óohłaa","Adv,VPerf",changed,VPerf,2nd,D,3rd,,make,,,,,TRUE,differently + make,MATCH
+"łééchąąʼí,bichʼiyąʼ","NSub,NSub",dog food,NSub,,,,,,,,,,TRUE,dog + its food,MATCH
+"łééchąąʼí,bighan","NSub,NSub",dog kennel,NSub,,,,,,,,,,TRUE,dog + its house,MATCH
+"łeetsoh,bee,atsiniltłʼish,álʼį́","NAdp,Adp,NSub,VImpf",nuclear power,NSub,,,,,,,,,,TRUE,uranium + by means of + electricity + is made,MATCH
+"łeeyiʼ,chʼosh","Adv,NObj",earthworm,NObj,,,,,,,,,,TRUE,in the ground + insect,MATCH
+"łeeyiʼ,chʼosh","Adv,NSub",earthworm,NSub,,,,,,,,,,TRUE,in the ground + insect,MATCH
+"łį́ʼígíí,asbáala","NSub,NSub",queen of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,báabas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,báasdos","NSub,NSub",queen of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,góobas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"łį́ʼígíí,óola","NSub,NSub",queen of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
+"łóóʼ,adishishí","NSub,NSub",skate/stingray,NSub,,,,,,,,,,TRUE,fish + ??,MATCH
+"łóóʼ,adishishí,nitsxaaígíí","NSub,NSub,NSub",manta ray,NSub,,,,,,,,,,TRUE,fish + ?? + really big one,MATCH
+"łóóʼ,adishishí,ntsxaaígíí","NSub,NSub,NSub",manta ray,NSub,,,,,,,,,,TRUE,fish + ?? + really big one,MATCH
+"łóóʼ,bichį́į́h,nineezíʼ","NSub,NSub,NSub",swordfish,NSub,,,,,,,,,,TRUE,fish's nose + the long one,MATCH
+"łóóʼ,bigaan,dahólónígíí","NSub,NSub,NSub",cephalopod,NSub,,,,,,,,,,TRUE,fish's arm + those which exist,MATCH
+"łóóʼ,bigaan,neeznání","NSub,NSub,NSub",squid,NSub,,,,,,,,,,TRUE,fish's arms + the ten,MATCH
+"łóóʼ,bigaan,tseebíí","NSub,NSub,NumC",octopus,NSub,,,,,,,,,,TRUE,fish's arms + eight,MATCH
+"łóóʼ,bikʼah","NSub,NSub",code liver oil,NSub,,,,,,,,,,TRUE,fish's fat,MATCH
+"łóóʼ,bitsʼaʼ,dahólónígíí","NSub,NSub,NSub",shellfish,NSub,,,,,,,,,,TRUE,fish's shell + that which exist,MATCH
+"łóóʼ,hashkéhé","NSub,NSub",shark,NSub,,,,,,,,,,TRUE,fish + angry one,MATCH
+"łóóʼ,hashkéhé,bíchį́į́hnézí","NSub,NSub,NSub",goblin shark,NSub,,,,,,,,,,TRUE,fish + angry one + its long nose,MATCH
+"łóóʼ,hashkéhé,dootłʼizhígíí","NSub,NSub,NSub",blue shark,NSub,,,,,,,,,,TRUE,fish + angry one + blue/turquoise one,MATCH
+"łóóʼ,hashkéhétsoh","NSub,NSub",great white shark,NSub,,,,,,,,,,TRUE,fish + big angry one,MATCH
+"łóóʼ,naatʼaʼí","NSub,NSub",flying fish,NSub,,,,,,,,,,TRUE,fish + one that flies,MATCH
+"łóóʼ,ńdídzihígíí","NSub,NSub",lungfish,NSub,,,,,,,,,,TRUE,fish + one that breathes?,MATCH
+"łóóʼ,niteeltsoh","NSub,NSub",ocean sunfish,NSub,,,,,,,,,,TRUE,fish + big wide one,MATCH
+"łóóʼ,nteeltsoh","NSub,NSub",ocean sunfish,NSub,,,,,,,,,,TRUE,fish + big wide one,MATCH
+"łóóʼ,ooshgę́ęzhii","NSub,NSub",cartilaginous fish,NSub,,,,,,,,,,TRUE,fish + cartilaginous one,MATCH
+"łóóʼntsxaaí,łikizhígíí","NSub,NSub",whale shark,NSub,,,,,,,,,,TRUE,really large fish + that is spotted,MATCH
+"łóóʼtsoh,dootłizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,TRUE,whale + the one that is blue,MATCH
+"łóóʼtsoh,dootłʼizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,TRUE,whale + the one that is blue,MATCH
+"mąʼii,łitsooí","NSub,NSub",red fox,NSub,,,,,,,,,,TRUE,coyote + the yellow one,MATCH
+"mąʼiiłtsooí,yázhí","NSub,NSub",fox kit,NSub,,,,,,,,,,TRUE,fox + the little one,MATCH
+"mósí,bichʼiyąʼ","NSub,NSub",cat food,NSub,,,,,,,,,,TRUE,cat + its food,MATCH
+"Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,TRUE,Navajo's area,MATCH
+"Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,TRUE,Navajo's word,MATCH
+"Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
+"naadą́ą́ʼ,bisgąʼ","NSub,NSub",corn chip,NSub,,,,,,,,,,TRUE,corn + ??,MATCH
+"naadą́ą́ʼ,bitsiighaʼ","NSub,NSub",corn silk,NSub,,,,,,,,,,TRUE,corn's mane/hair,MATCH
+"nąąh,haajííł","Adp,VImpf",owe a debt,VImpf,2nd,S,,,,,,,,TRUE,on + stick out,MATCH
+"nąąh,háájil","Adp,VPerf",owed a debt,Perf,2nd,S,,,,,,,,TRUE,on + stick out,MATCH
+"nąąh,hadoojił","Adp,VFut",will owe a debt,Fut,2nd,S,,,,,,,,TRUE,on + stick out,MATCH
+"naaki,jį́,ndaʼanish","NumC,NSub,VImpf",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Two days they work.,MATCH
+"naaki,jį́,nidaʼanish","NumC,NSub,VImpf",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Two days they work.,MATCH
+"naaldlooshii,dadichʼízhii","NSub,NSub",reptile,NSub,,,,,,,,,,TRUE,creeping thing + scaly things,MATCH
+"naaltsoos,ahiʼnííł","NSub,VImpf",election,NSub,,,,,,,,,,TRUE,papers + putting them away,MATCH
+"naalʼeełí,diłhiłígíí","NSub,NSub",ring-necked duck,NSub,,,,,,,,,,TRUE,duck + dark one,MATCH
+"naalʼeełí,naashchʼąąʼígíí","NSub,NSub",wood duck,NSub,,,,,,,,,,TRUE,duck + decorated one,MATCH
+"náátsʼózídę́ę́ʼ,naalʼeełí","NSub,NSub",Mandarin duck,NSub,,,,,,TRUE,,,,TRUE,Asian + duck,MATCH
+"naayízí,łitsxo","NSub,NSub",pumpkin,NSub,,,,,,,,,,TRUE,squash + orange,MATCH
+"naaʼahóóhai,bichʼííʼ","NSub,NSub",spaghetti,NSub,,,,,,,,,,TRUE,chicken's guts,MATCH
+"naaʼahóóhai,bighan","NSub,NSub",chicken coup,NSub,,,,,,,,,,TRUE,chicken's house,MATCH
+"naaʼahóóhai,bikąʼii","NSub,NSub",rooster,NSub,,,,,,,,,,TRUE,chicken's male one,MATCH
+"naaʼahóóhai,biyázhí","NSub,NSub",chick,NSub,,,,,,,,,,TRUE,chicken's little one,MATCH
+"naaʼahóóhai,biyaʼ","NSub,NSub",chicken mite,NSub,,,,,,,,,,TRUE,chicken's ??,MATCH
+"naaʼahóóhai,biyęęzhii","NSub,NSub",chicken egg,NSub,,,,,,,,,,TRUE,chicken's ??,MATCH
+"naaʼahóóhai,biʼáadii","NSub,NSub",hen,NSub,,,,,,,,,,TRUE,chicken's female,MATCH
+"Nahasdzáán,Bikáaʼgi,Kéyah,Naaznilgo,Ałhidadiidzooígíí","NSub,Adv,NSub,Adv,NSub",United Nations,NSub,,,,,,TRUE,,,,TRUE,the earth + upon it + land + since they are located around + federation,MATCH
+"náhásdzo,hayázhí,dikʼą́","NSub,NSub,VImpf",acre,NSub,,,,,,,,,,TRUE,area + the little area? + it is square,MATCH
+"náhásdzo,yázhí","NSub,NSub",acre,NSub,,,,,,,,,,TRUE,area + the small one,MATCH
+"náshdóí,łikizhígíí","NSub,NSub",ocelot,NSub,,,,,,,,,,TRUE,wildcat + that is spotted,MATCH
+"náshdóítsoh,bitsiijįʼ,daditłʼooígíí","NSub,NSub,NSub",lion,NSub,,,,,,,,,,TRUE,,MATCH
+"náshdóítsoh,bitsiijįʼ,diʼilígíí","NSub,NSub,NSub",lion,NSub,,,,,,,,,,TRUE,,MATCH
+"náshdóítsoh,noodǫ́zígíí","NSub,NSub",tiger,NSub,,,,,,,,,,TRUE,,MATCH
+"naʼahóóhai,bitsįʼ","NSub,NSub",chicken meat,NSub,,,,,,,,,,TRUE,chicken's flesh,MATCH
+"naʼashǫ́ʼii,bijáád,ádinígíí","NSub,NSub,NSub",worm lizard,NSub,,,,,,,,,,TRUE,lizard's legs + absentee,MATCH
+"naʼashǫ́ʼii,dichʼízhii","NSub,NSub",horned lizard,NSub,,,,,,,,,,TRUE,lizard + the rough one,MATCH
+"naʼashǫ́ʼii,łahgo,aníʼdoolníiłii","NSub,Adv,NSub",chameleon,NSub,,,,,,,,,,TRUE,lizard + differently + ??,MATCH
+"naʼashǫ́ʼii,łóóʼ","NSub,NSub",eel,NSub,,,,,,,,,,TRUE,snake + fish,MATCH
+"ndaʼiiníísh,yáʼátʼéehii","NSub,NSub",Good Friday,NSub,,,,,,,,,,TRUE,Friday + good one,MATCH
+"ńdíshchííʼ,bigaan","NSub,NSub",pine branch,NSub,,,,,,,,,,TRUE,pine + its arm,MATCH
+"nee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,2nd,S,lack,,,,,TRUE,by means of you + is absent,MATCH
+"neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,MATCH
+"neeznáá,góneʼ","NumO,NumO",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),MATCH
+"neeznáago,bikʼeh,óʼooʼníiłii ","NumC,Adv,NSub",Ten Commandments,NSub,,,,,,,,,,TRUE,ten + according to him + commandment,MATCH
+"neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,MATCH
+"nibéeso,bizis","NSub,NSub",your wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,MATCH
+"nibid,dijoolí","NSub,NSub",your duodenum,NSub,2nd,S,,,,,,,,TRUE,stomach + ball,MATCH
+"nichoʼ,bizis","NSub,NSub",your scrotum,NSub,1st,S,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"nichʼííʼ,bitsʼániʼnísą́","NSub,NSub",your appendix (anatomy),NSub,2nd,S,,,,,,,,TRUE,intestine + ??,MATCH
+"nidaʼiiníísh,yáʼátʼéehii","NSub,NSub",Good Friday,NSub,,,,,,,,,,TRUE,Friday + good one,MATCH
+"nidibé,yázhí","NSub,NSub",your lamb(s),NSub,2nd,S,,,,,,,,TRUE,your sheep + little one,MATCH
+"nigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",your mandolin,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the one that is round,MATCH
+"nigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",your harp,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the one that curls up,MATCH
+"nigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",your banjo,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the one that is round,MATCH
+"nigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",your ukelele,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the little one,MATCH
+"nihąąh,haajííł","Adp,VImpf",owe a debt,VImpf,1st/2nd,D,,,,,,,,TRUE,on + stick out,MATCH
+"nihąąh,háájil","Adp,VPerf",owed a debt,Perf,1st/2nd,D,,,,,,,,TRUE,on + stick out,MATCH
+"nihąąh,hadoojił","Adp,VFut",will owe a debt,Fut,1st/2nd,D,,,,,,,,TRUE,on + stick out,MATCH
+"nihee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st/2nd,DP,lack,,,,,TRUE,by means of us/you + is absent,MATCH
+"niheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
+"nihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,D,,,,,,,,TRUE,money + its sack,MATCH
+"nihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,D,,,,,,,,TRUE,stomach + ball,MATCH
+"nihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,D,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"nihichʼííʼ,bitsʼániʼnísą́","NSub,NSub",our/your appendix (anatomy),NSub,1st/2nd,D,,,,,,,,TRUE,intestine + ??,MATCH
+"nihidibé,yázhí","NSub,NSub",our/your lamb(s),NSub,1st/2nd,D,,,,,,,,TRUE,our/your sheep + little one,MATCH
+"nihigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",our/your mandolin,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
+"nihigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",our/your harp,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that curls up,MATCH
+"nihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,MATCH
+"nihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,MATCH
+"nihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,D,,,,,nihi,,,TRUE,one's/others' mother + little one,MATCH
+"nihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,MATCH
+"nihokááʼ,dineʼé","NSub,NSub",people of the world,NSub,,,,,,,,,,TRUE,Earth surface + people,MATCH
+"níłchʼi,dineʼé","NSub,NSub",spirits,NSub,,,,,,,,,,TRUE,wind + people,MATCH
+"níłchʼi,diyinii","NSub,NSub",Holy Spirit,NSub,,,,,,TRUE,,,,TRUE,wind + holy one,MATCH
+"níłchʼih,naalkidí","NSub,NSub",television,NSub,,,,,,,,,,TRUE,,MATCH
+"níló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,TRUE,hail + the small one,MATCH
+"níłtsą́,biʼáád","NSub,NSub",shower,NSub,,,,,,,,,,TRUE,,MATCH
+"nimá,yazhí","NSub,NSub",your maternal aunt,NSub,2nd,S,,,,,ni,,,TRUE,your mother + little one,MATCH
+"nímasii,bisgąʼ","NSub,NSub",potato chip,NSub,,,,,,,,,,TRUE,potato + ??,MATCH
+"niʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,MATCH
+"ńló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,TRUE,hail + the small one,MATCH
+"óola,niłtólí","NSub,Adv",diamond,NSub,,,,,,,,,,TRUE,gold + of glass,MATCH
+"óola,niłtólí,ílínígíí","NSub,Adv,NSub",diamond,NSub,,,,,,,,,,TRUE,gold + of glass + ??,MATCH
+"ooljééʼ,bee,adinídíín","NAdp,Adp,NSub",moonlight,NSub,,,,,,,,,,TRUE,moon + by way of + light,MATCH
+"shąąh,haajííł","Adp,VImpf",owe a debt,VImpf,1st,S,,,,,,,,TRUE,on + stick out,MATCH
+"shąąh,háájil","Adp,VPerf",owed a debt,VPerf,1st,S,,,,,,,,TRUE,on + stick out,MATCH
+"shąąh,hadoojił","Adp,VFut",will owe a debt,VFut,1st,S,,,,,,,,TRUE,on + stick out,MATCH
+"Shádiʼááhjí,Honeezkʼazii","NSub,NSub",Antarctica,NSub,,,,,,TRUE,,,,TRUE,on the south + area that has become cool,MATCH
+"Shádiʼááhjí,Kéyah,Yistinígíí","Adv,NSub,NSub",Antarctica,NSub,,,,,,TRUE,,,,TRUE,on the south + land + that which is frozen,MATCH
+"shash,łizhin","NSub,NSub",black bear,NSub,,,,,,,,,,TRUE,bear + black,MATCH
+"shash,ndilnaʼii","NSub,NSub",sloth bear,NSub,,,,,,,,,,TRUE,bear + sloth,MATCH
+"shash,nidilnaʼii","NSub,NSub",sloth bear,NSub,,,,,,,,,,TRUE,bear + sloth,MATCH
+"shash,yáázh","NSub,NSub",bear cub,NSub,,,,,,,,,,TRUE,bear + offspring,MATCH
+"shee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st,S,lack,,,,,TRUE,by means of me + is absent,MATCH
+"sheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,MATCH
+"shí,nalí,asdzaan","ProSub,NSub,NSub",my paternal grandmother,NSub,,,,,,,,,,TRUE,I + ?? + older woman,MATCH
+"shibéeso,bizis","NSub,NSub",my wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,MATCH
+"shibid,dijoolí","NSub,NSub",my duodenum,NSub,1st,S,,,,,,,,TRUE,stomach + ball,MATCH
+"shichoʼ,bizis","NSub,NSub",my scrotum,NSub,1st,S,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"shichʼííʼ,bitsʼániʼnísą́","NSub,NSub",my appendix (anatomy),NSub,1st,S,,,,,,,,TRUE,intestine + ??,MATCH
+"shidibé,yázhí","NSub,NSub",my lamb(s),NSub,1st,S,,,,,,,,TRUE,my sheep + little one,MATCH
+"shigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",my mandolin,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the one that is round,MATCH
+"shigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",my harp,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the one that curls up,MATCH
+"shigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",my banjo,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the one that is round,MATCH
+"shigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",my ukelele,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the little one,MATCH
+"shimá,yazhí","NSub,NSub",my maternal aunt,NSub,1st,S,,,,,shi,,,TRUE,my mother + little one,MATCH
+"shitah,hoditłid","Adp,VImpf",am shaking,VImpf,1st,S,,,,,,,,TRUE,,MATCH
+"shiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,MATCH
+"sóóda,asbáala","NSub,NSub",jack of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,báabas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,báasdos","NSub,NSub",jack of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,góobas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"sóóda,óola","NSub,NSub",jack of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
+"sǫʼtah,anah","NSub,NSub",Star Wars,NSub,,,,,,TRUE,,,,TRUE,star + wars,MATCH
+"t’áá,sáhí","Part,Adv",alone,Adv,,,,,,,,,,TRUE,just + ??,MATCH
+"tábąąh,dlǫ́ʼii","NSub,NSub",mink,NSub,,,,,,,,,,TRUE,beach + weasel,MATCH
+"tágí,jį́,ndaʼanish","NumO,NSub,VImpf",Wednesday,NSub,,,,,,TRUE,,,,TRUE,For three days they work.,MATCH
+"tágí,jį́,nidaʼanish","NumO,NSub,VImpf",Wednesday,NSub,,,,,,TRUE,,,,TRUE,For three days they work.,MATCH
+"táłtłʼááh,ayání","Adv,NSub",dugong,NSub,,,,,,,,,,TRUE,at the bottom of the water + bison,MATCH
+"táłtłʼááh,chʼééh,digháhii","Adv,Adv,NSub",sea turtle,NSub,,,,,,,,,,TRUE,at the bottom of the water + in vain + one that starts to go along slowly,MATCH
+"tązhii,bitsįʼ","NSub,NSub",turkey meat,NSub,,,,,,,,,,TRUE,turkey's flesh,MATCH
+"taʼneeskʼání,áłtsʼóózígíí","NSub,NSub",cucumber,NSub,,,,,,,,,,TRUE,melon + the slender one,MATCH
+"taʼneeskʼání,łigai","NSub,NSub",honeydew melon,NSub,,,,,,,,,,TRUE,melon + white,MATCH
+"taʼneeskʼání,łigaígíí","NSub,NSub",honeydew melon,NSub,,,,,,,,,,TRUE,melon + white one,MATCH
+"tł’oh,waa’í","NSub,NSub",alfalfa,NSub,,,,,,,,,,TRUE,grass + ??,MATCH
+"tłʼoh,chin","NSub,NSub",onion,NSub,,,,,,,,,,TRUE,grass + smell,MATCH
+"tłʼoh,naadą́ą́ʼ","NSub,NSub",wheat,NSub,,,,,,,,,,TRUE,grass + corn,MATCH
+"tó,háálínígi","NSub,Adv",water fountain,NSub,,,,,,,,,,TRUE,water + flowing out at,MATCH
+"tó,náádiidááh","NSub,NSub",wave (water),NSub,,,,,,,,,,TRUE,water + ??,MATCH
+"tooh,nílíní","NSub,NSub",river,NSub,,,,,,,,,,TRUE,river + which flows along,MATCH
+"tooh,nílínígíí","NSub,NSub",stream/river,NSub,,,,,,,,,,TRUE,river + that which flows along,MATCH
+"tsáskʼeh,áłtsʼóózígíí","NSub,NSub",bed,NSub,,,,,,,,,,TRUE,bed + that which is slender,MATCH
+"Tsékooh,Hatsoh","NSub,NSub",Grand Canyon,NSub,,,,,,TRUE,,,,TRUE,canyon + the large area,MATCH
+"tsénił,yázhí","NSub,NSub",hatchet,NSub,,,,,,,,,,TRUE,axe + small one,MATCH
+"tsésǫʼ,yitʼoodí","NSub,NSub",windshield wiper,NSub,,,,,,,,,,TRUE,,MATCH
+"tsídii,yáłtiʼí","NSub,NSub",parrot,NSub,,,,,,,,,,TRUE,bird + one that speaks,MATCH
+"tsídii,yáłtiʼí,yázhí","NSub,NSub,NSub",parakeet,NSub,,,,,,,,,,TRUE,bird + one that speaks + little one,MATCH
+"tsídiidaaʼ,bił,naaldlooshii","NAdp,Adp,NSub",duckbill,NSub,,,,,,,,,,TRUE,phlox + with it + animals,MATCH
+"tsiitsʼiin,diniih","NSub,NSub",headache,NSub,,,,,,,,,,TRUE,?? + pain,MATCH
+"tsiitsʼiin,łichíʼítsoh","NSub,NSub",Jerusalem cricket,NSub,,,,,,,,,,TRUE,?? + big red one,MATCH
+"tsin,bigaan","NSub,NSub",tree branch,NSub,,,,,,,,,,TRUE,tree + its arm,MATCH
+"tsin,naabąąs","NSub,VImpf",wagon,NSub,,,,,,,,,,TRUE,wood + it is rolling about,MATCH
+"tsin,naabąąs,yázhí","NSub,VImpf,NSub",toy wagon,NSub,,,,,,,,,,TRUE,wood + it is rolling about + the little one,MATCH
+"tsinsitą́,dikʼą́","NSub,VImpf",square mile,NSub,,,,,,,,,,TRUE,mile + it is squared,MATCH
+"tʼáá,aaníí","Part,NSub",truly,Adv,,,,,,,,,,TRUE,just + that which is true,MATCH
+"tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,TRUE,just + toward that which is true,MATCH
+"tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,TRUE,just + the one does,MATCH
+"tʼáá,ádzíłtso","Part,ProSub",everyone,NSub,,,,,,,,,,TRUE,(just) + all those,MATCH
+"tʼáá,ájíłtso","Part,Adv",all of others,NSub,,,,,,,,,,TRUE,just + the others are complete,MATCH
+"tʼáá,ałtso","Part,Adv",all of them,NSub,,,,,,,,,,TRUE,just + it is complete,MATCH
+"tʼáá,ałtsoní","Part,NSub",everything,NSub,,,,,,,,,,TRUE,just + the complete one,MATCH
+"tʼáá,áníiltso","Part,Adv",all of us,NSub,,,,,,,,,,TRUE,just + we are complete,MATCH
+"tʼáá,ánółtso","Part,Adv",all of you,NSub,,,,,,,,,,TRUE,just + you are complete,MATCH
+"tʼaa,shoodi","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,MATCH
+"tʼáá,shǫǫdí","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,MATCH
+"tʼáadoo,leʼé","Part,NSub",anything,NSub,,,,,,,,,,FALSE,not + ??,MATCH
+"tʼáásh,aaníí","Part,NSub",really,Adv,,,,,,,,,,TRUE,,MATCH
+"tʼóó,ahayóí","Part,Adv",a lot,Adv,,,,,,,,,,TRUE,just + many,MATCH
+"tʼóó,bílaʼ,dijool","Adv,NSub,VImpf",clumsy,Adv,,,,,,,,,,TRUE,"just + his hands + are spherical (Adj ""all-thumbs"")",MATCH
+"Wááshindoon,Bikéyah,Ałhidadiidzooígíí","NSub,NSub,NSub",United States,NSub,,,,,,TRUE,,,,TRUE,Washington's land federation,MATCH
+"Wááshindoon,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,MATCH
+"yaa,nídiikai","Adp,VPerf",started to work on,VPerf,3rd,P,3rd,S,,,,,,TRUE,,MATCH
+"yąąh,haajííł","Adp,VImpf",owes/owe a debt,VImpf,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"yąąh,háájil","Adp,VPerf",owed a debt,VPerf,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"yąąh,hadoojił","Adp,VFut",will owe a debt,VFut,4th,,,,,,,,,TRUE,on + stick out,MATCH
+"yah,aaʼnaʼ","Adp,VPerf",crawled in,VPerf,,,,,,,,,,TRUE,,MATCH
+"yah,eeʼnaʼ","Adp,VPerf",crawled in,VPerf,,,,,,,,,,TRUE,,MATCH
+"yas,niłtʼees","NSub,NSub",January,NSub,,,,,,TRUE,,,,TRUE,frying snow,MATCH
+"yáʼátʼééh,késhmish","Interj,NSub",merry Christmas,Interj,,,,,,,,,,TRUE,happy + Christmas,MATCH
+"yę́ę,ádaadin","Adv,VImpf",have died,VImpf,3rd,P,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ádajídin","Adv,VImpf",have died,VImpf,4th,P,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ádaniidin","Adv,VImpf",have died,VImpf,1st,P,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ádanohdin","Adv,VImpf",have died,VImpf,2nd,P,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,TRUE,by means of one/others + is absent,MATCH
+"yę́ę,ádin","Adv,VImpf",has/have died,VImpf,3rd,SD,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ájídin","Adv,VImpf",has/have died,VImpf,4th,SD,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ánídin","Adv,VImpf",have died,VImpf,2nd,S,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ániidin","Adv,VImpf",have died,VImpf,1st,D,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,áníshdin","Adv,VImpf",have died,VImpf,1st,S,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yę́ę,ánóhdin","Adv,VImpf",have died,VImpf,2nd,D,,,die,,,,,TRUE,aforementioned + is absent,MATCH
+"yee,dahiná","Adp,VImpf",live by means of,VImpf,3rd,P,,,live,,,,,TRUE,by means of + live,MATCH
+"yeʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
+"yibéeso,bizis","NSub,NSub",one's/others' wallet,NSub,4th,,,,,,,,,TRUE,money + its sack,MATCH
+"yibid,dijoolí","NSub,NSub",one's/others' duodenum(s),NSub,4th,,,,,,,,,TRUE,stomach + ball,MATCH
+"yichoʼ,bizis","NSub,NSub",one's/others' scrotum,NSub,4th,,,,,,,,,TRUE,male genitalia + its sack,MATCH
+"yichʼííʼ,bitsʼániʼnísą́","NSub,NSub",one's/others' appendix (anatomy),NSub,4th,,,,,,,,,TRUE,intestine + ??,MATCH
+"yidibé,yázhí","NSub,NSub",one's/others' lamb(s),NSub,4th,,,,,,,,,TRUE,one's/others' sheep + little one,MATCH
+"yigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",one's/others' mandolin,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + one that is round,MATCH
+"yigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",one's/others' harp,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + one that curls up,MATCH
+"yigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",one's/others' banjo,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + one that is round,MATCH
+"yigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",one's/others' ukelele,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + little one,MATCH
+"yimá,yazhí","NSub,NSub",one's/others' maternal aunt(s),NSub,4th,,,,,,yi,,,TRUE,one's/others' mother + little one,MATCH
+"yiską́,damį́įgo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,MATCH
+"yiską́,damóo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,MATCH
+"yitʼíní,ályaa","NSub,NSub",apocalypse,NSub,,,,,,TRUE,,,,TRUE,?? + is made (passive),MATCH
+"yiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
+"zhéí,asbáala","NSub,NSub",king of spades,NSub,,,,,,,,,,TRUE,,MATCH
+"zhéí,báabas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"zhéí,báasdos","NSub,NSub",king of clubs,NSub,,,,,,,,,,TRUE,,MATCH
+"zhéí,góobas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
+"zhéí,óola","NSub,NSub",king of diamonds,NSub,,,,,,,,,,TRUE,,MATCH
