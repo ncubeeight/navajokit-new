@@ -1,0 +1,294 @@
+TOKENS,LABELS,English,Counts
+"áádóó,awééʼ,biyeeshdloh,.","Conj,NSub,VPerf,Punct",And then the baby laughed.,MATCH
+"áádóó,deesháál,.","Conj,VFut,Punct",And then I will come.,MATCH
+"áádóó,dínéeshdaał,.","Conj,VFut,Punct",And then I will sit.,MATCH
+"ąąʼ,háádę́ę́ʼ,?","Interj,Adv,Punct",From where do you come?,MATCH
+"Achʼííʼ,bitsʼániʼnísą́,ńtʼiʼ,łóód,silį́į́ʼ,.","NSub,NSub,VImpf,NObj,VImpf,Punct",The appendix is infected.,MATCH
+"Ahbínígo,tłʼóóʼgóó,chʼínáshdááh,.","Adv,Adv,VFut,Punct",In the morning I will go out quietly.,MATCH
+"ahéheeʼ,shidineʼé","Interj,NSub",Thank you my people,MATCH
+"Ákweʼé,abeʼ,yistiní,nidahaniih,.","Adv,NObj,NObj,VImpf,Punct",This is where ice cream is sold.,MATCH
+"Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,MATCH
+"Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,MATCH
+"Ałʼąą,átʼé,.","Adv,VImpf,Punct",They are different.,MATCH
+"ashdladi,mííl","NumC,NumC",five thousant,MATCH
+"ashdladi,mííltsoh,béeso","NumC,NumC,NSub","5,000,000 dollars",MATCH
+"ashdladi,neeznádiin","NumC,NumC",five hundred,MATCH
+"ashdlaʼ,béeso","NumC,NSub",5 dollars,MATCH
+"ashdlaʼáadah,atsátsoh","NumC,NSub",15 golden eagles,MATCH
+"ashdlaʼdiin,béeso","NumC,NSub",50 dollars,MATCH
+"Ashiiké,ółtaʼígíí,kǫ́ǫ́,naaʼaash,.","NSub,NSub,Adv,VImpf,Punct",The boy students are around here.,MATCH
+"Ashkii,atʼééd,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The boy is looking at the girl.,MATCH
+"Ashkii,bááh,yį́yą́,.","NSub,NObj,VImpf,Punct",The boy is eating bread.,MATCH
+"Ashkii,éí,łeetsʼaaʼ,tánéígis,.","NSub,ProDem,NObj,VImpf,Punct",The boy is washing dishes..,MATCH
+"Ashkii,łóóʼ,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The boy is looking at the fish.,MATCH
+"Ashkii,yázhí,bááh,yį́yą́,.","NSub,NSub,NObj,VImpf,Punct",The little boy is eating bread.,MATCH
+"Atsá,tłʼízí,yį́yą́,.","NSub,NObj,VImpf,Punct",The eagle eats a goat.,MATCH
+"Atsiniltłʼish,dínóotsis,.","NSub,VFut,Punct",The electricity will go out.,MATCH
+"Atsiniltłʼish,neeztsiz,.","NSub,VPerf,Punct",The electricity went out.,MATCH
+"Atsiniltłʼish,nitséés,.","NSub,VImpf,Punct",The electricity is going out.,MATCH
+"Atsooʼ,łichííʼ,.","NSub,VImpf,Punct",The tongue is red.,MATCH
+"Atsʼáhoníyééʼ,nił,hólǫ́ǫ,doo,.","NSub,Adp,VOpt,Part,Punct",May the Force be with you.,MATCH
+"Atʼééd,náʼoolkiłí,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The girl is looking at the clock.,MATCH
+"Atʼééd,tsídii,bishtąsh,.","NSub,NObj,VPerf,Punct",The girl was pecked by the bird.,MATCH
+"Atʼééd,yázhí,ałhosh,.","NSub,NSub,VImpf,Punct",The little girl sleeps.,MATCH
+"Atʼéés,bimósí,yázhí,ání,.","NSub,NSub,NSub,VImpf,Punct",The girl's little kitten speaks (meows).,MATCH
+"awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,MATCH
+"Ayóogo,Diné,bizaad,bóhooshʼaah,.","Adv,NObj,NObj,VImpf,Punct",I am really studying Navajo.,MATCH
+"Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),MATCH
+"Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),MATCH
+"Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",MATCH
+"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́,ńtʼééʼ,.","NAdp,Adp,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",MATCH
+"baa,hózhǫ́ǫgo,nee,nínáádoohah","Adp,Adv,Adp,VImpf",Happy New Year,MATCH
+"Baa,iijííł,.","Adp,VImpf,Punct",It pierces into it.,MATCH
+"Bááh,ádeiilnééh,.","NObj,VImpf,Punct",We are making bread.,MATCH
+"Bááh,dláád,silį́į́ʼ,.","NSub,NObj,VImpf,Punct",The bread got moldy.,MATCH
+"Bee,íhooshʼaah,.","Adp,VImpf,Punct",I am learning about it.,MATCH
+"Bee,nił,hodeeshnih,.","Adp,Adp,VFut,Punct",I will tell you about it.,MATCH
+"Bee,shąąh,haajííł,.","Adp,Adp,VImpf,Punct",I get it on credit.,MATCH
+"Béégashii,aniiʼ,bee,hólǫ́,.","NSub,NAdp,Adp,VImpf,Punct",The cow has a face.,MATCH
+"Béégashii,atsooʼ,bee,hólǫ́,.","NSub,NAdp,Adp,VImpf,Punct",The cow has a tongue.,MATCH
+"Béégashii,bitsįʼ,dóó,naadą́ą́,yishą́,.","NObj,NObj,Conj,NObj,VImpf,Punct",I am eating beef and corn.,MATCH
+"Béégashii,bitsįʼ,yishą́,.","NObj,NObj,VImpf,Punct",I am eating beef.,MATCH
+"Béégashii,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the cowʼs name?,MATCH
+"Béégashii,shijééʼ,.","NSub,VImpf,Punct",The cows (3+) lie.,MATCH
+"Béégashii,shitéézh,.","NSub,VImpf,Punct",The cows (2) lie.,MATCH
+"Béégashii,sitį́,.","NSub,VImpf,Punct",The cow lies.,MATCH
+"Bichʼįʼ,nééhonisįįh,.","Adp,VImpf,Punct",I introduce you to him.,MATCH
+"Bighan,bą́ą́h,déyá,.","NAdp,Adp,VPerf,Punct",I went by his home.,MATCH
+"Bįįh,yildeeʼį́,łichííʼ,.","NSub,NSub,VImpf,Punct",The cherry is red.,MATCH
+"Bíká,ádíshní,.","Adv,VImpf,Punct",I'm calling him.,MATCH
+"Bił,chʼíníshʼáázh,.","Adp,VPerf,Punct",I left with him/her.,MATCH
+"Bisóodi,bitsįʼ,bił,yáʼátʼééh,.","NAdp,NAdp,Adp,VImpf,Punct",He likes pork.,MATCH
+"Bisóodi,bitsįʼ,yį́yą́,.","NObj,NObj,VImpf,Punct",He is eating pork.,MATCH
+"Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,MATCH
+"Chʼaa,naashá,ńtʼééʼ,.","NObj,VImpf,Part,Punct",I was on a vacation.,MATCH
+"Dah,woozh,daosą́ʼ,.","NObj,NObj,VImpf,Punct",You are eating a strawberry.,MATCH
+"Dah,woozh,yishą́,.","NObj,NObj,VImpf,Punct",I am eating a strawberry.,MATCH
+"Daniel,ání,.","NSub,VImpf,Punct",Daniel says.,MATCH
+"Daʼ,atsilí,bee,hólǫ́,?","Adv,NAdp,Adp,VImpf,Punct",Does he have a younger brother?,MATCH
+"Daʼ,Diné,bizaadísh,beeyádaałtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do you speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyádaałtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do they speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyádajiłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do the others speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyádeiiltiʼ,?","Part,NObj,NObj,VImpf,Punct",Do we speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyájíłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Does one speak Navajo? / Do the others speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyáłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do you speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyáłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Does he/she speak Navajo? / Do they speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyáníłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do you speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyáshtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do I speak Navajo?,MATCH
+"Daʼ,Diné,bizaadísh,beeyéiiltiʼ,?","Part,NObj,NObj,VImpf,Punct",Do we speak Navajo?,MATCH
+"Daʼ,Naatʼáaniinééz,góó,diníyá,?","Adv,NAdp,Adp,VFut,Punct",Are you going to Shiprock?,MATCH
+"Daʼ,tʼááłáhádí,neeznádiin,béeso,bee,hólǫ́,?","Adv,NumC,NumC,NAdp,Adp,VImpf,Punct",Does he have one hundred dollars?,MATCH
+"Dibááʼ,nishłį́,.","NSub,VImpf,Punct",I am thirst. (I am very thirsty.),MATCH
+"Dibááʼ,nisin,.","NSub,VImpf,Punct",I want thirst. (I am thirsty.),MATCH
+"Dibé,daditléé,dóó,dabiʼniidlí,.","NSub,VImpf,Conj,VImpf,Punct",The sheep are wet and cold.,MATCH
+"Dibé,łigai,.","NSub,VImpf,Punct",The sheep is white.,MATCH
+"Dibé,nihee,ádin,.","NObj,Adp,VImpf,Punct",We have no sheep.,MATCH
+"Dibé,yázhí,łigai,.","NSub,NSub,VImpf,Punct",The lamb is white.,MATCH
+"Dichin,nishłį́,.","NSub,VImpf,Punct",I am hunger. (I am very hungry.),MATCH
+"Dichin,nisin,.","NSub,VImpf,Punct",I want hunger. (I am hungry.),MATCH
+"Díí,ashkii,yázhí,bizhéʼé,yideeskááʼ,.","ProSub,NSub,NSub,NSub,VPerf,Punct",This little boy took after his father,MATCH
+"Díí,hastiin,azeeʼ,naagháagi,haniih,.","ProDem,NSub,NObj,Adv,VImpf,Punct",This man knows all about medicine.,MATCH
+"Díí,nidaashchʼąąʼígíí,éí,łitsxo,.","ProDem,NSub,ProDem,VImpf,Punct",The color is orange.,MATCH
+"Dííjį́,éí,iʼiiʼnííł,.,Adaʼdiiyohnił,!","NSub,ProDem,NObj,Punct,VImp,Punct",Today is the election. Go cast your ballets!,MATCH
+"Dííjį́ʼ,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",Today is sunny.,MATCH
+"Dííjį́ʼ,éí,nahałtin,.","NSub,ProDem,VImpf,Punct",Today is raining.,MATCH
+"dį́į́ʼ,tsʼáadah","NumC,NumC",fourteen,MATCH
+"dį́į́ʼ,yáál","NumC,NSub",4 bits (50 cents),MATCH
+"dį́įʼdi,mííl","NumC,NumC",four thousand,MATCH
+"dį́įʼdi,mííltsoh","NumC,NumC",four million,MATCH
+"dį́įʼdi,neeznádiin","NumC,NumC",four hundred,MATCH
+"díkwíí,łą́","Adv,Adv",How many (?),MATCH
+"Dił,shąąh,háálį́,.","NSub,Adp,VPerf,Punct",I'm bleeding.,MATCH
+"Diné,bizaad,bíhooshʼaah,.","NObj,NObj,VImpf,Punct",I speak the Navajo language.,MATCH
+"Diné,yázhí,yááłtiʼ,.","NSub,NSub,VPerf,Punct",The midget talked.,MATCH
+"Dinétsoh,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the big manʼs name?,MATCH
+"dízdiin,jı̨́,dóó,dízdiin,tłééʼ","NumC,NSub,Conj,NumC,NSub",40 days and 40 nights,MATCH
+"Dlǫ́ǫ́ʼ,náhástʼéí,chʼi,łichxíʼí,yį́yą́,.","NSub,NumC,NObj,NObj,VImpf,Punct",The prairie dog is eating nine tomatoes.,MATCH
+"Doo,ákótʼée,da,.","Part,VImpf,Part,Punct",It is wrong.,MATCH
+"Doo,bikʼiʼdiishtįįh,da,.","Part,VImpf,Part,Punct",I don't understand.,MATCH
+"Dóó,hataał,.","Conj,VImpf,Punct",And he/she sings.,MATCH
+"Dóó,honóołnééł,.","Conj,VPerf,Punct",And he was winning.,MATCH
+"Dooda,dishní,!","Interj,VImpf,Punct","No, I say!",MATCH
+"Dóola,naadą́ą́,dóó,nímasii,bił,yáʼátʼééh,.","NSub,NAdp,Conj,NAdp,Adp,VImpf,Punct",The bull likes corn and potatoes.,MATCH
+"Dootłʼizhii,dootłʼizh,.","NSub,VImpf,Punct",The turquoise gem is turquoise colored.,MATCH
+"Dził,bichahaʼoh,kéyah,bikʼestʼiʼ,.","NSub,NSub,NObj,VImpf,Punct",The mountainʼs shadow covers the land.,MATCH
+"Éí,aaníígóó,áhoot'é,.","ProSub,Adv,VImpf,Punct",The truth is out there. (Lit. That toward truth is happening.),MATCH
+"Éí,adinídíín,.","ProSub,VImpf,Punct",It is sunny.,MATCH
+"Éí,nahałtin,.","ProSub,VImpf,Punct",It is raining.,MATCH
+"Éí,yáʼátʼééh,.","ProSub,VImpf,Punct",It is good.,MATCH
+"eʼeʼaah,dóó,haʼaʼaah","NSub,Conj,NSub",west and east,MATCH
+"Eʼeʼaah,łitso,.","NSub,VImpf,Punct",The west is yellow.,MATCH
+"Eʼeʼaah,łitsxo,.","NSub,VImpf,Punct",The west is orange.,MATCH
+"Gah,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the rabbitʼs name?,MATCH
+"géeso,dóó,wáán","NSub,Conj,NSub",cheese and wine,MATCH
+"God,yíísíníłtsʼą́ą́ʼ,.","NObj,VImp,Punct",Listen to God.,MATCH
+"Gohwééh,nábish,.","NSub,VImpf,Punct",Coffee continues boiling.,MATCH
+"Gohwééh,náshdlį́į́h,.","NObj,VImpf,Punct",I am drinking coffee.,MATCH
+"Gohwééh,shibéézh,.","NSub,VPerf,Punct",The coffee has boiled.,MATCH
+"Gohwééh,yishbéézh,!","NSub,VPerf,Punct",The coffee boiled!,MATCH
+"Gólízhii,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the skunkʼs name?,MATCH
+"Háádę́ę́ʼ,haʼóní,hólǫ́,?","ProInt,NSub,VImpf,Punct",Where is the meat?,MATCH
+"Háádę́ę́ʼísh,íiyisíí,naniná,?","Adv,Adv,VImpf,Punct",Where are you from?,MATCH
+"Háadish,béeso,bá,hooghan,?","Adv,NAdp,Adp,NSub,Punct",Where is the bank?,MATCH
+"Háadish,béeso,báhooghan,?","Adv,NSub,NSub,Punct",Where is the bank?,MATCH
+"Háadish,chąąʼ,bá,hooghan,?","Adv,NAdp,Adp,NSub,Punct",Where is the bathroom?,MATCH
+"Háadish,chąąʼ,báhooghan,?","Adv,NSub,NSub,Punct",Where is the bathroom?,MATCH
+"Háadish,niʼnisbąąs,?","Adv,VOpt,Punct",Where can I park it (the car)?,MATCH
+"Háadish,tígiʼ,ndahaniih,?","Adv,NObj,VOpt,Punct",Where can I buy a ticket?,MATCH
+"Háágóó,ayííʼą́,?","Adv,VPerf,Punct",To where did they take her?,MATCH
+"Háágóó,díníyá,?","Adv,VPerf,Punct",To where are you going?,MATCH
+"Haash,yinílyé,?","Adv,VImpf,Punct",What is your name?,MATCH
+"Hai,ííłniih,.","NSub,VPerf,Punct",It becomes mid-winter.,MATCH
+"Hashtłʼish,gohwééh,náshdlį́į́h,.","NObj,NObj,VImpf,Punct",I am drinking hot chocolate.,MATCH
+"Hashtłʼish,gohwééh,shéłbeezh,.","NObj,NObj,VPerf,Punct",I boiled hot chocolate.,MATCH
+"hastą́ą́,yáál","NumC,NSub",6 bits (75 cents),MATCH
+"hastą́ądi,mííl","NumC,NumC",six thousand,MATCH
+"hastą́ądi,mííltsoh","NumC,NumC",six million,MATCH
+"hastą́ądi,neeznádiin,dóó,biʼaan,hastą́ą́,chʼééhjiyáán","NumC,NumC,Conj,Conj,NumC,NSub",six hundred six watermelons,MATCH
+"hastą́diin,hashkʼaan","NumC,NSub",sixty bananas,MATCH
+"hastiin,biłį́įʼ","NSub,NSub",the manʼs horse,MATCH
+"Hastiin,Gorman,yę́ę,ádin,.","NSub,NSub,Adp,VImpf,Punct",Mr. Gorman has died.,MATCH
+"Hastiin,Hall,Ohio,hoolyéédę́ę́ʼ,naaghá,.","NSub,NSub,NObj,Adv,VImpf,Punct",Mr. Hall comes from a place called Ohio.,MATCH
+"Hazhóóʼógo,yááłtiʼ,.","Adv,VPerf,Punct","Slowly, I spoke.",MATCH
+"Hazhóʼó,baa,hweeshneʼ,.","Adv,Adp,VPerf,Punct",I carefully explained it.,MATCH
+"Haʼátʼíí,yíníʼı̨́,dinitsʼaʼ,dóó,niłchin,?","ProInt,VImpf,VImpf,Conj,VImpf,Punct","What do you see, hear, and smell?",MATCH
+"Haʼaʼaah,łitso,.","NSub,VImpf,Punct",The east is yellow.,MATCH
+"Haʼaʼaah,łitsxo,.","NSub,VImpf,Punct",The east is orange.,MATCH
+"Haʼaʼaahjígo,dighádídeeshwoł,.","Adv,VFut,Punct",I will walk eastward.,MATCH
+"haʼaʼaahjígo,dóó,eʼeʼaahjigo","Adv,Conj,Adv",eastward and westward,MATCH
+"Hosh,ayóo,adijił,.","NSub,Adv,VImpf,Punct",The cactus is full of thorns.,MATCH
+"Hosh,shaa,ííjil,.","NSub,Adp,VPerf,Punct",The thorn pierced me.,MATCH
+"Hózhǫ́,náhásdlį́į́ʼ,.","NSub,VImpf,Punct",Beauty has come again.,MATCH
+"Iʼiiʼnííł,!,Ílį́įgo,átʼé,!","VImp,Punct,Adv,VImpf,Punct",Vote! It is important!,MATCH
+"Jáan,bimá","NSub,NSub",Johnʼs mother,MATCH
+"John,bichʼiyąʼ,éí,nahachagiitsoh,dóó,tsésʼná,bitłʼizh,.","NSub,NSub,ProDem,NObj,Conj,NObj,VPerf,Punct",John's food consisted of locusts and wild honey.,MATCH
+"jooł,iihnálniihhígíí,dóó,jooł,yikalí","NSub,NSub,Conj,NSub,NSub",basketball and baseball,MATCH
+"jooł,nímazgo,yitalí,dóó,jooł,yitalí","NSub,NSub,NSub,Conj,NSub,NSub",soccer ball and football,MATCH
+"Kii,bimá,dóó,bizhéʼé,bighan,hólǫ́,.","NSub,NSub,Conj,NSub,NObj,VImpf,Punct",Kii's mother and father have a home.,MATCH
+"Kii,bimá,dóó,bizhéʼé,hólǫ́,.","NSub,NObj,Conj,NObj,VImpf,Punct",Kii has a mother and father.,MATCH
+"Kweʼé,akónǫ́ǫ,bikááʼ,?","Adv,NObj,VImpf,Punct",It says it right here.,MATCH
+"Kweʼé,sédá,?","Adv,VImpf,Punct",I am seated right here.,MATCH
+"łaʼtsʼáadah,hooghan","NumC,NSub",eleven homes,MATCH
+"łééchąątsaʼii,bił,biłééchąą,yázhí","NAdp,Adp,NSub,NSub",bitch (female dog) with her puppy,MATCH
+"łééchąąʼí,dóó,mósí","NSub,Conj,NSub",dog and cat,MATCH
+"Łóóʼ,bitsįʼ,yishą́,.","NObj,NObj,VImpf,Punct",I am eating fish.,MATCH
+"Łóóʼ,bitsįʼ,yíyą́ą́,.","NObj,NObj,VPerf,Punct",I ate fish.,MATCH
+"Łóóʼ,dootłʼizh,.","NSub,VImpf,Punct",The fish is/are blue.,MATCH
+"Łóóʼtsoh,Jónah,yiyííyą́ą́,.","NSub,NObj,VPerf,Punct",The big fish ate Jonah.,MATCH
+"Magí,álátsíín,hólǫ́,.","NSub,NObj,VImpf,Punct",The monkey has a wrist.,MATCH
+"Magí,anííʼ,hólǫ́,.","NSub,NObj,VImpf,Punct",The monkey has a cheek.,MATCH
+"Mary,dóó,Kii,bimá,sání,yighandi,naaʼaash,.","NSub,Conj,NSub,NObj,NObj,NObj,VImpf,Punct",Mary and Kee are at their grandmother’s house.,MATCH
+"Mary,dóó,Kii,bimásání,yighandi,naaʼaash,.","NSub,Conj,NSub,NObj,NObj,VImpf,Punct",Mary and Kee are at their grandmother’s house.,MATCH
+"Mósí,naaki,shee,hólǫ́,.","NObj,NumC,Adp,VImpf,Punct",I have two cats.,MATCH
+"naadįįłaʼ,shinááhai","NumC,NSub",I'm 21 years old. (21 my years),MATCH
+"naadiin,naadą́ą́","NumC,NSub",twenty corn,MATCH
+"naaki,agaan","NumC,NSub",two arms,MATCH
+"Naaki,mósí,dóó,tááʼ,łééchąąʼí,naʼahóóhai,bitsįʼ,daayą́,.","NumC,NSub,Conj,NumC,NSub,NObj,NObj,VImpf,Punct",Two cats and three dogs eat chicken meat.,MATCH
+"Naaki,naʼahóóhai,bitsįʼ,yishą́,.","NumC,NObj,NObj,VImpf,Punct",I am eating two chickens.,MATCH
+"naaki,tsʼáadah,béeso","NumC,NumC,NSub",twelve dollars,MATCH
+"naakidi,mííl,maʼiidą́ą́ʼ","NumC,NumC,NSub",two thousand nightshades,MATCH
+"naakidi,mííltsoh,mąʼii,dóó,naakidi,mííltsoh,mąʼiitsoh","NumC,NumC,NSub,Conj,NumC,NumC,NSub",two million coyotes and two million wolves,MATCH
+"Naakitsʼáadah,béeso,bą́ą́h,ílį́,.","NumC,NAdp,Adp,VImpf,Punct",It costs twelve dollars.,MATCH
+"Naaltsoos,díkwíí,bą́ą́h,ílį́,?","NAdp,Adv,Adp,VImpf,Punct",How much is the book?,MATCH
+"Naaltsoos,yídéeshtah,.","NObj,VFut,Punct",I will read the book.,MATCH
+"Naaltsoos,yiłtaʼ,.","NObj,VImpf,Punct",He is reading the book.,MATCH
+"Naaltsoos,yíníshtaʼ,.","NObj,VImpf,Punct",I am reading the book.,MATCH
+"náhástʼédiin,naaltsoos,bá,hooghan","NumC,NSub,Adp,NAdp",ninety books for the house,MATCH
+"náhástʼéidi,neeznádiin,nímasii","NumC,NumC,NSub",nine hundred potatoes,MATCH
+"Náhookǫs,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",The north is sunny.,MATCH
+"Náhookǫs,éí,nahałtin,.","NSub,ProDem,VImpf,Punct",The north is raining.,MATCH
+"názbas,béeso,dóó,naaki,yáál","NumC,NSub,Conj,NumC,NSub",0 dollars and 2 bits (25 cents),MATCH
+"Naʼahóóhai,bitsįʼ,dóó,naadą́ą́,dóó,neeznáá,dah,woozh,yishą́,.","NObj,NObj,Conj,NObj,Conj,NumC,NObj,NObj,VImpf,Punct",I am eating chicken meat and corn and ten strawberries.,MATCH
+"Naʼahóóhai,naadą́ą́,yį́yą́,.","NSub,NObj,VImpf,Punct",The chicken is eating corn.,MATCH
+"Naʼahóóhai,naaki,naʼahóóhai,bitsįʼ,yį́yą́,.","NSub,NumC,NObj,NObj,VImpf,Punct",The chicken is eating two chicken meats.,MATCH
+"Naʼahóóhai,naʼahóóhai,bitsįʼ,yį́yą́,.","NSub,NObj,NObj,VImpf,Punct",The chicken is eating chicken meat.,MATCH
+"neeznáá,dah,woozh","NumC,NSub,NSub",ten strawberries,MATCH
+"Néʼéshjaaʼ,mósí,yidiłní,.","NSub,NObj,VImpf,Punct",The owl is mimicking the sound of a cat.,MATCH
+"Ni,dooda,"","",John,ábidishní,.","ProObj,Adv,Punct,NObj,VImpf,Punct","Not you, I mean John.",MATCH
+"Ni,shidiltłish,honílǫ́,...,dóó,sheʼałtį́į́ʼ,...,dóó,sitsénił,.","ProSub,NObj,VImpf,Punct,Conj,NObj,Punct,Conj,NObj,Punct","You have my sword, ... and my bow, ... and my axe.",MATCH
+"Nichʼįʼ,bééhonisįįh,.","Adp,VImpf,Punct",I introduce him to you.,MATCH
+"Nihí,łaʼ,chʼínooyá,.","NSub,NObj,VPerf,Punct",One of you exited.,MATCH
+"Nihił,chʼíníshkai,.","Adp,VPerf,Punct",I left with you (pl.).,MATCH
+"Níłchʼi,dineʼé,hólǫ́,.","NSub,NSub,VImpf,Punct",Spirits exist.,MATCH
+"Nímasii,bił,yáʼátʼééh,.","NAdp,Adp,VImpf,Punct",She likes potatoes.,MATCH
+"Nínádiishʼnahgo,abeʼ,náshdlį́į́h,.","Adv,NObj,VIter,Punct","When getting up, I drink milk.",MATCH
+"Nínádiishʼnahgo,gohwééh,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink coffee.",MATCH
+"Nínádiishʼnahgo,hashtłʼish,gohwééh,náshdlį́į́h,.","Adv,NObj,NObj,VIter,Punct","When getting up, I drink hot chocolate.",MATCH
+"Nínádiishʼnahgo,tó,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink water.",MATCH
+"óola,"","",béésh,łigaii,"","",tłʼoh,naadą́ą́ʼ,"","",wáin,"","",akʼah,"","",dóó,áshįįh","NSub,Punct,NSub,NSub,Punct,NSub,NSub,Punct,NSub,Punct,NSub,Punct,Conj,NSub","gold, silver, wheat, wine, oil, and salt",MATCH
+"Shá,hoołʼaah,!","Adp,VImpf,Punct",Make room for me!,MATCH
+"Shá,nílʼį́,.","Adp,VImpf,Punct",I display it. (It  is looked at for me.),MATCH
+"Shąąh,haajííł,.","Adp,VImpf,Punct",I owe a debt.,MATCH
+"Shádiʼááhʼ,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",The south is sunny.,MATCH
+"Shádiʼááhʼ,éí,nahałtin,.","NSub,ProDem,VImpf,Punct",The south is raining.,MATCH
+"Shash,łizhin,łóóʼ,bitsįʼ,yį́yą́,.","NSub,NSub,NObj,NObj,VImpf,Punct",The black bear is eating fish.,MATCH
+"Shash,łóóʼ,bitsįʼ,yį́yą́,.","NSub,NObj,NObj,VImpf,Punct",The bear is eating fish.,MATCH
+"Shee,ádin,.","Adp,VImpf,Punct",I have none.,MATCH
+"Shee,yił,halneʼ,.","Adp,Adp,VImpf,Punct",He tells him about me.,MATCH
+"Sheʼééʼ,ląʼí","NSub,Adv",I have many clothes.,MATCH
+"Shí,ákwíinisin,.","NSub,VImpf,Punct",That is what I think.,MATCH
+"Shí,ákwíinisin,.","ProSub,VImpf,Punct",That is what I think.,MATCH
+"Shí,aniitsį́ʼ,hólǫ́,.","NSub,NObj,VImpf,Punct",I have a cheek.,MATCH
+"Shí,atsooʼ,hólǫ́,.","NSub,NObj,VImpf,Punct",I have a tongue.,MATCH
+"Shí,awééʼ,bidiyésaʼ,.","ProSub,NObj,VPerf,Punct",I burped the baby.,MATCH
+"Shí,awééʼ,biyeeshdloh,.","ProSub,NObj,VPerf,Punct",I made the baby laugh.,MATCH
+"Shí,déshnish,.","NSub,VPerf,Punct",I started working.,MATCH
+"Shí,éí,shicheii,hólǫ́,.","ProSub,Part,NObj,VImpf,Punct",I have a maternal grandfather.,MATCH
+"Shí,éí,shimasaní,hólǫ́,.","ProSub,Part,NObj,VImpf,Punct",I have a maternal grandmother.,MATCH
+"Shį́,ííłniih,.","NSub,VPerf,Punct",It becomes mid-summer.,MATCH
+"Shí,nichidí,adisbąąs,.","ProSub,NObj,VImpf,Punct",I am starting to drive your car.,MATCH
+"Shí,télii,bee,hólǫ́,.","ProSub,NAdp,Adp,VImpf,Punct",I have a donkey.,MATCH
+"shibéésh,dóó,shighéél","NSub,Conj,NSub",my knife and my pack,MATCH
+"Shicheii,dziłkʼijí,haniih,.","NSub,NObj,VImpf,Punct",My grandfather knows the Mountain Chant.,MATCH
+"shichʼéʼé,éí,łaʼtsʼáadah,binááhai","NSub,ProDem,NumC,NObj",My daughter is 11 years old. (my daughter that 11 her years),MATCH
+"Shimá,"","",naatʼáaniinééz,góó,déyá,.","NSub,Punct,NAdp,Adp,VPerf,Punct","My mother, I am going to Shiprock.",MATCH
+"Shimá,bidibé,dóó,bitłʼízí,dóó,bighan,bee,hólǫ́,.","NSub,NAdp,Conj,NAdp,Conj,NAdp,Adp,VImpf,Punct",My mother has her sheep and her goat and her house.,MATCH
+"Shimá,naadą́ą́,dóó,nímasii,yį́yą́,.","NSub,NObj,Conj,NObj,VImpf,Punct",My mother is eating corn and a potato.,MATCH
+"Shimá,yázhí,bidibé,ádaaní,.","NSub,NSub,NSub,VImpf,Punct",My aunt's sheep speak (bleat).,MATCH
+"Shimasaní,tsostsʼid,shash,łizhin,bee,hólǫ́,.","NSub,NumC,NAdp,NAdp,Adp,VImpf,Punct",My maternal grandmother has seven black bears.,MATCH
+"Shimasaní,tʼááłáʼí,béeso,bee,hólǫ́,.","NSub,NumC,NAdp,Adp,VImpf,Punct",My maternal grandmother has one dollar.,MATCH
+"shinádiz,dóó,ninádiz,dóó,binádiz","NSub,Conj,NSub,Conj,NSub",my eyelash and your eyelash and their eyelash,MATCH
+"Shíyeʼ,naaki,béeso,dóó,dį́į́ʼ,yáál,bee,hólǫ́,.","NSub,NumC,NAdp,Conj,NumC,NAdp,Adp,VImpf,Punct",My son has two dollars and fifty cents.,MATCH
+"Shíyeʼ,naʼahóóhai,bitsįʼ,dóó,nímasii,yį́yą́,.","NSub,NObj,NObj,Conj,NObj,VImpf,Punct",My son is eating chicken and potatoes.,MATCH
+"Shíyeʼ,waaʼ,yį́yą́,.","NSub,NObj,VImpf,Punct",My son is eating spinach.,MATCH
+"Shizheʼé,łééchąąʼí,bił,yáʼátʼééh,.","NSub,NAdp,Adp,VImpf,Punct",My father likes dogs.,MATCH
+"Sin,bee,hataał,.","NAdp,Adp,VImpf,Punct",He is singing a song.,MATCH
+"táá,tsʼáadah,tłʼoh,chin","NumC,NumC,NSub,NSub",thirteen onions,MATCH
+"táadi,mííl,tłʼízí","NumC,NumC,NSub",three thousand goats,MATCH
+"táadi,mííltsoh,sǫʼ","NumC,NumC,NSub",three million stars,MATCH
+"táadi,neeznádiin,dóó,biʼaan,naaki,tłʼoh,naadą́ą́ʼ","NumC,NumC,Conj,Conj,NumC,NSub,NSub",three hundred two wheat,MATCH
+"tádiin,béésh,łigaii","NumC,NSub,NSub",30 pieces of silver,MATCH
+"tádiin,télii","NumC,NSub",thirty donkeys,MATCH
+"Tłʼééʼ,ííłnííʼ,.","NSub,VPerf,Punct",It became midnight.,MATCH
+"Tó,dóó,chʼiyáán,tʼáágééd,.","NObj,Conj,NObj,VPerf,Punct",He had no food and water.,MATCH
+"Tó,hólǫ́,.","NSub,VImpf,Punct",There is water.,MATCH
+"Tó,nábish,.","NSub,VImpf,Punct",The water continues boiling.,MATCH
+"Tó,náshdlį́į́h,.","NObj,VImpf,Punct",I drink water.,MATCH
+"Tó,shibéézh,.","NSub,VPerf,Punct",The water has boiled.,MATCH
+"Tó,yishbéézh,.","NSub,VPerf,Punct",The water boiled.,MATCH
+"tseebídiin,tábąąh,dlǫ́ʼii","NumC,NSub,NSub",eighty minks,MATCH
+"tseebíí,tsʼáadah,tsʼaaʼ","NumC,NumC,NSub",eighteen baskets,MATCH
+"tseebíidi,mííl,tsísʼná","NumC,NumC,NSub",eight thousand bees,MATCH
+"tseebíidi,neeznádiin,tsé","NumC,NumC,NSub",eight hundred stones,MATCH
+"Tsídii,atʼééd,yishtąsh,.","NSub,NObj,VPerf,Punct",The bird pecked the girl.,MATCH
+"Tsídii,bidishní,.","NObj,VImpf,Punct",I'm mimicking the sound of a bird.,MATCH
+"Tsídii,daaltso,.","NSub,VImpf,Punct",The birds are yellow.,MATCH
+"Tsídii,łitso,.","NSub,VImpf,Punct",The bird is yellow.,MATCH
+"tsostsʼidi,mííltsoh,shiziiz","NumC,NumC,NSub",my seven million belts,MATCH
+"tsostsʼidi,neeznádiin,waaʼ","NumC,NumC,NSub",seven hundred spinaches,MATCH
+"tsostsʼidiin,tązhii,bitsįʼ","NumC,NSub,NSub",seventy turkey meats,MATCH
+"Tʼáá,aaníí,ádíshní,.","Part,NObj,VImpf,Punct",I am telling the truth.,MATCH
+"Tʼáá,ánółtso,nihighan,hólǫ́,.","Part,VImpf,ProObj,VImpf,Punct",You (all) have a house.,MATCH
+"tʼááłáhádí,mííl","NumC,NumC",one thousand,MATCH
+"tʼááłáhádí,mííltsoh,tsindáo","NumC,NumC,NSub",one million cents,MATCH
+"tʼááłáhádí,neeznádiin","NumC,NumC",one hundred,MATCH
+"tʼááłáʼí,béeso","NumC,NSub",one dollar,MATCH
+"Tʼááshʼaaníí,dahólǫ́,?","NSub,VImpf,Punct",Do they really exist?,MATCH
+"Wááshindoon,góó,déyá,.","NAdp,Adp,VPerf,Punct",I am going to Washington.,MATCH
+"yáʼátʼééh,abíní,shíyeʼ","Interj,NSub,NSub","good morning, my son",MATCH
+"yáʼátʼééh,ałníʼíní","Interj,NSub",good evening,MATCH
+"Yáʼátʼééh,Késhmish,shimasaní","Interj,NSub,NSub","Merry Christmas, my maternal grandmother",MATCH
+"Yáʼátʼééh,shizheʼé,!","Interj,NSub,Punct","Hello, my father!",MATCH
+"yáʼátʼéehgo,háádíilyįh","Adv,NSub",good night,MATCH
+"yáʼátʼéehgo,tązhii,daʼaghał,adííłeeł","Adv,NSub,NSub,NSub",happy Thanksgiving,MATCH
+"Yíká,ání,.","Adv,VImpf,Punct",He's calling him.,MATCH
