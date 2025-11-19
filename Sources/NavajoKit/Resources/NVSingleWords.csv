@@ -100,6 +100,7 @@ alyaii,NSub,creator,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 anótʼááh,NSub,deceit,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 asłį́ʼígíí,NSub,gave,Perf,3rd,SD,,,,,,,,FALSE,,,,,,,,,,,,,
 ayóóʼánihóshʼníinii,NSub,beloved ones,,,,,,,,,,ii,FALSE,,,,,,,,,,,,,
+ayóóʼóóshʼníinii,NSub,beloved one,,1st,S,,,love,,,,,FALSE,,,,,,,,,,,,,
 ayóóʼóóʼníinii,NSub,dear one,,,,,,love,,,ayóóʼóóʼní,,FALSE,,,,,,,,,,,,,
 ayóóʼóʼóʼní,NSub,love,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 báʼsíníyehígíí,NSub,marriage,,,,,,,,,,ígíí,FALSE,,,,,,,,,,,,,
@@ -155,7 +156,6 @@ nídídzihii,NSub,living things,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 nídziizláʼígíí,NSub,those who were healed,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 nidzíiztánígíí,NSub,those who were asking,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 nihikʼihojidlíhígíí,NSub,the one you bless,,,,,,,,,,ígíí,FALSE,,,,,,,,,,,,,
-nihikʼijidlíi,NSub,we who are given,Impf,1st,P,,,give,,,nihikʼijidlí,ii,FALSE,,,,,,,,,,,,,
 nishłíinii,NSub,I who am,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 óhólnííh,NSub,miracles,,,,,,,,,,,FALSE,,,,,,,,,,,,,
 oʼoolkaalígíí,NSub,those who were baptized,,,,,,,,,,ígíí,FALSE,,,,,,,,,,,,,
@@ -213,6 +213,7 @@ adidloh,VImpf,lassos/lasso,Impf,3rd,SD,3rd,,lasso,,,-loh,,FALSE,,,,,,,,,,,,,
 adzisį́įh,VImpf,baptizes/baptize,Impf,3rd,SD,,,baptize,,,-sį́įh,,FALSE,,,,,,,,,,,,,
 ahééhwiidáah,VImpf,give thanks,Impf,2nd,P,,,,,,,,FALSE,,,,,,,,,,,,,
 ajílį́į,VImpf,is/are doing,Impf,4th,SD,,,do,,,,,FALSE,,,,,,,,,,,,,
+akʼeʼashchíi,VImpf,write/mark,Impf,1st,S,3rd,,write/mark,,,,,FALSE,spelling variant?,a,,kʼi,,,a,,,,sh,ł,
 ałtsʼáohkah,VImpf,divides/divide,Impf,3rd,SD,,,,,,,,FALSE,,,,,,,,,,,,,
 anáhóótʼiʼ,VImpf,is dangerous,Impf,3rd,S,,,be dangerous,,,,,FALSE,,,,,,,,,,,,,
 ánííł,VImpf,are done,Impf,3rd,P,,,be done,,,,,FALSE,,,,,,,,,,,,,
@@ -251,6 +252,7 @@ nídahódóotʼįįł,VImpf,has grown into,Impf,Spat,,3rd,,gain weight,,,,,FALSE
 nidahodzisneʼ,VImpf,are taught,Impf,2nd,P,,,teach,,,,,FALSE,,,,,,,,,,,,,
 nídahookąąh,VImpf,are praying,Impf,3rd,P,,,pray,,,-kąąh,,FALSE,,,,,,,,,,,,,
 nihikʼijidlí,VImpf,are given,Impf,1st,P,,,give,,,,,FALSE,,,,,,,,,,,,,
+nihikʼijidlíi,VImpf,bless(es),Impf,4th,S,1st/2nd,P,bless,,,nihikʼijidlí,,FALSE,,,,,,,nihi,,,,,,
 níínshchʼil,VImpf,eyes are closed,Impf,3rd,P,,,,,,-chʼil,,FALSE,,,,,,,,,,,,,
 nijiikááh,VImpf,is/are going toward,Impf,4th,SD,2nd,,,,,,,FALSE,,,,,,,,,,,,,
 níjítʼįįhí,VImpf,is/are doing,Impf,3rd,SD,2nd,,do,,,,,FALSE,,,,,,,,,,,,,
@@ -264,6 +266,7 @@ ahináádadoołtłiʼ,VIter,fusses/fuss,Iter,3rd,SD,3rd,,,,,,,FALSE,,,,,,,,,,,oh
 nánihooshkąąh,VIter,will speak,Iter,1st,P,,,speak,,,-kąąh,,FALSE,,,,,,,,,,,,,
 náʼázhchį́,VIter,were born,Iter,3rd,P,,,be born,,,-chį́,,FALSE,,,,,,,,,,,,,
 ádahojilyą́ą,VOpt,should build,Opt,3rd,,,,build,,,,,FALSE,,,,,,,,,,,,,
+ádaoohłeʼ,VOpt,could make,Opt,2nd,P,,,make,,,,,FALSE,,,,,,,,,,,,,
 badaʼnołtsóód,VOpt,will get it for,Opt,2nd,P,3rd,,grab,,,-tsóód,,FALSE,,,,,,,,,,,,,
 hadadeeshghaazh,VOpt,would scream,Opt,3rd,P,,,scream,,,-ghaazh,,FALSE,,,,,,,,,,,,,
 halniih,VOpt,shall lose,Opt,3rd,SD,,,lose,,,,,FALSE,,,,,,,,,,,,,
@@ -1288,6 +1291,7 @@ akʼaʼ,NSub,arrow/bullet,,Indef,,,,,,a,kʼaaʼ,,TRUE,,,,,,,,,,,,,
 akʼéí,NSub,relatives/kin,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 akʼeʼashchíinii,NSub,that which is written,Impf,,,3rd,,write,,,-chí,ii,TRUE,,,,,,,,,,,,,
 akʼeʼashchínígíí,NSub,what is written,Impf,,,3rd,,write,,,-chí,ígíí,TRUE,,,,,,,,,,,,,
+akʼeʼelchíhí,NSub,writer,VImpf,3rd,SD,3rd,,write,,,akʼeʼelchí,í,TRUE,,,,,,,,,,,,,
 akʼeʼeshchíinii,NSub,that which is written,Impf,,,3rd,,write,,,-chí,ii,TRUE,,,,,,,,,,,,,
 akʼeʼeshchínígíí,NSub,what is written,Impf,,,3rd,,write,,,-chí,ígíí,TRUE,,,,,,,,,,,,,
 akʼijidlíii,NSub,blessing,,,,,,,,,,ígíí,TRUE,he who was leaning against?,,,,,,,,,,,,
@@ -1329,7 +1333,7 @@ anátʼéézh,NSub,eyebrow,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 anázis,NSub,eyelid,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 andrew,NSub,Andrew,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
 ánihiilaaíígí,NSub,the one who made us,Perf,3rd,SD,1st,P,make,,,ánihiilaa,íígí,TRUE,,,,,,,,,,,,,
-ániidíii,NSub,fresh one,,,,,,,,,ániidí,ii,TRUE,,,,,,,,,,,,,
+ániidíii,NSub,new one,,,,,,,,,ániidí,ii,TRUE,,,,,,,,,,,,,
 áníiltso,NSub,each of us,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 aniitsį́ʼ,NSub,cheek,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 aniiʼ,NSub,face,,,,,,,,,,,TRUE,,,,,,,,,,,,,
@@ -1639,6 +1643,7 @@ chidíłtsooí,NSub,bus,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 chííl,NSub,snowstorm/blizzard,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 chin,NSub,scent/smell,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 chizh,NSub,wood,,,,,,,,,,,TRUE,,,,,,,,,,,,,
+chohooʼį́,NSub,hope,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 christ,NSub,Christ,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
 chʼaa,NSub,vacation,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 chʼag ,NSub,chewing gum,,,,,,,,,,,TRUE,,,,,,,,,,,,,
@@ -2690,6 +2695,7 @@ ooshgę́ę́zh,NSub,cartilage,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 ooshgę́ę́zhii,NSub,cartilaginous one,,,,,,,,,ooshgę́ę́zh,ii,TRUE,,,,,,,,,,,,,
 ootsą́,NSub,pregnancy,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 óʼoolkąąh,NSub,advertisement,,,,,,,,,,,TRUE,,,,,,,,,,,,,
+óʼooʼníiłii,NSub,commandment,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 páísan,NSub,Pishon,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
 paul,NSub,Paul,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
 peter,NSub,Peter,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
@@ -2850,6 +2856,7 @@ shiziz,NSub,my penis,,1st,S,,,,,,,,TRUE,,,,,,,,,,,shi,,aziz
 shiʼééʼ,NSub,my clothing,,1st,S,,,,,,,,TRUE,,,,,,,,,,,shi,,ééʼ
 sho,NSub,frost,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 sid,NSub,scar,,,,,,,,,,,TRUE,,,,,,,,,,,,,
+sih,NSub,hope,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 síífas,NSub,Cephas,,,,,,,TRUE,,,,TRUE,,,,,,,,,,,,,
 siihasin,NSub,hope,,,,,,,,,,,TRUE,,,,,,,,,,,,,
 sikaz,NSub,my stalk/stem,,1st,S,,,,,,,,TRUE,,,,,,,,,,,shi,,akaz
@@ -3353,6 +3360,16 @@ ahadiʼdíítʼááł,VFut,will make an agreement with,Fut,2nd,S,3rd,P,make an a
 ahadiʼdoohtʼááł,VFut,will make an agreement with,Fut,2nd,D,3rd,P,make an agreement with,,,-tʼááł,,TRUE,,,,,,,,,,,,,tʼááł
 ahadiʼdootʼááł,VFut,will make an agreement with,Fut,3rd,SD,3rd,P,make an agreement with,,,-tʼááł,,TRUE,,,,,,,,,,,,,tʼááł
 ahidookah,VFut,will go,Fut,3rd,P,,,go,,,,,TRUE,,,,,,,,,,,,,
+akʼedazhʼdoołchííł,VFut,will write/mark,Fut,4th,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chííł
+akʼedaʼdiilchííł,VFut,will write/mark,Fut,1st,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chííł
+akʼedaʼdoołchííł,VFut,will write/mark,Fut,2nd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chííł
+akʼedaʼdoołchííł,VFut,will write/mark,Fut,3rd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,∅,ł,-chííł
+akʼezhʼdoołchííł,VFut,will write/mark,Fut,4th,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chííł
+akʼeʼdeeshchííł,VFut,will write/mark,Fut,1st,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,sh,ł,-chííł
+akʼeʼdiilchííł,VFut,will write/mark,Fut,1st,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chííł
+akʼeʼdííłchííł,VFut,will write/mark,Fut,2nd,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chííł
+akʼeʼdoołchííł,VFut,will write/mark,Fut,2nd,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chííł
+akʼeʼdoołchííł,VFut,will write/mark,Fut,3rd,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,∅,ł,-chííł
 ałtsʼánéiʼnił,VFut,will spread out,Fut,2nd,S,3rd,,spread out,,,-nił,,TRUE,,,,,,,,,,,,,
 ałtsʼánéíʼnił,VFut,will spread out,Fut,2nd,S,3rd,,spread out,,,-nił,,TRUE,,,,,,,,,,,,,
 áńdoolnííł,VFut,will be done,Fut,3rd,S,,,do,,,-nííł,,TRUE,passive,,,,,,,,,,,,niił
@@ -3759,6 +3776,7 @@ doołnoł,VFut,will dart,Fut,2nd,D,,,dart,,,-noł,,TRUE,,,,,,,,,,,,,
 doołtʼis,VFut,will cook,Fut,2nd,D,3rd,,cook,,,-tʼis,,TRUE,,,,,,,,,,,,,
 doołtʼoł,VFut,will suck,Fut,2nd,D,3rd,,suck,,y,-ził,,TRUE,,,,,,,,,,,,,
 doołʼaał,VFut,will send out,Fut,2nd,D,3rd,,send out,,,-ʼaał,,TRUE,,,,,,,,,,,,,
+doosih,VFut,will hope,Fut,3rd,,,,hope,,,,,TRUE,verbalized noun,,,,,,,,,doo,∅,∅,sih
 dooʼash,VFut,will come/go,Fut,3rd,SD,,,go,,,,,TRUE,,,,,,,,,,,,,
 háádadoołyįh,VFut,Where will it happen?,Fut,3rd,,,,do,,,,,TRUE,,,,,,,,,,,,,
 hadadiiltééł,VFut,will carry up,Fut,1st,P,,,carry up,,,ha-tééł,,TRUE,,,,,,,,,,,,,
@@ -3796,7 +3814,7 @@ hodooleeł,VFut,will be done,Fut,3rd,SD,,,do,,,-leeł,,TRUE,,,,,,,,,,,,,
 hodoolnih,VFut,will tell,Fut,3rd,SD,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
 hodoołnih,VFut,will tell,Fut,2nd,D,,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
 hodóólnih,VFut,will tell,Fut,3rd,SD,,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
-hodoosįįł,VFut,will cause (a feeling),Fut,3rd,,,,cause (a feeling),,,,,TRUE,,,,,,,,,,,,,
+hodoosįįł,VFut,will cause,Fut,3rd,,Area,,cause,,,,,TRUE,,,,,,,,,,,∅,ł,
 hodootał,VFut,will sing,Fut,3rd,SD,,,sing,,,-tał,,TRUE,,,,,,,,,,,,,
 hodoozhǫǫł,VFut,will be beautiful,Fut,3rd,SD,,,be beautiful,,,,,TRUE,,,,,,,,,,,,,
 hozhdoolnih,VFut,will tell,Fut,4th,SD,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
@@ -4302,6 +4320,16 @@ ajitłʼó,VImpf,is/are weaving,Impf,4th,SD,,,weave,,,-tłʼó,,TRUE,,,,,,,,,,,,
 ájítʼį́,VImpf,is/are,Impf,4th,D,,,be,,,-tʼį́,,TRUE,,,,,,,,,,,,,
 ájítʼį́į́,VImpf,is/are,Impf,4th,D,,,be,,,-tʼį́į́,,TRUE,spelling variant,,,,,,,,,,,,
 ajoodlą́,VImpf,believe(s),Impf,4th,SD,,,believe,,,-lą́,,TRUE,,,,,,,,,,,,,
+akʼedaʼałchí,VImpf,write/mark,Impf,3rd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,∅,ł,-chí
+akʼedaʼiilchí,VImpf,write/mark,Impf,1st,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chí
+akʼedaʼjiłchí,VImpf,write/mark,Impf,4th,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chí
+akʼedaʼołchí,VImpf,write/mark,Impf,2nd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chí
+akʼeʼełchí,VImpf,write/mark,Impf,3rd,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,∅,ł,-chí
+akʼeʼeshchí,VImpf,write/mark,Impf,1st,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,sh,ł,-chí
+akʼeʼiilchí,VImpf,write/mark,Impf,1st,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chí
+akʼeʼíłchí,VImpf,write/mark,Impf,2nd,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chí
+akʼeʼjiłchí,VImpf,write/mark,Impf,4th,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chí
+akʼeʼołchí,VImpf,write/mark,Impf,2nd,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chí
 áłdįįh,VImpf,are destroying/eradicating,Impf,2nd,D,3rd,,destroy/eradicate,,,-dįįh,,TRUE,,,,,,,,,,,,,
 aleeh,VImpf,is becoming,Impf,Unspec,,,,become,,,y- -leeh,,TRUE,,,,,,,,,,,,,
 ałhą́ą́ʼ,VImpf,is/are snoring,Impf,3rd,SD,,,snore,,,-hą́ą́ʼ,,TRUE,,,,,,,,,,,,,
@@ -5148,7 +5176,9 @@ hashneʼ,VImpf,tell,Impf,1st,S,Area,,tell,,,ha- -neʼ,,TRUE,,,,,,,,,,,,,
 hashniih,VImpf,know,Impf,1st,S,,,know,,,ha-niih,,TRUE,,,,,,,,,,,,,
 hashohké,VImpf,are angry,Impf,2nd,D,,,be angry,,,-ké,,TRUE,,,,,,,,,,,,,
 hashtaał,VImpf,am singing,Impf,1st,S,,,sing,,,-taał,,TRUE,,,,,,,,,,,,,
+hasįįh,VImpf,causes,Impf,3rd,,Area,,cause,,,,,TRUE,,,,,,,,,,,∅,ł,
 hasįįh,VImpf,causes (a feeling),Impf,3rd,,,,cause (a feeling),,,,,TRUE,,,,,,,,,,,,,
+hasin,VImpf,exists,Impf,3rd,,,,,,,-zin,,TRUE,,,,,,,,,,,∅,ł,zin
 hataał,VImpf,is/are singing,Impf,3rd,SD,,,sing,,,-taał,,TRUE,,,,,,,,,,,,,
 hayíʼaash,VImpf,is/are taking,Impf,3rd,SD,4th,,take,,,,,TRUE,,,,,,,,,,,,,
 hazhdeelʼįį,VImpf,discovered,Perf,3rd,SD,,,discover,,,,,TRUE,,,,,,,,,,,,,
@@ -5834,6 +5864,7 @@ shóolt’eeh,VImpf,are acquiring,Impf,1st,D,3rd,,acquire,,,shó- -tʼeeh,,TRUE,
 shóołt’eeh,VImpf,are acquiring,Impf,2nd,D,3rd,,acquire,,,shó- -tʼeeh,,TRUE,,,,,,,,,,,,,
 shóosht’eeh,VImpf,am acquiring,Impf,1st,S,3rd,,acquire,,,shó- -tʼeeh,,TRUE,,,,,,,,,,,,,
 shóyoołt’eeh,VImpf,is/are acquiring,Impf,3rd,SD,3rd,,acquire,,,shó- -tʼeeh,,TRUE,,,,,,,,,,,,,
+sih,VImpf,hopes,Impf,3rd,,,,hope,,,,,TRUE,verbalized noun,,,,,,,,,,∅,∅,sih
 siláhí,VImpf,exists,Impf,3rd,S,,,exist,,,-hí,,TRUE,,,,,,,,,,,,,
 sinil,VImpf,they lie in place,Impf,3rd,P,,,,,,,,TRUE,countable objects,,,,,,,,,,,,
 sodadiilzin,VImpf,pray,Impf,1st,P,,,pray,,,so- -zin,,TRUE,,,,,,,,,,,,,
@@ -6256,7 +6287,7 @@ chʼínáshdááh,VIter,go out,Iter,1st,S,,,go out,,,-dááh,,TRUE,,,,,,,,,,,,,
 nádleeh,VIter,do become,Iter,3rd,SD,,,become,,,-leeh,,TRUE,animate subject,,,,,,,,,,,,
 náhálnih,VIter,do tell,Iter,3rd,SD,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
 náháshnih,VIter,do tell,Iter,1st,S,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
-náhásįįh,VIter,does cause (a feeling),Iter,3rd,,,,cause (a feeling),,,,,TRUE,,,,,,,,,,,,,
+náhásįįh,VIter,does cause,Iter,3rd,,Area,,cause,,,,,TRUE,,,,,,,,,,,∅,ł,
 náhdleeh,VIter,do become,Iter,2nd,D,,,become,,,-leeh,,TRUE,animate subject,,,,,,,,,,,,
 náhojilnih,VIter,do tell,Iter,4th,SD,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
 náhólnih,VIter,do tell,Iter,2nd,S,Area,,tell,,,ho- -nih,,TRUE,,,,,,,,,,,,,
@@ -6272,6 +6303,7 @@ náníłchǫǫh,VIter,do ruin,Iter,2nd,S,3rd,,ruin,,,y- -chǫǫh,,TRUE,,,,,,,,,,
 náshchį́į́h,VIter,smell,Iter,1st,S,3rd,,smell,,,-chį́į́h,,TRUE,,,,,,,,,,,,,
 náshchǫǫh,VIter,do ruin,Iter,1st,S,3rd,,ruin,,,y- -chǫǫh,,TRUE,,,,,,,,,,,,,
 náshdleeh,VIter,do become,Iter,1st,S,,,become,,,-leeh,,TRUE,animate subject,,,,,,,,,,,,
+násih,VIter,does hope,Iter,3rd,,,,hope,,,,,TRUE,verbalized noun,,,,,,,,,ná,∅,∅,sih
 náʼáłnih,VIter,does become the middle of,Iter,3rd,S,,,become the middle of,,,,,TRUE,,,,,,,,,,,,,
 ńdaałchį́į́h,VIter,smell,Iter,2nd,P,3rd,,smell,,,-chį́į́h,,TRUE,,,,,,,,,,,,,
 ńdaałchǫǫh,VIter,do ruin,Iter,2nd,P,3rd,,ruin,,,y- -chǫǫh,,TRUE,,,,,,,,,,,,,
@@ -6417,7 +6449,7 @@ hoolneʼ,VOpt,could tell,Opt,1st,D,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
 hoolneʼ,VOpt,could tell,Opt,2nd,D,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
 hóólneʼ,VOpt,could tell,Opt,2nd,S,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
 hóshneʼ,VOpt,could tell,Opt,1st,S,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
-hósįįh,VOpt,could cause (a feeling),Opt,3rd,,,,cause (a feeling),,,,,TRUE,,,,,,,,,,,,,
+hósįįh,VOpt,could cause,Opt,3rd,,Area,,cause,,,,,TRUE,,,,,,,,,,,∅,ł,
 hózhǫh,VOpt,could be beautiful,Opt,3rd,SD,,,be beautiful,,,,,TRUE,,,,,,,,,,,,,
 jidóneʼ,VOpt,says/say,Opt,4th,SD,,,say,,,,,TRUE,,,,,,,,,,,,,
 jółchą́ą́ʼ,VOpt,could smell,Opt,4th,SD,3rd,,smell,,,-chą́ą́ʼ,,TRUE,,,,,,,,,,,,,
@@ -6470,6 +6502,7 @@ wóóleʼ,VOpt,could become,Opt,2nd,S,,,become,,,-łeʼ,,TRUE,animate subject,,,
 wóshchą́ą́ʼ,VOpt,could smell,Opt,1st,S,3rd,,smell,,,-chą́ą́ʼ,,TRUE,,,,,,,,,,,,,
 wóshchǫǫh,VOpt,could ruin,Opt,1st,S,3rd,,ruin,,,y- -chǫǫh,,TRUE,,,,,,,,,,,,,
 wóshłeʼ,VOpt,could become,Opt,1st,S,,,become,,,-łeʼ,,TRUE,animate subject,,,,,,,,,,,,
+wósih,VOpt,could hope,Opt,3rd,,,,hope,,,,,TRUE,verbalized noun,,,,,,,,,wó,∅,∅,sih
 yídahoołʼááł,VOpt,could study,Opt,3rd,P,3rd,,study,,bího,ʼááł,,TRUE,,,,,,,,,,,,,
 yíhoołʼááł,VOpt,could study,Opt,3rd,SD,3rd,,study,,bího,ʼááł,,TRUE,,,,,,,,,,,,,
 yółchą́ą́ʼ,VOpt,could smell,Opt,3rd,SD,3rd,,smell,,,-chą́ą́ʼ,,TRUE,,,,,,,y,,,,,,
@@ -6584,6 +6617,16 @@ ajizhlizh,VPerf,urinated,Perf,4th,SD,,,urinate,,a,-lizh,,TRUE,,,,,,,,,,,,,
 ajoodlą́ą́ʼ,VPerf,drank,Perf,4th,SD,,,drink,,,-dlą́ą́ʼ,,TRUE,,,,,,,,,,,,,
 ajookai,VPerf,went,Perf,4th,P,,,go,,,-kai,,TRUE,,,,,,,,,,,,∅,kai
 ajoolzhiizh,VPerf,danced,Perf,4th,SD,,,dance,,,-zhiizh,,TRUE,,,,,,,,,,,,,
+akʼedaʼajishchį́,VPerf,wrote/marked,Perf,4th,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chį́
+akʼedaʼashchį́,VPerf,wrote/marked,Perf,3rd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,∅,ł,-chį́
+akʼedaʼshiilchį́,VPerf,wrote/marked,Perf,1st,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chį́
+akʼedaʼshoołchį́,VPerf,wrote/marked,Perf,2nd,P,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,da,a,,,,,ł,-chį́
+akʼeʼeeshchį́,VPerf,wrote/marked,Perf,3rd,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,∅,ł,-chį́
+akʼeʼjishchį́,VPerf,wrote/marked,Perf,4th,SD,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chį́
+akʼeʼshéłchį́,VPerf,wrote/marked,Perf,1st,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,sh,ł,-chį́
+akʼeʼshiilchį́,VPerf,wrote/marked,Perf,1st,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chį́
+akʼeʼshíníłchį́,VPerf,wrote/marked,Perf,2nd,S,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chį́
+akʼeʼshoołchį́,VPerf,wrote/marked,Perf,2nd,D,3rd,,write/mark,,,,,TRUE,,a,,kʼi,,,a,,,,,ł,-chį́
 ályaa,VPerf,was made,Perf,3rd,S,,,make,,,-laa,,TRUE,passive,,,,,,,,,,,,
 ánáádahodooʼniid,VPerf,were told again,Perf,3rd,P,3rd,,tell,,áná,-niid,,TRUE,,,,,,,,,,,,,
 ánáádíʼní,VPerf,said again,Perf,,,,,say,,,,,TRUE,,,,,,,,,,,,,ní
@@ -7165,7 +7208,7 @@ hoolneʼ,VPerf,spoke,Perf,1st,D,,,spoke,,,-neʼ,,TRUE,,,,,,,,,,,,,
 hoolneʼ,VPerf,spoke,Perf,2nd,D,,,spoke,,,-neʼ,,TRUE,,,,,,,,,,,,,
 hoolneʼ,VPerf,told,Perf,3rd,SD,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
 hoołneʼ,VPerf,told,Perf,2nd,D,Area,,tell,,,ho- -neʼ,,TRUE,,,,,,,,,,,,,
-hóósįįd,VPerf,caused (a feeling),Perf,3rd,,,,cause (a feeling),,,,,TRUE,,,,,,,,,,,,,
+hóósįįd,VPerf,caused,Perf,3rd,,Area,,cause,,,,,TRUE,,,,,,,,,,,∅,ł,
 hoosyeʼ,VPerf,called,Perf,Spat,S,,,call,,,yi-syeʼ,,TRUE,,,,,,,,,,,,,
 hootáál,VPerf,sang,Perf,2nd,D,,,sing,,,-táál,,TRUE,,,,,,,,,,,,,
 hóótáál,VPerf,sang,Perf,1st,S,,,sing,,,-táál,,TRUE,,,,,,,,,,,,,
@@ -7947,6 +7990,7 @@ yishką́,VPerf,moved (OC),Perf,1st,S,3rd,,move (OC),,y,-ką́,,TRUE,open contai
 yishnóód,VPerf,darted,Perf,1st,S,,,dart,,,-nóód,,TRUE,,,,,,,,,,,,,
 yíshoozh,VPerf,shoved/dumped into,Perf,1st,S,3rd,,shove/dump into,,,,,TRUE,,,,,,,yi,,,,sh,∅,oozh
 yishtʼóód,VPerf,sucked,Perf,1st,S,3rd,,suck,,,,,TRUE,,,,,,,yi,,,,sh,∅,tʼóód
+yísih,VPerf,hoped,Perf,3rd,,,,hope,,,,,TRUE,verbalized noun,,,,,,,,,yí,∅,∅,sih
 yisiilyeʼ,VPerf,called,Perf,1st,D,,,call,,,yi-syeʼ,,TRUE,,,,,,,,,,,,,
 yísį́į́ʼ,VPerf,blessed,Perf,1st,S,3rd,,bless,,,-sį́į́ʼ,,TRUE,,,,,,,,,,,,,
 yisínílyeʼ,VPerf,called,Perf,2nd,S,,,call,,,yi-syeʼ,,TRUE,,,,,,,,,,,,,
