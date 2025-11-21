@@ -395,6 +395,38 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "baa,yá,hóósįįd","Adp,Adp,VPerf",embarassed,VPerf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
 "baa,yá,hósįįh","Adp,Adp,VOpt",could embarass,VOpt,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
 "baa,yá,náhásįįh","Adp,Adp,VIter",does embarass,VIter,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
+"yóóʼ,adishʼaah","Part,VImpf",forgive,VImpf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adiitʼaah","Part,VImpf",forgive,VImpf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadiitʼaah","Part,VImpf",forgive,VImpf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adíʼaah","Part,VImpf",forgive,VImpf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adohʼaah","Part,VImpf",forgive,VImpf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadohʼaah","Part,VImpf",forgive,VImpf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iidiʼaah","Part,VImpf",forgive(s),VImpf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeidiʼaah","Part,VImpf",forgive,VImpf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdiʼaah","Part,VImpf",forgive(s),VImpf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdiʼaah","Part,VImpf",forgive,VImpf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adííʼą́","Part,VPerf",forgave,VPerf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adiitʼą́","Part,VPerf",forgave,VPerf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadeetʼą́","Part,VPerf",forgave,VPerf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adííníʼą́","Part,VPerf",forgave,VPerf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adooʼą́","Part,VPerf",forgave,VPerf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼa,dasidooʼą́","Part,VPerf",forgave,VPerf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iidííʼą́","Part,VPerf",forgave,VPerf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeideezʼą́","Part,VPerf",forgave,VPerf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdííʼą́","Part,VPerf",forgave,VPerf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdeezʼą́","Part,VPerf",forgave,VPerf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adideeshʼááł","Part,VFut",will forgive,VFut,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adidiitʼááł","Part,VFut",will forgive,VFut,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadidiitʼááł","Part,VFut",will forgive,VFut,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adidííʼááł","Part,VFut",will forgive,VFut,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"na’ageh,bee,tsi’na’adá","NAdp,Adp,VImpf",sexual immorality,NSub,,,,,,,,,,TRUE,?? + with + ??,MATCH
+"atsʼíís,doo,hináanii","NSub,Adv,NSub",corpse,NSub,,,,,,,,,,TRUE,body + not + alive one,MATCH
+"yóóʼ,adidoohʼááł","Part,VFut",will forgive,VFut,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadidoohʼááł","Part,VFut",will forgive,VFut,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iididooʼááł","Part,VFut",will forgive,VFut,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeididooʼááł","Part,VFut",will forgive,VFut,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdidooʼááł","Part,VFut",will forgive,VFut,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdidooʼááł","Part,VFut",will forgive,VFut,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
 "baa,yidoojih","Adp,VFut",will give,VFut,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yíjááh","Adp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yínííł","Adp,VImpf",gives/give,VImpf,3rd,SD,3rd,,,,,,,TRUE,to him/her + bring,MATCH
