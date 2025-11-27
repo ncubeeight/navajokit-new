@@ -32,11 +32,11 @@ TOKENS,LABELS,English,Counts
 "Atʼééd,tsídii,bishtąsh,.","NSub,NObj,VPerf,Punct",The girl was pecked by the bird.,MATCH
 "Atʼééd,yázhí,ałhosh,.","NSub,NSub,VImpf,Punct",The little girl sleeps.,MATCH
 "Atʼéés,bimósí,yázhí,ání,.","NSub,NSub,NSub,VImpf,Punct",The girl's little kitten speaks (meows).,MATCH
-"awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,MATCH
+"Awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,MATCH
 "Ayóogo,Diné,bizaad,bóhooshʼaah,.","Adv,NObj,NObj,VImpf,Punct",I am really studying Navajo.,MATCH
+"Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",MATCH
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),MATCH
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),MATCH
-"Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",MATCH
 "Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́,ńtʼééʼ,.","NAdp,Adp,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",MATCH
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Adp,Adv,Adp,VImpf",Happy New Year,MATCH
 "Baa,iijííł,.","Adp,VImpf,Punct",It pierces into it.,MATCH
@@ -60,8 +60,11 @@ TOKENS,LABELS,English,Counts
 "Bił,chʼíníshʼáázh,.","Adp,VPerf,Punct",I left with him/her.,MATCH
 "Bisóodi,bitsįʼ,bił,yáʼátʼééh,.","NAdp,NAdp,Adp,VImpf,Punct",He likes pork.,MATCH
 "Bisóodi,bitsįʼ,yį́yą́,.","NObj,NObj,VImpf,Punct",He is eating pork.,MATCH
+"Chahałheeł,yóóʼeeldoh,.","NSub,VPerf,Punct",The darkness wafted away.,MATCH
 "Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,MATCH
+"Christ,yisdáʼiiníiłii,nihokáaʼgi,biʼdizhchį́,!","NSub,NSub,Adv,VPerf,Punct",Christ the savior was born on Earth!,MATCH
 "Chʼaa,naashá,ńtʼééʼ,.","NObj,VImpf,Part,Punct",I was on a vacation.,MATCH
+"Dadiyinii,dahataał,.","NSub,VImpf,Punct",The holy ones sing.,MATCH
 "Dah,woozh,daosą́ʼ,.","NObj,NObj,VImpf,Punct",You are eating a strawberry.,MATCH
 "Dah,woozh,yishą́,.","NObj,NObj,VImpf,Punct",I am eating a strawberry.,MATCH
 "Daniel,ání,.","NSub,VImpf,Punct",Daniel says.,MATCH
@@ -151,6 +154,7 @@ TOKENS,LABELS,English,Counts
 "Hastiin,Hall,Ohio,hoolyéédę́ę́ʼ,naaghá,.","NSub,NSub,NObj,Adv,VImpf,Punct",Mr. Hall comes from a place called Ohio.,MATCH
 "Hazhóóʼógo,yááłtiʼ,.","Adv,VPerf,Punct","Slowly, I spoke.",MATCH
 "Hazhóʼó,baa,hweeshneʼ,.","Adv,Adp,VPerf,Punct",I carefully explained it.,MATCH
+"Hazhóʼógo,"","",awééʼ,ałhosh,.","Adv,Punct,NSub,VImpf,Punct","Calmly, the baby sleeps.",MATCH
 "Haʼátʼíí,yíníʼı̨́,dinitsʼaʼ,dóó,niłchin,?","ProInt,VImpf,VImpf,Conj,VImpf,Punct","What do you see, hear, and smell?",MATCH
 "Haʼaʼaah,łitso,.","NSub,VImpf,Punct",The east is yellow.,MATCH
 "Haʼaʼaah,łitsxo,.","NSub,VImpf,Punct",The east is orange.,MATCH
@@ -161,10 +165,10 @@ TOKENS,LABELS,English,Counts
 "Hózhǫ́,náhásdlį́į́ʼ,.","NSub,VImpf,Punct",Beauty has come again.,MATCH
 "Iʼiiʼnííł,!,Ílį́įgo,átʼé,!","VImp,Punct,Adv,VImpf,Punct",Vote! It is important!,MATCH
 "Jáan,bimá","NSub,NSub",Johnʼs mother,MATCH
-"John,bichʼiyąʼ,éí,nahachagiitsoh,dóó,tsésʼná,bitłʼizh,.","NSub,NSub,ProDem,NObj,Conj,NObj,VPerf,Punct",John's food consisted of locusts and wild honey.,MATCH
+"John,bichʼiyąʼ,éí,nahachagiitsoh,dóó,tsésʼná,bitłʼizh,.","NSub,NSub,ProDem,NObj,Conj,NObj,VPerf,Punct",Johnʼs food consisted of locusts and wild honey.,MATCH
 "jooł,iihnálniihhígíí,dóó,jooł,yikalí","NSub,NSub,Conj,NSub,NSub",basketball and baseball,MATCH
 "jooł,nímazgo,yitalí,dóó,jooł,yitalí","NSub,NSub,NSub,Conj,NSub,NSub",soccer ball and football,MATCH
-"Kii,bimá,dóó,bizhéʼé,bighan,hólǫ́,.","NSub,NSub,Conj,NSub,NObj,VImpf,Punct",Kii's mother and father have a home.,MATCH
+"Kii,bimá,dóó,bizhéʼé,bighan,hólǫ́,.","NSub,NSub,Conj,NSub,NObj,VImpf,Punct",Kiiʼs mother and father have a home.,MATCH
 "Kii,bimá,dóó,bizhéʼé,hólǫ́,.","NSub,NObj,Conj,NObj,VImpf,Punct",Kii has a mother and father.,MATCH
 "Kweʼé,akónǫ́ǫ,bikááʼ,?","Adv,NObj,VImpf,Punct",It says it right here.,MATCH
 "Kweʼé,sédá,?","Adv,VImpf,Punct",I am seated right here.,MATCH
@@ -207,8 +211,10 @@ TOKENS,LABELS,English,Counts
 "Ni,dooda,"","",John,ábidishní,.","ProObj,Adv,Punct,NObj,VImpf,Punct","Not you, I mean John.",MATCH
 "Ni,shidiltłish,honílǫ́,...,dóó,sheʼałtį́į́ʼ,...,dóó,sitsénił,.","ProSub,NObj,VImpf,Punct,Conj,NObj,Punct,Conj,NObj,Punct","You have my sword, ... and my bow, ... and my axe.",MATCH
 "Nichʼįʼ,bééhonisįįh,.","Adp,VImpf,Punct",I introduce him to you.,MATCH
+"Nidaʼniłkaadii,daʼíistsʼą́ą́ʼ,.","NSub,VPerf,Punct",The shepherds heard.,MATCH
 "Nihí,łaʼ,chʼínooyá,.","NSub,NObj,VPerf,Punct",One of you exited.,MATCH
 "Nihił,chʼíníshkai,.","Adp,VPerf,Punct",I left with you (pl.).,MATCH
+"Nihinaatʼáanii,bichʼįʼ,dadiyinii,bił,dahwiitaał,.","NAdp,Adp,NObj,Adp,VImpf,Punct",We sing with the holy ones to our leader/king.,MATCH
 "Níłchʼi,dineʼé,hólǫ́,.","NSub,NSub,VImpf,Punct",Spirits exist.,MATCH
 "Nímasii,bił,yáʼátʼééh,.","NAdp,Adp,VImpf,Punct",She likes potatoes.,MATCH
 "Nínádiishʼnahgo,abeʼ,náshdlį́į́h,.","Adv,NObj,VIter,Punct","When getting up, I drink milk.",MATCH
@@ -244,7 +250,7 @@ TOKENS,LABELS,English,Counts
 "Shimá,"","",naatʼáaniinééz,góó,déyá,.","NSub,Punct,NAdp,Adp,VPerf,Punct","My mother, I am going to Shiprock.",MATCH
 "Shimá,bidibé,dóó,bitłʼízí,dóó,bighan,bee,hólǫ́,.","NSub,NAdp,Conj,NAdp,Conj,NAdp,Adp,VImpf,Punct",My mother has her sheep and her goat and her house.,MATCH
 "Shimá,naadą́ą́,dóó,nímasii,yį́yą́,.","NSub,NObj,Conj,NObj,VImpf,Punct",My mother is eating corn and a potato.,MATCH
-"Shimá,yázhí,bidibé,ádaaní,.","NSub,NSub,NSub,VImpf,Punct",My aunt's sheep speak (bleat).,MATCH
+"Shimá,yázhí,bidibé,ádaaní,.","NSub,NSub,NSub,VImpf,Punct",My auntʼs sheep speak (bleat).,MATCH
 "Shimasaní,tsostsʼid,shash,łizhin,bee,hólǫ́,.","NSub,NumC,NAdp,NAdp,Adp,VImpf,Punct",My maternal grandmother has seven black bears.,MATCH
 "Shimasaní,tʼááłáʼí,béeso,bee,hólǫ́,.","NSub,NumC,NAdp,Adp,VImpf,Punct",My maternal grandmother has one dollar.,MATCH
 "shinádiz,dóó,ninádiz,dóó,binádiz","NSub,Conj,NSub,Conj,NSub",my eyelash and your eyelash and their eyelash,MATCH
@@ -253,6 +259,7 @@ TOKENS,LABELS,English,Counts
 "Shíyeʼ,waaʼ,yį́yą́,.","NSub,NObj,VImpf,Punct",My son is eating spinach.,MATCH
 "Shizheʼé,łééchąąʼí,bił,yáʼátʼééh,.","NSub,NAdp,Adp,VImpf,Punct",My father likes dogs.,MATCH
 "Sin,bee,hataał,.","NAdp,Adp,VImpf,Punct",He is singing a song.,MATCH
+"Sǫʼ,álííl,bee,hoolʼin,.","NSub,NSub,Adp,VImpf,Punct",The miraculous star shines dimly.,MATCH
 "táá,tsʼáadah,tłʼoh,chin","NumC,NumC,NSub,NSub",thirteen onions,MATCH
 "táadi,mííl,tłʼízí","NumC,NumC,NSub",three thousand goats,MATCH
 "táadi,mííltsoh,sǫʼ","NumC,NumC,NSub",three million stars,MATCH
@@ -285,10 +292,11 @@ TOKENS,LABELS,English,Counts
 "tʼááłáʼí,béeso","NumC,NSub",one dollar,MATCH
 "Tʼááshʼaaníí,dahólǫ́,?","NSub,VImpf,Punct",Do they really exist?,MATCH
 "Wááshindoon,góó,déyá,.","NAdp,Adp,VPerf,Punct",I am going to Washington.,MATCH
+"Yáʼąąshii,biyiʼdę́ę́ʼ","NAdp,Adp",From within Heaven,MATCH
 "yáʼátʼééh,abíní,shíyeʼ","Interj,NSub,NSub","good morning, my son",MATCH
 "yáʼátʼééh,ałníʼíní","Interj,NSub",good evening,MATCH
 "Yáʼátʼééh,Késhmish,shimasaní","Interj,NSub,NSub","Merry Christmas, my maternal grandmother",MATCH
 "Yáʼátʼééh,shizheʼé,!","Interj,NSub,Punct","Hello, my father!",MATCH
 "yáʼátʼéehgo,háádíilyįh","Adv,NSub",good night,MATCH
 "yáʼátʼéehgo,tązhii,daʼaghał,adííłeeł","Adv,NSub,NSub,NSub",happy Thanksgiving,MATCH
-"Yíká,ání,.","Adv,VImpf,Punct",He's calling him.,MATCH
+"Yíká,ání,.","Adv,VImpf,Punct",Heʼs calling him.,MATCH
