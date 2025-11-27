@@ -333,7 +333,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "áńtʼé,ntʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "áńtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "áńtʼée,doo","VImpf,Part",will be,VFut,2nd,S,,,be,,,-tʼé,,TRUE,be + (future),MATCH
-"ásaaʼ,yilghaałí","NSub,NSub",musical drum,NSub,,,,,,,,,,TRUE,jar/pot + ??,MATCH
+"ásaaʼ,yilghaałí","NSub,NSub",musical drum,NSub,,,,,,,,,,TRUE,jar/pot + one that moves its eyes,MATCH
 "ashdlaʼáadah,góneʼ","NumO,NumO",fifteenth,NumO,,,,,,,,,,TRUE,fifteen + (ordinal),MATCH
 "Áshįįh,biiʼtó,Hahoodzo","NSub,Adv,NSub",Utah,NSub,,,,,,TRUE,,,,TRUE,salt + in it water + state,MATCH
 "áshįįh,łikan","NSub,VImpf",sugar,NSub,,,,,,,,,,TRUE,salt + is it sweet,MATCH
@@ -342,6 +342,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "atsiniltłʼish,bá,hooghan","NAdp,Adp,NSub",power plant,NSub,,,,,,,,,,TRUE,electricity + for + house,MATCH
 "atsiniltłʼish,bee,adinídíín","NAdp,Adp,NSub",electric light,NSub,,,,,,,,,,TRUE,electricity + by way of + light,MATCH
 "atsiniltłʼish,ííłʼínígíí","NSub,NSub",electric eel,NSub,,,,,,,,,,TRUE,electricity + eel,MATCH
+"atsʼíís,doo,hináanii","NSub,Adv,NSub",corpse,NSub,,,,,,,,,,TRUE,body + not + alive one,MATCH
 "átʼé,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "átʼé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
 "átʼé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),MATCH
@@ -395,38 +396,6 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "baa,yá,hóósįįd","Adp,Adp,VPerf",embarassed,VPerf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
 "baa,yá,hósįįh","Adp,Adp,VOpt",could embarass,VOpt,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
 "baa,yá,náhásįįh","Adp,Adp,VIter",does embarass,VIter,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,MATCH
-"yóóʼ,adishʼaah","Part,VImpf",forgive,VImpf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adiitʼaah","Part,VImpf",forgive,VImpf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adadiitʼaah","Part,VImpf",forgive,VImpf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adíʼaah","Part,VImpf",forgive,VImpf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adohʼaah","Part,VImpf",forgive,VImpf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adadohʼaah","Part,VImpf",forgive,VImpf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,iidiʼaah","Part,VImpf",forgive(s),VImpf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adeidiʼaah","Part,VImpf",forgive,VImpf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,azhdiʼaah","Part,VImpf",forgive(s),VImpf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adazhdiʼaah","Part,VImpf",forgive,VImpf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adííʼą́","Part,VPerf",forgave,VPerf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adiitʼą́","Part,VPerf",forgave,VPerf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adadeetʼą́","Part,VPerf",forgave,VPerf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adííníʼą́","Part,VPerf",forgave,VPerf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adooʼą́","Part,VPerf",forgave,VPerf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼa,dasidooʼą́","Part,VPerf",forgave,VPerf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,iidííʼą́","Part,VPerf",forgave,VPerf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adeideezʼą́","Part,VPerf",forgave,VPerf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,azhdííʼą́","Part,VPerf",forgave,VPerf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adazhdeezʼą́","Part,VPerf",forgave,VPerf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adideeshʼááł","Part,VFut",will forgive,VFut,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adidiitʼááł","Part,VFut",will forgive,VFut,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adadidiitʼááł","Part,VFut",will forgive,VFut,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adidííʼááł","Part,VFut",will forgive,VFut,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
-"na’ageh,bee,tsi’na’adá","NAdp,Adp,VImpf",sexual immorality,NSub,,,,,,,,,,TRUE,?? + with + ??,MATCH
-"atsʼíís,doo,hináanii","NSub,Adv,NSub",corpse,NSub,,,,,,,,,,TRUE,body + not + alive one,MATCH
-"yóóʼ,adidoohʼááł","Part,VFut",will forgive,VFut,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adadidoohʼááł","Part,VFut",will forgive,VFut,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,iididooʼááł","Part,VFut",will forgive,VFut,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adeididooʼááł","Part,VFut",will forgive,VFut,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,azhdidooʼááł","Part,VFut",will forgive,VFut,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
-"yóóʼ,adazhdidooʼááł","Part,VFut",will forgive,VFut,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
 "baa,yidoojih","Adp,VFut",will give,VFut,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yíjááh","Adp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,MATCH
 "baa,yínííł","Adp,VImpf",gives/give,VImpf,3rd,SD,3rd,,,,,,,TRUE,to him/her + bring,MATCH
@@ -452,6 +421,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bee,ádéestʼį́į́ʼ","Adp,NSub",binocular/telescope,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,MATCH
 "bee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,3rd,,lack,,,,,TRUE,by means of him/her/it/them + is absent,MATCH
 "bee,ałkʼíniilkaałí","Adp,NSub",wedge,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,MATCH
+"bee,hoolʼin","Adp,VImpf",shine(s) dimly,VImpf,3rd,SD,,,shine dimly,,,,,TRUE,by means of + ??,MATCH
 "béégashii,bitsįʼ","NSub,NSub",beef,NSub,,,,,,,,,,TRUE,cow + its flesh,MATCH
 "béégashii,yáázh","NSub,NSub",calf,NSub,,,,,,,,,,TRUE,cow + offspring,MATCH
 "béésh,adeeʼ","NSub,NSub",spoon,NSub,,,,,,,,,,TRUE,metal + ??,MATCH
@@ -489,6 +459,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bichoʼ,bizis","NSub,NSub",his/their scrotum,NSub,3rd,,,,,,,,,TRUE,male genitalia + its sack,MATCH
 "bichʼííʼ,bitsʼániʼnísą́","NSub,NSub",his/her appendix (anatomy),NSub,3rd,,,,,,,,,TRUE,intestine + ??,MATCH
 "bidibé,yázhí","NSub,NSub",his/her/its lamb(s),NSub,3rd,,,,,,,,,TRUE,his sheep + little one,MATCH
+"bídin,hóóyééʼ","Adp,VPerf",was without,VPerf,,,,,,,,,,TRUE,without + terror,MATCH
+"bídin,hóyééʼ","Adp,VImpf",is without,VImpf,,,,,,,,,,TRUE,without + terror,MATCH
 "bigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",his/her mandolin,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,MATCH
 "bigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",his/her harp,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that curls up,MATCH
 "bigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",his/her banjo,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,MATCH
@@ -496,6 +468,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bįįh,yáázh","NSub,NSub",fawn,NSub,,,,,,,,,,TRUE,deer + offspring,MATCH
 "bįįh,yildeeʼį́","NSub,NSub",gooseberry/groundcherry,NSub,,,,,,,,,,TRUE,deer + food,MATCH
 "bił,doosih","Adp,VFut",will be satisfied with,VFut,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
+"bił,hóóyééʼ","Adp,VPerf",was lazy,VPerf,,,,,,,,,,TRUE,with + terror,MATCH
+"bił,hóyééʼ","Adp,VImpf",is lazy,VImpf,,,,,,,,,,TRUE,with + terror,MATCH
 "bił,násih","Adp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
 "bił,sih","Adp,VImpf",is satisfied with,VImpf,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
 "bił,wósih","Adp,VOpt",could be satisfied with,VOpt,3rd,,3rd,,,,,,,TRUE,with it + hope,MATCH
@@ -505,6 +479,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bílaʼ,ashdlaʼii","NSub,NSub",human being,NSub,,,,,,,,,,TRUE,his fingers + the five,MATCH
 "bílaʼ,dį́įʼii","NSub,NSub",fork,NSub,,,,,,,,,,TRUE,his hand + the four,MATCH
 "bimá,yazhí","NSub,NSub",his/her/its maternal aunt(s),NSub,3rd,,,,,,bi,,,TRUE,his mother + little one,MATCH
+"binaadę́ę́ʼ,danlíinii","Adv,NSub",outsiders,NSub,,,,,,,,,,TRUE,from around it + they who are,MATCH
 "biniiyé,ábidiiʼní","Adp,VImpf",ask,VImpf,1st,D,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
 "biniiyé,ábidiní","Adp,VImpf",ask,VImpf,2nd,S,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
 "biniiyé,ábidishní","Adp,VImpf",ask,VImpf,1st,S,3rd,,ask,,,,,TRUE,for the purpose of + say thus,MATCH
@@ -623,6 +598,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "doo,dziil,da","Adv,NSub,Adv",weakness,NSub,,,,,,,,,,TRUE,not + strength + (not),MATCH
 "doo,háájí,da","Adv,Adv,Adv",nowhere,Adv,,,,,,,,,,TRUE,not + ?? + (not),MATCH
 "doo,hadziil,da","Adv,NSub,Adv",one's/others' weakness,NSub,4th,,,,,,,,,TRUE,not + strength + (not),MATCH
+"doo,íitsʼaʼí,da","Adv,NSub,Adv",silent,VImpf,,,,,,,,,,TRUE,not + sound + (not),MATCH
 "doo,nagháí,da","Adv,ProSub,Adv",nobody,NSub,,,,,,,,,,TRUE,not + ?? + (not),MATCH
 "doo,nidziil,da","Adv,NSub,Adv",your weakness,NSub,2nd,S,,,,,,,,TRUE,not + strength + (not),MATCH
 "doo,nihidziil,da","Adv,NSub,Adv",our/your weakness,NSub,1st/2nd,D,,,,,,,,TRUE,not + strength + (not),MATCH
@@ -708,6 +684,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "hazhóʼó,baa,nídahwiilnih","Adv,Adp,VIter",do explain,VIter,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,MATCH
 "hee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,TRUE,by means of one/others + is absent,MATCH
 "hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
+"ił,ééhózin","Adp,VImpf",knowledge,NSub,3rd,,,,,,,,,TRUE,with + there is knowledge,MATCH
 "ił,naalbąąsí","Adp,NSub",wheelchair,NSub,,,,,,,,,,TRUE,with + ??,MATCH
 "ił,náhodighááh","Adp,VImpf",dizziness,NSub,,,,,,,,,,TRUE,with + starts to go around the area,MATCH
 "Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,TRUE,,MATCH
@@ -822,6 +799,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "mąʼii,łitsooí","NSub,NSub",red fox,NSub,,,,,,,,,,TRUE,coyote + the yellow one,MATCH
 "mąʼiiłtsooí,yázhí","NSub,NSub",fox kit,NSub,,,,,,,,,,TRUE,fox + the little one,MATCH
 "mósí,bichʼiyąʼ","NSub,NSub",cat food,NSub,,,,,,,,,,TRUE,cat + its food,MATCH
+"na’ageh,bee,tsi’na’adá","NAdp,Adp,VImpf",sexual immorality,NSub,,,,,,,,,,TRUE,?? + with + ??,MATCH
 "Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,TRUE,Navajo's area,MATCH
 "Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,TRUE,Navajo's word,MATCH
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),MATCH
@@ -1015,6 +993,36 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yiską́,damóo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,MATCH
 "yitʼíní,ályaa","NSub,NSub",apocalypse,NSub,,,,,,TRUE,,,,TRUE,?? + is made (passive),MATCH
 "yiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,MATCH
+"yóóʼ,adadeetʼą́","Part,VPerf",forgave,VPerf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadidiitʼááł","Part,VFut",will forgive,VFut,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadidoohʼááł","Part,VFut",will forgive,VFut,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadiitʼaah","Part,VImpf",forgive,VImpf,1st,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adadohʼaah","Part,VImpf",forgive,VImpf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdeezʼą́","Part,VPerf",forgave,VPerf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdidooʼááł","Part,VFut",will forgive,VFut,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adazhdiʼaah","Part,VImpf",forgive,VImpf,4th,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeideezʼą́","Part,VPerf",forgave,VPerf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeididooʼááł","Part,VFut",will forgive,VFut,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adeidiʼaah","Part,VImpf",forgive,VImpf,3rd,P,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adideeshʼááł","Part,VFut",will forgive,VFut,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adidiitʼááł","Part,VFut",will forgive,VFut,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adidííʼááł","Part,VFut",will forgive,VFut,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adidoohʼááł","Part,VFut",will forgive,VFut,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adííníʼą́","Part,VPerf",forgave,VPerf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adiitʼą́","Part,VPerf",forgave,VPerf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adiitʼaah","Part,VImpf",forgive,VImpf,1st,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adííʼą́","Part,VPerf",forgave,VPerf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adishʼaah","Part,VImpf",forgive,VImpf,1st,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adíʼaah","Part,VImpf",forgive,VImpf,2nd,S,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adohʼaah","Part,VImpf",forgive,VImpf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,adooʼą́","Part,VPerf",forgave,VPerf,2nd,D,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdidooʼááł","Part,VFut",will forgive,VFut,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdííʼą́","Part,VPerf",forgave,VPerf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,azhdiʼaah","Part,VImpf",forgive(s),VImpf,4th,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iididooʼááł","Part,VFut",will forgive,VFut,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iidííʼą́","Part,VPerf",forgave,VPerf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼ,iidiʼaah","Part,VImpf",forgive(s),VImpf,3rd,SD,3rd,,,,,,,TRUE,lost + give,MATCH
+"yóóʼa,dasidooʼą́","Part,VPerf",forgave,VPerf,2nd,P,3rd,,,,,,,TRUE,lost + give,MATCH
 "zhéí,asbáala","NSub,NSub",king of spades,NSub,,,,,,,,,,TRUE,,MATCH
 "zhéí,báabas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,MATCH
 "zhéí,báasdos","NSub,NSub",king of clubs,NSub,,,,,,,,,,TRUE,,MATCH
