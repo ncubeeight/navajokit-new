@@ -4,7 +4,7 @@ Yáʼátʼééh and Hello!
 
 ## Purpose Statement
 
-1. To honor the Codetalkers who bravely fought during World War II
+1. To honor the Codetalkers who bravely served during World War II
 2. To fill gap that currently exists in lingustic studies and computer science
 3. To provide knowledge for the benefit of humanity
 
@@ -23,12 +23,14 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 ## Status
 
-* At the moment, this project is in the very early stages during the process of growing the dataset. There are currently over 9000 training records, which are a combination of individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
+* At the moment, this project is in the very early stages during the process of growing the dataset of 30,000 tokens across nearly 10,000 training records, which are a combination of individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
 
-* It includes tokenization for a number of sizes but has been trained for word-based tokens at the moment. A polysynthetic tokenizer is very early in development for better helping with identifying word components.
+* It includes tokenization for a number of sizes but has been trained for word-based tokens at the moment. The tokenizer has several options, such as handling of Unicode characters and ignoring the lead glottal stops.
 
-* The ML model in the project at the moment is Apple's Core ML flavor of the part-of-speech (POS) tagger with the conditional random field (CRF) algorithm for applying the appropriate parts-of-speech to recognized or inferred words.
+* A polysynthetic tokenizer is very early in development for better helping with identifying word components. Its initial focus is on prefixes and suffixes for several parts-of-speech.
 
-* The translation portion performs a direct, case-insensitive search for single words or compounds words, attempting by the tagged POS first with fallback to any match (and a flag to indicate that fallback). This serves well for interlinear translations but not end-to-end translation that models of more advanced architectures would provide.
+* The ML model in the project is Apple's Core ML flavor of the part-of-speech (POS) tagger with the conditional random field (CRF) algorithm for applying the appropriate parts-of-speech to recognize or inferred words. Alternate transfer-learning algorithems using BERT and ELMo are not possible for Navajo.
 
-* In the future, the project will include an image classification model for optical character recognition (OCR) of image files or camera feeds of Navajo text. That model is not included at the moment because of its low accuracy for vowels containing two diacriticals.
+* The translation portion performs a direct, case-insensitive search for single words or compounds words/phrases, attempting by the tagged POS first with "miss" fallback to any match (and a flag to indicate that suggested fallback). This serves well for interlinear translations but not yet for end-to-end translation that models of more advanced architectures would provide.
+
+* In the future, the project will include an image classification model for optical character recognition (OCR) of image files or camera feeds of Navajo text. That model is not included at the moment because of its low accuracy for vowels containing two diacriticals, italicized vowels following glottal stops, etc.
