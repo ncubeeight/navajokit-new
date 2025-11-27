@@ -21,6 +21,12 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 * Adaptations must be shared under the same terms.
 * Commercial usage is permitted.
 
+## Counts
+
+* 30,081 tokens
+* 9,845 training records
+* 25 parts-of-speech
+
 ## Status
 
 * At the moment, this project is in the very early stages during the process of growing the dataset of 30,000 tokens across nearly 10,000 training records, which are a combination of individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
