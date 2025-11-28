@@ -1,4 +1,4 @@
-# The Navajo Translation Project
+# Overview
 
 Yáʼátʼééh and Hello!
 
@@ -23,8 +23,8 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 ## Counts
 
-* 30,081 tokens
-* 9,845 training records
+* 30,670 tokens
+* 9,911 training records
 * 25 parts-of-speech
 
 ## Status
