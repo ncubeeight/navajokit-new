@@ -27,13 +27,13 @@ final class NVPTPostpositionTests: XCTestCase {
 				input: NVWordToken(
 					token: "shił",
 					adjustedToken: "shił",
-					pos: "adp",
+					pos: "postp",
 					components: []
 				),
 				expected: NVWordToken(
 					token: "shił",
 					adjustedToken: "shił",
-					pos: "Adp",
+					pos: "Postp",
 					components: [
 						NVWordToken(
 							token: "shi",
@@ -46,7 +46,7 @@ final class NVPTPostpositionTests: XCTestCase {
 						NVWordToken(
 							token: "ł",
 							adjustedToken: "ił",
-							pos: "Adp",
+							pos: "Postp",
 							translation: "with"
 						),
 					]
@@ -56,13 +56,13 @@ final class NVPTPostpositionTests: XCTestCase {
 				input: NVWordToken(
 					token: "yichʼą́ą́h",
 					adjustedToken: "yichʼą́ą́h",
-					pos: "Adp",
+					pos: "Postp",
 					components: []
 				),
 				expected: NVWordToken(
 					token: "yichʼą́ą́h",
 					adjustedToken: "yichʼą́ą́h",
-					pos: "Adp",
+					pos: "Postp",
 					components: [
 						NVWordToken(
 							token: "yi",
@@ -75,7 +75,7 @@ final class NVPTPostpositionTests: XCTestCase {
 						NVWordToken(
 							token: "chʼą́ą́h",
 							adjustedToken: "chʼą́ą́h",
-							pos: "Adp",
+							pos: "Postp",
 							translation: "blocking",
 						),
 					]
@@ -84,7 +84,7 @@ final class NVPTPostpositionTests: XCTestCase {
 		]
 
 		for testCase in postpositionList {
-			let processed = tokenizer.tokenize(adp: testCase.input)
+			let processed = tokenizer.tokenize(postp: testCase.input)
 			let expected = testCase.expected
 
 			XCTAssertEqual(processed.token, expected.token)

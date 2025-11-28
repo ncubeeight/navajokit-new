@@ -33,6 +33,14 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 * In the future, the project will include an image classification model for optical character recognition (OCR) of image files or camera feeds of Navajo text. That model is not included at the moment because of its low accuracy for vowels containing two diacriticals, italicized vowels following glottal stops, etc.
 
+## Swift Package
+
+This project is currently formatted as a Swift Package that requires iOS 15.0+ or macOS 12.0+ (Monterey).
+
+> Note: **NavajoTagger.mlmodel** as a stand-alone will work on iOS 12.0+, macOS 10.14+ (Mojave), tvOS 12.0+, watchOS 5.0+, visionOS 1.0+.
+
+Swift Package Manager URL: [https://gitlab.com/HullBreach/navajokit](https://gitlab.com/HullBreach/navajokit)
+
 ## Documentation
 
 Available [here](https://hullbreach.gitlab.io/navajokit/documentation/navajokit/).

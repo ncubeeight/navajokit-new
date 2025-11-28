@@ -317,18 +317,18 @@ public class NVPolysyntheticTokenizer {
 		Tokenize a postposition using Navajo polysynthetic rules
 
 		- Parameters:
-			- adp: Tokenized word object
+			- postp: Tokenized word object
 		- Returns: Modified object with subcomponent array included
 	 */
-	public func tokenize(adp: NVWordToken) -> NVWordToken {
+	public func tokenize(postp: NVWordToken) -> NVWordToken {
 
 		//This function only accepts postpositions
-		if adp.pos?.lowercased() != "adp" {
-			return adp
+		if postp.pos?.lowercased() != "postp" {
+			return postp
 		}
 
 		//Copy to variable for further handling
-		var token = adp
+		var token = postp
 
 		//Check if the Postposition is formed by adding a possessive prefix to a base
 		for prefix in possessivePrefixList {
@@ -368,7 +368,7 @@ public class NVPolysyntheticTokenizer {
 						NVWordToken(
 							token: newToken,
 							adjustedToken: adjustedNewToken,
-							pos: "Adp",
+							pos: "Postp",
 							translation: stem
 						)
 					)

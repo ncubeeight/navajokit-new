@@ -76,7 +76,7 @@ public class NVTranslator {
 		//Narrow down list of matching Navajo words to correct POS
 		switch word.label {
 
-			case "NAdp", "NObj", "NRel", "NSub":
+			case "NPostp", "NObj", "NRel", "NSub":
 				filteredTrans = trans.filter({
 					return $0.partOfSpeech == "N"
 				})
@@ -86,9 +86,9 @@ public class NVTranslator {
 					return $0.partOfSpeech == "ProSub" || $0.partOfSpeech == "ProDem"
 				})
 
-			case "ProAdp", "ProObj":
+			case "ProPostp", "ProObj":
 				filteredTrans = trans.filter({
-					return $0.partOfSpeech == "ProAdp" || $0.partOfSpeech == "ProObj" || $0.partOfSpeech == "ProDem"
+					return $0.partOfSpeech == "ProPostp" || $0.partOfSpeech == "ProObj" || $0.partOfSpeech == "ProDem"
 				})
 
 			default:
@@ -214,7 +214,7 @@ public class NVTranslator {
 				//print("Row: \(word.debugDescription)")
 
 				switch label {
-					case "NAdp", "NObj", "NRel", "NSub":
+					case "NPostp", "NObj", "NRel", "NSub":
 						label = "N"
 					default:
 						break
@@ -270,9 +270,9 @@ public class NVTranslator {
 					//Ignore cases
 					let l = String($0).trimmingCharacters(in: .whitespacesAndNewlines)
 					switch l {
-						case "NAdp", "NObj", "NRel", "NSub":
+						case "NPostp", "NObj", "NRel", "NSub":
 							return "N"
-						case "ProAdp", "ProObj", "ProRel", "ProSub":
+						case "ProPostp", "ProObj", "ProRel", "ProSub":
 							return "Pro"
 						default:
 							return l
@@ -294,9 +294,9 @@ public class NVTranslator {
 						//Ignore cases
 						var pos = $0.partOfSpeech
 						switch pos {
-							case "NAdp", "NObj", "NRel", "NSub":
+							case "NPostp", "NObj", "NRel", "NSub":
 								pos = "N"
-							case "ProAdp", "ProObj", "ProRel", "ProSub":
+							case "ProPostp", "ProObj", "ProRel", "ProSub":
 								pos = "Pro"
 							default:
 								break
