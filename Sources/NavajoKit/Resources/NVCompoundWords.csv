@@ -283,18 +283,18 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "áłah,jileeh","Adv,VImpf",meets/meet,VImpf,4th,SD,,,meet,,,,,TRUE,together + become,Yes,2
 "áłah,jizlį́į́ʼ","Adv,VPerf",met,VPerf,4th,SD,,,meet,,,,,TRUE,together + became,Yes,2
 "áłah,jóleʼ","Adv,VOpt",could meet,VOpt,4th,SD,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nádleeh","Adv,VIter",do(es) meet,VIter,3rd,SD,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,náhdleeh","Adv,VIter",do meet,VIter,2nd,D,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nánídleeh","Adv,VIter",do meet,VIter,2nd,S,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,náshdleeh","Adv,VIter",do meet,VIter,1st,S,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,néiidleeh","Adv,VIter",do meet,VIter,1st,D,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nídaadleeh","Adv,VIter",do meet,VIter,3rd,P,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nídaahdleeh","Adv,VIter",do meet,VIter,2nd,P,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nídajidleeh","Adv,VIter",do meet,VIter,4th,P,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nídeiidleeh","Adv,VIter",do meet,VIter,1st,P,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,níjídleeh","Adv,VIter",do(es) meet,VIter,4th,SD,,,meet,,,,,TRUE,together + do become,Yes,2
-"áłah,nileeh","Adv,VImpf",meet,VImpf,2nd,S,,,meet,,,,,TRUE,together + become,Yes,2
-"áłah,ńjídleeh","Adv,VIter",do(es) meet,VIter,4th,SD,,,meet,,,,,TRUE,together + do become,Yes,2
+"áłah,nádleeh","Adv,VImpf",meet(s),VImpf,3rd,SD,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,náhdleeh","Adv,VImpf",meet,VImpf,2nd,D,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nánídleeh","Adv,VImpf",meet,VImpf,2nd,S,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,náshdleeh","Adv,VImpf",meet,VImpf,1st,S,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,néiidleeh","Adv,VImpf",meet,VImpf,1st,D,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nídaadleeh","Adv,VImpf",meet,VImpf,3rd,P,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nídaahdleeh","Adv,VImpf",meet,VImpf,2nd,P,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nídajidleeh","Adv,VImpf",meet,VImpf,4th,P,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nídeiidleeh","Adv,VImpf",meet,VImpf,1st,P,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,níjídleeh","Adv,VImpf",meet(s),VImpf,4th,SD,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,nileeh","Adv,VImpf",meet,VImpf,2nd,S,,,meet,,,,,TRUE,together + become again,Yes,2
+"áłah,ńjídleeh","Adv,VImpf",meet(s),VImpf,4th,SD,,,meet,,,,,TRUE,together + become again,Yes,2
 "áłah,sélį́į́ʼ","Adv,VPerf",met,VPerf,1st,S,,,meet,,,,,TRUE,together + became,Yes,2
 "áłah,siidlį́į́ʼ","Adv,VPerf",met,VPerf,1st,D,,,meet,,,,,TRUE,together + became,Yes,2
 "áłah,silį́į́ʼ","Adv,VPerf",met,VPerf,3rd,SD,,,meet,,,,,TRUE,together + became,Yes,2
@@ -334,7 +334,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "áńtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "áńtʼée,doo","VImpf,Part",will be,VFut,2nd,S,,,be,,,-tʼé,,TRUE,be + (future),Yes,2
 "ásaaʼ,yilghaałí","NSub,NSub",musical drum,NSub,,,,,,,,,,TRUE,jar/pot + one that moves its eyes,Yes,2
-"ashdlaʼáadah,góneʼ","NumO,NumO",fifteenth,NumO,,,,,,,,,,TRUE,fifteen + (ordinal),Yes,2
+"ashdlaʼáadah,góneʼ","NumC,Adv",fifteenth,NumO,,,,,,,,,,TRUE,fifteen + (ordinal),Yes,2
 "Áshįįh,biiʼtó,Hahoodzo","NSub,Adv,NSub",Utah,NSub,,,,,,TRUE,,,,TRUE,salt + in it water + state,Yes,3
 "áshįįh,łikan","NSub,VImpf",sugar,NSub,,,,,,,,,,TRUE,salt + is it sweet,Yes,2
 "atsá,biyáázh","NSub,NSub",eaglet (February),NSub,,,,,,,,,,TRUE,eagle's son,Yes,2
@@ -356,6 +356,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "átʼée,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "átʼéé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "átʼéé,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
+"awáalya,yaa,áhályání","NObj,Postp,VImpf",jailer,NSub,,,,,,,,,,TRUE,jail + about him + he takes care,Yes,3
 "awééʼ,yázhí","NSub,NSub",little baby,NSub,,,,,,,,,,TRUE,baby + small,Yes,2
 "awooʼ,diniih","NSub,NSub",toothache,NSub,,,,,,,,,,TRUE,tooth + ache,Yes,2
 "ayóó,átʼé","Adv,VImpf",the great one,NSub,,,,,,,,,,TRUE,very + is/are,Yes,2
@@ -564,9 +565,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "danihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,Yes,2
 "dayooʼį́į,doo","VImpf,Part",will see,VFut,3rd,P,3rd,,,,,,,TRUE,see + (future),Yes,2
 "dáʼákaz,łikaní","NSub,NSub",sugar cane,NSub,,,,,,,,,,TRUE,cornstalk + the sweet one,Yes,2
-"daʼnijahí,góneʼ","NPostp,Postp",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
+"daʼnijahí,góneʼ","NSub,Adv",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
 "daʼnílʼį́,bá,hooghanígíí ","NPostp,Postp,NSub",movie theater,NSub,,,,,,,,,,TRUE,movie + for + its house ,Yes,3
-"daʼnjahí,góneʼ","NPostp,Postp",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
+"daʼnjahí,góneʼ","NSub,Adv",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
 "deijiʼ,ééʼ","NSub,NSub",shirt,NSub,,,,,,,,,,TRUE,upper part + clothing,Yes,2
 "deijiʼ,sheʼééʼ","NSub,NSub",my shirt,NSub,1st,S,,,,,,,,TRUE,upper part + my clothing,Yes,2
 "dibé,tsaʼii","NSub,NSub",ewe,NSub,,,,,,,,,,TRUE,sheep + ??,Yes,2
@@ -841,7 +842,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ńdíshchííʼ,bigaan","NSub,NSub",pine branch,NSub,,,,,,,,,,TRUE,pine + its arm,Yes,2
 "nee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,2nd,S,lack,,,,,TRUE,by means of you + is absent,Yes,2
 "neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,Yes,3
-"neeznáá,góneʼ","NumO,NumO",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),Yes,2
+"neeznáá,góneʼ","NumC,Adv",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),Yes,2
 "neeznáago,bikʼeh,óʼooʼníiłii ","NumC,Adv,NSub",Ten Commandments,NSub,,,,,,,,,,TRUE,ten + according to him + commandment,Yes,3
 "neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,Yes,2
 "nibéeso,bizis","NSub,NSub",your wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,Yes,2
@@ -958,8 +959,16 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼáá,shǫǫdí","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,Yes,2
 "tʼáadoo,leʼé","Part,NSub",anything,NSub,,,,,,,,,,FALSE,not + ??,Yes,2
 "tʼáásh,aaníí","Part,NSub",really,Adv,,,,,,,,,,TRUE,,Yes,2
+"tʼóó,adahayóí","Adv,VImpf",are many,VImpf,3rd,P,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,adahojíyói","Adv,VImpf",are many,VImpf,4th,P,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,adahojíyóí","Adv,VImpf",are many,VImpf,4th,P,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,adahoniiʼyóí","Adv,VImpf",are many,VImpf,1st,P,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,adahonohyóí","Adv,VImpf",are many,VImpf,2nd,P,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,ahayóí","Adv,VImpf",are many,VImpf,3rd,D,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,ahayóí","Part,Adv",many,Det,,,,,,,,,,TRUE,just + many,Yes,2
-"awáalya,yaa,áhályání","NObj,Postp,VImpf",jailer,NSub,,,,,,,,,,TRUE,jail + about him + he takes care,Yes,3
+"tʼóó,ahojíyóí","Adv,VImpf",are many,VImpf,4th,D,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,ahoniiʼyóí","Adv,VImpf",are many,VImpf,1st,D,,,be many,,,,,TRUE,merely + be many,Yes,2
+"tʼóó,ahonohyóí","Adv,VImpf",are many,VImpf,2nd,D,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,bílaʼ,dijool","Adv,NSub,VImpf",clumsy,Adv,,,,,,,,,,TRUE,"just + his hands + are spherical (Adj ""all-thumbs"")",Yes,3
 "Wááshindoon,Bikéyah,Ałhidadiidzooígíí","NSub,NSub,NSub",United States,NSub,,,,,,TRUE,,,,TRUE,Washington's land federation,Yes,3
 "Wááshindoon,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,Yes,2

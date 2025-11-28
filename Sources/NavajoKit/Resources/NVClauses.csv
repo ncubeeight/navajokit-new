@@ -39,7 +39,7 @@ TOKENS,LABELS,English,Match?,Count
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
-"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́,ńtʼééʼ,.","NPostp,Postp,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
+"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Postp,Adv,Postp,VImpf",Happy New Year,Yes,4
 "Baa,iijííł,.","Postp,VImpf,Punct",It pierces into it.,Yes,3
 "Bááh,ádeiilnééh,.","NObj,VImpf,Punct",We are making bread.,Yes,3
@@ -213,6 +213,7 @@ TOKENS,LABELS,English,Match?,Count
 "Naʼahóóhai,naaki,naʼahóóhai,bitsįʼ,yį́yą́,.","NSub,NumC,NObj,NObj,VImpf,Punct",The chicken is eating two chicken meats.,Yes,6
 "Naʼahóóhai,naʼahóóhai,bitsįʼ,yį́yą́,.","NSub,NObj,NObj,VImpf,Punct",The chicken is eating chicken meat.,Yes,5
 "neeznáá,dah,woozh","NumC,NSub,NSub",ten strawberries,Yes,3
+"neeznánígíí,naakijįʼ,ałtsʼájíniłgo","NumC,NumC,Adv",Ten divided by two,Yes,3
 "Néʼéshjaaʼ,mósí,yidiłní,.","NSub,NObj,VImpf,Punct",The owl is mimicking the sound of a cat.,Yes,4
 "Ni,dooda,"","",John,ábidishní,.","ProObj,Adv,Punct,NObj,VImpf,Punct","Not you, I mean John.",Yes,6
 "Ni,shidiltłish,honílǫ́,...,dóó,sheʼałtį́į́ʼ,...,dóó,sitsénił,.","ProSub,NObj,VImpf,Punct,Conj,NObj,Punct,Conj,NObj,Punct","You have my sword, ... and my bow, ... and my axe.",Yes,10

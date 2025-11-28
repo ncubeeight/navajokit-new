@@ -14,6 +14,13 @@ public enum NVPerson: String, Codable {
 
 	///Similar to third but helps clarify syntactic ambiguity or for nebulous entities
 	case fourth
+	///Specifically objects (generally humans) in fourth person
+	case fourthO
+	///Specifically areas (any anyone in them) in fourth person
+	case fourthA
+	///Indefinite fourth person
+	case fourthI
+
 	///Geographic or locational references
 	case spatial
 	///References with returned effects
@@ -36,6 +43,9 @@ public enum NVPerson: String, Codable {
 			case "second", "2", "2nd": self = .second
 			case "third", "3", "3rd": self = .third
 			case "fourth", "4", "4th": self = .fourth
+			case "fourtho", "4o", "4tho": self = .fourthO
+			case "fourtha", "4a", "4tha": self = .fourthA
+			case "fourthi", "4i", "4thi": self = .fourthI
 			case "spatial", "spat", "sp": self = .spatial
 			case "reciprocal", "recip": self = .reciprocal
 			case "reflexive", "reflex", "refl": self = .reflexive

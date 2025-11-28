@@ -10,7 +10,6 @@ Det | Determiner |
 Interj | Interjection |
 NObj | Noun - Object | Predicate nouns
 NPostp | Noun - Postposition | Objects of postpositions
-NRel | Noun - Relative |
 NSub | Noun - Subject |
 NumC | Number - Cardinal | Will take ordinal (**NumO**) form with _góneʼ_
 NumO | Number - Ordinal | 
@@ -20,7 +19,6 @@ ProDem | Pronoun - Demonstrative |
 ProInt | Pronoun - Interrogative |
 ProObj | Pronoun - Object | Predicate pronouns
 ProPost | Pronoun - Postposition | Objects of postpositions
-ProRel | Pronoun - Relative | 
 ProSub | Pronoun - Subject | 
 Punct | Punctuation | 
 Sp | Whitespace | 
