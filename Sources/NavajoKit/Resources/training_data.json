@@ -21,7 +21,7 @@
       "VImpf",
       "Adv",
       "Punct",
-      "Postp",
+      "Adv",
       "Part",
       "VImpf",
       "Part",
@@ -31,8 +31,8 @@
       "NSub",
       "NSub",
       "NPostp",
-      "Postp",
-      "VImpf",
+      "Adv",
+      "VPerf",
       "Punct",
       "Conj",
       "NSub",
@@ -91,32 +91,74 @@
       "Adv",
       "NSub",
       "NSub",
-      "VIter",
+      "VPerf",
       "Punct",
       "Part",
-      "NPostp",
-      "Postp",
-      "NPostp",
+      "NSub",
+      "Adv",
+      "NSub",
+      "Adv",
+      "NObj",
+      "Adv",
+      "VOpt",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
       "Adv",
       "NPostp",
+      "Conj",
+      "Adv",
+      "NPostp",
+      "Postp",
+      "Adv",
+      "ProDem",
       "Postp",
       "VPerf",
+      "Punct",
+      "ProDem",
       "Part",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "NObj",
+      "NObj",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "VPerf",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NumC",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "NPostp",
+      "Postp",
+      "NSub",
+      "ProDem",
+      "Part",
+      "Adv",
+      "VOpt",
       "Punct",
       "Conj",
       "NSub",
       "NSub",
-      "ProDem",
-      "Postp",
-      "NPostp",
-      "Conj",
-      "Postp",
-      "NPostp",
-      "Postp",
-      "Adv",
-      "ProDem",
-      "Postp",
-      "VImpf",
+      "VPerf",
+      "Part",
       "Punct",
       "ProDem",
       "Part",
@@ -128,8 +170,325 @@
       "ProDem",
       "NObj",
       "NPostp",
+      "NPostp",
       "Postp",
       "VPerf",
+      "Punct",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "NObj",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VImpf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "NPostp",
+      "Postp",
+      "NSub",
+      "Conj",
+      "NSub",
+      "NSub",
+      "NSub",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Part",
+      "Adv",
+      "NSub",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "NObj",
+      "NObj",
+      "NObj",
+      "NObj",
+      "Adv",
+      "VFut",
+      "Part",
+      "Punct",
+      "Conj",
+      "ProDem",
+      "Part",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NSub",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NSub",
+      "NSub",
+      "NSub",
+      "Conj",
+      "NSub",
+      "Part",
+      "Adv",
+      "NSub",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "NPostp",
+      "Postp",
+      "NObj",
+      "NObj",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "VPerf",
+      "Conj",
+      "NSub",
+      "Adv",
+      "Adv",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "NPostp",
+      "Postp",
+      "Postp",
+      "NObj",
+      "VPerf",
+      "Part",
+      "Punct",
+      "Conj",
+      "ProDem",
+      "NObj",
+      "Conj",
+      "NObj",
+      "VFut",
+      "Part",
+      "Punct",
+      "ProPostp",
+      "Postp",
+      "NSub",
+      "VImpf",
+      "Part",
+      "Punct",
+      "ProPostp",
+      "Postp",
+      "VIter",
+      "Part",
+      "Conj",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "VImpf",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NPostp",
+      "Postp",
+      "VPerf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NObj",
+      "Adv",
+      "VPerf",
+      "Part",
+      "Punct",
+      "ProDem",
+      "Part",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Postp",
+      "NObj",
+      "NumC",
+      "Adv",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "Postp",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Adv",
+      "Postp",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VImpf",
+      "Part",
+      "Punct",
+      "NSub",
+      "Adv",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "Det",
+      "NPostp",
+      "Adv",
+      "Postp",
+      "VPerf",
+      "Part",
+      "Postp",
+      "NPostp",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "ProDem",
+      "NPostp",
+      "Conj",
+      "NPostp",
+      "Postp",
+      "VImpf",
+      "Part",
+      "Punct",
+      "NObj",
+      "NPostp",
+      "Postp",
+      "VFut",
+      "Part",
+      "Adv",
+      "Postp",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "VPerf",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NumO",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "Adv",
+      "NSub",
+      "Adv",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NPostp",
+      "Postp",
+      "Adv",
+      "NSub",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "NObj",
+      "Adv",
+      "NObj",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "Adv",
+      "VImpf",
+      "Part",
+      "Adv",
+      "NObj",
+      "Adv",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NObj",
+      "Adv",
+      "NObj",
+      "Adv",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "VImpf",
+      "Punct",
+      "NSub",
+      "VFut",
+      "Part",
+      "Punct",
+      "Conj",
+      "Adv",
+      "VFut",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NPostp",
+      "Postp",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NObj",
+      "Adv",
+      "NObj",
+      "Adv",
+      "VFut",
+      "VFut",
       "Punct",
       "Conj",
       "NSub",
@@ -144,117 +503,234 @@
       "Adv",
       "NSub",
       "NSub",
-      "VIter",
-      "Punct",
-      "NPostp",
-      "Postp",
-      "NSub",
-      "ProDem",
-      "Part",
-      "Adv",
-      "VProg",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "VImpf",
-      "Part",
-      "Punct",
-      "ProDem",
-      "Part",
-      "Adv",
       "VPerf",
       "Punct",
       "NSub",
-      "NSub",
-      "ProDem",
-      "NPostp",
-      "NPostp",
-      "NPostp",
-      "Postp",
-      "VPerf",
-      "Punct",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "NPostp",
-      "Postp",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VPerf",
-      "Punct",
       "Adv",
       "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "NPostp",
-      "Postp",
-      "NSub",
-      "Conj",
-      "NSub",
-      "NRel",
-      "NRel",
-      "Punct",
-      "Conj",
-      "NSub",
-      "Part",
       "Adv",
-      "NRel",
-      "NRel",
-      "NRel",
-      "ProDem",
-      "NRel",
-      "NRel",
-      "NRel",
-      "NPostp",
-      "Postp",
-      "VImpf",
-      "Part",
-      "Punct",
-      "Conj",
-      "ProDem",
-      "Part",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
       "NSub",
+      "Adv",
+      "NSub",
+      "VOpt",
+      "Punct",
+      "ProDem",
+      "NObj",
+      "Conj",
+      "NObj",
       "Conj",
       "NObj",
       "Adv",
-      "NRel",
-      "NRel",
-      "NRel",
+      "VFut",
+      "Part",
+      "Punct",
+      "ProDem",
+      "Part",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "NObj",
+      "Adv",
+      "NObj",
+      "Adv",
+      "Adv",
+      "Punct",
+      "Conj",
+      "NObj",
+      "Adv",
+      "Adv",
+      "Punct",
+      "Conj",
+      "Adv",
+      "NObj",
+      "Part",
+      "Adv",
+      "Adv",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "ProDem",
+      "Adv",
+      "Postp",
+      "VPerf",
+      "Punct",
+      "Adv",
+      "NSub",
+      "NSub",
+      "VIter",
+      "Punct",
+      "Adv",
+      "NObj",
+      "Part",
+      "Adv",
+      "Punct",
+      "Adv",
+      "Adv",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NSub",
+      "Conj",
+      "Adv",
+      "NSub",
+      "Conj",
+      "NSub",
+      "Conj",
+      "NSub",
+      "Adv",
+      "Part",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NSub",
+      "ProDem",
+      "Part",
+      "Adv",
+      "Postp",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "NObj",
+      "NObj",
+      "Part",
+      "ProObj",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "NSub",
+      "NSub",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "NObj",
+      "Conj",
+      "NObj",
+      "VPerf",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "Adv",
+      "VPerf",
+      "Punct",
+      "NObj",
+      "Adv",
+      "Adv",
+      "VFut",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Adv",
+      "Adv",
+      "Adv",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NPostp",
+      "Postp",
+      "NObj",
+      "Punct",
+      "Adv",
+      "NObj",
+      "Conj",
+      "NObj",
+      "Adv",
+      "Adv",
+      "NObj",
+      "Part",
+      "Adv",
+      "Postp",
+      "VImpf",
+      "Part",
+      "Punct",
+      "Conj",
+      "NSub",
+      "NSub",
+      "VPerf",
+      "Punct",
+      "VImpf",
+      "Punct",
+      "NObj",
+      "NObj",
+      "NObj",
+      "Adv",
+      "NObj",
+      "Postp",
+      "VImpf",
+      "Punct",
+      "Conj",
+      "NObj",
+      "Adv",
+      "NObj",
+      "NObj",
+      "NObj",
+      "NObj",
+      "Adv",
+      "NObj",
+      "VFut",
+      "Punct",
+      "Conj",
+      "NSub",
+      "Adv",
+      "NSub",
+      "Part",
+      "Adv",
+      "Conj",
+      "Adv",
+      "NSub",
+      "Part",
+      "Adv",
       "Conj",
       "NSub",
       "Part",
       "Adv",
-      "NRel",
-      "NRel",
-      "NRel",
+      "Conj",
+      "NSub",
+      "Adv",
       "ProDem",
-      "NPostp",
+      "NObj",
+      "NObj",
+      "NObj",
+      "Adv",
       "Postp",
-      "NRel",
-      "NRel",
+      "VImpf",
+      "Punct",
+      "ProDem",
+      "Part",
+      "Adv",
       "VPerf",
       "Punct",
       "Conj",
       "NSub",
       "NSub",
       "ProDem",
+      "NObj",
+      "Part",
+      "Adv",
+      "Adv",
+      "ProDem",
+      "Part",
       "Adv",
       "Postp",
       "VPerf",
+      "Punct",
+      "VImpf",
       "Punct",
       "Conj",
       "NSub",
@@ -262,7 +738,7 @@
       "Conj",
       "NSub",
       "Adv",
-      "Adv",
+      "NumO",
       "NObj",
       "VPerf",
       "Punct"
@@ -532,489 +1008,7 @@
       "tágí",
       "jį́",
       "azlį́į́ʼ",
-      "."
-    ]
-  },
-  {
-    "labels" : [
-      "Adv",
-      "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "NPostp",
-      "Postp",
-      "Postp",
-      "NRel",
-      "VPerf",
-      "Part",
-      "Punct",
-      "Conj",
-      "ProDem",
-      "NObj",
-      "Conj",
-      "NSub",
-      "VFut",
-      "Part",
-      "Punct",
-      "ProPostp",
-      "Postp",
-      "NSub",
-      "VImpf",
-      "Part",
-      "Punct",
-      "ProPostp",
-      "Postp",
-      "VImpf",
-      "Part",
-      "Conj",
-      "VImpf",
-      "Part",
-      "Punct",
-      "Conj",
-      "VImpf",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "VPerf",
-      "Part",
-      "Punct",
-      "Conj",
-      "NObj",
-      "Adv",
-      "VPerf",
-      "Part",
-      "Punct",
-      "ProDem",
-      "Part",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Postp",
-      "NObj",
-      "NumC",
-      "Adv",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Adv",
-      "Postp",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VImpf",
-      "Part",
-      "Punct",
-      "Adv",
-      "Postp",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VImpf",
-      "Part",
-      "Punct",
-      "NSub",
-      "Adv",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProSub",
-      "NPostp",
-      "Adv",
-      "Postp",
-      "VPerf",
-      "Part",
-      "Postp",
-      "NPostp",
-      "Postp",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "ProDem",
-      "NPostp",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "VImpf",
-      "Part",
-      "Punct",
-      "NSub",
-      "NPostp",
-      "Postp",
-      "VFut",
-      "Part",
-      "Adv",
-      "Postp",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "VPerf",
-      "Conj",
-      "NSub",
-      "Adv",
-      "NumO",
-      "NSub",
-      "VPerf",
-      "Punct",
-      "Adv",
-      "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "Adv",
-      "NObj",
-      "NObj",
-      "Adv",
-      "VImpf",
-      "Part",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "Adv",
-      "NSub",
-      "VFut",
-      "Part",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "NObj",
-      "NObj",
-      "Adv",
-      "NRel",
-      "VPerf",
-      "Punct",
-      "NSub",
-      "NSub",
-      "Adv",
-      "VImpf",
-      "Part",
-      "Adv",
-      "NRel",
-      "Adv",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NObj",
-      "Adv",
-      "NRel",
-      "Adv",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VImpf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "VImpf",
-      "Punct",
-      "NObj",
-      "VFut",
-      "Part",
-      "Punct",
-      "Conj",
-      "Adv",
-      "VFut",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NObj",
-      "NObj",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Adv",
-      "VFut",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NSub",
-      "VImpf",
-      "Conj",
-      "NSub",
-      "Adv",
-      "NumO",
-      "NObj",
-      "VImpf",
-      "Punct",
-      "Adv",
-      "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Adv",
-      "NRel",
-      "Adv",
-      "NRel",
-      "VFut",
-      "Punct",
-      "ProDem",
-      "NObj",
-      "Conj",
-      "NObj",
-      "Conj",
-      "NObj",
-      "Adv",
-      "VFut",
-      "Part",
-      "Punct",
-      "ProDem",
-      "Part",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Adv",
-      "Adv",
-      "Punct",
-      "Conj",
-      "NObj",
-      "Adv",
-      "Adv",
-      "Punct",
-      "Conj",
-      "Adv",
-      "NObj",
-      "Part",
-      "Adv",
-      "Adv",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "Adv",
-      "Postp",
-      "VImpf",
-      "Punct",
-      "Adv",
-      "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "ProInt",
-      "NObj",
-      "Part",
-      "Adv",
-      "Punct",
-      "Adv",
-      "Adv",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Conj",
-      "Adv",
-      "NObj",
-      "Conj",
-      "NObj",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "Part",
-      "VImpf",
-      "Adv",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "ProDem",
-      "Part",
-      "Adv",
-      "Postp",
-      "VFut",
-      "Part",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "NRel",
-      "NObj",
-      "Part",
-      "ProDem",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "NSub",
-      "NSub",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "NObj",
-      "Conj",
-      "NObj",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "NObj",
-      "Adv",
-      "Adv",
-      "VFut",
-      "Part",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "Adv",
-      "Adv",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Punct",
-      "Adv",
-      "NObj",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "Adv",
-      "NObj",
-      "Part",
-      "Adv",
-      "Postp",
-      "VFut",
-      "Part",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "VIter",
-      "Punct",
-      "Interj",
-      "Punct",
-      "NObj",
-      "NRel",
-      "NRel",
-      "Adv",
-      "NPostp",
-      "Postp",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NSub",
-      "Adv",
-      "NRel",
-      "NRel",
-      "NRel",
-      "NRel",
-      "Adv",
-      "NObj",
-      "VFut",
-      "Punct",
-      "Conj",
-      "NPostp",
-      "Postp",
-      "NObj",
-      "Part",
-      "Adv",
-      "Conj",
-      "Adv",
-      "NObj",
-      "Part",
-      "Adv",
-      "Conj",
-      "NObj",
-      "Part",
-      "Adv",
-      "Conj",
-      "NObj",
-      "Adv",
-      "ProDem",
-      "NObj",
-      "NRel",
-      "NRel",
-      "Adv",
-      "Postp",
-      "VFut",
-      "Punct",
-      "ProDem",
-      "Part",
-      "Adv",
-      "VPerf",
-      "Punct",
-      "Conj",
-      "NSub",
-      "NSub",
-      "ProDem",
-      "NRel",
-      "Part",
-      "Adv",
-      "Adv",
-      "ProPostp",
-      "Part",
-      "Adv",
-      "Postp",
-      "VImpf",
-      "Punct",
-      "Interj",
-      "Punct",
-      "Conj",
-      "NSub",
-      "VImpf",
-      "Conj",
-      "NSub",
-      "Adv",
-      "NumO",
-      "NObj",
-      "VImpf",
-      "Punct"
-    ],
-    "tokens" : [
+      ".",
       "nááʼákóneʼ",
       "diyin",
       "god",
@@ -1659,9 +1653,9 @@
       "ProDem",
       "NObj",
       "Adv",
-      "NRel",
+      "NObj",
       "Adv",
-      "NRel",
+      "NObj",
       "Conj",
       "Adv",
       "Adv",
@@ -1806,7 +1800,7 @@
       "Punct",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Part",
       "Adv",
       "Part",
@@ -2695,7 +2689,7 @@
       "Adv",
       "VImpf",
       "Adv",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "VPerf",
@@ -3052,7 +3046,7 @@
       "Adv",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "Adv",
       "Postp",
@@ -4025,8 +4019,8 @@
       "ProDem",
       "NObj",
       "Punct",
-      "NRel",
-      "NRel",
+      "NObj",
+      "NObj",
       "Punct",
       "VPerf",
       "Punct",
@@ -4497,8 +4491,8 @@
       "Conj",
       "NSub",
       "Punct",
-      "NRel",
-      "NRel",
+      "NSub",
+      "NSub",
       "Punct",
       "NObj",
       "Part",
@@ -4526,7 +4520,7 @@
       "Adv",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "VPerf",
       "Punct",
@@ -4574,7 +4568,7 @@
       "NPostp",
       "Postp",
       "NObj",
-      "NRel",
+      "NObj",
       "Adv",
       "VFut",
       "Postp",
@@ -4822,7 +4816,7 @@
       "Conj",
       "NSub",
       "ProDem",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "Adv",
@@ -5369,7 +5363,7 @@
       "Punct",
       "Conj",
       "Adv",
-      "NRel",
+      "NSub",
       "Adv",
       "NObj",
       "NPostp",
@@ -5395,7 +5389,7 @@
       "Punct",
       "ProInt",
       "Postp",
-      "NRel",
+      "NObj",
       "NObj",
       "VPerf",
       "Punct",
@@ -5559,7 +5553,7 @@
       "Punct",
       "Conj",
       "Postp",
-      "NRel",
+      "NObj",
       "Conj",
       "NObj",
       "Adv",
@@ -5572,10 +5566,10 @@
       "Part",
       "Adv",
       "Conj",
-      "NRel",
+      "NSub",
       "Punct",
       "ProDem",
-      "NRel",
+      "NObj",
       "Part",
       "Punct",
       "Conj",
@@ -5602,7 +5596,7 @@
       "Part",
       "Part",
       "Adv",
-      "NRel",
+      "NObj",
       "Punct",
       "ProPostp",
       "Postp",
@@ -5624,7 +5618,7 @@
       "NObj",
       "VImpf",
       "Punct",
-      "NRel",
+      "NObj",
       "Adv",
       "NObj",
       "Conj",
@@ -6890,7 +6884,7 @@
       "Adv",
       "Postp",
       "Adv",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "VPerf",
@@ -7797,7 +7791,7 @@
       "VPerf",
       "Punct",
       "Conj",
-      "NRel",
+      "NObj",
       "Adv",
       "Conj",
       "Part",
@@ -7846,7 +7840,7 @@
       "Postp",
       "VPerf",
       "Punct",
-      "NRel",
+      "NSub",
       "NPostp",
       "Postp",
       "Adv",
@@ -7905,7 +7899,7 @@
       "Part",
       "Punct",
       "Part",
-      "ProRel",
+      "ProObj",
       "VPerf",
       "Punct",
       "Conj",
@@ -7993,7 +7987,7 @@
       "VImpf",
       "Postp",
       "Adv",
-      "NRel",
+      "NObj",
       "VPerf",
       "Punct",
       "NSub",
@@ -8073,7 +8067,7 @@
       "ProDem",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Punct",
       "ProDem",
       "Adv",
@@ -8406,12 +8400,12 @@
       "NSub",
       "NSub",
       "ProDem",
-      "NRel",
+      "NObj",
       "Conj",
-      "NSub",
-      "NSub",
+      "NObj",
+      "NObj",
       "Adv",
-      "NSub",
+      "NObj",
       "NPostp",
       "Postp",
       "Adv",
@@ -8529,14 +8523,14 @@
       "Postp",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "Punct",
       "Conj",
       "ProDem",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "Punct",
       "Adv",
@@ -9149,7 +9143,7 @@
       "Punct",
       "Adv",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "Part",
       "Adv",
@@ -9233,7 +9227,7 @@
       "Postp",
       "VImpf",
       "NObj",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "VPerf",
@@ -9946,7 +9940,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "VPerf",
       "Punct",
@@ -10352,7 +10346,7 @@
       "NSub",
       "NPostp",
       "Postp",
-      "NRel",
+      "NPostp",
       "Adv",
       "Postp",
       "Adv",
@@ -10761,8 +10755,8 @@
       "Postp",
       "NPostp",
       "Postp",
-      "NRel",
-      "NRel",
+      "NObj",
+      "NObj",
       "Adv",
       "Adv",
       "Adv",
@@ -10780,7 +10774,7 @@
       "Punct",
       "Conj",
       "NSub",
-      "NRel",
+      "NObj",
       "Part",
       "Adv",
       "Postp",
@@ -10802,7 +10796,7 @@
       "Punct",
       "Conj",
       "NSub",
-      "NRel",
+      "NSub",
       "NSub",
       "Part",
       "Postp",
@@ -11004,7 +10998,7 @@
       "Adv",
       "NPostp",
       "Postp",
-      "NRel",
+      "NSub",
       "ProDem",
       "Part",
       "NSub",
@@ -11013,7 +11007,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NSub",
       "ProDem",
       "Part",
       "NSub",
@@ -11102,7 +11096,7 @@
       "Punct",
       "Conj",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "VImpf",
       "Conj",
@@ -11312,7 +11306,7 @@
       "Punct",
       "Conj",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "VImpf",
       "Conj",
@@ -11906,7 +11900,7 @@
       "Conj",
       "NSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "NPostp",
       "Postp",
@@ -11927,7 +11921,7 @@
       "Postp",
       "Adv",
       "Postp",
-      "NRel",
+      "NSub",
       "Punct",
       "Interj",
       "Punct",
@@ -11970,7 +11964,7 @@
       "VPerf",
       "Punct",
       "Adv",
-      "NRel",
+      "NObj",
       "Punct",
       "Part",
       "ProObj",
@@ -14087,7 +14081,7 @@
       "Conj",
       "NPostp",
       "Postp",
-      "NRel",
+      "NPostp",
       "Adv",
       "Postp",
       "Adv",
@@ -14116,7 +14110,7 @@
       "Punct",
       "Adv",
       "Adv",
-      "NRel",
+      "NSub",
       "Adv",
       "Part",
       "Punct",
@@ -14130,7 +14124,7 @@
       "NSub",
       "NSub",
       "Adv",
-      "NRel",
+      "NPostp",
       "Adv",
       "Postp",
       "VImpf",
@@ -14243,12 +14237,12 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NSub",
       "ProDem",
       "NPostp",
       "Postp",
-      "NRel",
-      "NRel",
+      "NObj",
+      "NObj",
       "Adv",
       "ProObj",
       "Postp",
@@ -14276,7 +14270,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "Punct",
@@ -14295,7 +14289,7 @@
       "Conj",
       "Part",
       "Postp",
-      "NRel",
+      "NSub",
       "Punct",
       "ProDem",
       "NSub",
@@ -14405,7 +14399,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "Postp",
       "VImpf",
@@ -14950,7 +14944,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NSub",
       "Adv",
       "Adv",
       "NObj",
@@ -14963,7 +14957,7 @@
       "Conj",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Adv",
       "Adv",
       "VPerf",
@@ -15640,7 +15634,7 @@
       "Punct",
       "ProSub",
       "NSub",
-      "NRel",
+      "NSub",
       "Adv",
       "Adv",
       "NObj",
@@ -16070,7 +16064,7 @@
       "Postp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NPostp",
       "Adv",
       "Postp",
       "VImpf",
@@ -22053,7 +22047,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NPostp",
       "Adv",
       "Postp",
       "NObj",
@@ -33589,16 +33583,16 @@
       "NObj",
       "Conj",
       "Adv",
-      "NObj",
+      "NPostp",
       "Adv",
       "NPostp",
       "Postp",
       "NObj",
       "VImpf",
       "Punct",
-      "NSub",
-      "NSub",
-      "NSub",
+      "NPostp",
+      "NPostp",
+      "NPostp",
       "Conj",
       "NPostp",
       "NPostp",
@@ -33608,16 +33602,12 @@
       "Conj",
       "Postp",
       "Postp",
-      "NSub",
       "NObj",
+      "NPostp",
       "Postp",
       "VFut",
       "Part",
       "Punct",
-      "NSub",
-      "NSub",
-      "Conj",
-      "NSub",
       "Part",
       "Adv",
       "NPostp",
@@ -33636,7 +33626,7 @@
       "NSub",
       "NSub",
       "NSub",
-      "NSub",
+      "NPostp",
       "Part",
       "Adv",
       "Adv",
@@ -33649,9 +33639,9 @@
       "Conj",
       "NPostp",
       "Postp",
-      "NPostp",
+      "NObj",
       "Part",
-      "NPostp",
+      "NObj",
       "Adv",
       "Postp",
       "NPostp",
@@ -33665,7 +33655,7 @@
       "NSub",
       "NSub",
       "Punct",
-      "NPostp",
+      "NObj",
       "Part",
       "Adv",
       "Postp",
@@ -33684,11 +33674,6 @@
       "NObj",
       "VImpf",
       "Punct",
-      "NPostp",
-      "ProDem",
-      "NPostp",
-      "Postp",
-      "Postp",
       "Adv",
       "Postp",
       "NPostp",
@@ -33744,7 +33729,7 @@
       "Adv",
       "Adv",
       "Postp",
-      "VImpf",
+      "VPerf",
       "Adv",
       "Part",
       "Punct",
@@ -33777,7 +33762,7 @@
       "Postp",
       "Adv",
       "Adv",
-      "NObj",
+      "NPostp",
       "Adv",
       "Postp",
       "VImpf",
@@ -33789,10 +33774,10 @@
       "Part",
       "Punct",
       "Conj",
-      "NSub",
+      "NPostp",
       "Part",
       "Postp",
-      "Part",
+      "Adv",
       "Adv",
       "Postp",
       "VImpf",
@@ -33855,7 +33840,7 @@
       "Adv",
       "Adv",
       "Part",
-      "NPostp",
+      "NSub",
       "Adv",
       "Conj",
       "NPostp",
@@ -33887,7 +33872,7 @@
       "NPostp",
       "Postp",
       "NSub",
-      "NSub",
+      "Conj",
       "ProDem",
       "Adv",
       "Postp",
@@ -33897,8 +33882,8 @@
       "Punct",
       "ProSub",
       "NSub",
-      "ProSub",
-      "NObj",
+      "Det",
+      "NPostp",
       "Postp",
       "VImpf",
       "Punct",
@@ -33930,7 +33915,7 @@
       "Punct",
       "NPostp",
       "Postp",
-      "Postp",
+      "VImpf",
       "Punct",
       "Postp",
       "NPostp",
@@ -33938,7 +33923,7 @@
       "Postp",
       "Adv",
       "Punct",
-      "VImpf",
+      "NSub",
       "Conj",
       "Adv",
       "Adv",
@@ -33971,11 +33956,6 @@
       "Postp",
       "NSub",
       "Punct",
-      "NPostp",
-      "Adv",
-      "Postp",
-      "NSub",
-      "NSub",
       "NSub",
       "Punct",
       "NPostp",
@@ -34080,10 +34060,6 @@
       "nihikʼijidlíi",
       "leʼ",
       ".",
-      "failííman",
-      "beʼayóóʼóʼóʼniʼ",
-      "índa",
-      "biʼoodląʼ",
       "tʼáá",
       "áłahjįʼ",
       "shisodizin",
@@ -34150,11 +34126,6 @@
       "bijéí",
       "bikʼéédahóótaad",
       ".",
-      "paul",
-      "éí",
-      "onésimas",
-      "yá",
-      "náʼookąąh",
       "ákótʼé",
       "bąą",
       "christ",
@@ -34437,11 +34408,6 @@
       "shił",
       "chohooʼį́",
       ".",
-      "kʼé",
-      "haʼníigo",
-      "bee",
-      "naaltsoos",
-      "niiltʼiʼii",
       "épafras",
       ",",
       "christ",
@@ -35954,14 +35920,14 @@
       "NPostp",
       "Postp",
       "VImpf",
-      "NRel",
+      "NSub",
       "Punct",
       "NSub",
       "NSub",
       "NSub",
       "NSub",
       "Adv",
-      "NRel",
+      "NSub",
       "Punct",
       "NPostp",
       "NPostp",
@@ -35973,7 +35939,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "Punct",
       "Postp",
       "NObj",
@@ -36257,7 +36223,7 @@
       "Conj",
       "NSub",
       "Adv",
-      "NRel",
+      "NSub",
       "Adv",
       "Adv",
       "NSub",
@@ -36425,7 +36391,7 @@
       "NSub",
       "NSub",
       "Adv",
-      "NRel",
+      "NSub",
       "Part",
       "Adv",
       "Postp",
@@ -36539,7 +36505,7 @@
       "NPostp",
       "NPostp",
       "Postp",
-      "NRel",
+      "NObj",
       "VImpf",
       "Punct",
       "Conj",
@@ -36621,7 +36587,7 @@
       "Adv",
       "Adv",
       "Postp",
-      "NRel",
+      "NObj",
       "VPerf",
       "Punct",
       "Part",
@@ -36669,7 +36635,7 @@
       "NPostp",
       "Postp",
       "Postp",
-      "NRel",
+      "NPostp",
       "Punct",
       "Postp",
       "Adv",
@@ -38001,8 +37967,8 @@
   },
   {
     "labels" : [
-      "NPostp",
-      "Postp",
+      "NSub",
+      "Adv",
       "Adv",
       "NSub",
       "VImpf",
@@ -40451,6 +40417,18 @@
       "neeznáá",
       "dah",
       "woozh"
+    ]
+  },
+  {
+    "labels" : [
+      "NumC",
+      "NumC",
+      "Adv"
+    ],
+    "tokens" : [
+      "neeznánígíí",
+      "naakijįʼ",
+      "ałtsʼájíniłgo"
     ]
   },
   {
@@ -44788,7 +44766,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44798,7 +44776,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44808,7 +44786,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44818,7 +44796,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44828,7 +44806,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44838,7 +44816,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44848,7 +44826,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44858,7 +44836,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44868,7 +44846,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44878,7 +44856,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -44898,7 +44876,7 @@
   {
     "labels" : [
       "Adv",
-      "VIter"
+      "VImpf"
     ],
     "tokens" : [
       "áłah",
@@ -45297,8 +45275,8 @@
   },
   {
     "labels" : [
-      "NumO",
-      "NumO"
+      "NumC",
+      "Adv"
     ],
     "tokens" : [
       "ashdlaʼáadah",
@@ -45521,6 +45499,18 @@
     "tokens" : [
       "átʼéé",
       "ńtʼééʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NObj",
+      "Postp",
+      "VImpf"
+    ],
+    "tokens" : [
+      "awáalya",
+      "yaa",
+      "áhályání"
     ]
   },
   {
@@ -47679,8 +47669,8 @@
   },
   {
     "labels" : [
-      "NPostp",
-      "Postp"
+      "NSub",
+      "Adv"
     ],
     "tokens" : [
       "daʼnijahí",
@@ -47701,8 +47691,8 @@
   },
   {
     "labels" : [
-      "NPostp",
-      "Postp"
+      "NSub",
+      "Adv"
     ],
     "tokens" : [
       "daʼnjahí",
@@ -50667,8 +50657,8 @@
   },
   {
     "labels" : [
-      "NumO",
-      "NumO"
+      "NumC",
+      "Adv"
     ],
     "tokens" : [
       "neeznáá",
@@ -51883,6 +51873,66 @@
   },
   {
     "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "adahayóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "adahojíyói"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "adahojíyóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "adahoniiʼyóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "adahonohyóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "ahayóí"
+    ]
+  },
+  {
+    "labels" : [
       "Part",
       "Adv"
     ],
@@ -51893,14 +51943,32 @@
   },
   {
     "labels" : [
-      "NObj",
-      "Postp",
+      "Adv",
       "VImpf"
     ],
     "tokens" : [
-      "awáalya",
-      "yaa",
-      "áhályání"
+      "tʼóó",
+      "ahojíyóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "ahoniiʼyóí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv",
+      "VImpf"
+    ],
+    "tokens" : [
+      "tʼóó",
+      "ahonohyóí"
     ]
   },
   {
@@ -52922,7 +52990,7 @@
       "Adv"
     ],
     "tokens" : [
-      "eelʼáago"
+      "dzíínílíigo"
     ]
   },
   {
@@ -53226,6 +53294,14 @@
       "Adv"
     ],
     "tokens" : [
+      "shichʼįʼgo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "shilą́ąjįʼ"
     ]
   },
@@ -53435,6 +53511,14 @@
     ],
     "tokens" : [
       "ayóóʼánihóshʼníinii"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "ayóóʼíʼííníʼnínígíí"
     ]
   },
   {
@@ -54007,6 +54091,22 @@
   },
   {
     "labels" : [
+      "NumO"
+    ],
+    "tokens" : [
+      "ashdlaʼa"
+    ]
+  },
+  {
+    "labels" : [
+      "NumO"
+    ],
+    "tokens" : [
+      "hastą́ą́h"
+    ]
+  },
+  {
+    "labels" : [
       "Part"
     ],
     "tokens" : [
@@ -54170,14 +54270,6 @@
       "VFut"
     ],
     "tokens" : [
-      "ałtsʼáyíínil"
-    ]
-  },
-  {
-    "labels" : [
-      "VFut"
-    ],
-    "tokens" : [
       "ánihijósin"
     ]
   },
@@ -54259,6 +54351,22 @@
     ],
     "tokens" : [
       "dínóhtʼįįh"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "hááhinootʼį́įł"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "hááhinootʼį́į́ł"
     ]
   },
   {
@@ -54514,14 +54622,6 @@
       "VImpf"
     ],
     "tokens" : [
-      "ahééhwiidáah"
-    ]
-  },
-  {
-    "labels" : [
-      "VImpf"
-    ],
-    "tokens" : [
       "ajílį́į"
     ]
   },
@@ -54618,6 +54718,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "chooʼį́"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "chʼíhonítʼaah"
     ]
   },
@@ -54699,22 +54807,6 @@
     ],
     "tokens" : [
       "dishghaał"
-    ]
-  },
-  {
-    "labels" : [
-      "VImpf"
-    ],
-    "tokens" : [
-      "hááhinootʼį́įł"
-    ]
-  },
-  {
-    "labels" : [
-      "VImpf"
-    ],
-    "tokens" : [
-      "hááhinootʼį́į́ł"
     ]
   },
   {
@@ -54842,14 +54934,6 @@
       "VImpf"
     ],
     "tokens" : [
-      "nahazleʼ"
-    ]
-  },
-  {
-    "labels" : [
-      "VImpf"
-    ],
-    "tokens" : [
       "nahontʼiní"
     ]
   },
@@ -54946,7 +55030,31 @@
       "VImpf"
     ],
     "tokens" : [
+      "yitʼį́į"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "zdeezʼą́"
+    ]
+  },
+  {
+    "labels" : [
+      "VIter"
+    ],
+    "tokens" : [
+      "ahééhwiidáah"
+    ]
+  },
+  {
+    "labels" : [
+      "VIter"
+    ],
+    "tokens" : [
+      "ahééhwiidááh"
     ]
   },
   {
@@ -54987,6 +55095,14 @@
     ],
     "tokens" : [
       "ádaoohłeʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VOpt"
+    ],
+    "tokens" : [
+      "ahandahohgeeh"
     ]
   },
   {
@@ -55211,6 +55327,14 @@
     ],
     "tokens" : [
       "bikʼíniitʼáázh"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "chooʼį́į"
     ]
   },
   {
@@ -55475,6 +55599,14 @@
     ],
     "tokens" : [
       "náázhdooʼniid"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nahazleʼ"
     ]
   },
   {
@@ -55810,6 +55942,14 @@
       "Adv"
     ],
     "tokens" : [
+      "adaasʼágo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "ádaatʼeegi"
     ]
   },
@@ -56011,6 +56151,14 @@
     ],
     "tokens" : [
       "ádingo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "aghangi"
     ]
   },
   {
@@ -56314,6 +56462,14 @@
       "Adv"
     ],
     "tokens" : [
+      "ałtsʼájíniłgo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "ałtsʼíísígo"
     ]
   },
@@ -56418,6 +56574,14 @@
       "Adv"
     ],
     "tokens" : [
+      "awáalyaadi"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "ayííłʼaʼgo"
     ]
   },
@@ -56459,6 +56623,30 @@
     ],
     "tokens" : [
       "ayóogo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "ayóóʼánóshʼníigo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "ayóóʼííníiʼníigo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "ayóóʼííníʼníigo"
     ]
   },
   {
@@ -56579,6 +56767,14 @@
     ],
     "tokens" : [
       "bighandóó"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "bighangi"
     ]
   },
   {
@@ -57010,6 +57206,14 @@
       "Adv"
     ],
     "tokens" : [
+      "danihighangi"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "danihiniinaa"
     ]
   },
@@ -57330,6 +57534,14 @@
       "Adv"
     ],
     "tokens" : [
+      "eelʼáago"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "éiyá"
     ]
   },
@@ -57387,6 +57599,14 @@
     ],
     "tokens" : [
       "ghąąjįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "góneʼ"
     ]
   },
   {
@@ -57539,6 +57759,14 @@
     ],
     "tokens" : [
       "hadzoodzíiʼgo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "haghangi"
     ]
   },
   {
@@ -58642,6 +58870,22 @@
       "Adv"
     ],
     "tokens" : [
+      "nighangi"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "nihighangi"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
       "nihiniinaa"
     ]
   },
@@ -58907,6 +59151,14 @@
     ],
     "tokens" : [
       "shádiʼááhjí"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "shighangi"
     ]
   },
   {
@@ -59571,6 +59823,14 @@
     ],
     "tokens" : [
       "yigáałgo"
+    ]
+  },
+  {
+    "labels" : [
+      "Adv"
+    ],
+    "tokens" : [
+      "yighangi"
     ]
   },
   {
@@ -61706,6 +61966,14 @@
       "NSub"
     ],
     "tokens" : [
+      "anaalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "anaaʼ"
     ]
   },
@@ -62427,6 +62695,14 @@
     ],
     "tokens" : [
       "ayóóʼádabóʼníinii"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "ayóóʼádeíníiʼnínígíí"
     ]
   },
   {
@@ -63706,6 +63982,14 @@
       "NSub"
     ],
     "tokens" : [
+      "binaalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "binaanish"
     ]
   },
@@ -64778,6 +65062,14 @@
       "NSub"
     ],
     "tokens" : [
+      "daniheʼoodląʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "danihibéézh"
     ]
   },
@@ -65442,6 +65734,14 @@
       "NSub"
     ],
     "tokens" : [
+      "danihinaalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "danihinaanish"
     ]
   },
@@ -65787,6 +66087,14 @@
     ],
     "tokens" : [
       "danihiʼééʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "daniidlínígíí"
     ]
   },
   {
@@ -67611,6 +67919,14 @@
     ],
     "tokens" : [
       "hánaaí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "hanaalteʼ"
     ]
   },
   {
@@ -69746,6 +70062,22 @@
       "NSub"
     ],
     "tokens" : [
+      "naalté"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "naalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "naaltsoos"
     ]
   },
@@ -69906,7 +70238,23 @@
       "NSub"
     ],
     "tokens" : [
+      "naaʼnil"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "nádí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "nádleehígíí"
     ]
   },
   {
@@ -70194,6 +70542,14 @@
       "NSub"
     ],
     "tokens" : [
+      "ndaalʼaʼí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "ndaatʼaʼígíí"
     ]
   },
@@ -70227,6 +70583,14 @@
     ],
     "tokens" : [
       "ndayiiníłígíí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "ndeiilnishígíí"
     ]
   },
   {
@@ -70306,14 +70670,6 @@
       "NSub"
     ],
     "tokens" : [
-      "neiilʼaʼ"
-    ]
-  },
-  {
-    "labels" : [
-      "NSub"
-    ],
-    "tokens" : [
       "neiłkidígíí"
     ]
   },
@@ -70363,6 +70719,14 @@
     ],
     "tokens" : [
       "neʼééʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "neʼoodląʼ"
     ]
   },
   {
@@ -70714,6 +71078,14 @@
       "NSub"
     ],
     "tokens" : [
+      "nideiilnishígíí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "nidibé"
     ]
   },
@@ -70859,6 +71231,14 @@
     ],
     "tokens" : [
       "niheʼééʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "niheʼoodląʼ"
     ]
   },
   {
@@ -71483,6 +71863,14 @@
     ],
     "tokens" : [
       "nihínaaí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "nihinaalteʼ"
     ]
   },
   {
@@ -72298,6 +72686,14 @@
       "NSub"
     ],
     "tokens" : [
+      "ninaalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "ninaanish"
     ]
   },
@@ -72603,6 +72999,14 @@
     ],
     "tokens" : [
       "nitsʼíís"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "nítʼéeʼii"
     ]
   },
   {
@@ -73931,6 +74335,14 @@
     ],
     "tokens" : [
       "shínaaí"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
+      "shinaalteʼ"
     ]
   },
   {
@@ -76106,6 +76518,14 @@
       "NSub"
     ],
     "tokens" : [
+      "yinaalteʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "NSub"
+    ],
+    "tokens" : [
       "yinaanish"
     ]
   },
@@ -77242,14 +77662,6 @@
       "NumO"
     ],
     "tokens" : [
-      "góneʼ"
-    ]
-  },
-  {
-    "labels" : [
-      "NumO"
-    ],
-    "tokens" : [
       "łaʼa"
     ]
   },
@@ -77850,6 +78262,22 @@
       "Postp"
     ],
     "tokens" : [
+      "anahjįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
+      "ánahjįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
       "atah"
     ]
   },
@@ -78418,6 +78846,14 @@
       "Postp"
     ],
     "tokens" : [
+      "danihinahjįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
       "góde"
     ]
   },
@@ -78435,14 +78871,6 @@
     ],
     "tokens" : [
       "gónaa"
-    ]
-  },
-  {
-    "labels" : [
-      "Postp"
-    ],
-    "tokens" : [
-      "góneʼ"
     ]
   },
   {
@@ -78579,6 +79007,14 @@
     ],
     "tokens" : [
       "hakʼijįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
+      "hanahjįʼ"
     ]
   },
   {
@@ -78930,6 +79366,14 @@
       "Postp"
     ],
     "tokens" : [
+      "nihinahjįʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
       "nihiniiyé"
     ]
   },
@@ -79027,6 +79471,14 @@
     ],
     "tokens" : [
       "nił"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
+      "ninahjįʼ"
     ]
   },
   {
@@ -79226,6 +79678,14 @@
       "Postp"
     ],
     "tokens" : [
+      "shinahjį"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
       "shitah"
     ]
   },
@@ -79411,6 +79871,14 @@
     ],
     "tokens" : [
       "yinaagi"
+    ]
+  },
+  {
+    "labels" : [
+      "Postp"
+    ],
+    "tokens" : [
+      "yinahjįʼ"
     ]
   },
   {
@@ -80690,6 +81158,54 @@
       "VFut"
     ],
     "tokens" : [
+      "ałtsʼadadiiʼnił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼadadoohnił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼadazhdoonił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼadeidoonił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼadiiʼnił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼadoohnił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "ałtsʼáńdiitʼash"
     ]
   },
@@ -80731,6 +81247,22 @@
     ],
     "tokens" : [
       "ałtsʼánízhdootʼash"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼazhdoonił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ałtsʼiidoonił"
     ]
   },
   {
@@ -84130,6 +84662,14 @@
       "VFut"
     ],
     "tokens" : [
+      "hadideeshniił"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "hadiiltééł"
     ]
   },
@@ -84890,6 +85430,14 @@
       "VFut"
     ],
     "tokens" : [
+      "ndadiilʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "ndadiitį́į́ł"
     ]
   },
@@ -85002,6 +85550,22 @@
       "VFut"
     ],
     "tokens" : [
+      "ndadoolʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndadoołʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "ndadooneeł"
     ]
   },
@@ -85083,6 +85647,14 @@
     ],
     "tokens" : [
       "ndazhdoołkah"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndazhdoolʼaał"
     ]
   },
   {
@@ -85179,6 +85751,14 @@
     ],
     "tokens" : [
       "ndeeshtį́į́ł"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndeeshʼaał"
     ]
   },
   {
@@ -85346,6 +85926,22 @@
       "VFut"
     ],
     "tokens" : [
+      "ndiilʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndíílʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "ndííneeł"
     ]
   },
@@ -85467,6 +86063,22 @@
     ],
     "tokens" : [
       "ndoołkah"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndoolʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "ndoołʼaał"
     ]
   },
   {
@@ -85634,6 +86246,14 @@
       "VFut"
     ],
     "tokens" : [
+      "nidadiilʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "nidadiitį́į́ł"
     ]
   },
@@ -85683,6 +86303,22 @@
     ],
     "tokens" : [
       "nidadoołdził"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidadoolʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidadoołʼaał"
     ]
   },
   {
@@ -85747,6 +86383,14 @@
     ],
     "tokens" : [
       "nidazhdooldził"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidazhdoolʼaał"
     ]
   },
   {
@@ -85866,6 +86510,14 @@
       "VFut"
     ],
     "tokens" : [
+      "nideeshʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "nideidiyoołnih"
     ]
   },
@@ -85899,6 +86551,14 @@
     ],
     "tokens" : [
       "nideidootį́į́ł"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidideeshniił"
     ]
   },
   {
@@ -85963,6 +86623,22 @@
     ],
     "tokens" : [
       "nidiilzhoł"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidiilʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidíílʼaał"
     ]
   },
   {
@@ -86106,7 +86782,31 @@
       "VFut"
     ],
     "tokens" : [
+      "nidoolʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nidoołʼaał"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
       "nidooʼash"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nihidideeshniił"
     ]
   },
   {
@@ -86235,6 +86935,14 @@
     ],
     "tokens" : [
       "nizhdoołkah"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "nizhdoolʼaał"
     ]
   },
   {
@@ -86651,6 +87359,14 @@
     ],
     "tokens" : [
       "yideesįįł"
+    ]
+  },
+  {
+    "labels" : [
+      "VFut"
+    ],
+    "tokens" : [
+      "yidideeshniił"
     ]
   },
   {
@@ -87347,6 +88063,14 @@
     ],
     "tokens" : [
       "adahasdzą́"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "adahayói"
     ]
   },
   {
@@ -88746,6 +89470,46 @@
       "VImpf"
     ],
     "tokens" : [
+      "ałtsʼadaahnííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼadajinííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼadeiiʼnííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼadeinííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼajinííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "ałtsʼánániitʼaash"
     ]
   },
@@ -88770,7 +89534,39 @@
       "VImpf"
     ],
     "tokens" : [
+      "ałtsʼánílį́"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "ałtsʼáńjítʼaash"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼiinííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼiiʼnííł"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ałtsʼoohnííł"
     ]
   },
   {
@@ -89115,6 +89911,14 @@
     ],
     "tokens" : [
       "áshdįįh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ashdlaltʼé"
     ]
   },
   {
@@ -90970,6 +91774,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "daaltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "daałtʼees"
     ]
   },
@@ -92162,6 +92974,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "dajiltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "dajiłtʼees"
     ]
   },
@@ -92634,6 +93454,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "daniiltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "daníilʼį́"
     ]
   },
@@ -92811,6 +93639,14 @@
     ],
     "tokens" : [
       "danohʼaah"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "danołtʼé"
     ]
   },
   {
@@ -94826,6 +95662,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "dį́ltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "dínááh"
     ]
   },
@@ -95579,6 +96423,14 @@
     ],
     "tokens" : [
       "hasin"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "hastą́ltʼé"
     ]
   },
   {
@@ -97058,6 +97910,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "jiltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "jiłtʼees"
     ]
   },
@@ -98042,6 +98902,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "naalʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "naané"
     ]
   },
@@ -98146,6 +99014,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "naashʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "naashʼnaʼ"
     ]
   },
@@ -98194,6 +99070,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "nádleeh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "náhádleeh"
     ]
   },
@@ -98235,6 +99119,22 @@
     ],
     "tokens" : [
       "nahashniih"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "náhástʼéltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "náhdleeh"
     ]
   },
   {
@@ -98322,6 +99222,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "nánídleeh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "naniká"
     ]
   },
@@ -98363,6 +99271,14 @@
     ],
     "tokens" : [
       "nanilnish"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nanilʼaʼ"
     ]
   },
   {
@@ -98442,7 +99358,23 @@
       "VImpf"
     ],
     "tokens" : [
+      "naołʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "náshah"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "náshdleeh"
     ]
   },
   {
@@ -98610,6 +99542,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "ndaalʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "ndaatʼaʼ"
     ]
   },
@@ -98627,6 +99567,14 @@
     ],
     "tokens" : [
       "ndahołniih"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ńdajidleeh"
     ]
   },
   {
@@ -98659,6 +99607,14 @@
     ],
     "tokens" : [
       "ndajiłkaah"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "ndajilʼaʼ"
     ]
   },
   {
@@ -98842,6 +99798,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "neeználtʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "neichʼąąh"
     ]
   },
@@ -98859,6 +99823,14 @@
     ],
     "tokens" : [
       "neiichʼąąh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "néiidleeh"
     ]
   },
   {
@@ -98931,6 +99903,14 @@
     ],
     "tokens" : [
       "neiilzhood"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "neiilʼaʼ"
     ]
   },
   {
@@ -99074,6 +100054,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "nídaadleeh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "nidaahchxǫʼ"
     ]
   },
@@ -99083,6 +100071,14 @@
     ],
     "tokens" : [
       "nidaahchʼąąh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nídaahdleeh"
     ]
   },
   {
@@ -99179,6 +100175,22 @@
     ],
     "tokens" : [
       "nidaałnish"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nidaalʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nidaałʼaʼ"
     ]
   },
   {
@@ -99354,6 +100366,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "nidajilʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "nidajiné"
     ]
   },
@@ -99506,6 +100526,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "nídeiidleeh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "nídeiijah"
     ]
   },
@@ -99547,6 +100575,14 @@
     ],
     "tokens" : [
       "nideiilzhood"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nideiilʼaʼ"
     ]
   },
   {
@@ -99770,6 +100806,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "niiltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "níilʼį́"
     ]
   },
@@ -99915,6 +100959,14 @@
     ],
     "tokens" : [
       "nijilnish"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nijilʼaʼ"
     ]
   },
   {
@@ -100802,6 +101854,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "ńjídleeh"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "njighá"
     ]
   },
@@ -100843,6 +101903,14 @@
     ],
     "tokens" : [
       "njilnish"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "njilʼaʼ"
     ]
   },
   {
@@ -100947,6 +102015,14 @@
     ],
     "tokens" : [
       "nohʼaash"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "nołtʼé"
     ]
   },
   {
@@ -101314,6 +102390,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "táltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "tázhdíghááh"
     ]
   },
@@ -101395,6 +102479,22 @@
     ],
     "tokens" : [
       "táʼázhdígis"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "tseebíltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
+      "tsostsʼiltʼé"
     ]
   },
   {
@@ -103370,6 +104470,14 @@
       "VImpf"
     ],
     "tokens" : [
+      "yiltʼé"
+    ]
+  },
+  {
+    "labels" : [
+      "VImpf"
+    ],
+    "tokens" : [
       "yiłtʼees"
     ]
   },
@@ -104162,14 +105270,6 @@
       "VImpf"
     ],
     "tokens" : [
-      "yitʼį́į"
-    ]
-  },
-  {
-    "labels" : [
-      "VImpf"
-    ],
-    "tokens" : [
       "yitʼįįh"
     ]
   },
@@ -104458,14 +105558,6 @@
       "VIter"
     ],
     "tokens" : [
-      "ánáádooʼniid"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
       "anájił"
     ]
   },
@@ -104714,14 +105806,6 @@
       "VIter"
     ],
     "tokens" : [
-      "nádleeh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
       "náhálnih"
     ]
   },
@@ -104739,14 +105823,6 @@
     ],
     "tokens" : [
       "náhásįįh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "náhdleeh"
     ]
   },
   {
@@ -104818,14 +105894,6 @@
       "VIter"
     ],
     "tokens" : [
-      "nánídleeh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
       "náníłchį́į́h"
     ]
   },
@@ -104851,14 +105919,6 @@
     ],
     "tokens" : [
       "náshchǫǫh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "náshdleeh"
     ]
   },
   {
@@ -104915,14 +105975,6 @@
     ],
     "tokens" : [
       "ńdadohʼniih"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "ńdajidleeh"
     ]
   },
   {
@@ -105034,14 +106086,6 @@
       "VIter"
     ],
     "tokens" : [
-      "néiidleeh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
       "néiilchį́į́h"
     ]
   },
@@ -105067,22 +106111,6 @@
     ],
     "tokens" : [
       "néíłchǫǫh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "nídaadleeh"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "nídaahdleeh"
     ]
   },
   {
@@ -105179,14 +106207,6 @@
     ],
     "tokens" : [
       "ńidazhdiʼniih"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "nídeiidleeh"
     ]
   },
   {
@@ -105395,14 +106415,6 @@
     ],
     "tokens" : [
       "nízhdíʼniih"
-    ]
-  },
-  {
-    "labels" : [
-      "VIter"
-    ],
-    "tokens" : [
-      "ńjídleeh"
     ]
   },
   {
@@ -106730,6 +107742,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "adaasʼá"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ádaatʼéé"
     ]
   },
@@ -107626,6 +108646,46 @@
       "VPerf"
     ],
     "tokens" : [
+      "ałtsʼadajiznil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼadasiiʼnil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼadasoonil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼadeiznil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼajíínil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ałtsʼánániitʼáázh"
     ]
   },
@@ -107658,6 +108718,30 @@
       "VPerf"
     ],
     "tokens" : [
+      "ałtsʼáyíínil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼiiʼnil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ałtsʼoonil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ályaa"
     ]
   },
@@ -107675,6 +108759,14 @@
     ],
     "tokens" : [
       "ánáádíʼní"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ánáádooʼniid"
     ]
   },
   {
@@ -111914,6 +113006,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "eelʼá"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "eeshdlą́ą́ʼ"
     ]
   },
@@ -113770,6 +114870,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "naasʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "naasʼnaʼ"
     ]
   },
@@ -114026,6 +115134,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "ndaasʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ndaazdá"
     ]
   },
@@ -114114,6 +115230,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "ndajisʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ndajizdá"
     ]
   },
@@ -114170,6 +115294,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "ndasiilʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "ndasiitą́"
     ]
   },
@@ -114195,6 +115327,14 @@
     ],
     "tokens" : [
       "ndasoołkááʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "ndasoołʼaʼ"
     ]
   },
   {
@@ -114482,6 +115622,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "nidaasʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "nidaasʼnaʼ"
     ]
   },
@@ -114627,6 +115775,14 @@
     ],
     "tokens" : [
       "nidajiskááʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nidajisʼaʼ"
     ]
   },
   {
@@ -114810,6 +115966,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "nidasiilʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "nidasiitą́"
     ]
   },
@@ -114859,6 +116023,14 @@
     ],
     "tokens" : [
       "nidasoołkááʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nidasoołʼaʼ"
     ]
   },
   {
@@ -115155,6 +116327,14 @@
     ],
     "tokens" : [
       "nijiskai"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nijisʼaʼ"
     ]
   },
   {
@@ -115610,6 +116790,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "nisiilʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "nisiitą́"
     ]
   },
@@ -115658,6 +116846,14 @@
       "VPerf"
     ],
     "tokens" : [
+      "nisínílʼaʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
       "nisíníneʼ"
     ]
   },
@@ -115691,6 +116887,14 @@
     ],
     "tokens" : [
       "nisisdzil"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nisisʼaʼ"
     ]
   },
   {
@@ -115747,6 +116951,14 @@
     ],
     "tokens" : [
       "nisoołkááʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "nisoołʼaʼ"
     ]
   },
   {
@@ -115915,6 +117127,14 @@
     ],
     "tokens" : [
       "njiskááʼ"
+    ]
+  },
+  {
+    "labels" : [
+      "VPerf"
+    ],
+    "tokens" : [
+      "njisʼaʼ"
     ]
   },
   {
@@ -119579,14 +120799,6 @@
     ],
     "tokens" : [
       "yóóʼiidííʼą́"
-    ]
-  },
-  {
-    "labels" : [
-      "VProg"
-    ],
-    "tokens" : [
-      "ahandahohgeeh"
     ]
   },
   {

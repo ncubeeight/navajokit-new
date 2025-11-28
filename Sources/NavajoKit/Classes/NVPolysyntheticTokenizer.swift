@@ -37,11 +37,11 @@ public class NVPolysyntheticTokenizer {
 		NVWordToken(token: "ní", adjustedToken: "ni", translation: "your", person: .first, plurality: .singular),
 		NVWordToken(token: "bi", adjustedToken: "bi", translation: "his/her/its/their", person: .third),
 		NVWordToken(token: "bí", adjustedToken: "bi", translation: "his/her/its/their", person: .third),
-		NVWordToken(token: "yi", adjustedToken: "yi", translation: "one's/others'", person: .fourth),
-		NVWordToken(token: "yí", adjustedToken: "yi", translation: "one's/others'", person: .fourth),
-		NVWordToken(token: "ha", adjustedToken: "ha", translation: "one's/others'", person: .fourth),
-		NVWordToken(token: "há", adjustedToken: "ha", translation: "one's/others'", person: .fourth),
-		NVWordToken(token: "hw", adjustedToken: "hw", translation: "one's/others'", person: .fourth),
+		NVWordToken(token: "yi", adjustedToken: "yi", translation: "one's/others'", person: .fourthO),
+		NVWordToken(token: "yí", adjustedToken: "yi", translation: "one's/others'", person: .fourthO),
+		NVWordToken(token: "ha", adjustedToken: "ha", translation: "one's/others'", person: .fourthA),
+		NVWordToken(token: "há", adjustedToken: "ha", translation: "one's/others'", person: .fourthA),
+		NVWordToken(token: "hw", adjustedToken: "hw", translation: "one's/others'", person: .fourthA),
 		NVWordToken(token: "a", adjustedToken: "a", person: .indefinite),
 		NVWordToken(token: "á", adjustedToken: "a", person: .indefinite),
 	]
@@ -177,9 +177,9 @@ public class NVPolysyntheticTokenizer {
 		"zánághah": "around"
 	]
 
-	///Enclitic suffixes, used to convert words into adverbs
+	///Adverbial suffixes, used to convert words into adverbs
 	///> Note: These are a subset of the postposition list
-	private let encliticList: [String: String] = [
+	private let adverbialList: [String: String] = [
 		"dą́ą́ʼ": "of past time",
 		"dę́ę́ʼ": "from", //time/location (general)
 		"di": "at", //location
@@ -215,8 +215,8 @@ public class NVPolysyntheticTokenizer {
 
 		var token = adv
 
-		//Check if the Adverb is formed by adding an enclitic suffix to a base
-		for suffix in encliticList {
+		//Check if the Adverb is formed by adding an adverbial suffix to a base
+		for suffix in adverbialList {
 
 			if token.token.hasSuffix(suffix.key) {
 
