@@ -834,6 +834,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "náshdóítsoh,bitsiijįʼ,diʼilígíí","NSub,NSub,NSub",lion,NSub,,,,,,,,,,TRUE,,Yes,3
 "náshdóítsoh,noodǫ́zígíí","NSub,NSub",tiger,NSub,,,,,,,,,,TRUE,,Yes,2
 "naʼahóóhai,bitsįʼ","NSub,NSub",chicken meat,NSub,,,,,,,,,,TRUE,chicken's flesh,Yes,2
+"naʼashǫ́ʼii,ánínígíí","NSub,NSub",rattlesnake,NSub,,,,,,,,,,TRUE,snake + ??,Yes,2
 "naʼashǫ́ʼii,bijáád,ádinígíí","NSub,NSub,NSub",worm lizard,NSub,,,,,,,,,,TRUE,lizard's legs + absentee,Yes,3
 "naʼashǫ́ʼii,dichʼízhii","NSub,NSub",horned lizard,NSub,,,,,,,,,,TRUE,lizard + the rough one,Yes,2
 "naʼashǫ́ʼii,łahgo,aníʼdoolníiłii","NSub,Adv,NSub",chameleon,NSub,,,,,,,,,,TRUE,lizard + differently + ??,Yes,3
@@ -925,6 +926,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "taʼneeskʼání,łigai","NSub,NSub",honeydew melon,NSub,,,,,,,,,,TRUE,melon + white,Yes,2
 "taʼneeskʼání,łigaígíí","NSub,NSub",honeydew melon,NSub,,,,,,,,,,TRUE,melon + white one,Yes,2
 "tł’oh,waa’í","NSub,NSub",alfalfa,NSub,,,,,,,,,,TRUE,grass + ??,Yes,2
+"tłʼiish,áníní","NSub,NSub",rattlesnake,NSub,,,,,,,,,,TRUE,snake + ??,Yes,2
+"tłʼiish,bichóhí","NSub,NSub",sidewinder (snake),NSub,,,,,,,,,,TRUE,snake + its maternal great grandmother,Yes,2
+"tłʼiish,bikʼós,niteelígíí","NSub,NSub,NSub",cobra,NSub,,,,,,,,,,TRUE,snake + its neck + that which is wide,Yes,3
 "tłʼoh,chin","NSub,NSub",onion,NSub,,,,,,,,,,TRUE,grass + smell,Yes,2
 "tłʼoh,naadą́ą́ʼ","NSub,NSub",wheat,NSub,,,,,,,,,,TRUE,grass + corn,Yes,2
 "tó,háálínígi","NSub,Adv",water fountain,NSub,,,,,,,,,,TRUE,water + flowing out at,Yes,2
@@ -948,16 +952,21 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,TRUE,just + toward that which is true,Yes,2
 "tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,TRUE,just + the one does,Yes,2
 "tʼáá,ádzíłtso","Part,ProSub",everyone,NSub,,,,,,,,,,TRUE,(just) + all those,Yes,2
+"tʼáá,ájíłah","Part,Adv",both are,VImpf,4th,D,,,,,,,,TRUE,just + together,Yes,2
 "tʼáá,ájíłtso","Part,Adv",all of others,NSub,,,,,,,,,,TRUE,just + the others are complete,Yes,2
 "tʼáá,ákwíí","Part,Adv",every/each,Det,,,,,,,,,,TRUE,just + there,Yes,2
+"tʼáá,áłah","Part,Adv",both are,VImpf,3rd,D,,,,,,,,TRUE,just + together,Yes,2
 "tʼáá,ałtso","Part,Adv",all of them,NSub,,,,,,,,,,TRUE,just + it is complete,Yes,2
 "tʼáá,ałtsoní","Part,NSub",everything,NSub,,,,,,,,,,TRUE,just + the complete one,Yes,2
+"tʼáá,áníidlah","Part,Adv",both are,VImpf,1st,D,,,,,,,,TRUE,just + together,Yes,2
 "tʼáá,áníiltso","Part,Adv",all of us,NSub,,,,,,,,,,TRUE,just + we are complete,Yes,2
+"tʼáá,ánółah","Part,Adv",both are,VImpf,2nd,D,,,,,,,,TRUE,just + together,Yes,2
 "tʼáá,ánółtso","Part,Adv",all of you,NSub,,,,,,,,,,TRUE,just + you are complete,Yes,2
 "tʼáá,díkwíí","Part,Adv",few,Det,,,,,,,,,,TRUE,just + how many (?),Yes,2
 "tʼaa,shoodi","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,Yes,2
 "tʼáá,shǫǫdí","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,Yes,2
 "tʼáadoo,leʼé","Part,NSub",anything,NSub,,,,,,,,,,FALSE,not + ??,Yes,2
+"tʼáásh,aaníí","Adv,VImpf",it is so,VImpf,,,,,,,,,,TRUE,just (?) + it is true,Yes,2
 "tʼáásh,aaníí","Part,NSub",really,Adv,,,,,,,,,,TRUE,,Yes,2
 "tʼóó,adahayóí","Adv,VImpf",are many,VImpf,3rd,P,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,adahojíyói","Adv,VImpf",are many,VImpf,4th,P,,,be many,,,,,TRUE,merely + be many,Yes,2
