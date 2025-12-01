@@ -21,7 +21,7 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 ## Status
 
-* At the moment, this project is in the very early stages during the process of growing the dataset of 31,000 tokens across over 10,000 training records, which are a combination of individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
+* At the moment, this project's primary focus is growing the dataset of 32,000 tokens across over 10,000 training records, which are a combination of individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
 
 * It includes tokenization for a number of sizes but has been trained for word-based tokens at the moment. The tokenizer has several options, such as handling of Unicode characters and ignoring the lead glottal stops.
 
