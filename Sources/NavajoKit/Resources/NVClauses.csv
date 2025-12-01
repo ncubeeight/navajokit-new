@@ -39,7 +39,7 @@ TOKENS,LABELS,English,Match?,Count
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
-"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
+"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́į́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VPerf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Postp,Adv,Postp,VImpf",Happy New Year,Yes,4
 "Baa,iijííł,.","Postp,VImpf,Punct",It pierces into it.,Yes,3
 "Bááh,ádeiilnééh,.","NObj,VImpf,Punct",We are making bread.,Yes,3
@@ -55,6 +55,8 @@ TOKENS,LABELS,English,Match?,Count
 "Béégashii,shijééʼ,.","NSub,VImpf,Punct",The cows (3+) lie.,Yes,3
 "Béégashii,shitéézh,.","NSub,VImpf,Punct",The cows (2) lie.,Yes,3
 "Béégashii,sitį́,.","NSub,VImpf,Punct",The cow lies.,Yes,3
+"Bichʼah,niteel,.","NSub,VImpf,Punct",His hat is wide.,Yes,3
+"Bichʼah,nteel,.","NSub,VImpf,Punct",His hat is wide.,Yes,3
 "Bichʼįʼ,nééhonisįįh,.","Postp,VImpf,Punct",I introduce you to him.,Yes,3
 "Bighan,bą́ą́h,déyá,.","NPostp,Postp,VPerf,Punct",I went by his home.,Yes,4
 "Bįįh,yildeeʼį́,łichííʼ,.","NSub,NSub,VImpf,Punct",The cherry is red.,Yes,4
@@ -203,6 +205,7 @@ TOKENS,LABELS,English,Match?,Count
 "Naaltsoos,yídéeshtah,.","NObj,VFut,Punct",I will read the book.,Yes,3
 "Naaltsoos,yiłtaʼ,.","NObj,VImpf,Punct",He is reading the book.,Yes,3
 "Naaltsoos,yíníshtaʼ,.","NObj,VImpf,Punct",I am reading the book.,Yes,3
+"náhááh,bitłʼééʼ","VImpf,NSub",New Year's Eve,Yes,2
 "náhástʼédiin,naaltsoos,bá,hooghan","NumC,NSub,Postp,NPostp",ninety books for the house,Yes,4
 "náhástʼéidi,neeznádiin,nímasii","NumC,NumC,NSub",nine hundred potatoes,Yes,3
 "Náhookǫs,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",The north is sunny.,Yes,4
@@ -220,7 +223,7 @@ TOKENS,LABELS,English,Match?,Count
 "Nichʼįʼ,bééhonisįįh,.","Postp,VImpf,Punct",I introduce him to you.,Yes,3
 "Nidagaʼ,"","",tsídii,dootłʼizh,.","Interj,Punct,NSub,VImpf,Punct","No, the bird is blue/turquoise.",Yes,5
 "Nidaʼniłkaadii,daʼíistsʼą́ą́ʼ,.","NSub,VPerf,Punct",The shepherds heard.,Yes,3
-"Nihí,łaʼ,chʼínooyá,.","NSub,NObj,VPerf,Punct",One of you exited.,Yes,4
+"Nihí,łaʼ,chʼínooyá,.","NSub,Det,VPerf,Punct",One of you exited.,Yes,4
 "Nihił,chʼíníshkai,.","Postp,VPerf,Punct",I left with you (pl.).,Yes,3
 "Nihinaatʼáanii,bichʼįʼ,dadiyinii,bił,dahwiitaał,.","NPostp,Postp,NObj,Postp,VImpf,Punct",We sing with the holy ones to our leader/king.,Yes,6
 "Níłchʼi,dineʼé,hólǫ́,.","NSub,NSub,VImpf,Punct",Spirits exist.,Yes,4
@@ -271,6 +274,7 @@ TOKENS,LABELS,English,Match?,Count
 "Shizheʼé,łééchąąʼí,bił,yáʼátʼééh,.","NSub,NPostp,Postp,VImpf,Punct",My father likes dogs.,Yes,5
 "Sin,bee,hataał,.","NPostp,Postp,VImpf,Punct",He is singing a song.,Yes,4
 "Sǫʼ,álííl,bee,hoolʼin,.","NSub,NSub,Postp,VImpf,Punct",The miraculous star shines dimly.,Yes,5
+"t’áá,éí,bijį́","Part,ProDem,NObj",on that day,Yes,3
 "táá,tsʼáadah,tłʼoh,chin","NumC,NumC,NSub,NSub",thirteen onions,Yes,4
 "táadi,mííl,tłʼízí","NumC,NumC,NSub",three thousand goats,Yes,3
 "táadi,mííltsoh,sǫʼ","NumC,NumC,NSub",three million stars,Yes,3
@@ -296,12 +300,15 @@ TOKENS,LABELS,English,Match?,Count
 "tsostsʼidi,mííltsoh,shiziiz","NumC,NumC,NSub",my seven million belts,Yes,3
 "tsostsʼidi,neeznádiin,waaʼ","NumC,NumC,NSub",seven hundred spinaches,Yes,3
 "tsostsʼidiin,tązhii,bitsįʼ","NumC,NSub,NSub",seventy turkey meats,Yes,3
-"Tʼáá,aaníí,ádíshní,.","Part,NObj,VImpf,Punct",I am telling the truth.,Yes,4
+"tsʼídá,náhááh,bijį́į́,goneʼ","Adv,VImpf,NSub,Adv",New Year's Day,Yes,4
+"Tʼáá,aaníí,ádíshní,.","Part,VImpf,VImpf,Punct",I am telling the truth.,Yes,4
 "Tʼáá,ánółtso,nihighan,hólǫ́,.","Part,VImpf,ProObj,VImpf,Punct",You (all) have a house.,Yes,5
+"Tʼą́ą́chil,beʼádíláhí,bijį́ ","NSub,NSub,NSub",April Fool's Day,Yes,3
 "tʼááłáhádí,mííl","NumC,NumC",one thousand,Yes,2
 "tʼááłáhádí,mííltsoh,tsindáo","NumC,NumC,NSub",one million cents,Yes,3
 "tʼááłáhádí,neeznádiin","NumC,NumC",one hundred,Yes,2
 "tʼááłáʼí,béeso","NumC,NSub",one dollar,Yes,2
+"Tʼáásh,aaníí,?","Adv,VImpf,Punct",Is that so?,Yes,3
 "Tʼááshʼaaníí,dahólǫ́,?","NSub,VImpf,Punct",Do they really exist?,Yes,3
 "Wááshindoon,góó,déyá,.","NPostp,Postp,VPerf,Punct",I am going to Washington.,Yes,4
 "Yáʼąąshii,biyiʼdę́ę́ʼ","NPostp,Postp",From within Heaven,Yes,2
