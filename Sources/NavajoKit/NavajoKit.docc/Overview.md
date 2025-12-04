@@ -23,10 +23,10 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 ## Statistics
 
-* 32,543 training tokens
-* 10,265 training records
+* 35,217 training tokens
+* 10,696 training records
 * 23 parts-of-speech
-* 89.6% model accuracy
+* 89.7% model accuracy
 
 ## Status
 
