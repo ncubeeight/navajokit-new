@@ -1,58 +1,78 @@
 TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person,object-plural,infinitive,proper,prefix,stem,suffix,validated,notes,Match?,Count
-"ąą,ábidiʼdoolnííł","Adv,VFut",will be opened,VFut,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
-"ąą,ábiʼdiilyaa","Adv,VPerf",was opened,VPerf,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
-"ąą,ábiʼdilnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
+"á,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"á,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,4thI,S,make room for,,,,,TRUE,for + make,Yes,2
+"ąą,ábidiʼdoolnííł","Adv,VFut",will be opened,VFut,3rd,S,,,open,,,,,TRUE,beyond + make (passive),Yes,2
+"ąą,ábiʼdiilyaa","Adv,VPerf",was opened,VPerf,3rd,S,,,open,,,,,TRUE,beyond + make (passive),Yes,2
+"ąą,ábiʼdilnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,open,,,,,TRUE,beyond + make (passive),Yes,2
 "ąą,ádaahłééh","Adv,VImpf",are opening,VImpf,2nd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádadiilnííł","Adv,VFut",will open,VFut,1st,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádadoohłííł","Adv,VFut",will open,VFut,2nd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádajiilaa","Adv,VPerf",opened,VPerf,4th,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádadiilnííł","Adv,VFut",will open,VFut,1st,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádadoohłííł","Adv,VFut",will open,VFut,2nd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádajiilaa","Adv,VPerf",opened,VPerf,4th,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,ádajilééh","Adv,VImpf",are opening,VImpf,4th,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádaoohłaa","Adv,VPerf",opened,VPerf,2nd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádayiilaa","Adv,VPerf",opened,VPerf,3rd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádazhdoolííł","Adv,VFut",will open,VFut,4th,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádeeshłííł","Adv,VFut",will open,VFut,1st,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádeidoolííł","Adv,VFut",will open,VFut,3rd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádaoohłaa","Adv,VPerf",opened,VPerf,2nd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádayiilaa","Adv,VPerf",opened,VPerf,3rd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádazhdoolííł","Adv,VFut",will open,VFut,4th,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádeeshłííł","Adv,VFut",will open,VFut,1st,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádeidoolííł","Adv,VFut",will open,VFut,3rd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,ádeiilnééh","Adv,VImpf",are opening,VImpf,1st,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádeiilyaa","Adv,VPerf",opened,VPerf,1st,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádeiilyaa","Adv,VPerf",opened,VPerf,1st,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,ádeilééh","Adv,VImpf",are opening,VImpf,3rd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádíílííł","Adv,VFut",will open,VFut,2nd,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádiilnííł","Adv,VFut",will open,VFut,1st,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádoohłííł","Adv,VFut",will open,VFut,2nd,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ádoolnííł","Adv,VFut",will be opened,VFut,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
+"ąą,ádíílííł","Adv,VFut",will open,VFut,2nd,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádiilnííł","Adv,VFut",will open,VFut,1st,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádoohłííł","Adv,VFut",will open,VFut,2nd,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ádoolnííł","Adv,VFut",will be opened,VFut,3rd,S,,,open,,,,,TRUE,beyond + make (passive),Yes,2
 "ąą,áhályáanii","Adv,NSub",bodyguard,NSub,,,,,,,,,,TRUE,beyond + those who care for them,Yes,2
-"ąą,ájiilaa","Adv,VPerf",opened,VPerf,4th,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ájílééh","Adv,VImpf",is/are opening,VImpf,4th,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,álnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
-"ąą,ályaa","Adv,VPerf",was opened,VPerf,3rd,,,,make,,,,,TRUE,beyond + make (passive),Yes,2
-"ąą,ánáoołʼįįh","Adv,VIter",do open,VIter,2nd,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ánáyiilʼįįh","Adv,VIter",do(es) open,VIter,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áńdajiilʼįįh","Adv,VIter",do open,VIter,4th,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áńdaoołʼįįh","Adv,VIter",do open,VIter,2nd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áńdayiilʼįįh","Adv,VIter",do open,VIter,3rd,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áńdeiilʼįįh","Adv,VIter",do open,VIter,1st,P,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ánéiilʼįįh","Adv,VIter",do open,VIter,1st,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ánéilʼįįh","Adv,VIter",do open,VIter,2nd,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ánéishʼįįh","Adv,VIter",do open,VIter,1st,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,ájiilaa","Adv,VPerf",opened,VPerf,4th,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ájílééh","Adv,VImpf",is/are opening,VImpf,4th,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,álnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,open,,,,,TRUE,beyond + make (passive),Yes,2
+"ąą,ályaa","Adv,VPerf",was opened,VPerf,3rd,S,,,open,,,,,TRUE,beyond + make (passive),Yes,2
+"ąą,ánáoołʼįįh","Adv,VIter",do open,VIter,2nd,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ánáyiilʼįįh","Adv,VIter",do(es) open,VIter,3rd,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,áńdajiilʼįįh","Adv,VIter",do open,VIter,4th,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,áńdaoołʼįįh","Adv,VIter",do open,VIter,2nd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,áńdayiilʼįįh","Adv,VIter",do open,VIter,3rd,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,áńdeiilʼįįh","Adv,VIter",do open,VIter,1st,P,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ánéiilʼįįh","Adv,VIter",do open,VIter,1st,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ánéilʼįįh","Adv,VIter",do open,VIter,2nd,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ánéishʼįįh","Adv,VIter",do open,VIter,1st,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,ánílééh","Adv,VImpf",are opening,VImpf,2nd,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áńjiilʼįįh","Adv,VIter",do(es) open,VIter,4th,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áshłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,áńjiilʼįįh","Adv,VIter",do(es) open,VIter,4th,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,áshłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,áshłééh","Adv,VImpf",am opening,VImpf,1st,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,áyiilaa","Adv,VPerf",opened,VPerf,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,ázhdoolííł","Adv,VFut",will open,VFut,4th,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,áyiilaa","Adv,VPerf",opened,VPerf,3rd,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,ázhdoolííł","Adv,VFut",will open,VFut,4th,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "aa,deetʼą́","Postp,NSub",transfer (of ownership),NSub,,,,,,,,,,TRUE,,Yes,2
 "aa,hojoobáʼí","Postp,NSub",poor one,NSub,,,,,,,,,,TRUE,,Yes,2
 "aa,hwiinítʼį́","Postp,NSub",trial (at law),NSub,,,,,,,,,,TRUE,,Yes,2
 "aa,hwiinítʼį́,bá,hooghan","Postp,NPostp,Postp,NSub",courthouse,NSub,,,,,,,,,,TRUE,,Yes,4
 "aa,hwiinítʼįįhígíí","Postp,NSub",upcoming court session,NSub,,,,,,,,,,TRUE,,Yes,2
-"ąą,íidoolííł","Adv,VFut",will open,VFut,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,íílééh","Adv,VImpf",is/are opening,VImpf,3rd,SD,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,íidoolííł","Adv,VFut",will open,VFut,3rd,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,íílééh","Adv,VImpf",is/are opening,VImpf,3rd,SD,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "ąą,íílnééh","Adv,VImpf",are opening,VImpf,1st,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,íilyaa","Adv,VPerf",opened,VPerf,1st,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,íinilaa","Adv,VPerf",opened,VPerf,2nd,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,íishłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,kwáániił","Adv,VImpf",is/are expanding,VImpf,,,,,,,,,,TRUE,,Yes,2
+"ąą,íilyaa","Adv,VPerf",opened,VPerf,1st,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,íinilaa","Adv,VPerf",opened,VPerf,2nd,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,íishłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,open,,,,,TRUE,beyond + make,Yes,2
+"ąą,kwáániił","Adv,VImpf",is/are expanding,VImpf,3rd,S,,,expand,,,,,TRUE,,Yes,2
 "ąą,óhłééh","Adv,VImpf",are opening,VImpf,2nd,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
-"ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,make,,,,,TRUE,beyond + make,Yes,2
+"ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,open,,,,,TRUE,beyond + make,Yes,2
 "aa,yílyáii","Postp,NSub",donation,NSub,,,,,,,,,,TRUE,,Yes,2
 "áádóó,bikʼijįʼ","Conj,Postp",thereafter,Conj,,,,,,,,,,TRUE,and then + after that,Yes,2
 "ąąh,azlá","Adv,NSub",pawn,NSub,,,,,,,,,,TRUE,alongside + ??,Yes,2
@@ -91,36 +111,56 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "achoʼ,bizis","NSub,NSub",scrotum,NSub,,,,,,,,,,TRUE,male genitalia + its sack,Yes,2
 "achʼííʼ,bitsʼániʼnísą́","NSub,NSub",appendix (anatomy),NSub,,,,,,,,,,TRUE,intestine + ??,Yes,2
 "achʼííʼ,yázhí","NSub,NSub",hot dog,NSub,,,,,,,,,,TRUE,sausage + the little one,Yes,2
-"ádąąh,dah,daahtįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dadiitį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dadoohtį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dajistą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dajitįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dasiitą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dasoohtą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,dazhdootį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,4th,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,deeshtį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,deidootį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,deiitįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,1st,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,deistą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,deitįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,diitį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,díítį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,doohtį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,jidootį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,jistą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,jitįįh","Postp,Adv,VImpf",is/are strapping onto (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,nitįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,siitą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,sínítą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,sistą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,soohtą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,wohtįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,yidootį́į́ł","Postp,Adv,VFut",will strap onto (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,yiitįįh","Postp,Adv,VImpf",are strapping onto (refl),VImpf,1st,D,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,Refl,S,make room for,,,,,TRUE,for + make,Yes,2
+"ádąąh,dah,daahtįįh","Postp,Adv,VImpf",are strapping onto,VImpf,2nd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dadiitį́į́ł","Postp,Adv,VFut",will strap onto,VFut,1st,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dadoohtį́į́ł","Postp,Adv,VFut",will strap onto,VFut,2nd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dajistą́","Postp,Adv,VPerf",strapped onto,VPerf,4th,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dajitįįh","Postp,Adv,VImpf",are strapping onto,VImpf,4th,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dasiitą́","Postp,Adv,VPerf",strapped onto,VPerf,1st,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dasoohtą́","Postp,Adv,VPerf",strapped onto,VPerf,2nd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,dazhdootį́į́ł","Postp,Adv,VFut",will strap onto,VFut,4th,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,deeshtį́į́ł","Postp,Adv,VFut",will strap onto,VFut,1st,S,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,deidootį́į́ł","Postp,Adv,VFut",will strap onto,VFut,3rd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,deiitįįh","Postp,Adv,VImpf",are strapping onto,VImpf,1st,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,deistą́","Postp,Adv,VPerf",strapped onto,VPerf,3rd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,deitįįh","Postp,Adv,VImpf",are strapping onto,VImpf,3rd,P,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,diitį́į́ł","Postp,Adv,VFut",will strap onto,VFut,1st,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,díítį́į́ł","Postp,Adv,VFut",will strap onto,VFut,2nd,S,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,doohtį́į́ł","Postp,Adv,VFut",will strap onto,VFut,2nd,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,jidootį́į́ł","Postp,Adv,VFut",will strap onto,VFut,4th,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,jistą́","Postp,Adv,VPerf",strapped onto,VPerf,4th,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,jitįįh","Postp,Adv,VImpf",is/are strapping onto,VImpf,4th,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,nitįįh","Postp,Adv,VImpf",are strapping onto,VImpf,2nd,S,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,siitą́","Postp,Adv,VPerf",strapped onto,VPerf,1st,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,sínítą́","Postp,Adv,VPerf",strapped onto,VPerf,2nd,S,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,sistą́","Postp,Adv,VPerf",strapped onto,VPerf,1st,S,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,soohtą́","Postp,Adv,VPerf",strapped onto,VPerf,2nd,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,wohtįįh","Postp,Adv,VImpf",are strapping onto,VImpf,2nd,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,yidootį́į́ł","Postp,Adv,VFut",will strap onto,VFut,3rd,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,yiitįįh","Postp,Adv,VImpf",are strapping onto,VImpf,1st,D,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
 "ádąąh,dah,yishtįįh","Postp,Adv,VImpf",am strapping onto (refl),VImpf,1st,S,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,yistą́","Postp,Adv,VPerf",strapped onto (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
-"ádąąh,dah,yitįįh","Postp,Adv,VImpf",is/are strapping onto (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,yistą́","Postp,Adv,VPerf",strapped onto,VPerf,3rd,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
+"ádąąh,dah,yitįįh","Postp,Adv,VImpf",is/are strapping onto,VImpf,3rd,SD,Refl,,strap onto,,,,,TRUE,beside + up + move (SSO),Yes,3
 "ádaatʼé,nítʼééʼ","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "ádaatʼé,ńtʼę́ę́","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "ádaatʼé,ntʼééʼ","VImpf,Part",were,VPerf,3rd,P,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
@@ -142,98 +182,128 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ádanohtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,P,,,be,,,-tʼé,,TRUE,be + (past),Yes,2
 "ádanohtʼée,doo","VImpf,Part",will be,VFut,2nd,P,,,be,,,-tʼé,,TRUE,be + (future),Yes,2
 "adéesʼeez,dikʼą́","NSub,VImpf",square foot,NSub,,,,,,,,,,TRUE,pace + it is squared,Yes,2
-"ádiih,daahdzííd","Postp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,daahkaah","Postp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,daałtʼood","Postp,VImpf",are injecting (refl),VImpf,2nd,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,dadiidził","Postp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dadiikááł","Postp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dadiiltʼoł","Postp,VFut",will inject (refl),VFut,1st,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,dadoohdził","Postp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dadoohkááł","Postp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dadoołtʼoł","Postp,VFut",will inject (refl),VFut,2nd,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,dajidzííd","Postp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dajikaah","Postp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dajiltʼood","Postp,VImpf",are injecting (refl),VImpf,4th,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,dajiską́","Postp,VPerf",injected (refl),VPerf,4th,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dajoodziid","Postp,VPerf",injected (refl),VPerf,4th,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,daoohdziid","Postp,VPerf",injected (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dasiiką́","Postp,VPerf",injected (refl),VPerf,1st,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dasoohką́","Postp,VPerf",injected (refl),VPerf,2nd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dayoodziid","Postp,VPerf",injected (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dazhdoodził","Postp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,dazhdookááł","Postp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dazhdooltʼoł","Postp,VFut",will inject (refl),VFut,4th,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,deesdził","Postp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,deeshkááł","Postp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,deeshtʼoł","Postp,VFut",will inject (refl),VFut,1st,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,deidoodził","Postp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,deidookááł","Postp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,deidooltʼoł","Postp,VFut",will inject (refl),VFut,3rd,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,deidzííd","Postp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,deiidziid","Postp,VPerf",injected (refl),VPerf,1st,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,deiidzííd","Postp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,deiikaah","Postp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,deiiltʼood","Postp,VImpf",are injecting (refl),VImpf,1st,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,deikaah","Postp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,deiltʼood","Postp,VImpf",are injecting (refl),VImpf,3rd,P,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,deiską́","Postp,VPerf",injected (refl),VPerf,3rd,P,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,diidził","Postp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,díídził","Postp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,diikááł","Postp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,dííkááł","Postp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,diiltʼoł","Postp,VFut",will inject (refl),VFut,1st,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,dííltʼoł","Postp,VFut",will inject (refl),VFut,2nd,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,doohdził","Postp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,doohkááł","Postp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,doołtʼoł","Postp,VFut",will inject (refl),VFut,2nd,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,jidoodził","Postp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,jidookááł","Postp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,jidooltʼoł","Postp,VFut",will inject (refl),VFut,4th,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,jidzííd","Postp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,jikaah","Postp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,jiltʼood","Postp,VImpf",is/are injecting (refl),VImpf,4th,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,joodziid","Postp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,jooką́","Postp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,jooltʼóód","Postp,VPerf",injected (refl),VPerf,4th,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,nidzííd","Postp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,nikaah","Postp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,niltʼood","Postp,VImpf",are injecting (refl),VImpf,2nd,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,wohdzííd","Postp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,wohkaah","Postp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,wołtʼood","Postp,VImpf",are injecting (refl),VImpf,2nd,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,woohdziid","Postp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,woohką́","Postp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,woołtʼóód","Postp,VPerf",injected (refl),VPerf,2nd,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yidoodził","Postp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yidookááł","Postp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yidooltʼoł","Postp,VFut",will inject (refl),VFut,3rd,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yidzííd","Postp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yiidziid","Postp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yiidzííd","Postp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yiiką́","Postp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yiikaah","Postp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yiiltʼood","Postp,VImpf",are injecting (refl),VImpf,1st,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yiiltʼóód","Postp,VPerf",injected (refl),VPerf,1st,D,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yikaah","Postp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yiltʼood","Postp,VImpf",is/are injecting (refl),VImpf,3rd,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yínídziid","Postp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yíníką́","Postp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yíníltʼóód","Postp,VPerf",injected (refl),VPerf,2nd,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yisdziid","Postp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + pour,Yes,2
+"ádiih,daahdzííd","Postp,VImpf",are injecting,VImpf,2nd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,daahkaah","Postp,VImpf",are injecting,VImpf,2nd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,daałtʼood","Postp,VImpf",are injecting,VImpf,2nd,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,dadiidził","Postp,VFut",will inject,VFut,1st,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dadiikááł","Postp,VFut",will inject,VFut,1st,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dadiiltʼoł","Postp,VFut",will inject,VFut,1st,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,dadoohdził","Postp,VFut",will inject,VFut,2nd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dadoohkááł","Postp,VFut",will inject,VFut,2nd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dadoołtʼoł","Postp,VFut",will inject,VFut,2nd,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,dajidzííd","Postp,VImpf",are injecting,VImpf,4th,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dajikaah","Postp,VImpf",are injecting,VImpf,4th,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dajiltʼood","Postp,VImpf",are injecting,VImpf,4th,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,dajiską́","Postp,VPerf",injected,VPerf,4th,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dajoodziid","Postp,VPerf",injected,VPerf,4th,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,daoohdziid","Postp,VPerf",injected,VPerf,2nd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dasiiką́","Postp,VPerf",injected,VPerf,1st,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dasoohką́","Postp,VPerf",injected,VPerf,2nd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dayoodziid","Postp,VPerf",injected,VPerf,3rd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dazhdoodził","Postp,VFut",will inject,VFut,4th,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,dazhdookááł","Postp,VFut",will inject,VFut,4th,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dazhdooltʼoł","Postp,VFut",will inject,VFut,4th,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,deesdził","Postp,VFut",will inject,VFut,1st,S,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,deeshkááł","Postp,VFut",will inject,VFut,1st,S,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,deeshtʼoł","Postp,VFut",will inject,VFut,1st,S,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,deidoodził","Postp,VFut",will inject,VFut,3rd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,deidookááł","Postp,VFut",will inject,VFut,3rd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,deidooltʼoł","Postp,VFut",will inject,VFut,3rd,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,deidzííd","Postp,VImpf",are injecting,VImpf,3rd,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,deiidziid","Postp,VPerf",injected,VPerf,1st,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,deiidzííd","Postp,VImpf",are injecting,VImpf,1st,P,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,deiikaah","Postp,VImpf",are injecting,VImpf,1st,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,deiiltʼood","Postp,VImpf",are injecting,VImpf,1st,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,deikaah","Postp,VImpf",are injecting,VImpf,3rd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,deiltʼood","Postp,VImpf",are injecting,VImpf,3rd,P,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,deiską́","Postp,VPerf",injected,VPerf,3rd,P,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,diidził","Postp,VFut",will inject,VFut,1st,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,díídził","Postp,VFut",will inject,VFut,2nd,S,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,diikááł","Postp,VFut",will inject,VFut,1st,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,dííkááł","Postp,VFut",will inject,VFut,2nd,S,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,diiltʼoł","Postp,VFut",will inject,VFut,1st,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,dííltʼoł","Postp,VFut",will inject,VFut,2nd,S,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,doohdził","Postp,VFut",will inject,VFut,2nd,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,doohkááł","Postp,VFut",will inject,VFut,2nd,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,doołtʼoł","Postp,VFut",will inject,VFut,2nd,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,jidoodził","Postp,VFut",will inject,VFut,4th,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,jidookááł","Postp,VFut",will inject,VFut,4th,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,jidooltʼoł","Postp,VFut",will inject,VFut,4th,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,jidzííd","Postp,VImpf",is/are injecting,VImpf,4th,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,jikaah","Postp,VImpf",is/are injecting,VImpf,4th,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,jiltʼood","Postp,VImpf",is/are injecting,VImpf,4th,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,joodziid","Postp,VPerf",injected,VPerf,4th,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,jooką́","Postp,VPerf",injected,VPerf,4th,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,jooltʼóód","Postp,VPerf",injected,VPerf,4th,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,nidzííd","Postp,VImpf",are injecting,VImpf,2nd,S,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,nikaah","Postp,VImpf",are injecting,VImpf,2nd,S,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,niltʼood","Postp,VImpf",are injecting,VImpf,2nd,S,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,wohdzííd","Postp,VImpf",are injecting,VImpf,2nd,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,wohkaah","Postp,VImpf",are injecting,VImpf,2nd,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,wołtʼood","Postp,VImpf",are injecting,VImpf,2nd,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,woohdziid","Postp,VPerf",injected,VPerf,2nd,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,woohką́","Postp,VPerf",injected,VPerf,2nd,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,woołtʼóód","Postp,VPerf",injected,VPerf,2nd,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yidoodził","Postp,VFut",will inject,VFut,3rd,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yidookááł","Postp,VFut",will inject,VFut,3rd,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yidooltʼoł","Postp,VFut",will inject,VFut,3rd,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yidzííd","Postp,VImpf",is/are injecting,VImpf,3rd,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yiidziid","Postp,VPerf",injected,VPerf,1st,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yiidzííd","Postp,VImpf",are injecting,VImpf,1st,D,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yiiką́","Postp,VPerf",injected,VPerf,1st,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yiikaah","Postp,VImpf",are injecting,VImpf,1st,D,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yiiltʼood","Postp,VImpf",are injecting,VImpf,1st,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yiiltʼóód","Postp,VPerf",injected,VPerf,1st,D,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yikaah","Postp,VImpf",is/are injecting,VImpf,3rd,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yiltʼood","Postp,VImpf",is/are injecting,VImpf,3rd,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yínídziid","Postp,VPerf",injected,VPerf,2nd,S,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yíníką́","Postp,VPerf",injected,VPerf,2nd,S,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yíníltʼóód","Postp,VPerf",injected,VPerf,2nd,S,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yisdziid","Postp,VPerf",injected,VPerf,1st,S,Refl,,inject,,,,,TRUE,into + pour,Yes,2
 "ádiih,yisdzííd","Postp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yishką́","Postp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yishką́","Postp,VPerf",injected,VPerf,1st,S,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
 "ádiih,yishkaah","Postp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + move (OC),Yes,2
 "ádiih,yishtʼood","Postp,VImpf",am injecting (refl),VImpf,1st,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yishtʼóód","Postp,VPerf",injected (refl),VPerf,1st,S,3rd,,,,,,,TRUE,into + suck,Yes,2
-"ádiih,yoodziid","Postp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + pour,Yes,2
-"ádiih,yooką́","Postp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + move (OC),Yes,2
-"ádiih,yooltʼóód","Postp,VPerf",injected (refl),VPerf,3rd,SD,3rd,,,,,,,TRUE,into + suck,Yes,2
+"ádiih,yishtʼóód","Postp,VPerf",injected,VPerf,1st,S,Refl,,inject,,,,,TRUE,into + suck,Yes,2
+"ádiih,yoodziid","Postp,VPerf",injected,VPerf,3rd,SD,Refl,,inject,,,,,TRUE,into + pour,Yes,2
+"ádiih,yooką́","Postp,VPerf",injected,VPerf,3rd,SD,Refl,,inject,,,,,TRUE,into + move (OC),Yes,2
+"ádiih,yooltʼóód","Postp,VPerf",injected,VPerf,3rd,SD,Refl,,inject,,,,,TRUE,into + suck,Yes,2
 "adijiłii,bíchį́į́hnézí","NSub,NSub",echidna,NSub,,,,,,,,,,TRUE,hedgehog's long nose,Yes,2
 "Adinídíín,Neitinígíí","NSub,NSub",Jedi,NSub,,,,,,TRUE,,,,TRUE,light + one who is carrying a stick around,Yes,2
 "agaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",mandolin,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that is round,Yes,3
 "agaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",harp,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that curls up,Yes,3
 "agaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",banjo,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the one that is round,Yes,3
 "agaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",ukelele,NSub,,,,,,,,,,TRUE,guitar + he who plucks it + the little one,Yes,3
+"áhá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"áhá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,Recip,DP,make room for,,,,,TRUE,for + make,Yes,2
+"ahééh,daniidzin","NObj,VImpf",are thankful,VImpf,1st,P,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,danízin","NObj,VImpf",are thankful,VImpf,3rd,P,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,danohsin","NObj,VImpf",are thankful,VImpf,2nd,P,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,daznízin","NObj,VImpf",are thankful,VImpf,4th,P,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,jinízin","NObj,VImpf",is/are thankful,VImpf,4th,SD,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,niidzin","NObj,VImpf",are thankful,VImpf,1st,D,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,nínízin","NObj,VImpf",are thankful,VImpf,2nd,S,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,nisin","NObj,VImpf",am thankful,VImpf,1st,S,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,nízin","NObj,VImpf",is/are thankful,VImpf,3rd,SD,,,think,,,,,TRUE,thankfulness + think,Yes,2
+"ahééh,nohsin","NObj,VImpf",are thankful,VImpf,2nd,D,,,think,,,,,TRUE,thankfulness + think,Yes,2
 "Ahééhałtį́į́h,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,TRUE,place where it rains year-round + state,Yes,2
 "Ahééháshį́į́h,Hahoodzo","NSub,NSub",California,NSub,,,,,,TRUE,,,,TRUE,place where it's always summer + state,Yes,2
 "ahéheeʼ,nitsaago","Interj,Adv",many thanks,Interj,,,,,,,,,,TRUE,thanks + many,Yes,2
@@ -363,58 +433,80 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "azeeʼ,ííłʼíní","NSub,NSub",doctor,NSub,,,,,,,,,,TRUE,,Yes,2
 "azeeʼ,neikahi","NSub,NSub",nurse,NSub,,,,,,,,,,TRUE,,Yes,2
 "azeeʼ,tsiʼnaaʼiiłáhí","NSub,NSub",recreational drug,NSub,,,,,,,,,,TRUE,,Yes,2
-"baa,dadiijih","Postp,VFut",will give,VFut,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,dadoohjih","Postp,VFut",will give,VFut,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,dajíjááh","Postp,VImpf",are giving,VImpf,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,dajizhjaaʼ","Postp,VPerf",gave,VPerf,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,daniijááh","Postp,VImpf",are giving,VImpf,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,daniijaaʼ","Postp,VPerf",gave,VPerf,1st,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,danohjááh","Postp,VImpf",are giving,VImpf,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,danoojaaʼ","Postp,VPerf",gave,VPerf,2nd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,dazhdoojih","Postp,VFut",will give,VFut,4th,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,deeshjih","Postp,VFut",will give,VFut,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
+"bá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"bá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,3rd,,make room for,,,,,TRUE,for + make,Yes,2
+"baa,dadiijih","Postp,VFut",will give,VFut,1st,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,dadoohjih","Postp,VFut",will give,VFut,2nd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,dajíjááh","Postp,VImpf",are giving,VImpf,4th,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,dajizhjaaʼ","Postp,VPerf",gave,VPerf,4th,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,daniijááh","Postp,VImpf",are giving,VImpf,1st,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,daniijaaʼ","Postp,VPerf",gave,VPerf,1st,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,danohjááh","Postp,VImpf",are giving,VImpf,2nd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,danoojaaʼ","Postp,VPerf",gave,VPerf,2nd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,dazhdoojih","Postp,VFut",will give,VFut,4th,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,deeshjih","Postp,VFut",will give,VFut,1st,S,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
 "baa,deetʼą́","Postp,VPerf",was dedicated to them,VPerf,3rd,SD,,,,,,,,TRUE,to + was ??,Yes,2
 "baa,deetʼáanii","Postp,NSub",dedication,NSub,,,,,,,,,,TRUE,to + that which was given,Yes,2
-"baa,deidoojih","Postp,VFut",will give,VFut,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,deíjááh","Postp,VImpf",are giving,VImpf,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,deizhjaaʼ","Postp,VPerf",gave,VPerf,3rd,P,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,diijih","Postp,VFut",will give,VFut,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,dííjih","Postp,VFut",will give,VFut,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,doohjih","Postp,VFut",will give,VFut,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,jidoojih","Postp,VFut",will give,VFut,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,jíjááh","Postp,VImpf",is/are giving,VImpf,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,jiníjaaʼ","Postp,VPerf",gave,VPerf,4th,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,nídiikai","Postp,VPerf",started to work on,VPerf,1st,D,3rd,S,,,,,,TRUE,,Yes,2
-"baa,niijááh","Postp,VImpf",are giving,VImpf,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,niijaaʼ","Postp,VPerf",gave,VPerf,1st,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,níjááh","Postp,VImpf",are giving,VImpf,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,níjaaʼ","Postp,VPerf",gave,VPerf,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
+"baa,deidoojih","Postp,VFut",will give,VFut,3rd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,deíjááh","Postp,VImpf",are giving,VImpf,3rd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,deizhjaaʼ","Postp,VPerf",gave,VPerf,3rd,P,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,diijih","Postp,VFut",will give,VFut,1st,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,dííjih","Postp,VFut",will give,VFut,2nd,S,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,doohjih","Postp,VFut",will give,VFut,2nd,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,jidoojih","Postp,VFut",will give,VFut,4th,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,jíjááh","Postp,VImpf",is/are giving,VImpf,4th,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,jiníjaaʼ","Postp,VPerf",gave,VPerf,4th,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,nídiikai","Postp,VPerf",started to work on,VPerf,1st,D,3rd,S,start work on,,,,,TRUE,,Yes,2
+"baa,niijááh","Postp,VImpf",are giving,VImpf,1st,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,niijaaʼ","Postp,VPerf",gave,VPerf,1st,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,níjááh","Postp,VImpf",are giving,VImpf,2nd,S,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,níjaaʼ","Postp,VPerf",gave,VPerf,1st,S,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
 "baa,nishjááh","Postp,VImpf",am giving,VImpf,1st,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,nohjááh","Postp,VImpf",are giving,VImpf,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,noojaaʼ","Postp,VPerf",gave,VPerf,2nd,D,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,yá,hasįįh","Postp,Postp,VImpf",embarasses,VImpf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
-"baa,yá,hodoosįįł","Postp,Postp,VFut",will embarass,VFut,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
-"baa,yá,hóósįįd","Postp,Postp,VPerf",embarassed,VPerf,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
-"baa,yá,hósįįh","Postp,Postp,VOpt",could embarass,VOpt,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
-"baa,yá,náhásįįh","Postp,Postp,VIter",does embarass,VIter,,,,,,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
-"baa,yidoojih","Postp,VFut",will give,VFut,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,yíjááh","Postp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,yínííł","Postp,VImpf",gives/give,VImpf,3rd,SD,3rd,,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,yiníjaaʼ","Postp,VPerf",gave,VPerf,3rd,SD,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"baa,yíníjaaʼ","Postp,VPerf",gave,VPerf,2nd,S,3rd,P,,,,,,TRUE,to him/her + bring,Yes,2
-"bą́ą́h,ajílį́","Postp,VImpf",is/are worth,VImpf,4th,SD,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,aniidlį́","Postp,VImpf",are worth,VImpf,1st,D,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,anílį́","Postp,VImpf",are worth,VImpf,2nd,S,,,,,,,,TRUE,by it + be worth,Yes,2
+"baa,nohjááh","Postp,VImpf",are giving,VImpf,2nd,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,noojaaʼ","Postp,VPerf",gave,VPerf,2nd,D,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,yá,hasįįh","Postp,Postp,VImpf",embarasses,VImpf,,,,,embarrass,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
+"baa,yá,hodoosįįł","Postp,Postp,VFut",will embarass,VFut,3rd,S,Area,,embarass,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
+"baa,yá,hóósįįd","Postp,Postp,VPerf",embarassed,VPerf,,,,,embarrass,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
+"baa,yá,hósįįh","Postp,Postp,VOpt",could embarass,VOpt,,,,,embarrass,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
+"baa,yá,náhásįįh","Postp,Postp,VIter",does embarass,VIter,3rd,S,Area,,embarrass,,,,,TRUE,to him/her + for him/her + cause to feel,Yes,3
+"baa,yidoojih","Postp,VFut",will give,VFut,3rd,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,yíjááh","Postp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,yínííł","Postp,VImpf",gives/give,VImpf,3rd,SD,3rd,,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,yiníjaaʼ","Postp,VPerf",gave,VPerf,3rd,SD,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"baa,yíníjaaʼ","Postp,VPerf",gave,VPerf,2nd,S,3rd,P,give,,,,,TRUE,to him/her + bring,Yes,2
+"bą́ą́h,ajílį́","Postp,VImpf",is/are worth,VImpf,4th,SD,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,aniidlį́","Postp,VImpf",are worth,VImpf,1st,D,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,anílį́","Postp,VImpf",are worth,VImpf,2nd,S,,,be worth,,,,,TRUE,by it + be worth,Yes,2
 "bą́ą́h,anishłį́","Postp,VImpf",am worth,VImpf,1st,S,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,anohłį́","Postp,VImpf",are worth,VImpf,2nd,D,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,daʼílį́","Postp,VImpf",are worth,VImpf,3rd,P,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,daʼjílį́","Postp,VImpf",are worth,VImpf,4th,P,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,daʼniidlį́","Postp,VImpf",are worth,VImpf,1st,P,,,,,,,,TRUE,by it + be worth,Yes,2
-"bą́ą́h,daʼnohłį́","Postp,VImpf",are worth,VImpf,2nd,P,,,,,,,,TRUE,by it + be worth,Yes,2
-"bąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,3rd,,,,,,,,,TRUE,on + stick out,Yes,2
-"bąąh,háájil","Postp,VPerf",owed a debt,Perf,3rd,,,,,,,,,TRUE,on + stick out,Yes,2
-"bąąh,hadoojił","Postp,VFut",will owe a debt,Fut,3rd,,,,,,,,,TRUE,on + stick out,Yes,2
-"bą́ą́h,ílį́","Postp,VImpf",is/are worth,VImpf,3rd,SD,,,,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,anohłį́","Postp,VImpf",are worth,VImpf,2nd,D,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bąąh,dah,dahoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,3rd,P,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"bąąh,dah,hoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,3rd,SD,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"bą́ą́h,daʼílį́","Postp,VImpf",are worth,VImpf,3rd,P,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,daʼjílį́","Postp,VImpf",are worth,VImpf,4th,P,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,daʼniidlį́","Postp,VImpf",are worth,VImpf,1st,P,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bą́ą́h,daʼnohłį́","Postp,VImpf",are worth,VImpf,2nd,P,,,be worth,,,,,TRUE,by it + be worth,Yes,2
+"bąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,3rd,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"bąąh,háájil","Postp,VPerf",owed a debt,Perf,3rd,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"bąąh,hadoojił","Postp,VFut",will owe a debt,Fut,3rd,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"bą́ą́h,ílį́","Postp,VImpf",is/are worth,VImpf,3rd,SD,,,be worth,,,,,TRUE,by it + be worth,Yes,2
 "bąąhági,ádaatʼéii","Adv,VImpf",sins,NSub,,,,,,,,,,TRUE,immorally + are,Yes,2
 "bąąhági,áhátʼį́","Adv,VImpf",misbehavior,NSub,,,,,,,,,,TRUE,immorally + happens,Yes,2
 "bąąhági,átʼéii","Adv,VImpf",sin,NSub,,,,,,,,,,TRUE,immorally + is,Yes,2
@@ -422,7 +514,27 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bee,ádéestʼį́į́ʼ","Postp,NSub",binocular/telescope,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,Yes,2
 "bee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,3rd,,lack,,,,,TRUE,by means of him/her/it/them + is absent,Yes,2
 "bee,ałkʼíniilkaałí","Postp,NSub",wedge,NSub,,,,,,,,,,TRUE,by means of him/her/it/them + ??,Yes,2
+"bee,dahojiiłʼaah","Postp,VImpf",pass a law,VImpf,4th,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahojiiłʼaʼ","Postp,VPerf",pass a law,VPerf,4th,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahoołʼaah","Postp,VImpf",pass a law,VImpf,2nd,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahoołʼaah","Postp,VImpf",pass a law,VImpf,3rd,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahoołʼaʼ","Postp,VPerf",pass a law,VPerf,2nd,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahoołʼaʼ","Postp,VPerf",pass a law,VPerf,3rd,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahwiilʼaah","Postp,VImpf",pass a law,VImpf,1st,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,dahwiilʼaʼ","Postp,VPerf",pass a law,VPerf,1st,P,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hojiiłʼaah","Postp,VImpf",pass(es) a law,VImpf,4th,SD,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hojiiłʼaʼ","Postp,VPerf",pass(es) a law,VPerf,4th,SD,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaah","Postp,VImpf",pass a law,VImpf,2nd,S,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaah","Postp,VImpf",pass a law,VImpf,2nd,D,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaah","Postp,VImpf",pass(es) a law,VImpf,3rd,SD,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaʼ","Postp,VPerf",pass a law,VPerf,1st,S,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaʼ","Postp,VPerf",pass a law,VPerf,2nd,D,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hoołʼaʼ","Postp,VPerf",pass(es) a law,VPerf,3rd,SD,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
 "bee,hoolʼin","Postp,VImpf",shine(s) dimly,VImpf,3rd,SD,,,shine dimly,,,,,TRUE,by means of + ??,Yes,2
+"bee,hooshʼaah","Postp,VImpf",pass a law,VImpf,1st,S,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hwiilʼaah","Postp,VImpf",pass a law,VImpf,1st,D,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hwiilʼaʼ","Postp,VPerf",pass a law,VPerf,1st,D,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
+"bee,hwiiniłʼaʼ","Postp,VPerf",pass a law,VPerf,2nd,S,3rd,,pass a law,,,,,TRUE,by means of + make,Yes,2
 "béégashii,bitsįʼ","NSub,NSub",beef,NSub,,,,,,,,,,TRUE,cow + its flesh,Yes,2
 "béégashii,yáázh","NSub,NSub",calf,NSub,,,,,,,,,,TRUE,cow + offspring,Yes,2
 "béésh,adeeʼ","NSub,NSub",spoon,NSub,,,,,,,,,,TRUE,metal + ??,Yes,2
@@ -454,27 +566,38 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "beeʼeldííl,dahsinilgóó","NSub,Adv",to Albuquerque,Adv,,,,,,,,,,TRUE,that with which ringing (bells) is done + to/above the large objects in place,Yes,2
 "beeʼeldǫǫh,tʼáá,bíniʼdii,bikʼaʼ,ádiih,yiyiinííłígíí","NSub,Part,NPostp,NPostp,Postp,NSub",machine gun,NSub,,,,,,,,,,TRUE,gun + (just) + one that allows? + its bullets + into it + one that puts them into it,Yes,6
 "Beʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,Yes,3
-"beʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,Yes,2
+"beʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,his/her/their clothing + without,Yes,2
 "bibéeso,bizis","NSub,NSub",his/her wallet,NSub,3rd,,,,,,,,,TRUE,money + its sack,Yes,2
 "bibid,dijoolí","NSub,NSub",his/her/its duodenum(s),NSub,3rd,,,,,,,,,TRUE,stomach + ball,Yes,2
 "bichoʼ,bizis","NSub,NSub",his/their scrotum,NSub,3rd,,,,,,,,,TRUE,male genitalia + its sack,Yes,2
 "bichʼííʼ,bitsʼániʼnísą́","NSub,NSub",his/her appendix (anatomy),NSub,3rd,,,,,,,,,TRUE,intestine + ??,Yes,2
 "bidibé,yázhí","NSub,NSub",his/her/its lamb(s),NSub,3rd,,,,,,,,,TRUE,his sheep + little one,Yes,2
-"bídin,hóóyééʼ","Postp,VPerf",was without,VPerf,,,,,,,,,,TRUE,without + terror,Yes,2
-"bídin,hóyééʼ","Postp,VImpf",is without,VImpf,,,,,,,,,,TRUE,without + terror,Yes,2
+"bídin,hóóyééʼ","Postp,VPerf",was without,VPerf,3rd,S,,,be without,,,,,TRUE,without + terror,Yes,2
+"bídin,hóyééʼ","Postp,VImpf",is without,VImpf,3rd,S,,,be without,,,,,TRUE,without + terror,Yes,2
 "bigaanstsiin,yiltązhí,dijoolígíí","NSub,NSub,NSub",his/her mandolin,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,Yes,3
 "bigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",his/her harp,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that curls up,Yes,3
 "bigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",his/her banjo,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the one that is round,Yes,3
 "bigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",his/her ukelele,NSub,,,,,,,,,,TRUE,his/her guitar + he who plucks it + the little one,Yes,3
 "bįįh,yáázh","NSub,NSub",fawn,NSub,,,,,,,,,,TRUE,deer + offspring,Yes,2
 "bįįh,yildeeʼį́","NSub,NSub",gooseberry/groundcherry,NSub,,,,,,,,,,TRUE,deer + food,Yes,2
-"bił,doosih","Postp,VFut",will be satisfied with,VFut,3rd,,3rd,,,,,,,TRUE,with it + hope,Yes,2
+"biiʼ,sizíinii","Postp,NSub",his/her soul,NSub,3rd,,,,,,,,,TRUE,within + it stands,Yes,2
+"bił,daniidzin","Postp,VImpf",are sleepy,VImpf,1st,P,,,think,,,,,TRUE,with + think,Yes,2
+"bił,danízin","Postp,VImpf",are sleepy,VImpf,3rd,P,,,think,,,,,TRUE,with + think,Yes,2
+"bił,danohsin","Postp,VImpf",are sleepy,VImpf,2nd,P,,,think,,,,,TRUE,with + think,Yes,2
+"bił,daznízin","Postp,VImpf",are sleepy,VImpf,4th,P,,,think,,,,,TRUE,with + think,Yes,2
+"bił,doosih","Postp,VFut",will be satisfied with,VFut,3rd,S,3rd,,be satisfied with,,,,,TRUE,with it + hope,Yes,2
 "bił,hóóyééʼ","Postp,VPerf",was lazy,VPerf,,,,,,,,,,TRUE,with + terror,Yes,2
-"bił,hóyééʼ","Postp,VImpf",is lazy,VImpf,,,,,,,,,,TRUE,with + terror,Yes,2
-"bił,násih","Postp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,,,,,,TRUE,with it + hope,Yes,2
-"bił,sih","Postp,VImpf",is satisfied with,VImpf,3rd,,3rd,,,,,,,TRUE,with it + hope,Yes,2
-"bił,wósih","Postp,VOpt",could be satisfied with,VOpt,3rd,,3rd,,,,,,,TRUE,with it + hope,Yes,2
-"bił,yísih","Postp,VPerf",was satisfied with,VPerf,3rd,,3rd,,,,,,,TRUE,with it + hope,Yes,2
+"bił,hóyééʼ","Postp,VImpf",is lazy,VImpf,3rd,S,,,be lazy,,,,,TRUE,with + terror,Yes,2
+"bił,jinízin","Postp,VImpf",is/are sleepy,VImpf,4th,SD,,,think,,,,,TRUE,with + think,Yes,2
+"bił,násih","Postp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,be satisfied with,,,,,TRUE,with it + hope,Yes,2
+"bił,niidzin","Postp,VImpf",are sleepy,VImpf,1st,D,,,think,,,,,TRUE,with + think,Yes,2
+"bił,nínízin","Postp,VImpf",are sleepy,VImpf,2nd,S,,,think,,,,,TRUE,with + think,Yes,2
+"bił,nisin","Postp,VImpf",am sleepy,VImpf,1st,S,,,think,,,,,TRUE,with + think,Yes,2
+"bił,nízin","Postp,VImpf",is/are sleepy,VImpf,3rd,SD,,,think,,,,,TRUE,with + think,Yes,2
+"bił,nohsin","Postp,VImpf",are sleepy,VImpf,2nd,D,,,think,,,,,TRUE,with + think,Yes,2
+"bił,sih","Postp,VImpf",is satisfied with,VImpf,3rd,S,3rd,,be satisfied with,,,,,TRUE,with it + hope,Yes,2
+"bił,wósih","Postp,VOpt",could be satisfied with,VOpt,3rd,,3rd,,be satisfied with,,,,,TRUE,with it + hope,Yes,2
+"bił,yísih","Postp,VPerf",was satisfied with,VPerf,3rd,S,3rd,,be satisfied with,,,,,TRUE,with it + hope,Yes,2
 "bilagáana,bizaad","NSub,NSub",English language,NSub,,,,,,,,,,TRUE,Caucasian's word,Yes,2
 "bilagáana,tʼáá,biʼałkʼiijééʼ","NSub,Part,VImpf",American Civil War,NSub,,,,,,TRUE,,,,TRUE,Caucasian + just + ??,Yes,3
 "bílaʼ,ashdlaʼii","NSub,NSub",human being,NSub,,,,,,,,,,TRUE,his fingers + the five,Yes,2
@@ -493,33 +616,33 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "biniiyé,ííłní","Postp,VImpf",asks/ask,VImpf,3rd,SD,3rd,,ask,,,,,TRUE,for the purpose of + say thus,Yes,2
 "biníłchʼi,diyinii","NSub,NSub",His Holy Spirit,NSub,3rd,S,,,,TRUE,,,,TRUE,his wind + holy one,Yes,2
 "bisóodi,bitsįʼ","NSub,NSub",pork,NSub,,,,,,,,,,TRUE,pig's flesh,Yes,2
-"bizééʼ,daahtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dadiitʼįįł","NObj,VFut",will cause death,VFut,1st,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dadoohtʼįįł","NObj,VFut",will cause death,VFut,2nd,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dajistʼįįd","NObj,VPerf",caused death,VPerf,4th,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dajitʼįįh","NObj,VImpf",are causing death,VImpf,4th,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dasiitʼįįd","NObj,VPerf",caused death,VPerf,1st,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dasoohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,dazhdootʼįįł","NObj,VFut",will cause death,VFut,4th,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,deeshtʼįįł","NObj,VFut",will cause death,VFut,1st,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,deiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,P,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,diitʼįįł","NObj,VFut",will cause death,VFut,1st,D,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,díítʼįįł","NObj,VFut",will cause death,VFut,2nd,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,doohtʼįįł","NObj,VFut",will cause death,VFut,2nd,D,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,jidootʼįįł","NObj,VFut",will cause death,VFut,4th,SD,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,jistʼįįd","NObj,VPerf",caused death,VPerf,4th,SD,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,jitʼįįh","NObj,VImpf",is/are causing death,VImpf,4th,SD,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,nitʼįįh","NObj,VImpf",are causing death,VImpf,2nd,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,siitʼįįd","NObj,VPerf",caused death,VPerf,1st,D,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,sínítʼįįd","NObj,VPerf",caused death,VPerf,2nd,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,sistʼįįd","NObj,VPerf",caused death,VPerf,1st,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,soohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,D,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,wohtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,D,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,yiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,D,3rd,,,,,,,TRUE,death + make,Yes,2
+"bizééʼ,daahtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dadiitʼįįł","NObj,VFut",will cause death,VFut,1st,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dadoohtʼįįł","NObj,VFut",will cause death,VFut,2nd,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dajistʼįįd","NObj,VPerf",caused death,VPerf,4th,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dajitʼįįh","NObj,VImpf",are causing death,VImpf,4th,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dasiitʼįįd","NObj,VPerf",caused death,VPerf,1st,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dasoohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,dazhdootʼįįł","NObj,VFut",will cause death,VFut,4th,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,deeshtʼįįł","NObj,VFut",will cause death,VFut,1st,S,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,deiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,P,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,diitʼįįł","NObj,VFut",will cause death,VFut,1st,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,díítʼįįł","NObj,VFut",will cause death,VFut,2nd,S,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,doohtʼįįł","NObj,VFut",will cause death,VFut,2nd,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,jidootʼįįł","NObj,VFut",will cause death,VFut,4th,SD,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,jistʼįįd","NObj,VPerf",caused death,VPerf,4th,SD,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,jitʼįįh","NObj,VImpf",is/are causing death,VImpf,4th,SD,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,nitʼįįh","NObj,VImpf",are causing death,VImpf,2nd,S,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,siitʼįįd","NObj,VPerf",caused death,VPerf,1st,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,sínítʼįįd","NObj,VPerf",caused death,VPerf,2nd,S,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,sistʼįįd","NObj,VPerf",caused death,VPerf,1st,S,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,soohtʼįįd","NObj,VPerf",caused death,VPerf,2nd,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,wohtʼįįh","NObj,VImpf",are causing death,VImpf,2nd,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
+"bizééʼ,yiitʼįįh","NObj,VImpf",are causing death,VImpf,1st,D,3rd,,cause death,,,,,TRUE,death + make,Yes,2
 "bizééʼ,yishtʼįįh","NObj,VImpf",am causing death,VImpf,1st,S,3rd,,,,,,,TRUE,death + make,Yes,2
-"bizééʼ,yitʼįįh","NObj,VImpf",is/are causing death,VImpf,3rd,SD,3rd,,,,,,,TRUE,death + make,Yes,2
+"bizééʼ,yitʼįįh","NObj,VImpf",is/are causing death,VImpf,3rd,SD,3rd,,cause death,,,,,TRUE,death + make,Yes,2
 "Biʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,TRUE,his clothing + red one + his land,Yes,3
-"biʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,his/her/their clothing + without,Yes,2
+"biʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,his/her/their clothing + without,Yes,2
 "bóhólníihii,bisodizin","NSub,NSub",The Lord's Prayer,NSub,,,,,,TRUE,,,,TRUE,lord's prayer,Yes,2
 "chąąʼ,bá,hooghan","NPostp,Postp,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,feces + for it + house,Yes,3
 "chąąʼ,báhooghan","NSub,NSub",bathroom/restroom,NSub,,,,,,,,,,TRUE,faces + house for,Yes,2
@@ -539,7 +662,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "chʼil,łitsxooí","NSub,NSub",orange (fruit),NSub,,,,,,,,,,TRUE,plant + orange,Yes,2
 "dah,alzhin","NSub,NSub",minute (time),NSub,,,,,,,,,,TRUE,upward + ??,Yes,2
 "dah,azką́","Adv,NSub",mesa,NSub,,,,,,,,,,TRUE,upward + ??,Yes,2
-"dah,nídiikai","Postp,VPerf",started back,VPerf,3rd,P,,,,,,,,TRUE,upward + ??,Yes,2
+"dah,nídiikai","Postp,VPerf",started back,VPerf,3rd,P,,,start back,,,,,TRUE,upward + ??,Yes,2
 "dah,woozh","Adv,NSub",strawberry,NSub,,,,,,,,,,TRUE,upward + ??,Yes,2
 "dahwiilne’go,bide’yiniilniish","Adv,VImpf",ministry,NSub,,,,,,,,,,FALSE,preach + work?,Yes,2
 "damį́įgo,yázhí","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,little Sunday,Yes,2
@@ -548,10 +671,10 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "damóó,dóó,naaki,jį́","NSub,Conj,NumC,NSub",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Sunday and two days,Yes,4
 "damóó,dóó,tágí,jį́","NSub,Conj,NumO,NSub",Wednesday,NSub,,,,,,TRUE,,,,TRUE,Sunday and third day,Yes,4
 "damóo,yázhí","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,Sunday + little one,Yes,2
-"danihąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st/2nd,P,,,,,,,,TRUE,on + stick out,Yes,2
-"danihąąh,háájil","Postp,VPerf",owed a debt,Perf,1st/2nd,P,,,,,,,,TRUE,on + stick out,Yes,2
-"danihąąh,hadoojił","Postp,VFut",will owe a debt,Fut,1st/2nd,P,,,,,,,,TRUE,on + stick out,Yes,2
-"daniheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,Yes,2
+"danihąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st/2nd,P,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"danihąąh,háájil","Postp,VPerf",owed a debt,Perf,1st/2nd,P,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"danihąąh,hadoojił","Postp,VFut",will owe a debt,Fut,1st/2nd,P,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"daniheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,our/your clothing + without,Yes,2
 "danihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,P,,,,,,,,TRUE,money + its sack,Yes,2
 "danihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,P,,,,,,,,TRUE,stomach + ball,Yes,2
 "danihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,P,,,,,,,,TRUE,male genitalia + its sack,Yes,2
@@ -562,21 +685,41 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "danihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,Yes,3
 "danihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,Yes,3
 "danihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,P,,,,,danihi,,,TRUE,our/your sheep + little one,Yes,2
-"danihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,Yes,2
-"dayooʼį́į,doo","VImpf,Part",will see,VFut,3rd,P,3rd,,,,,,,TRUE,see + (future),Yes,2
+"danihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,our/your clothing + without,Yes,2
+"dayooʼį́į,doo","VImpf,Part",will see,VFut,3rd,P,3rd,,see,,,,,TRUE,see + (future),Yes,2
 "dáʼákaz,łikaní","NSub,NSub",sugar cane,NSub,,,,,,,,,,TRUE,cornstalk + the sweet one,Yes,2
 "daʼnijahí,góneʼ","NSub,Adv",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
 "daʼnílʼį́,bá,hooghanígíí ","NPostp,Postp,NSub",movie theater,NSub,,,,,,,,,,TRUE,movie + for + its house ,Yes,3
 "daʼnjahí,góneʼ","NSub,Adv",bedroom,NSub,,,,,,,,,,TRUE,bedroom + inside,Yes,2
 "deijiʼ,ééʼ","NSub,NSub",shirt,NSub,,,,,,,,,,TRUE,upper part + clothing,Yes,2
 "deijiʼ,sheʼééʼ","NSub,NSub",my shirt,NSub,1st,S,,,,,,,,TRUE,upper part + my clothing,Yes,2
+"dibááʼ,daniidzin","NObj,VImpf",are thirsty,VImpf,1st,P,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,danízin","NObj,VImpf",are thirsty,VImpf,3rd,P,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,danohsin","NObj,VImpf",are thirsty,VImpf,2nd,P,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,daznízin","NObj,VImpf",are thirsty,VImpf,4th,P,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,jinízin","NObj,VImpf",is/are thirsty,VImpf,4th,SD,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,niidzin","NObj,VImpf",are thirsty,VImpf,1st,D,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,nínízin","NObj,VImpf",are thirsty,VImpf,2nd,S,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,nisin","NObj,VImpf",am thirsty,VImpf,1st,S,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,nízin","NObj,VImpf",is/are thirsty,VImpf,3rd,SD,,,think,,,,,TRUE,thirst + think,Yes,2
+"dibááʼ,nohsin","NObj,VImpf",are thirsty,VImpf,2nd,D,,,think,,,,,TRUE,thirst + think,Yes,2
 "dibé,tsaʼii","NSub,NSub",ewe,NSub,,,,,,,,,,TRUE,sheep + ??,Yes,2
 "dibé,yázhí","NSub,NSub",lamb(s),NSub,,,,,,,,,,TRUE,sheep + small,Yes,2
-"dichin,hasįįh","NObj,VImpf",makes famished,VImpf,,,,,,,,,,TRUE,hunger + cause to feel,Yes,2
-"dichin,hodoosįįł","NObj,VFut",will make famished,VFut,,,,,,,,,,TRUE,hunger + cause to feel,Yes,2
-"dichin,hóósįįd","NObj,VPerf",made famished,VPerf,,,,,,,,,,TRUE,hunger + cause to feel,Yes,2
-"dichin,hósįįh","NObj,VOpt",could make famished,VOpt,,,,,,,,,,TRUE,hunger + cause to feel,Yes,2
-"dichin,náhásįįh","NObj,VIter",does make famished,VIter,,,,,,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,daniidzin","NObj,VImpf",are hungry,VImpf,1st,P,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,danízin","NObj,VImpf",are hungry,VImpf,3rd,P,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,danohsin","NObj,VImpf",are hungry,VImpf,2nd,P,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,daznízin","NObj,VImpf",are hungry,VImpf,4th,P,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,hasįįh","NObj,VImpf",makes famished,VImpf,3rd,S,3rd,,make famished,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,hodoosįįł","NObj,VFut",will make famished,VFut,3rd,S,,,make famished,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,hóósįįd","NObj,VPerf",made famished,VPerf,3rd,S,3rd,,make famished,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,hósįįh","NObj,VOpt",could make famished,VOpt,3rd,S,,,make famished,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,jinízin","NObj,VImpf",is/are hungry,VImpf,4th,SD,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,náhásįįh","NObj,VIter",does make famished,VIter,3rd,S,Area,,make famished,,,,,TRUE,hunger + cause to feel,Yes,2
+"dichin,niidzin","NObj,VImpf",are hungry,VImpf,1st,D,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,nínízin","NObj,VImpf",are hungry,VImpf,2nd,S,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,nisin","NObj,VImpf",am hungry,VImpf,1st,S,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,nízin","NObj,VImpf",is/are hungry,VImpf,3rd,SD,,,think,,,,,TRUE,hunger + think,Yes,2
+"dichin,nohsin","NObj,VImpf",are hungry,VImpf,2nd,D,,,think,,,,,TRUE,hunger + think,Yes,2
 "didzétsoh,yázhí","NSub,NSub",apricot,NSub,,,,,,,,,,TRUE,peach + the small one,Yes,2
 "díí,jį́","ProDem,NSub",today,NSub,,,,,,,,,,TRUE,this + day,Yes,2
 "diné,bizaad","NSub,NSub",people's language (Navajo),NSub,,,,,,,,,,TRUE,people's words,Yes,2
@@ -599,12 +742,12 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "doo,dziil,da","Adv,NSub,Adv",weakness,NSub,,,,,,,,,,TRUE,not + strength + (not),Yes,3
 "doo,háájí,da","Adv,Adv,Adv",nowhere,Adv,,,,,,,,,,TRUE,not + ?? + (not),Yes,3
 "doo,hadziil,da","Adv,NSub,Adv",one's/others' weakness,NSub,4th,,,,,,,,,TRUE,not + strength + (not),Yes,3
-"doo,íitsʼaʼí,da","Adv,NSub,Adv",silent,VImpf,,,,,,,,,,TRUE,not + sound + (not),Yes,3
+"doo,íitsʼaʼí,da","Adv,NSub,Adv",is silent,VImpf,,,,,be silent,,,,,TRUE,not + sound + (not),Yes,3
 "doo,nagháí,da","Adv,ProSub,Adv",nobody,NSub,,,,,,,,,,TRUE,not + ?? + (not),Yes,3
 "doo,nidziil,da","Adv,NSub,Adv",your weakness,NSub,2nd,S,,,,,,,,TRUE,not + strength + (not),Yes,3
 "doo,nihidziil,da","Adv,NSub,Adv",our/your weakness,NSub,1st/2nd,D,,,,,,,,TRUE,not + strength + (not),Yes,3
 "doo,shidziil,da","Adv,NSub,Adv",my weakness,NSub,1st,S,,,,,,,,TRUE,not + strength + (not),Yes,3
-"doo,yáʼátʼééh,da","Adv,VImpf,Adv",bad,VImpf,3rd,S,,,,,,,,TRUE,not + it is good + (not),Yes,3
+"doo,yáʼátʼééh,da","Adv,VImpf,Adv",bad,VImpf,3rd,S,,,be bad,,,,,TRUE,not + it is good + (not),Yes,3
 "doo,yidziil,da","Adv,NSub,Adv",one's/others' weakness,NSub,4th,,,,,,,,,TRUE,not + strength + (not),Yes,3
 "Dził,Dahazkánídę́ę́ʼ","NSub,NSub","Mesa, Arizona",NSub,,,,,,TRUE,,,,TRUE,mountain + ??,Yes,2
 "Dziłgaiitsoh,Honeezkʼazii","NSub,NSub",Himalayas,NSub,,,,,,TRUE,,,,TRUE,big white mountain + area that has become cool,Yes,2
@@ -613,14 +756,34 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ééʼ,ííłʼíní","NSub,NSub",tailor,NSub,,,,,,,,,,TRUE,clothing + one who makes,Yes,2
 "ééʼ,neishoodii","NSub,NSub",clergyman,NSub,,,,,,,,,,TRUE,shirt + one who drags it around,Yes,2
 "ééʼ,neishoodii,bikin","NSub,NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt + one who drags it around + his house,Yes,3
-"ééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,clothing + without,Yes,2
+"ééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,clothing + without,Yes,2
 "ééʼneishoodii,bikin","NSub,NSub",church,NSub,,,,,,,,,,TRUE,shirt one drags around + his house,Yes,2
 "éí,doodaiiʼ,éí","ProDem,Conj,ProDem",else / otherwise,Conj,,,,,,,,,,TRUE,this + or + that,Yes,3
 "gohwééh,hashtłʼishí","NSub,NSub",cocoa,NSub,,,,,,,,,,TRUE,coffee + ??,Yes,2
 "gólízhii,noodǫ́zígíí","NSub,NSub",striped skunk,NSub,,,,,,,,,,TRUE,skunk + ??,Yes,2
-"hąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,,,,,,TRUE,on + stick out,Yes,2
-"hąąh,háájil","Postp,VPerf",owed a debt,Perf,4th,,,,,,,,,TRUE,on + stick out,Yes,2
-"hąąh,hadoojił","Postp,VFut",will owe a debt,Fut,4th,,,,,,,,,TRUE,on + stick out,Yes,2
+"há,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"há,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,4thA,,make room for,,,,,TRUE,for + make,Yes,2
+"hąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"hąąh,háájil","Postp,VPerf",owed a debt,Perf,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"hąąh,hadoojił","Postp,VFut",will owe a debt,Fut,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
 "habéeso,bizis","NSub,NSub",one's/others' wallet,NSub,4th,,,,,,,,,TRUE,money + its sack,Yes,2
 "habid,dijoolí","NSub,NSub",one's/others' duodenum(s),NSub,4th,,,,,,,,,TRUE,stomach + ball,Yes,2
 "hachoʼ,bizis","NSub,NSub",one's/others' scrotum,NSub,4th,,,,,,,,,TRUE,male genitalia + its sack,Yes,2
@@ -636,57 +799,58 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "haneʼ,yáʼátʼéehii","NSub,NSub",gospel,NSub,,,,,,,,,,TRUE,news + virtuosity,Yes,2
 "hashtłʼish,gohwééh","NSub,NSub",hot chocolate,NSub,,,,,,,,,,TRUE,?? + coffee,Yes,2
 "hazhóʼó,baa,dahalneʼ","Adv,Postp,VImpf",are explaining,VImpf,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahodiilnih","Adv,Postp,VFut",will explain,VFut,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahodoolnih","Adv,Postp,VFut",will explain,VFut,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahodoołnih","Adv,Postp,VFut",will explain,VFut,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahodiilnih","Adv,Postp,VFut",will explain,VFut,1st,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahodoolnih","Adv,Postp,VFut",will explain,VFut,3rd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahodoołnih","Adv,Postp,VFut",will explain,VFut,2nd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,dahojilneʼ","Adv,Postp,VImpf",are explaining,VImpf,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahojólneʼ","Adv,Postp,VOpt",could explain,VOpt,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahojoolneʼ","Adv,Postp,VPerf",explained,VPerf,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahojólneʼ","Adv,Postp,VOpt",could explain,VOpt,4th,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahojoolneʼ","Adv,Postp,VPerf",explained,VPerf,4th,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,dahołneʼ","Adv,Postp,VImpf",are explaining,VImpf,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahólneʼ","Adv,Postp,VOpt",could explain,VOpt,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VPerf",explained,VPerf,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahoołneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahozhdoolnih","Adv,Postp,VFut",will explain,VFut,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahólneʼ","Adv,Postp,VOpt",could explain,VOpt,3rd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahoolneʼ","Adv,Postp,VPerf",explained,VPerf,3rd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahoołneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahozhdoolnih","Adv,Postp,VFut",will explain,VFut,4th,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,dahwiilneʼ","Adv,Postp,VImpf",are explaining,VImpf,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,dahwiilneʼ","Adv,Postp,VPerf",explained,VPerf,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,halneʼ","Adv,Postp,VImpf",is/are explaining,VImpf,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,dahwiilneʼ","Adv,Postp,VPerf",explained,VPerf,1st,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,halneʼ","Adv,Postp,VImpf",is/are explaining,VImpf,3rd,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,hashneʼ","Adv,Postp,VImpf",am explaining,VImpf,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hodeeshnih","Adv,Postp,VFut",will explain,VFut,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hodiilnih","Adv,Postp,VFut",will explain,VFut,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hodíílnih","Adv,Postp,VFut",will explain,VFut,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hodoolnih","Adv,Postp,VFut",will explain,VFut,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hodoołnih","Adv,Postp,VFut",will explain,VFut,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hojilneʼ","Adv,Postp,VImpf",is/are explaining,VImpf,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hojólneʼ","Adv,Postp,VOpt",could explain,VOpt,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hojoolneʼ","Adv,Postp,VPerf",explained,VPerf,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hodeeshnih","Adv,Postp,VFut",will explain,VFut,1st,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hodiilnih","Adv,Postp,VFut",will explain,VFut,1st,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hodíílnih","Adv,Postp,VFut",will explain,VFut,2nd,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hodoolnih","Adv,Postp,VFut",will explain,VFut,3rd,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hodoołnih","Adv,Postp,VFut",will explain,VFut,2nd,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hojilneʼ","Adv,Postp,VImpf",is/are explaining,VImpf,4th,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hojólneʼ","Adv,Postp,VOpt",could explain,VOpt,4th,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hojoolneʼ","Adv,Postp,VPerf",explained,VPerf,4th,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,hołneʼ","Adv,Postp,VImpf",are explaining,VImpf,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,hólneʼ","Adv,Postp,VImpf",are explaining,VImpf,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hólneʼ","Adv,Postp,VOpt",could explain,VOpt,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hoolneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hoolneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hoolneʼ","Adv,Postp,VPerf",explained,VPerf,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hoołneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hóólneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hóshneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hozhdoolnih","Adv,Postp,VFut",will explain,VFut,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hweeshneʼ","Adv,Postp,VPerf",explained,VPerf,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hólneʼ","Adv,Postp,VOpt",could explain,VOpt,3rd,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hoolneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hoolneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hoolneʼ","Adv,Postp,VPerf",explained,VPerf,3rd,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hoołneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hóólneʼ","Adv,Postp,VOpt",could explain,VOpt,2nd,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hóshneʼ","Adv,Postp,VOpt",could explain,VOpt,1st,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hozhdoolnih","Adv,Postp,VFut",will explain,VFut,4th,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hweeshneʼ","Adv,Postp,VPerf",explained,VPerf,1st,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,hwiilneʼ","Adv,Postp,VImpf",are explaining,VImpf,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hwiilneʼ","Adv,Postp,VPerf",explained,VPerf,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,hwíínílneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náhálnih","Adv,Postp,VIter",do(es) explain,VIter,3rd,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náháshnih","Adv,Postp,VIter",do explain,VIter,1st,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náhojilnih","Adv,Postp,VIter",do(es) explain,VIter,4th,SD,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náhólnih","Adv,Postp,VIter",do explain,VIter,2nd,S,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náhółnih","Adv,Postp,VIter",do explain,VIter,2nd,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,náhwiilnih","Adv,Postp,VIter",do explain,VIter,1st,D,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,nídahalnih","Adv,Postp,VIter",do explain,VIter,3rd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,nídahojilnih","Adv,Postp,VIter",do explain,VIter,4th,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,nídahołnih","Adv,Postp,VIter",do explain,VIter,2nd,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
-"hazhóʼó,baa,nídahwiilnih","Adv,Postp,VIter",do explain,VIter,1st,P,Area,,tell,TRUE,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hwiilneʼ","Adv,Postp,VPerf",explained,VPerf,1st,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,hwíínílneʼ","Adv,Postp,VPerf",explained,VPerf,2nd,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náhálnih","Adv,Postp,VIter",do(es) explain,VIter,3rd,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náháshnih","Adv,Postp,VIter",do explain,VIter,1st,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náhojilnih","Adv,Postp,VIter",do(es) explain,VIter,4th,SD,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náhólnih","Adv,Postp,VIter",do explain,VIter,2nd,S,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náhółnih","Adv,Postp,VIter",do explain,VIter,2nd,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,náhwiilnih","Adv,Postp,VIter",do explain,VIter,1st,D,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,nídahalnih","Adv,Postp,VIter",do explain,VIter,3rd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,nídahojilnih","Adv,Postp,VIter",do explain,VIter,4th,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,nídahołnih","Adv,Postp,VIter",do explain,VIter,2nd,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
+"hazhóʼó,baa,nídahwiilnih","Adv,Postp,VIter",do explain,VIter,1st,P,Area,,explain,,,,,TRUE,carefully + to it + tell,Yes,3
 "hee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,TRUE,by means of one/others + is absent,Yes,2
-"hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,Yes,2
+"hiiʼ,sizíinii","Postp,NSub",one's/others' soul,NSub,4thA,,,,,,,,,TRUE,within + it stands,Yes,2
+"hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,one's/others' clothing + without,Yes,2
 "ił,ééhózin","Postp,VImpf",knowledge,NSub,3rd,,,,,,,,,TRUE,with + there is knowledge,Yes,2
 "ił,naalbąąsí","Postp,NSub",wheelchair,NSub,,,,,,,,,,TRUE,with + ??,Yes,2
 "ił,náhodighááh","Postp,VImpf",dizziness,NSub,,,,,,,,,,TRUE,with + starts to go around the area,Yes,2
@@ -720,54 +884,54 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "kin,łání","NSub,NSub",town/city,NSub,,,,,,,,,,TRUE,house + many ones,Yes,2
 "kǫʼ,naʼałbąąsii","NSub,NSub",train/locomotive,NSub,,,,,,,,,,TRUE,fire + driver,Yes,2
 "kʼaaʼ,biziiz","NSub,NSub",arrow quiver,NSub,,,,,,,,,,TRUE,arrow's belt,Yes,2
-"laanaa,yáʼátʼéehgo,késhmish","Interj,Adv,NSub",merry Christmas ,Interj,,,,,,,,,,TRUE,,Yes,3
-"łahgo,ábidiʼdoolnííł","Adv,VFut",will be changed,VFut,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
-"łahgo,ábiʼdiilyaa","Adv,VPerf",was changed,VPerf,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
-"łahgo,ábiʼdilnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
+"laanaa,yáʼátʼéehgo,késhmish","Part,Adv,NSub",merry Christmas ,Interj,,,,,,,,,,TRUE,(wishing) + well + Christmas,Yes,3
+"łahgo,ábidiʼdoolnííł","Adv,VFut",will be changed,VFut,3rd,S,,,change,,,,,TRUE,differently + make (passive),Yes,2
+"łahgo,ábiʼdiilyaa","Adv,VPerf",was changed,VPerf,3rd,S,,,change,,,,,TRUE,differently + make (passive),Yes,2
+"łahgo,ábiʼdilnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,be change,,,,,TRUE,differently + make (passive),Yes,2
 "łahgo,ádaahłééh","Adv,VImpf",are changing,VImpf,2nd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádadiilnííł","Adv,VFut",will change,VFut,1st,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádadoohłííł","Adv,VFut",will change,VFut,2nd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádajiilaa","Adv,VPerf",changed,VPerf,4th,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádadiilnííł","Adv,VFut",will change,VFut,1st,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádadoohłííł","Adv,VFut",will change,VFut,2nd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádajiilaa","Adv,VPerf",changed,VPerf,4th,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,ádajilééh","Adv,VImpf",are changing,VImpf,4th,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádaoohłaa","Adv,VPerf",changed,VPerf,2nd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádayiilaa","Adv,VPerf",changed,VPerf,3rd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádazhdoolííł","Adv,VFut",will change,VFut,4th,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádeeshłííł","Adv,VFut",will change,VFut,1st,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádeidoolííł","Adv,VFut",will change,VFut,3rd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádaoohłaa","Adv,VPerf",changed,VPerf,2nd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádayiilaa","Adv,VPerf",changed,VPerf,3rd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádazhdoolííł","Adv,VFut",will change,VFut,4th,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádeeshłííł","Adv,VFut",will change,VFut,1st,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádeidoolííł","Adv,VFut",will change,VFut,3rd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,ádeiilnééh","Adv,VImpf",are changing,VImpf,1st,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádeiilyaa","Adv,VPerf",changed,VPerf,1st,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádeiilyaa","Adv,VPerf",changed,VPerf,1st,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,ádeilééh","Adv,VImpf",are changing,VImpf,3rd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádíílííł","Adv,VFut",will change,VFut,2nd,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádiilnííł","Adv,VFut",will change,VFut,1st,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádoohłííł","Adv,VFut",will change,VFut,2nd,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ádoolnííł","Adv,VFut",will be changed,VFut,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
-"łahgo,ájiilaa","Adv,VPerf",changed,VPerf,4th,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ájílééh","Adv,VImpf",is/are changing,VImpf,4th,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,álnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
-"łahgo,ályaa","Adv,VPerf",was changed,VPerf,3rd,,,,make,,,,,TRUE,differently + make (passive),Yes,2
-"łahgo,ánáoołʼįįh","Adv,VIter",do change,VIter,2nd,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ánáyiilʼįįh","Adv,VIter",do(es) change,VIter,3rd,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áńdajiilʼįįh","Adv,VIter",do change,VIter,4th,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áńdaoołʼįįh","Adv,VIter",do change,VIter,2nd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áńdayiilʼįįh","Adv,VIter",do change,VIter,3rd,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áńdeiilʼįįh","Adv,VIter",do change,VIter,1st,P,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ánéiilʼįįh","Adv,VIter",do change,VIter,1st,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ánéilʼįįh","Adv,VIter",do change,VIter,2nd,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ánéishʼįįh","Adv,VIter",do change,VIter,1st,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádíílííł","Adv,VFut",will change,VFut,2nd,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádiilnííł","Adv,VFut",will change,VFut,1st,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádoohłííł","Adv,VFut",will change,VFut,2nd,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ádoolnííł","Adv,VFut",will be changed,VFut,3rd,S,,,change,,,,,TRUE,differently + make (passive),Yes,2
+"łahgo,ájiilaa","Adv,VPerf",changed,VPerf,4th,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ájílééh","Adv,VImpf",is/are changing,VImpf,4th,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,álnééh","Adv,VImpf",is being changed,VImpf,3rd,,,,be change,,,,,TRUE,differently + make (passive),Yes,2
+"łahgo,ályaa","Adv,VPerf",was changed,VPerf,3rd,S,,,change,,,,,TRUE,differently + make (passive),Yes,2
+"łahgo,ánáoołʼįįh","Adv,VIter",do change,VIter,2nd,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ánáyiilʼįįh","Adv,VIter",do(es) change,VIter,3rd,SD,3rd,,open,,,,,TRUE,differently + make,Yes,2
+"łahgo,áńdajiilʼįįh","Adv,VIter",do change,VIter,4th,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,áńdaoołʼįįh","Adv,VIter",do change,VIter,2nd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,áńdayiilʼįįh","Adv,VIter",do change,VIter,3rd,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,áńdeiilʼįįh","Adv,VIter",do change,VIter,1st,P,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ánéiilʼįįh","Adv,VIter",do change,VIter,1st,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ánéilʼįįh","Adv,VIter",do change,VIter,2nd,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ánéishʼįįh","Adv,VIter",do change,VIter,1st,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,ánílééh","Adv,VImpf",are changing,VImpf,2nd,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áńjiilʼįįh","Adv,VIter",do(es) change,VIter,4th,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áshłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,áńjiilʼįįh","Adv,VIter",do(es) change,VIter,4th,SD,3rd,,open,,,,,TRUE,differently + make,Yes,2
+"łahgo,áshłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,áshłééh","Adv,VImpf",am changing,VImpf,1st,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,áyiilaa","Adv,VPerf",changed,VPerf,3rd,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,ázhdoolííł","Adv,VFut",will change,VFut,4th,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,íidoolííł","Adv,VFut",will change,VFut,3rd,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,íílééh","Adv,VImpf",is/are changing,VImpf,3rd,SD,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,áyiilaa","Adv,VPerf",changed,VPerf,3rd,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,ázhdoolííł","Adv,VFut",will change,VFut,4th,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,íidoolííł","Adv,VFut",will change,VFut,3rd,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,íílééh","Adv,VImpf",is/are changing,VImpf,3rd,SD,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,íílnééh","Adv,VImpf",are changing,VImpf,1st,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,íilyaa","Adv,VPerf",changed,VPerf,1st,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,íinilaa","Adv,VPerf",changed,VPerf,2nd,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,íishłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,íilyaa","Adv,VPerf",changed,VPerf,1st,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,íinilaa","Adv,VPerf",changed,VPerf,2nd,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
+"łahgo,íishłaa","Adv,VPerf",changed,VPerf,1st,S,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łahgo,óhłééh","Adv,VImpf",are changing,VImpf,2nd,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
-"łahgo,óohłaa","Adv,VPerf",changed,VPerf,2nd,D,3rd,,make,,,,,TRUE,differently + make,Yes,2
+"łahgo,óohłaa","Adv,VPerf",changed,VPerf,2nd,D,3rd,,change,,,,,TRUE,differently + make,Yes,2
 "łééchąąʼí,bichʼiyąʼ","NSub,NSub",dog food,NSub,,,,,,,,,,TRUE,dog + its food,Yes,2
 "łééchąąʼí,bighan","NSub,NSub",dog kennel,NSub,,,,,,,,,,TRUE,dog + its house,Yes,2
 "łeetsoh,bee,atsiniltłʼish,álʼį́","NPostp,Postp,NSub,VImpf",nuclear power,NSub,,,,,,,,,,TRUE,uranium + by means of + electricity + is made,Yes,4
@@ -802,15 +966,36 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "mąʼii,łitsooí","NSub,NSub",red fox,NSub,,,,,,,,,,TRUE,coyote + the yellow one,Yes,2
 "mąʼiiłtsooí,yázhí","NSub,NSub",fox kit,NSub,,,,,,,,,,TRUE,fox + the little one,Yes,2
 "mósí,bichʼiyąʼ","NSub,NSub",cat food,NSub,,,,,,,,,,TRUE,cat + its food,Yes,2
+"ná,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
+"ná,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,2nd,S,make room for,,,,,TRUE,for + make,Yes,2
 "na’ageh,bee,tsi’na’adá","NPostp,Postp,VImpf",sexual immorality,NSub,,,,,,,,,,TRUE,?? + with + ??,Yes,3
 "Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,TRUE,Navajo's area,Yes,2
 "Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,TRUE,Navajo's word,Yes,2
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,TRUE,People's language (question),Yes,2
 "naadą́ą́ʼ,bisgąʼ","NSub,NSub",corn chip,NSub,,,,,,,,,,TRUE,corn + ??,Yes,2
 "naadą́ą́ʼ,bitsiighaʼ","NSub,NSub",corn silk,NSub,,,,,,,,,,TRUE,corn's mane/hair,Yes,2
-"nąąh,haajííł","Postp,VImpf",owe a debt,VImpf,2nd,S,,,,,,,,TRUE,on + stick out,Yes,2
-"nąąh,háájil","Postp,VPerf",owed a debt,Perf,2nd,S,,,,,,,,TRUE,on + stick out,Yes,2
-"nąąh,hadoojił","Postp,VFut",will owe a debt,Fut,2nd,S,,,,,,,,TRUE,on + stick out,Yes,2
+"nąąh,dah,hwiiniłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,S,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"nąąh,haajííł","Postp,VImpf",owe a debt,VImpf,2nd,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"nąąh,háájil","Postp,VPerf",owed a debt,Perf,2nd,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"nąąh,hadoojił","Postp,VFut",will owe a debt,Fut,2nd,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
 "naaki,jį́,ndaʼanish","NumC,NSub,VImpf",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Two days they work.,Yes,3
 "naaki,jį́,nidaʼanish","NumC,NSub,VImpf",Tuesday,NSub,,,,,,TRUE,,,,TRUE,Two days they work.,Yes,3
 "naaldlooshii,dadichʼízhii","NSub,NSub",reptile,NSub,,,,,,,,,,TRUE,creeping thing + scaly things,Yes,2
@@ -845,7 +1030,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "neeznáá,dah,yíjihí","NumC,Adv,NSub",Navajo tens (card game),NSub,,,,,,,,,,TRUE,10 + up + ??,Yes,3
 "neeznáá,góneʼ","NumC,Adv",tenth,NumO,,,,,,,,,,TRUE,ten + (ordinal),Yes,2
 "neeznáago,bikʼeh,óʼooʼníiłii ","NumC,Adv,NSub",Ten Commandments,NSub,,,,,,,,,,TRUE,ten + according to him + commandment,Yes,3
-"neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,Yes,2
+"neʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,your clothing + without,Yes,2
 "nibéeso,bizis","NSub,NSub",your wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,Yes,2
 "nibid,dijoolí","NSub,NSub",your duodenum,NSub,2nd,S,,,,,,,,TRUE,stomach + ball,Yes,2
 "nichoʼ,bizis","NSub,NSub",your scrotum,NSub,1st,S,,,,,,,,TRUE,male genitalia + its sack,Yes,2
@@ -856,11 +1041,35 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",your harp,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the one that curls up,Yes,3
 "nigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",your banjo,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the one that is round,Yes,3
 "nigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",your ukelele,NSub,,,,,,,,,,TRUE,your guitar + he who plucks it + the little one,Yes,3
-"nihąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st/2nd,D,,,,,,,,TRUE,on + stick out,Yes,2
-"nihąąh,háájil","Postp,VPerf",owed a debt,Perf,1st/2nd,D,,,,,,,,TRUE,on + stick out,Yes,2
-"nihąąh,hadoojił","Postp,VFut",will owe a debt,Fut,1st/2nd,D,,,,,,,,TRUE,on + stick out,Yes,2
+"nihá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,1st/2nd,DP,make room for,,,,,TRUE,for + make,Yes,2
+"nihąąh,dah,dahoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,P,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"nihąąh,dah,dahwiilʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,1st,P,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"nihąąh,dah,hoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,D,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"nihąąh,dah,hwiilʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,1st,D,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"nihąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st/2nd,D,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"nihąąh,háájil","Postp,VPerf",owed a debt,Perf,1st/2nd,D,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"nihąąh,hadoojił","Postp,VFut",will owe a debt,Fut,1st/2nd,D,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
 "nihee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st/2nd,DP,lack,,,,,TRUE,by means of us/you + is absent,Yes,2
-"niheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,Yes,2
+"niheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,our/your clothing + without,Yes,2
 "nihibéeso,bizis","NSub,NSub",our/your wallet,NSub,1st/2nd,D,,,,,,,,TRUE,money + its sack,Yes,2
 "nihibid,dijoolí","NSub,NSub",our/your duodenums,NSub,1st/2nd,D,,,,,,,,TRUE,stomach + ball,Yes,2
 "nihichoʼ,bizis","NSub,NSub",our/your scrotum,NSub,1st/2nd,D,,,,,,,,TRUE,male genitalia + its sack,Yes,2
@@ -870,9 +1079,11 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nihigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",our/your harp,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that curls up,Yes,3
 "nihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",our/your banjo,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the one that is round,Yes,3
 "nihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",our/your ukelele,NSub,,,,,,,,,,TRUE,our/your guitar + he who plucks it + the little one,Yes,3
+"nihiiʼ,sizíinii","Postp,NSub",our/your soul,NSub,1st/2nd,DP,,,,,,,,TRUE,within + it stands,Yes,2
 "nihimá,yazhí","NSub,NSub",our/your maternal aunt(s),NSub,1st/2nd,D,,,,,nihi,,,TRUE,one's/others' mother + little one,Yes,2
-"nihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,our/your clothing + without,Yes,2
+"nihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,our/your clothing + without,Yes,2
 "nihokááʼ,dineʼé","NSub,NSub",people of the world,NSub,,,,,,,,,,TRUE,Earth surface + people,Yes,2
+"niiʼ,sizíinii","Postp,NSub",your soul,NSub,2nd,S,,,,,,,,TRUE,within + it stands,Yes,2
 "níłchʼi,dineʼé","NSub,NSub",spirits,NSub,,,,,,,,,,TRUE,wind + people,Yes,2
 "níłchʼi,diyinii","NSub,NSub",Holy Spirit,NSub,,,,,,TRUE,,,,TRUE,wind + holy one,Yes,2
 "níłchʼih,naalkidí","NSub,NSub",television,NSub,,,,,,,,,,TRUE,,Yes,2
@@ -880,14 +1091,35 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "níłtsą́,biʼáád","NSub,NSub",shower,NSub,,,,,,,,,,TRUE,,Yes,2
 "nimá,yazhí","NSub,NSub",your maternal aunt,NSub,2nd,S,,,,,ni,,,TRUE,your mother + little one,Yes,2
 "nímasii,bisgąʼ","NSub,NSub",potato chip,NSub,,,,,,,,,,TRUE,potato + ??,Yes,2
-"niʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,your clothing + without,Yes,2
+"niʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,your clothing + without,Yes,2
 "ńló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,TRUE,hail + the small one,Yes,2
 "óola,niłtólí","NSub,Adv",diamond,NSub,,,,,,,,,,TRUE,gold + of glass,Yes,2
 "óola,niłtólí,ílínígíí","NSub,Adv,NSub",diamond,NSub,,,,,,,,,,TRUE,gold + of glass + ??,Yes,3
 "ooljééʼ,bee,adinídíín","NPostp,Postp,NSub",moonlight,NSub,,,,,,,,,,TRUE,moon + by way of + light,Yes,3
-"shąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st,S,,,,,,,,TRUE,on + stick out,Yes,2
-"shąąh,háájil","Postp,VPerf",owed a debt,VPerf,1st,S,,,,,,,,TRUE,on + stick out,Yes,2
-"shąąh,hadoojił","Postp,VFut",will owe a debt,VFut,1st,S,,,,,,,,TRUE,on + stick out,Yes,2
+"shá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,1st,S,make room for,,,,,TRUE,for + make,Yes,2
+"shąąh,dah,hoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,1st,S,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"shąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"shąąh,háájil","Postp,VPerf",owed a debt,VPerf,1st,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"shąąh,hadoojił","Postp,VFut",will owe a debt,VFut,1st,S,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
 "Shádiʼááhjí,Honeezkʼazii","NSub,NSub",Antarctica,NSub,,,,,,TRUE,,,,TRUE,on the south + area that has become cool,Yes,2
 "Shádiʼááhjí,Kéyah,Yistinígíí","Adv,NSub,NSub",Antarctica,NSub,,,,,,TRUE,,,,TRUE,on the south + land + that which is frozen,Yes,3
 "shash,łizhin","NSub,NSub",black bear,NSub,,,,,,,,,,TRUE,bear + black,Yes,2
@@ -895,7 +1127,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shash,nidilnaʼii","NSub,NSub",sloth bear,NSub,,,,,,,,,,TRUE,bear + sloth,Yes,2
 "shash,yáázh","NSub,NSub",bear cub,NSub,,,,,,,,,,TRUE,bear + offspring,Yes,2
 "shee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,1st,S,lack,,,,,TRUE,by means of me + is absent,Yes,2
-"sheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,Yes,2
+"sheʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,my clothing + without,Yes,2
 "shí,nalí,asdzaan","ProSub,NSub,NSub",my paternal grandmother,NSub,,,,,,,,,,TRUE,I + ?? + older woman,Yes,3
 "shibéeso,bizis","NSub,NSub",my wallet,NSub,1st,S,,,,,,,,TRUE,money + its sack,Yes,2
 "shibid,dijoolí","NSub,NSub",my duodenum,NSub,1st,S,,,,,,,,TRUE,stomach + ball,Yes,2
@@ -906,9 +1138,10 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",my harp,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the one that curls up,Yes,3
 "shigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",my banjo,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the one that is round,Yes,3
 "shigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",my ukelele,NSub,,,,,,,,,,TRUE,my guitar + he who plucks it + the little one,Yes,3
+"shiiʼ,sizíinii","Postp,NSub",my soul,NSub,1st,S,,,,,,,,TRUE,within + it stands,Yes,2
 "shimá,yazhí","NSub,NSub",my maternal aunt,NSub,1st,S,,,,,shi,,,TRUE,my mother + little one,Yes,2
 "shitah,hoditłid","Postp,VImpf",am shaking,VImpf,1st,S,,,,,,,,TRUE,,Yes,2
-"shiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,my clothing + without,Yes,2
+"shiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,my clothing + without,Yes,2
 "sóóda,asbáala","NSub,NSub",jack of spades,NSub,,,,,,,,,,TRUE,,Yes,2
 "sóóda,báabas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,TRUE,,Yes,2
 "sóóda,báasdos","NSub,NSub",jack of clubs,NSub,,,,,,,,,,TRUE,,Yes,2
@@ -942,6 +1175,16 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tsídii,yáłtiʼí","NSub,NSub",parrot,NSub,,,,,,,,,,TRUE,bird + one that speaks,Yes,2
 "tsídii,yáłtiʼí,yázhí","NSub,NSub,NSub",parakeet,NSub,,,,,,,,,,TRUE,bird + one that speaks + little one,Yes,3
 "tsídiidaaʼ,bił,naaldlooshii","NPostp,Postp,NSub",duckbill,NSub,,,,,,,,,,TRUE,phlox + with it + animals,Yes,3
+"tsį́į́ł,daniidzin","Adv,VImpf",are in a hurry,VImpf,1st,P,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,danízin","Adv,VImpf",are in a hurry,VImpf,3rd,P,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,danohsin","Adv,VImpf",are in a hurry,VImpf,2nd,P,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,daznízin","Adv,VImpf",are in a hurry,VImpf,4th,P,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,jinízin","Adv,VImpf",is/are in a hurry,VImpf,4th,SD,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,niidzin","Adv,VImpf",are in a hurry,VImpf,1st,D,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,nínízin","Adv,VImpf",are in a hurry,VImpf,2nd,S,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,nisin","Adv,VImpf",am in a hurry,VImpf,1st,S,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,nízin","Adv,VImpf",is/are in a hurry,VImpf,3rd,SD,,,think,,,,,TRUE,speedily + think,Yes,2
+"tsį́į́ł,nohsin","Adv,VImpf",are in a hurry,VImpf,2nd,D,,,think,,,,,TRUE,speedily + think,Yes,2
 "tsiitsʼiin,diniih","NSub,NSub",headache,NSub,,,,,,,,,,TRUE,?? + pain,Yes,2
 "tsiitsʼiin,łichíʼítsoh","NSub,NSub",Jerusalem cricket,NSub,,,,,,,,,,TRUE,?? + big red one,Yes,2
 "tsin,bigaan","NSub,NSub",tree branch,NSub,,,,,,,,,,TRUE,tree + its arm,Yes,2
@@ -966,7 +1209,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼaa,shoodi","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,Yes,2
 "tʼáá,shǫǫdí","Adv,Adv",please,Interj,,,,,,,,,,TRUE,just + ??,Yes,2
 "tʼáadoo,leʼé","Part,NSub",anything,NSub,,,,,,,,,,FALSE,not + ??,Yes,2
-"tʼáásh,aaníí","Adv,VImpf",it is so,VImpf,,,,,,,,,,TRUE,just (?) + it is true,Yes,2
+"tʼáásh,aaníí","Adv,VImpf",is so,VImpf,3rd,S,,,be so,,,,,TRUE,just (?) + it is true,Yes,2
 "tʼáásh,aaníí","Part,NSub",really,Adv,,,,,,,,,,TRUE,,Yes,2
 "tʼóó,adahayóí","Adv,VImpf",are many,VImpf,3rd,P,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,adahojíyói","Adv,VImpf",are many,VImpf,4th,P,,,be many,,,,,TRUE,merely + be many,Yes,2
@@ -978,15 +1221,37 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼóó,ahojíyóí","Adv,VImpf",are many,VImpf,4th,D,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,ahoniiʼyóí","Adv,VImpf",are many,VImpf,1st,D,,,be many,,,,,TRUE,merely + be many,Yes,2
 "tʼóó,ahonohyóí","Adv,VImpf",are many,VImpf,2nd,D,,,be many,,,,,TRUE,merely + be many,Yes,2
-"tʼóó,bílaʼ,dijool","Adv,NSub,VImpf",clumsy,Adv,,,,,,,,,,TRUE,"just + his hands + are spherical (Adj ""all-thumbs"")",Yes,3
+"tʼóó,bílaʼ,dijool","Adv,NSub,VImpf",clumsily,Adv,,,,,,,,,,TRUE,"just + his hands + are spherical (Adj ""all-thumbs"")",Yes,3
 "Wááshindoon,Bikéyah,Ałhidadiidzooígíí","NSub,NSub,NSub",United States,NSub,,,,,,TRUE,,,,TRUE,Washington's land federation,Yes,3
 "Wááshindoon,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,TRUE,(loanword) + state,Yes,2
-"yaa,nídiikai","Postp,VPerf",started to work on,VPerf,3rd,P,3rd,S,,,,,,TRUE,,Yes,2
-"yąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,,,,,,TRUE,on + stick out,Yes,2
-"yąąh,háájil","Postp,VPerf",owed a debt,VPerf,4th,,,,,,,,,TRUE,on + stick out,Yes,2
-"yąąh,hadoojił","Postp,VFut",will owe a debt,VFut,4th,,,,,,,,,TRUE,on + stick out,Yes,2
-"yah,aaʼnaʼ","Postp,VPerf",crawled in,VPerf,,,,,,,,,,TRUE,,Yes,2
-"yah,eeʼnaʼ","Postp,VPerf",crawled in,VPerf,,,,,,,,,,TRUE,,Yes,2
+"yá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahoołʼaah","Postp,VImpf",make room for,VImpf,3rd,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahwiilʼaah","Postp,VImpf",make room for,VImpf,1st,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,dahwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,P,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hojiiłʼaah","Postp,VImpf",make(s) room for,VImpf,4th,SD,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,SD,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,S,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaah","Postp,VImpf",make room for,VImpf,2nd,D,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaah","Postp,VImpf",make(s) room for,VImpf,3rd,SD,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,1st,S,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,2nd,D,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hoołʼaʼ","Postp,VPerf",made room for,VPerf,3rd,SD,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hooshʼaah","Postp,VImpf",make room for,VImpf,1st,S,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,4thO,,make room for,,,,,TRUE,for + make,Yes,2
+"yaa,nídiikai","Postp,VPerf",started to work on,VPerf,3rd,P,3rd,S,start work on,,,,,TRUE,,Yes,2
+"yąąh,dah,dahojiiłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,4th,P,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"yąąh,dah,hojiiłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,4th,SD,,,catch (an illness),,,,,TRUE,on + upward + make,Yes,3
+"yąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"yąąh,háájil","Postp,VPerf",owed a debt,VPerf,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"yąąh,hadoojił","Postp,VFut",will owe a debt,VFut,4th,,,,owe a debt,,,,,TRUE,on + stick out,Yes,2
+"yah,aaʼnaʼ","Postp,VPerf",crawled in,VPerf,3rd,S,,,crawl in,,,,,TRUE,,Yes,2
+"yah,eeʼnaʼ","Postp,VPerf",crawled in,VPerf,3rd,S,,,crawl in,,,,,TRUE,,Yes,2
 "yas,niłtʼees","NSub,NSub",January,NSub,,,,,,TRUE,,,,TRUE,frying snow,Yes,2
 "yáʼátʼééh,késhmish","Interj,NSub",merry Christmas,Interj,,,,,,,,,,TRUE,happy + Christmas,Yes,2
 "yę́ę,ádaadin","Adv,VImpf",have died,VImpf,3rd,P,,,die,,,,,TRUE,aforementioned + is absent,Yes,2
@@ -1001,7 +1266,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yę́ę,áníshdin","Adv,VImpf",have died,VImpf,1st,S,,,die,,,,,TRUE,aforementioned + is absent,Yes,2
 "yę́ę,ánóhdin","Adv,VImpf",have died,VImpf,2nd,D,,,die,,,,,TRUE,aforementioned + is absent,Yes,2
 "yee,dahiná","Postp,VImpf",live by means of,VImpf,3rd,P,,,live,,,,,TRUE,by means of + live,Yes,2
-"yeʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,Yes,2
+"yeʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,one's/others' clothing + without,Yes,2
 "yibéeso,bizis","NSub,NSub",one's/others' wallet,NSub,4th,,,,,,,,,TRUE,money + its sack,Yes,2
 "yibid,dijoolí","NSub,NSub",one's/others' duodenum(s),NSub,4th,,,,,,,,,TRUE,stomach + ball,Yes,2
 "yichoʼ,bizis","NSub,NSub",one's/others' scrotum,NSub,4th,,,,,,,,,TRUE,male genitalia + its sack,Yes,2
@@ -1011,41 +1276,42 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yigaanstsiin,yiltązhí,názhahígíí","NSub,NSub,NSub",one's/others' harp,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + one that curls up,Yes,3
 "yigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",one's/others' banjo,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + one that is round,Yes,3
 "yigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",one's/others' ukelele,NSub,,,,,,,,,,TRUE,one's/others' guitar + he who plucks it + little one,Yes,3
+"yiiʼ,sizíinii","Postp,NSub",one's/others' soul,NSub,4thO,,,,,,,,,TRUE,within + it stands,Yes,2
 "yimá,yazhí","NSub,NSub",one's/others' maternal aunt(s),NSub,4th,,,,,,yi,,,TRUE,one's/others' mother + little one,Yes,2
 "yiską́,damį́įgo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,Yes,2
 "yiską́,damóo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,TRUE,tomorrow + Sunday,Yes,2
 "yitʼíní,ályaa","NSub,NSub",apocalypse,NSub,,,,,,TRUE,,,,TRUE,?? + is made (passive),Yes,2
-"yiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,,,,,,TRUE,one's/others' clothing + without,Yes,2
-"yóóʼ,adadeetʼą́","Part,VPerf",forgave,VPerf,1st,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adadidiitʼááł","Part,VFut",will forgive,VFut,1st,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adadidoohʼááł","Part,VFut",will forgive,VFut,2nd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adadiitʼaah","Part,VImpf",forgive,VImpf,1st,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adadohʼaah","Part,VImpf",forgive,VImpf,2nd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adazhdeezʼą́","Part,VPerf",forgave,VPerf,4th,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adazhdidooʼááł","Part,VFut",will forgive,VFut,4th,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adazhdiʼaah","Part,VImpf",forgive,VImpf,4th,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adeideezʼą́","Part,VPerf",forgave,VPerf,3rd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adeididooʼááł","Part,VFut",will forgive,VFut,3rd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adeidiʼaah","Part,VImpf",forgive,VImpf,3rd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adideeshʼááł","Part,VFut",will forgive,VFut,1st,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adidiitʼááł","Part,VFut",will forgive,VFut,1st,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adidííʼááł","Part,VFut",will forgive,VFut,2nd,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adidoohʼááł","Part,VFut",will forgive,VFut,2nd,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adííníʼą́","Part,VPerf",forgave,VPerf,2nd,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adiitʼą́","Part,VPerf",forgave,VPerf,1st,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adiitʼaah","Part,VImpf",forgive,VImpf,1st,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adííʼą́","Part,VPerf",forgave,VPerf,1st,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adishʼaah","Part,VImpf",forgive,VImpf,1st,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adíʼaah","Part,VImpf",forgive,VImpf,2nd,S,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adohʼaah","Part,VImpf",forgive,VImpf,2nd,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,adooʼą́","Part,VPerf",forgave,VPerf,2nd,D,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,azhdidooʼááł","Part,VFut",will forgive,VFut,4th,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,azhdííʼą́","Part,VPerf",forgave,VPerf,4th,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,azhdiʼaah","Part,VImpf",forgive(s),VImpf,4th,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,iididooʼááł","Part,VFut",will forgive,VFut,3rd,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,iidííʼą́","Part,VPerf",forgave,VPerf,3rd,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼ,iidiʼaah","Part,VImpf",forgive(s),VImpf,3rd,SD,3rd,,,,,,,TRUE,lost + give,Yes,2
-"yóóʼa,dasidooʼą́","Part,VPerf",forgave,VPerf,2nd,P,3rd,,,,,,,TRUE,lost + give,Yes,2
+"yiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,TRUE,one's/others' clothing + without,Yes,2
+"yóóʼ,adadeetʼą́","Part,VPerf",forgave,VPerf,1st,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adadidiitʼááł","Part,VFut",will forgive,VFut,1st,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adadidoohʼááł","Part,VFut",will forgive,VFut,2nd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adadiitʼaah","Part,VImpf",forgive,VImpf,1st,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adadohʼaah","Part,VImpf",forgive,VImpf,2nd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adazhdeezʼą́","Part,VPerf",forgave,VPerf,4th,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adazhdidooʼááł","Part,VFut",will forgive,VFut,4th,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adazhdiʼaah","Part,VImpf",forgive,VImpf,4th,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adeideezʼą́","Part,VPerf",forgave,VPerf,3rd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adeididooʼááł","Part,VFut",will forgive,VFut,3rd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adeidiʼaah","Part,VImpf",forgive,VImpf,3rd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adideeshʼááł","Part,VFut",will forgive,VFut,1st,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adidiitʼááł","Part,VFut",will forgive,VFut,1st,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adidííʼááł","Part,VFut",will forgive,VFut,2nd,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adidoohʼááł","Part,VFut",will forgive,VFut,2nd,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adííníʼą́","Part,VPerf",forgave,VPerf,2nd,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adiitʼą́","Part,VPerf",forgave,VPerf,1st,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adiitʼaah","Part,VImpf",forgive,VImpf,1st,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adííʼą́","Part,VPerf",forgave,VPerf,1st,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adishʼaah","Part,VImpf",forgive,VImpf,1st,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adíʼaah","Part,VImpf",forgive,VImpf,2nd,S,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adohʼaah","Part,VImpf",forgive,VImpf,2nd,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,adooʼą́","Part,VPerf",forgave,VPerf,2nd,D,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,azhdidooʼááł","Part,VFut",will forgive,VFut,4th,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,azhdííʼą́","Part,VPerf",forgave,VPerf,4th,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,azhdiʼaah","Part,VImpf",forgive(s),VImpf,4th,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,iididooʼááł","Part,VFut",will forgive,VFut,3rd,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,iidííʼą́","Part,VPerf",forgave,VPerf,3rd,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼ,iidiʼaah","Part,VImpf",forgive(s),VImpf,3rd,SD,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
+"yóóʼa,dasidooʼą́","Part,VPerf",forgave,VPerf,2nd,P,3rd,,forgive,,,,,TRUE,lost + give,Yes,2
 "zhéí,asbáala","NSub,NSub",king of spades,NSub,,,,,,,,,,TRUE,,Yes,2
 "zhéí,báabas","NSub,NSub",king of hearts,NSub,,,,,,,,,,TRUE,,Yes,2
 "zhéí,báasdos","NSub,NSub",king of clubs,NSub,,,,,,,,,,TRUE,,Yes,2
