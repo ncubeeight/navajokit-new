@@ -32,6 +32,7 @@ TOKENS,LABELS,English,Match?,Count
 "Atʼééd,tsídii,bishtąsh,.","NSub,NObj,VPerf,Punct",The girl was pecked by the bird.,Yes,4
 "Atʼééd,yázhí,ałhosh,.","NSub,NSub,VImpf,Punct",The little girl sleeps.,Yes,4
 "Atʼéés,bimósí,yázhí,ání,.","NSub,NSub,NSub,VImpf,Punct",The girl's little kitten speaks (meows).,Yes,5
+"George,bíká,adeeshwoł,nízin,.","NSub,Postp,VFut,VImpf,Punct","George wants to help him. (Lit. George thinks ""I will help him."")",Yes,5
 "Awáalyadi,doo,shił,yáʼáhootʼéeh,da,.","NObj,Adv,Postp,VImpf,Adv,Punct",I do not like the jail.,Yes,6
 "Awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,Yes,3
 "Awééʼ,éí,tʼáá,naaki,ńdeezid,.,Éí,Dlíníbaaʼ,wolyé,.","NSub,ProDem,Adv,NumC,VPerf,Punct,ProDem,NObj,VImpf,Punct",The baby is only two months old. She is called Dlíníbaaʼ.,Yes,10
@@ -68,9 +69,20 @@ TOKENS,LABELS,English,Match?,Count
 "Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,Yes,3
 "Christ,yisdáʼiiníiłii,nihokáaʼgi,biʼdizhchį́,!","NSub,NSub,Adv,VPerf,Punct",Christ the savior was born on Earth!,Yes,5
 "Chʼaa,naashá,ńtʼééʼ,.","NObj,VImpf,Part,Punct",I was on a vacation.,Yes,4
+"COVID,bąąh,dah,dahoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",They caught COVID.,Yes,5
+"COVID,bąąh,dah,hoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",He/she caught COVID.,Yes,5
+"COVID,nąąh,dah,hwiiniłʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",You (1) caught COVID.,Yes,5
+"COVID,nihąąh,dah,dahoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",You all caught COVID.,Yes,5
+"COVID,nihąąh,dah,dahwiilʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",We all caught COVID.,Yes,5
+"COVID,nihąąh,dah,hoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",You both caught COVID.,Yes,5
+"COVID,nihąąh,dah,hwiilʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",We both caught COVID.,Yes,5
+"COVID,shąąh,dah,hoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",I caught COVID.,Yes,5
+"COVID,yąąh,dah,dahojiiłʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",The others caught COVID.,Yes,5
+"COVID,yąąh,dah,hojiiłʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",One caught COVID.,Yes,5
 "Dadiyinii,dahataał,.","NSub,VImpf,Punct",The holy ones sing.,Yes,3
 "Dah,woozh,daosą́ʼ,.","NObj,NObj,VImpf,Punct",You are eating a strawberry.,Yes,4
 "Dah,woozh,yishą́,.","NObj,NObj,VImpf,Punct",I am eating a strawberry.,Yes,4
+"Dah,yooʼááł,. ","Adv,VImpf,Punct",He's holding it up.,Yes,3
 "Daniel,ání,.","NSub,VImpf,Punct",Daniel says.,Yes,3
 "Daʼ,atsilí,bee,hólǫ́,?","Adv,NPostp,Postp,VImpf,Punct",Does he have a younger brother?,Yes,5
 "Daʼ,Diné,bizaadísh,beeyádaałtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do you speak Navajo?,Yes,5
@@ -132,6 +144,7 @@ TOKENS,LABELS,English,Match?,Count
 "Eʼeʼaah,łitsxo,.","NSub,VImpf,Punct",The west is orange.,Yes,3
 "Gah,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the rabbitʼs name?,Yes,4
 "géeso,dóó,wáán","NSub,Conj,NSub",cheese and wine,Yes,3
+"George,shíká,adoolwoł,nisin,.","NSub,Postp,VFut,VImpf,Punct",I think that George will help me.,Yes,5
 "God,yíísíníłtsʼą́ą́ʼ,.","NObj,VOpt,Punct",Listen to God.,Yes,3
 "Gohwééh,nábish,.","NSub,VImpf,Punct",Coffee continues boiling.,Yes,3
 "Gohwééh,náshdlį́į́h,.","NObj,VImpf,Punct",I am drinking coffee.,Yes,3
@@ -179,6 +192,7 @@ TOKENS,LABELS,English,Match?,Count
 "Kii,bimá,dóó,bizhéʼé,bighan,hólǫ́,.","NSub,NSub,Conj,NSub,NObj,VImpf,Punct",Kiiʼs mother and father have a home.,Yes,7
 "Kii,bimá,dóó,bizhéʼé,hólǫ́,.","NSub,NObj,Conj,NObj,VImpf,Punct",Kii has a mother and father.,Yes,6
 "Kweʼé,akónǫ́ǫ,bikááʼ,?","Adv,NObj,VImpf,Punct",It says it right here.,Yes,4
+"Kweʼé,kééhwiit’į́įgo,ashdlaʼ,nááhai,.","Adv,Adv,NumC,NObj,Punct",We have lived her for five years.,Yes,5
 "Kweʼé,sédá,?","Adv,VImpf,Punct",I am seated right here.,Yes,3
 "łaʼtsʼáadah,hooghan","NumC,NSub",eleven homes,Yes,2
 "łééchąątsaʼii,bił,biłééchąą,yázhí","NPostp,Postp,NSub,NSub",bitch (female dog) with her puppy,Yes,4
@@ -232,6 +246,7 @@ TOKENS,LABELS,English,Match?,Count
 "Nínádiishʼnahgo,gohwééh,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink coffee.",Yes,4
 "Nínádiishʼnahgo,hashtłʼish,gohwééh,náshdlį́į́h,.","Adv,NObj,NObj,VIter,Punct","When getting up, I drink hot chocolate.",Yes,5
 "Nínádiishʼnahgo,tó,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink water.",Yes,4
+"Ashkii,léi,háágóó,deeyá,nínízin,?","NSub,Det,Adv,VPerf,VImpf,Punct",Where is the boy going?,Yes,6
 "óola,"","",béésh,łigaii,"","",tłʼoh,naadą́ą́ʼ,"","",wáin,"","",akʼah,"","",dóó,áshįįh","NSub,Punct,NSub,NSub,Punct,NSub,NSub,Punct,NSub,Punct,NSub,Punct,Conj,NSub","gold, silver, wheat, wine, oil, and salt",Yes,14
 "Shá,hoołʼaah,!","Postp,VImpf,Punct",Make room for me!,Yes,3
 "Shá,nílʼį́,.","Postp,VImpf,Punct",I display it. (It  is looked at for me.),Yes,3
@@ -301,6 +316,7 @@ TOKENS,LABELS,English,Match?,Count
 "tsostsʼidi,neeznádiin,waaʼ","NumC,NumC,NSub",seven hundred spinaches,Yes,3
 "tsostsʼidiin,tązhii,bitsįʼ","NumC,NSub,NSub",seventy turkey meats,Yes,3
 "tsʼídá,náhááh,bijį́į́,goneʼ","Adv,VImpf,NSub,Adv",New Year's Day,Yes,4
+"Tucsondi,éí,kééhatʼį́,ńtʼééʼ,"","",ndi,kʼad,éí,Chʼínílį́įdi,bighan,.","Adv,ProDem,VImpf,Part,Punct,Conj,ProSub,ProDem,Adv,NObj,Punct","He lived in Tucson, but now he lives in Chinle.",Yes,11
 "Tʼáá,aaníí,ádíshní,.","Part,VImpf,VImpf,Punct",I am telling the truth.,Yes,4
 "Tʼáá,ánółtso,nihighan,hólǫ́,.","Part,VImpf,ProObj,VImpf,Punct",You (all) have a house.,Yes,5
 "Tʼą́ą́chil,beʼádíláhí,bijį́ ","NSub,NSub,NSub",April Fool's Day,Yes,3
