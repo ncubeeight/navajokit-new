@@ -6,8 +6,6 @@ This project contains resources for tokenization, tagging, and translation. Addi
 
 This project is currently formatted as a Swift Package that requires iOS 15.0+ or macOS 12.0+ (Monterey).
 
-> Note: **NavajoTagger.mlmodel** as a stand-alone will work on iOS 12.0+, macOS 10.14+ (Mojave), tvOS 12.0+, watchOS 5.0+, visionOS 1.0+.
-
 Swift Package Manager URL: [https://gitlab.com/HullBreach/navajokit](https://gitlab.com/HullBreach/navajokit)
 
 ### Package Format

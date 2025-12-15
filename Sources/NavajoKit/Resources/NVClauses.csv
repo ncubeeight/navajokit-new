@@ -4,6 +4,7 @@ TOKENS,LABELS,English,Match?,Count
 "áádóó,dínéeshdaał,.","Conj,VFut,Punct",And then I will sit.,Yes,3
 "ąąʼ,háádę́ę́ʼ,?","Interj,Adv,Punct",From where do you come?,Yes,3
 "Achʼííʼ,bitsʼániʼnísą́,ńtʼiʼ,łóód,silį́į́ʼ,.","NSub,NSub,VImpf,NObj,VImpf,Punct",The appendix is infected.,Yes,6
+"Aghá,ánéeltʼeʼ,.","Postp,VPerf,Punct",They are in the majority.,Yes,3
 "Ahbínígo,tłʼóóʼgóó,chʼínáshdááh,.","Adv,Adv,VFut,Punct",In the morning I will go out quietly.,Yes,4
 "ahéheeʼ,shidineʼé","Interj,NSub",Thank you my people,Yes,2
 "Ákweʼé,abeʼ,yistiní,nidahaniih,.","Adv,NObj,NObj,VImpf,Punct",This is where ice cream is sold.,Yes,5
@@ -20,6 +21,7 @@ TOKENS,LABELS,English,Match?,Count
 "Ashkii,atʼééd,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The boy is looking at the girl.,Yes,4
 "Ashkii,bááh,yį́yą́,.","NSub,NObj,VImpf,Punct",The boy is eating bread.,Yes,4
 "Ashkii,éí,łeetsʼaaʼ,tánéígis,.","NSub,ProDem,NObj,VImpf,Punct",The boy is washing dishes..,Yes,5
+"Ashkii,léi,háágóó,deeyá,nínízin,?","NSub,Det,Adv,VPerf,VImpf,Punct",Where is the boy going?,Yes,6
 "Ashkii,łóóʼ,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The boy is looking at the fish.,Yes,4
 "Ashkii,yázhí,bááh,yį́yą́,.","NSub,NSub,NObj,VImpf,Punct",The little boy is eating bread.,Yes,5
 "Atsá,tłʼízí,yį́yą́,.","NSub,NObj,VImpf,Punct",The eagle eats a goat.,Yes,4
@@ -27,20 +29,21 @@ TOKENS,LABELS,English,Match?,Count
 "Atsiniltłʼish,neeztsiz,.","NSub,VPerf,Punct",The electricity went out.,Yes,3
 "Atsiniltłʼish,nitséés,.","NSub,VImpf,Punct",The electricity is going out.,Yes,3
 "Atsooʼ,łichííʼ,.","NSub,VImpf,Punct",The tongue is red.,Yes,3
-"Atsʼáhoníyééʼ,nił,hólǫ́ǫ,doo,.","NSub,Postp,VOpt,Part,Punct",May the Force be with you.,Yes,5
+"Atsʼáhoníyééʼ,nił,hólǫ́ǫ,doo,.","NSub,Postp,VImpf,Part,Punct",May the Force be with you.,Yes,5
 "Atʼééd,náʼoolkiłí,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The girl is looking at the clock.,Yes,4
 "Atʼééd,tsídii,bishtąsh,.","NSub,NObj,VPerf,Punct",The girl was pecked by the bird.,Yes,4
 "Atʼééd,yázhí,ałhosh,.","NSub,NSub,VImpf,Punct",The little girl sleeps.,Yes,4
 "Atʼéés,bimósí,yázhí,ání,.","NSub,NSub,NSub,VImpf,Punct",The girl's little kitten speaks (meows).,Yes,5
-"George,bíká,adeeshwoł,nízin,.","NSub,Postp,VFut,VImpf,Punct","George wants to help him. (Lit. George thinks ""I will help him."")",Yes,5
 "Awáalyadi,doo,shił,yáʼáhootʼéeh,da,.","NObj,Adv,Postp,VImpf,Adv,Punct",I do not like the jail.,Yes,6
 "Awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,Yes,3
 "Awééʼ,éí,tʼáá,naaki,ńdeezid,.,Éí,Dlíníbaaʼ,wolyé,.","NSub,ProDem,Adv,NumC,VPerf,Punct,ProDem,NObj,VImpf,Punct",The baby is only two months old. She is called Dlíníbaaʼ.,Yes,10
 "Ayóogo,Diné,bizaad,bóhooshʼaah,.","Adv,NObj,NObj,VImpf,Punct",I am really studying Navajo.,Yes,5
+"Azeeʼ,áshʼį́,.","NObj,VImpf,Punct",I'm a doctor. (Lit: I make medicine.),Yes,3
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́į́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VPerf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
+"Aʼoh,ánéeltʼeʼ,.","Postp,VPerf,Punct",They are in the minority.,Yes,3
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Postp,Adv,Postp,VImpf",Happy New Year,Yes,4
 "Baa,iijííł,.","Postp,VImpf,Punct",It pierces into it.,Yes,3
 "Bááh,ádeiilnééh,.","NObj,VImpf,Punct",We are making bread.,Yes,3
@@ -65,6 +68,7 @@ TOKENS,LABELS,English,Match?,Count
 "Bił,chʼíníshʼáázh,.","Postp,VPerf,Punct",I left with him/her.,Yes,3
 "Bisóodi,bitsįʼ,bił,yáʼátʼééh,.","NPostp,NPostp,Postp,VImpf,Punct",He likes pork.,Yes,5
 "Bisóodi,bitsįʼ,yį́yą́,.","NObj,NObj,VImpf,Punct",He is eating pork.,Yes,4
+"Cháalatsoh,bimá,éí,Asdzą́ą́łchííʼ,wolyé,.","NSub,NSub,ProDem,NObj,VImpf,Punct",Big Charlie's mother is named Red Woman.,Yes,6
 "Chahałheeł,yóóʼeeldoh,.","NSub,VPerf,Punct",The darkness wafted away.,Yes,3
 "Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,Yes,3
 "Christ,yisdáʼiiníiłii,nihokáaʼgi,biʼdizhchį́,!","NSub,NSub,Adv,VPerf,Punct",Christ the savior was born on Earth!,Yes,5
@@ -79,6 +83,7 @@ TOKENS,LABELS,English,Match?,Count
 "COVID,shąąh,dah,hoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",I caught COVID.,Yes,5
 "COVID,yąąh,dah,dahojiiłʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",The others caught COVID.,Yes,5
 "COVID,yąąh,dah,hojiiłʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",One caught COVID.,Yes,5
+"Dáághahii,dóó,Bilagáana,kʼehjígo,Canada,wolyé,.","NSub,Conj,NSub,Adv,NObj,VImpf,Punct","In French and in English, it is called Canada.",Yes,7
 "Dadiyinii,dahataał,.","NSub,VImpf,Punct",The holy ones sing.,Yes,3
 "Dah,woozh,daosą́ʼ,.","NObj,NObj,VImpf,Punct",You are eating a strawberry.,Yes,4
 "Dah,woozh,yishą́,.","NObj,NObj,VImpf,Punct",I am eating a strawberry.,Yes,4
@@ -144,10 +149,12 @@ TOKENS,LABELS,English,Match?,Count
 "Eʼeʼaah,łitsxo,.","NSub,VImpf,Punct",The west is orange.,Yes,3
 "Gah,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the rabbitʼs name?,Yes,4
 "géeso,dóó,wáán","NSub,Conj,NSub",cheese and wine,Yes,3
+"George,bíká,adeeshwoł,nízin,.","NSub,Postp,VFut,VImpf,Punct","George wants to help him. (Lit. George thinks ""I will help him."")",Yes,5
 "George,shíká,adoolwoł,nisin,.","NSub,Postp,VFut,VImpf,Punct",I think that George will help me.,Yes,5
 "God,yíísíníłtsʼą́ą́ʼ,.","NObj,VOpt,Punct",Listen to God.,Yes,3
 "Gohwééh,nábish,.","NSub,VImpf,Punct",Coffee continues boiling.,Yes,3
 "Gohwééh,náshdlį́į́h,.","NObj,VImpf,Punct",I am drinking coffee.,Yes,3
+"Gohwééh,shaa,nízííd,yaʼ,?","NObj,Postp,VImpf,Part,Punct",Would you pour me some coffee?,Yes,5
 "Gohwééh,shibéézh,.","NSub,VPerf,Punct",The coffee has boiled.,Yes,3
 "Gohwééh,yishbéézh,!","NSub,VPerf,Punct",The coffee boiled!,Yes,3
 "Gólízhii,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the skunkʼs name?,Yes,4
@@ -246,7 +253,6 @@ TOKENS,LABELS,English,Match?,Count
 "Nínádiishʼnahgo,gohwééh,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink coffee.",Yes,4
 "Nínádiishʼnahgo,hashtłʼish,gohwééh,náshdlį́į́h,.","Adv,NObj,NObj,VIter,Punct","When getting up, I drink hot chocolate.",Yes,5
 "Nínádiishʼnahgo,tó,yishdlííh,.","Adv,NObj,VIter,Punct","When getting up, I usually drink water.",Yes,4
-"Ashkii,léi,háágóó,deeyá,nínízin,?","NSub,Det,Adv,VPerf,VImpf,Punct",Where is the boy going?,Yes,6
 "óola,"","",béésh,łigaii,"","",tłʼoh,naadą́ą́ʼ,"","",wáin,"","",akʼah,"","",dóó,áshįįh","NSub,Punct,NSub,NSub,Punct,NSub,NSub,Punct,NSub,Punct,NSub,Punct,Conj,NSub","gold, silver, wheat, wine, oil, and salt",Yes,14
 "Shá,hoołʼaah,!","Postp,VImpf,Punct",Make room for me!,Yes,3
 "Shá,nílʼį́,.","Postp,VImpf,Punct",I display it. (It  is looked at for me.),Yes,3
@@ -274,6 +280,8 @@ TOKENS,LABELS,English,Match?,Count
 "shibéésh,dóó,shighéél","NSub,Conj,NSub",my knife and my pack,Yes,3
 "Shicheii,dziłkʼijí,haniih,.","NSub,NObj,VImpf,Punct",My grandfather knows the Mountain Chant.,Yes,4
 "shichʼéʼé,éí,łaʼtsʼáadah,binááhai","NSub,ProDem,NumC,NObj",My daughter is 11 years old. (my daughter that 11 her years),Yes,4
+"Shigaan,éi,shijáád,bi’oh,áníłtso,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My arms are shorter than my legs.,Yes,6
+"Shijáád,éí,nijáád,bilááh,áníłnééz,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My legs are longer than your legs.,Yes,6
 "Shił,yáʼáhootʼééh,.","Postp,VImpf,Punct",I like the place.,Yes,3
 "Shimá,"","",naatʼáaniinééz,góó,déyá,.","NSub,Punct,NPostp,Postp,VPerf,Punct","My mother, I am going to Shiprock.",Yes,6
 "Shimá,bidibé,dóó,bitłʼízí,dóó,bighan,bee,hólǫ́,.","NSub,NPostp,Conj,NPostp,Conj,NPostp,Postp,VImpf,Punct",My mother has her sheep and her goat and her house.,Yes,9
@@ -327,6 +335,7 @@ TOKENS,LABELS,English,Match?,Count
 "Tʼáásh,aaníí,?","Adv,VImpf,Punct",Is that so?,Yes,3
 "Tʼááshʼaaníí,dahólǫ́,?","NSub,VImpf,Punct",Do they really exist?,Yes,3
 "Wááshindoon,góó,déyá,.","NPostp,Postp,VPerf,Punct",I am going to Washington.,Yes,4
+"Yáʼąąsh,dóó,Chʼį́įdiitah","NSub,Conj,NSub",Heaven and Hell,Yes,3
 "Yáʼąąshii,biyiʼdę́ę́ʼ","NPostp,Postp",From within Heaven,Yes,2
 "yáʼátʼééh,abíní,shíyeʼ","Interj,NSub,NSub","good morning, my son",Yes,3
 "yáʼátʼééh,ałníʼíní","Interj,NSub",good evening,Yes,2
