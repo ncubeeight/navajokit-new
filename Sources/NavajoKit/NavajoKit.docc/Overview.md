@@ -1,4 +1,4 @@
-# Overview
+# NavajoKit Overview
 
 Yáʼátʼééh and Hello!
 
@@ -14,19 +14,17 @@ This project's goal is to become a viable translation tool for the Navajo (Diné
 
 Eventually, the secondary goal would be to translate the other direction, as well.
 
+## Resources
+
+* Support this project by donating [here](https://www.paypal.com/donate/?hosted_button_id=F4UD8QZYHHKTE)
+* View the Patreon page [here](https://patreon.com/TheNavajoTranslationProject)
+
 ## License
 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 * Credit must be given to Daniel Gump with a link to the [GitLab page](https://gitlab.com/HullBreach/navajokit). 
 * Adaptations must be shared under the same terms.
 * Commercial usage is permitted.
-
-## Statistics
-
-* 35,217 training tokens
-* 10,696 training records
-* 23 parts-of-speech
-* 89.7% model accuracy
 
 ## Status
 
