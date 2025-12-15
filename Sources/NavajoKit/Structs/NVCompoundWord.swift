@@ -18,13 +18,13 @@ public struct NVCompoundWord {
 	///Proper noun
 	public let proper: Bool?
 
-	public init(words: [NVWord], english: String, partOfSpeech:String, validated: Bool, proper: Bool) {
+	public init(words: [NVWord], english: String, partOfSpeech:String, validated: Bool? = true, proper: Bool? = false) {
 
 		self.words = words
 		self.english = english
 		self.partOfSpeech = partOfSpeech
-		self.validated = validated
-		self.proper = proper
+		self.validated = validated ?? true
+		self.proper = proper ?? false
 	}
 
 	public var word: NVWord {

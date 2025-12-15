@@ -63,8 +63,8 @@ oó | long, rising |
 óó | long, high |
 ǫǫ | long, nasal |
 ǫǫ́ | long, rising, nasal |
-ǫ́ǫ | long, falling, nasal |
-ǫ́ǫ́ | long, high, nasal |
+ǫ́ǫ | long, falling, nasal | fl**au**nt
+ǫ́ǫ́ | long, high, nasal | 
 
 ## Consonants
 
@@ -106,4 +106,4 @@ hw | h | before _o_
 kw | l | before _o_
 w | gh | before _o_
 
-> Important: Words beginning with a vowel have an implied leading glottal stop **ʼ** that may be supplied. NavajoKit is trained without this, so make sure to active the ``NVTokenizer`` option `stripLeadingGlottalStops`.`
+> Important: Words beginning with a vowel have an implied leading glottal stop **ʼ** that may be supplied. NavajoKit is trained without this, so make sure to active the `NVTokenizer` option `stripLeadingGlottalStops`.

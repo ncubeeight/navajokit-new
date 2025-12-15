@@ -321,7 +321,6 @@ public class NVTranslator {
 					words: words,
 					english: english,
 					partOfSpeech: partOfSpeech,
-					validated: word["validated"] == "TRUE",
 					proper: word["proper"] == "TRUE"
 				)
 

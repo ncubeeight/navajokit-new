@@ -7,7 +7,7 @@
 
 import Foundation
 
-///Tokenizing a Navajo word into its subcomponents by language-specific word components
+///Tokenizing a Navajo word into its subcomponents by language-specific word components, used as a second pass after previous word-level tokenization
 /// > Important: This class is very early in development
 public class NVPolysyntheticTokenizer {
 
@@ -50,7 +50,7 @@ public class NVPolysyntheticTokenizer {
 	private let verbDirectObjectList: [String: [String: String]] = [
 		"shi": ["person": "1st", "plural": "S"],
 		"ni": ["person": "2nd", "plural": "S"],
-		"nihi": ["person": "1st/2nd", "plural": "P"],
+		"nihi": ["person": "1st/2nd", "plural": "DP"],
 		"bi": ["person": "3rd"],
 		"yi": ["person": "3rd"], //or 4th object?
 		"ha": ["person": "Spat"],
@@ -192,12 +192,47 @@ public class NVPolysyntheticTokenizer {
 		"jí": "alongside", //direction/manner
 		"jį́ʼ": "to the limit of",
 		"jíkʼehgo": "in manner of",
-		"yę́ędą́ą́’": "back when"
+		"yę́ędą́ą́’": "back when",
+
+		"go": "while"
 	]
 
 	//Initializer
 	public init() {
 
+	}
+
+	/**
+		Tokenize an entire array of words previously tokenized with `NVTokenizer`
+
+		- Parameters:
+			- Tokenized word array (`NVWordToken`)
+		- Returns: Modified array with subcomponents included new tokenized objects
+	 */
+	public func tokenizePretagged(_ input: [NVWordToken]) -> [NVWordToken] {
+
+		var tokenizedWords: [NVWordToken] = []
+
+		for word in input {
+
+			switch word.pos?.lowercased() {
+
+				case "adv":
+					tokenizedWords.append(tokenize(adv: word))
+
+				case "nobj", "npostp", "nsub":
+					tokenizedWords.append(tokenize(noun: word))
+
+				case "postp":
+					tokenizedWords.append(tokenize(postp: word))
+
+				default:
+					tokenizedWords.append(word)
+			}
+
+		}
+
+		return tokenizedWords
 	}
 
 	/**
