@@ -30,3 +30,5 @@ VPerf | Verb - Perfective | Roughly equivalent to English past tense
 VProg | Verb - Progressive | On-going actions
 
 > Important: Commands will likely fall under **VFut** or **VOpt**. Verbs have no infinitives, but third-person singular/dual imperfective is often treated as the "default" form.
+
+> Note: Usitative verbs (_VUsit_) are included with iterative verbs (_VIter_) in the tagging. 

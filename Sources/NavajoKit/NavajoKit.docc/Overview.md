@@ -38,4 +38,6 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 * The translation portion performs a direct, case-insensitive search for single words or compounds words/phrases, attempting by the tagged POS first with "miss" fallback to any match (and a flag to indicate that suggested fallback). This serves well for interlinear translations but not yet for end-to-end translation that models of more advanced architectures would provide.
 
+* The text-to-speech feature is very early in development. It works but sounds very robotic yet and applies American English inflection to long vowel sounds, producing a faint "R".
+
 * In the future, the project will include an image classification model for optical character recognition (OCR) of image files or camera feeds of Navajo text. That model is not included at the moment because of its low accuracy for vowels containing two diacriticals, italicized vowels following glottal stops, etc.

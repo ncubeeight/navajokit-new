@@ -13,7 +13,9 @@ Swift Package Manager URL: [https://gitlab.com/HullBreach/navajokit](https://git
 * Sources
 * - NavajoKit
 * - - Classes
+* - - - **NVDataFormatter.swift:** Format data for Core ML training
 * - - - **NVPolysyntheticTokenizer.swift:** Early custom tokenizer for word components
+* - - - **NVSpeechSynthesizer.swift:** Speak a string of Navajo text
 * - - - **NVTagger.swift:** Applies parts-of-speech tags to tokens
 * - - - **NVTokenizer.swift:** Divides text strings in tokens of various lengths
 * - - - **NVTranslator.swift:** Replace Navajo words with English words
