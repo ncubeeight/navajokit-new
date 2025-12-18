@@ -33,9 +33,10 @@ Swift Package URL: [https://gitlab.com/HullBreach/navajokit](https://gitlab.com/
 
 ## Status
 
-* **Part-of-speech tagger model:** Trained on 41,755 word-level tokens
+* **Part-of-speech tagger model:** Trained on 46,922 word-level tokens
 * **Tokenizer:** Has several configurations and can divide by syllables, words, sentences, and paragraphs
-* **Polysynthetic tokenizer:** Early in development
+* **Polysynthetic tokenizer:** Early in development to tokenize by Navajo word components
+* **Text-to-Speech:** Supports most phonemes but sounds "robotic" and applies slight "R" sounds to long vowels
 
 <!--
 To build the documentation:
