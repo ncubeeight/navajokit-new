@@ -534,9 +534,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bą́ą́h,íłeeh","Postp,VImpf",set the price,VImpf,2nd,S,,,become,,,,,passing by + become,Yes,2
 "bą́ą́h,ílį́","Postp,VImpf",is/are worth,VImpf,3rd,SD,,,be worth,,,,,by it + be worth,Yes,2
 "bą́ą́h,ohłeeh","Postp,VImpf",set the price,VImpf,2nd,D,,,become,,,,,passing by + become,Yes,2
-"bąąhági,ádaatʼéii","Adv,VImpf",sins,NSub,,,,,,,,,,immorally + are,Yes,2
-"bąąhági,áhátʼį́","Adv,VImpf",misbehavior,NSub,,,,,,,,,,immorally + happens,Yes,2
-"bąąhági,átʼéii","Adv,VImpf",sin,NSub,,,,,,,,,,immorally + is,Yes,2
+"bąąhági,ádaatʼéii","Adv,VImpf",sins,NSub,,,,,,,,,,in immorality + are,Yes,2
+"bąąhági,áhátʼį́","Adv,VImpf",misbehavior,NSub,,,,,,,,,,in immorality + happens,Yes,2
+"bąąhági,átʼéii","Adv,VImpf",sin,NSub,,,,,,,,,,in immorality + is,Yes,2
 "Bálgaa,bizaad","NSub,NSub",Bulgarian language,NSub,,,,,,TRUE,,,,(loanword) + their language,Yes,2
 "bee,ádéestʼį́į́ʼ","Postp,NSub",binocular/telescope,NSub,,,,,,,,,,by means of him/her/it/them + ??,Yes,2
 "bee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,3rd,,lack,,,,,by means of him/her/it/them + is absent,Yes,2
@@ -1102,6 +1102,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ná,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,2nd,S,make room for,,,,,for + make,Yes,2
 "ná,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,2nd,S,make room for,,,,,for + make,Yes,2
 "na’ageh,bee,tsi’na’adá","NPostp,Postp,VImpf",sexual immorality,NSub,,,,,,,,,,?? + with + ??,Yes,3
+"na’ageh,bee,tsiʼdeíkáahii","NPostp,Postp,NSub",sexual immorality,NSub,,,,,,,,,,?? + with + ??,Yes,3
 "Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,Navajo's area,Yes,2
 "Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,Navajo's word,Yes,2
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,People's language (question),Yes,2
@@ -1268,6 +1269,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "sǫʼtah,anah","NSub,NSub",Star Wars,NSub,,,,,,TRUE,,,,star + wars,Yes,2
 "t’áá,jííkʼe","Adv,Adv",for free,Adv,,,,,,,,,,just + ??,Yes,2
 "t’áá,sáhí","Part,Adv",alone,Adv,,,,,,,,,,just + ??,Yes,2
+"t’óó,báhádzidgo ","Adv,Adv",very seriously,Adv,,,,,,,,,,just + be feared,Yes,2
 "tábąąh,dlǫ́ʼii","NSub,NSub",mink,NSub,,,,,,,,,,beach + weasel,Yes,2
 "tágí,jį́,ndaʼanish","NumO,NSub,VImpf",Wednesday,NSub,,,,,,TRUE,,,,For three days they work.,Yes,3
 "tágí,jį́,nidaʼanish","NumO,NSub,VImpf",Wednesday,NSub,,,,,,TRUE,,,,For three days they work.,Yes,3
@@ -1342,7 +1344,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼóó,adahoniiʼyóí","Adv,VImpf",are many,VImpf,1st,P,,,be many,,,,,merely + be many,Yes,2
 "tʼóó,adahonohyóí","Adv,VImpf",are many,VImpf,2nd,P,,,be many,,,,,merely + be many,Yes,2
 "tʼóó,ahayóí","Adv,VImpf",are many,VImpf,3rd,D,,,be many,,,,,merely + be many,Yes,2
-"tʼóó,ahayóí","Part,Adv",many,Det,,,,,,,,,,just + many,Yes,2
+"tʼóó,ahayóí","Adv,Adv",many,Det,,,,,,,,,,just + many,Yes,2
 "tʼóó,ahojíyóí","Adv,VImpf",are many,VImpf,4th,D,,,be many,,,,,merely + be many,Yes,2
 "tʼóó,ahoniiʼyóí","Adv,VImpf",are many,VImpf,1st,D,,,be many,,,,,merely + be many,Yes,2
 "tʼóó,ahonohyóí","Adv,VImpf",are many,VImpf,2nd,D,,,be many,,,,,merely + be many,Yes,2
