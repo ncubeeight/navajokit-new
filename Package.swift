@@ -23,8 +23,10 @@ let package = Package(
 			name: "NavajoKit",
 			dependencies: [],
 			resources: [
-				.copy("Resources/NVCompoundWords.csv"),
 				.copy("Resources/NVSingleWords.csv"),
+				.copy("Resources/NVCompoundWords.csv"),
+				.copy("Resources/NVClauses.csv"),
+				.copy("Resources/NVPassages.csv"),
 				.process("Resources/NavajoTagger.mlmodel")
 			],
 		),

@@ -60,6 +60,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,áyiilaa","Adv,VPerf",opened,VPerf,3rd,SD,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ázhdoolííł","Adv,VFut",will open,VFut,4th,SD,3rd,,open,,,,,beyond + make,Yes,2
 "aa,deetʼą́","Postp,NSub",transfer (of ownership),NSub,,,,,,,,,,,Yes,2
+"aa,halneʼgo","Postp,Adv",explaining,Adv,,,Unspec,,,,,,,to + telling,Yes,2
 "aa,hojoobáʼí","Postp,NSub",poor one,NSub,,,,,,,,,,,Yes,2
 "aa,hwiinítʼį́","Postp,NSub",trial (at law),NSub,,,,,,,,,,,Yes,2
 "aa,hwiinítʼį́,bá,hooghan","Postp,NPostp,Postp,NSub",courthouse,NSub,,,,,,,,,,,Yes,4
@@ -73,6 +74,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,kwáániił","Adv,VImpf",is/are expanding,VImpf,3rd,S,,,expand,,,,,,Yes,2
 "ąą,óhłééh","Adv,VImpf",are opening,VImpf,2nd,D,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,open,,,,,beyond + make,Yes,2
+"aa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "aa,yílyáii","Postp,NSub",donation,NSub,,,,,,,,,,,Yes,2
 "áádóó,bikʼijįʼ","Conj,Postp",thereafter,Conj,,,,,,,,,,and then + after that,Yes,2
 "ąąh,azlá","Adv,NSub",pawn,NSub,,,,,,,,,,alongside + ??,Yes,2
@@ -478,6 +480,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "baa,diijih","Postp,VFut",will give,VFut,1st,D,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,dííjih","Postp,VFut",will give,VFut,2nd,S,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,doohjih","Postp,VFut",will give,VFut,2nd,D,3rd,P,give,,,,,to him/her + bring,Yes,2
+"baa,halneʼgo","Postp,Adv",explaining [to him/her],Adv,,,3rd,,,,,,,to + telling,Yes,2
 "baa,jidoojih","Postp,VFut",will give,VFut,4th,SD,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,jíjááh","Postp,VImpf",is/are giving,VImpf,4th,SD,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,jiníjaaʼ","Postp,VPerf",gave,VPerf,4th,SD,3rd,P,give,,,,,to him/her + bring,Yes,2
@@ -494,6 +497,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "baa,yá,hóósįįd","Postp,Postp,VPerf",embarassed,VPerf,,,,,embarrass,,,,,to him/her + for him/her + cause to feel,Yes,3
 "baa,yá,hósįįh","Postp,Postp,VOpt",could embarass,VOpt,,,,,embarrass,,,,,to him/her + for him/her + cause to feel,Yes,3
 "baa,yá,náhásįįh","Postp,Postp,VIter",does embarass,VIter,3rd,S,Area,,embarrass,,,,,to him/her + for him/her + cause to feel,Yes,3
+"baa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "baa,yidoojih","Postp,VFut",will give,VFut,3rd,SD,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,yíjááh","Postp,VImpf",is/are giving,VImpf,3rd,SD,3rd,P,give,,,,,to him/her + bring,Yes,2
 "baa,yínííł","Postp,VImpf",gives/give,VImpf,3rd,SD,3rd,,give,,,,,to him/her + bring,Yes,2
@@ -602,6 +606,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bee,lą́,íłeeh","Postp,Part,VImpf",approve of,VImpf,2nd,S,,,become,,,,,with + (agreement) + become,Yes,3
 "bee,lą,ohłeeh","Postp,Part,VImpf",approve of,VImpf,2nd,D,,,become,,,,,with + (agreement) + become,Yes,3
 "bee,lą́,ohłeeh","Postp,Part,VImpf",approve of,VImpf,2nd,D,,,become,,,,,with + (agreement) + become,Yes,3
+"bee,ódleehí","Postp,NSub",snare,NSub,,,,,trap,,,,,by means of + trap,Yes,2
 "béégashii,bitsįʼ","NSub,NSub",beef,NSub,,,,,,,,,,cow + its flesh,Yes,2
 "béégashii,yáázh","NSub,NSub",calf,NSub,,,,,,,,,,cow + offspring,Yes,2
 "béésh,adeeʼ","NSub,NSub",spoon,NSub,,,,,,,,,,metal + ??,Yes,2
@@ -632,7 +637,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "béeso,yázhí","NSub,NSub",coin,NSub,,,,,,,,,,money + small,Yes,2
 "beeʼeldííl,dahsinil","NSub,Adv",Albuquerque,NSub,,,,,,,,,,that with which ringing (bells) is done + above large objects in place,Yes,2
 "beeʼeldííl,dahsinilgóó","NSub,Adv",to Albuquerque,Adv,,,,,,,,,,that with which ringing (bells) is done + to/above the large objects in place,Yes,2
-"beeʼeldǫǫh,tʼáá,bíniʼdii,bikʼaʼ,ádiih,yiyiinííłígíí","NSub,Part,NPostp,NPostp,Postp,NSub",machine gun,NSub,,,,,,,,,,gun + (just) + one that allows? + its bullets + into it + one that puts them into it,Yes,6
+"beeʼeldǫǫh,tʼáá,bíniʼdii,bikʼaʼ,ádiih,yiyiinííłígíí","NSub,Part,Part,NPostp,Postp,NSub",machine gun,NSub,,,,,,,,,,gun + (just) + (let it be) + its bullets + into it + one that puts them into it,Yes,6
 "Beʼééʼ,łichííʼí,Bikéyah","NSub,NSub,NSub",Russia,NSub,,,,,,TRUE,,,,his clothing + red one + his land,Yes,3
 "beʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,his/her/their clothing + without,Yes,2
 "beʼesdzą́ą́,ádinii","NSub,NSub",widower/bachelor,NSub,,,,,,,,,,his wife + without one,Yes,2
@@ -655,9 +660,12 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bił,danohsin","Postp,VImpf",are sleepy,VImpf,2nd,P,,,think,,,,,with + think,Yes,2
 "bił,daznízin","Postp,VImpf",are sleepy,VImpf,4th,P,,,think,,,,,with + think,Yes,2
 "bił,doosih","Postp,VFut",will be satisfied with,VFut,3rd,S,3rd,,be satisfied with,,,,,with it + hope,Yes,2
+"bił,ééhózin","Postp,VImpf",his/her knowledge,NSub,3rd,,,,,,,,,with him/her + there is knowledge,Yes,2
 "bił,hóóyééʼ","Postp,VPerf",was lazy,VPerf,,,,,,,,,,with + terror,Yes,2
 "bił,hóyééʼ","Postp,VImpf",is lazy,VImpf,3rd,S,,,be lazy,,,,,with + terror,Yes,2
 "bił,jinízin","Postp,VImpf",is/are sleepy,VImpf,4th,SD,,,think,,,,,with + think,Yes,2
+"bił,naalbąąsí","Postp,NSub",his/her wheelchair,NSub,3rd,,,,,,,,,with him/her + ??,Yes,2
+"bił,náhodighááh","Postp,VImpf",his/her dizziness,NSub,3rd,,,,,,,,,with him/her + starts to go around the area,Yes,2
 "bił,násih","Postp,VIter",continues to be satisfied with,VIter,3rd,,3rd,,be satisfied with,,,,,with it + hope,Yes,2
 "bił,niidzin","Postp,VImpf",are sleepy,VImpf,1st,D,,,think,,,,,with + think,Yes,2
 "bił,nínízin","Postp,VImpf",are sleepy,VImpf,2nd,S,,,think,,,,,with + think,Yes,2
@@ -737,6 +745,16 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "dah,alzhin","Adv,VImpf",speck,NSub,,,,,,,,,,upward + is black,Yes,2
 "dah,alzhin","NSub,NSub",minute (time),NSub,,,,,,,,,,upward + ??,Yes,2
 "dah,azką́","Adv,NSub",mesa,NSub,,,,,,,,,,upward + ??,Yes,2
+"dah,dadííníilnííh","Adv,VProg",are raising an arm,VProg,1st,P,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,dadíínółnííh","Adv,VProg",are raising an arm,VProg,2nd,P,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,dazhdéelnííh","Adv,VProg",are raising an arm,VProg,4th,P,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,deeshnih","Adv,VProg",am raising an arm,VProg,1st,S,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,deidéelnííh","Adv,VProg",are raising an arm,VProg,3rd,P,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,diilnih","Adv,VProg",are raising an arm,VProg,1st,D,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,díílnih","Adv,VProg",are raising an arm,VProg,2nd,S,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,doolnih","Adv,VProg",is/are raising an arm,VProg,3rd,SD,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,doołnih","Adv,VProg",are raising an arm,VProg,2nd,D,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,jidoolnih","Adv,VProg",is/are raising an arm,VProg,4th,SD,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,nídiikai","Postp,VPerf",started back,VPerf,3rd,P,,,start back,,,,,upward + ??,Yes,2
 "dah,woozh","Adv,NSub",strawberry,NSub,,,,,,,,,,upward + ??,Yes,2
 "dahwiilne’go,bide’yiniilniish","Adv,VImpf",ministry,NSub,,,,,,,,,,preach + work?,Yes,2
@@ -822,6 +840,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "doo,háájí,da","Adv,Adv,Adv",nowhere,Adv,,,,,,,,,,not + ?? + (not),Yes,3
 "doo,hadziil,da","Adv,NSub,Adv",one's weakness,NSub,4th,,,,,,,,,not + strength + (not),Yes,3
 "doo,íitsʼaʼí,da","Adv,NSub,Adv",is silent,VImpf,,,,,be silent,,,,,not + sound + (not),Yes,3
+"doo,jew,dineʼé,danilíinii","Adv,NSub,NSub,NSub",gentile,NSub,,,,,,,,,,not + Jew + people + those who are,Yes,4
 "doo,nagháí,da","Adv,ProSub,Adv",nobody,NSub,,,,,,,,,,not + ?? + (not),Yes,3
 "doo,nidziil,da","Adv,NSub,Adv",your weakness,NSub,2nd,S,,,,,,,,not + strength + (not),Yes,3
 "doo,nihidziil,da","Adv,NSub,Adv",(y)our weakness,NSub,1st/2nd,D,,,,,,,,not + strength + (not),Yes,3
@@ -837,6 +856,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ééʼ,neishoodii,bikin","NSub,NSub,NSub",church,NSub,,,,,,,,,,shirt + one who drags it around + his house,Yes,3
 "ééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,clothing + without,Yes,2
 "ééʼneishoodii,bikin","NSub,NSub",church,NSub,,,,,,,,,,shirt one drags around + his house,Yes,2
+"éí,biniinaa","ProDem,Postp",therefore,Conj,,,,,,,,,,that + because of it,Yes,2
+"éí,biniʼinaa","ProDem,Postp",therefore,Conj,,,,,,,,,,that + because of it,Yes,2
 "éí,doodaiiʼ,éí","ProDem,Conj,ProDem",else / otherwise,Conj,,,,,,,,,,this + or + that,Yes,3
 "éigi,átʼéego ","Adv,Adv",like that,Adv,,,,,,,,,,at that + for being,Yes,2
 "éigi,átʼéégo ","Adv,Adv",like that,Adv,,,,,,,,,,at that + for being,Yes,2
@@ -862,6 +883,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "há,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,4thA,,make room for,,,,,for + make,Yes,2
 "há,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,4thA,,make room for,,,,,for + make,Yes,2
 "há,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,4thA,,make room for,,,,,for + make,Yes,2
+"haa,halneʼgo","Postp,Adv",explaining [to those],Adv,,,4thA,,,,,,,to + telling,Yes,2
+"haa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "hąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,owe a debt,,,,,on + stick out,Yes,2
 "hąąh,háájil","Postp,VPerf",owed a debt,Perf,4th,,,,owe a debt,,,,,on + stick out,Yes,2
 "hąąh,hadoojił","Postp,VFut",will owe a debt,Fut,4th,,,,owe a debt,,,,,on + stick out,Yes,2
@@ -933,10 +956,10 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "hee,ádin","Adv,VImpf",is lacking,VImpf,3rd,S,4th,,lack,,,,,by means of one/others + is absent,Yes,2
 "hiiʼ,sizíinii","Postp,NSub",one's soul,NSub,4thA,,,,,,,,,within + it stands,Yes,2
 "hweʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,one's clothing + without,Yes,2
-"ił,ééhózin","Postp,VImpf",knowledge,NSub,3rd,,,,,,,,,with + there is knowledge,Yes,2
-"ił,naalbąąsí","Postp,NSub",wheelchair,NSub,,,,,,,,,,with + ??,Yes,2
-"ił,náhodighááh","Postp,VImpf",dizziness,NSub,,,,,,,,,,with + starts to go around the area,Yes,2
-"Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,,Yes,2
+"ił,ééhózin","Postp,VImpf",knowledge,NSub,Unspec,,,,,,,,,with + there is knowledge,Yes,2
+"ił,naalbąąsí","Postp,NSub",wheelchair,NSub,Unspec,,,,,,,,,with + ??,Yes,2
+"ił,náhodighááh","Postp,VImpf",dizziness,NSub,Unspec,,,,,,,,,with + starts to go around the area,Yes,2
+"Ílínóo,hahoodzo","NSub,NSub",Illinois,NSub,,,,,,TRUE,,,,Illinois + place,Yes,2
 "Ízrel,dineʼé","NSub,NSub",Israelites,NSub,,,,,,TRUE,,,,Israel + people,Yes,2
 "iʼiiʼnííł,bijį́","NSub,NSub",election day,NSub,,,,,,,,,,voting + its day,Yes,2
 "jáád,łánii","NSub,NSub",centipede/millipede,NSub,,,,,,,,,,leg + one with many,Yes,2
@@ -1103,6 +1126,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ná,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,2nd,S,make room for,,,,,for + make,Yes,2
 "na’ageh,bee,tsi’na’adá","NPostp,Postp,VImpf",sexual immorality,NSub,,,,,,,,,,?? + with + ??,Yes,3
 "na’ageh,bee,tsiʼdeíkáahii","NPostp,Postp,NSub",sexual immorality,NSub,,,,,,,,,,?? + with + ??,Yes,3
+"naa,halneʼgo","Postp,Adv",explaining [to you],Adv,,,2nd,S,,,,,,to + telling,Yes,2
+"naa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "Naabeehó,bináhásdzo","NSub,NSub",Navajo reservation,NSub,,,,,,,,,,Navajo's area,Yes,2
 "Naabeehó,bizaad","NSub,NSub",Navajo language,NSub,,,,,,TRUE,,,,Navajo's word,Yes,2
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,People's language (question),Yes,2
@@ -1177,6 +1202,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nihá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,1st/2nd,DP,make room for,,,,,for + make,Yes,2
 "nihá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,1st/2nd,DP,make room for,,,,,for + make,Yes,2
 "nihá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,1st/2nd,DP,make room for,,,,,for + make,Yes,2
+"nihaa,halneʼgo","Postp,Adv",explaining [to us/you],Adv,,,1st/2nd,DP,,,,,,to + telling,Yes,2
+"nihaa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "nihąąh,dah,dahoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,P,,,catch (an illness),,,,,on + upward + make,Yes,3
 "nihąąh,dah,dahwiilʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,1st,P,,,catch (an illness),,,,,on + upward + make,Yes,3
 "nihąąh,dah,hoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,D,,,catch (an illness),,,,,on + upward + make,Yes,3
@@ -1196,13 +1223,20 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nihigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",(y)our banjo,NSub,,,,,,,,,,(y)our guitar + he who plucks it + the one that is round,Yes,3
 "nihigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",(y)our ukelele,NSub,,,,,,,,,,(y)our guitar + he who plucks it + the little one,Yes,3
 "nihiiʼ,sizíinii","Postp,NSub",(y)our soul,NSub,1st/2nd,DP,,,,,,,,within + it stands,Yes,2
+"nihił,ééhózin","Postp,VImpf",(y)our knowledge,NSub,1st/2nd,DP,,,,,,,,with us/you + there is knowledge,Yes,2
+"nihił,naalbąąsí","Postp,NSub",(y)our wheelchair,NSub,1st/2nd,DP,,,,,,,,with us/you + ??,Yes,2
+"nihił,náhodighááh","Postp,VImpf",(y)our dizziness,NSub,1st/2nd,DP,,,,,,,,with us/you + starts to go around the area,Yes,2
 "nihimá,yazhí","NSub,NSub",(y)our maternal aunt(s),NSub,1st/2nd,D,,,,,nihi,,,one's mother + little one,Yes,2
 "nihitsiitsʼiin,diniih","NSub,NSub",(y)our headache,NSub,1st/2nd,D,,,,,,,,head + pain,Yes,2
 "nihiʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,(y)our clothing + without,Yes,2
 "nihokááʼ,dineʼé","NSub,NSub",people of the world,NSub,,,,,,,,,,Earth surface + people,Yes,2
 "niiʼ,sizíinii","Postp,NSub",your soul,NSub,2nd,S,,,,,,,,within + it stands,Yes,2
+"nił,ééhózin","Postp,VImpf",your knowledge,NSub,2nd,S,,,,,,,,with you + there is knowledge,Yes,2
+"nił,naalbąąsí","Postp,NSub",your wheelchair,NSub,2nd,S,,,,,,,,with you + ??,Yes,2
+"nił,náhodighááh","Postp,VImpf",your dizziness,NSub,2nd,S,,,,,,,,with you + starts to go around the area,Yes,2
 "níłchʼi,dineʼé","NSub,NSub",spirits,NSub,,,,,,,,,,wind + people,Yes,2
 "níłchʼi,diyinii","NSub,NSub",Holy Spirit,NSub,,,,,,TRUE,,,,wind + holy one,Yes,2
+"níłchʼi,yáʼátʼéehii","NSub,NSub",oxygen,NSub,,,,,,,,,,air + the good one,Yes,2
 "níłchʼih,naalkidí","NSub,NSub",television,NSub,,,,,,,,,,,Yes,2
 "níló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,hail + the small one,Yes,2
 "níłtsą́,biʼáád","NSub,NSub",shower,NSub,,,,,,,,,,,Yes,2
@@ -1234,6 +1268,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,1st,S,make room for,,,,,for + make,Yes,2
 "shá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,1st,S,make room for,,,,,for + make,Yes,2
 "shá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,1st,S,make room for,,,,,for + make,Yes,2
+"shaa,halneʼgo","Postp,Adv",explaining [to me],Adv,,,1st,S,,,,,,to + telling,Yes,2
+"shaa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "shąąh,dah,hoołʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,1st,S,,,catch (an illness),,,,,on + upward + make,Yes,3
 "shąąh,haajííł","Postp,VImpf",owe a debt,VImpf,1st,S,,,owe a debt,,,,,on + stick out,Yes,2
 "shąąh,háájil","Postp,VPerf",owed a debt,VPerf,1st,S,,,owe a debt,,,,,on + stick out,Yes,2
@@ -1257,6 +1293,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "shigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",my banjo,NSub,,,,,,,,,,my guitar + he who plucks it + the one that is round,Yes,3
 "shigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",my ukelele,NSub,,,,,,,,,,my guitar + he who plucks it + the little one,Yes,3
 "shiiʼ,sizíinii","Postp,NSub",my soul,NSub,1st,S,,,,,,,,within + it stands,Yes,2
+"shił,ééhózin","Postp,VImpf",my knowledge,NSub,1st,S,,,,,,,,with me + there is knowledge,Yes,2
+"shił,naalbąąsí","Postp,NSub",my wheelchair,NSub,1st,S,,,,,,,,with me + ??,Yes,2
+"shił,náhodighááh","Postp,VImpf",my dizziness,NSub,1st,S,,,,,,,,with me + starts to go around the area,Yes,2
 "shimá,yazhí","NSub,NSub",my maternal aunt,NSub,1st,S,,,,,shi,,,my mother + little one,Yes,2
 "shitah,hoditłid","Postp,VImpf",am shaking,VImpf,1st,S,,,,,,,,,Yes,2
 "shitsiitsʼiin,diniih","NSub,NSub",my headache,NSub,1st,S,,,,,,,,head + pain,Yes,2
@@ -1267,7 +1306,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "sóóda,góobas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,,Yes,2
 "sóóda,óola","NSub,NSub",jack of diamonds,NSub,,,,,,,,,,,Yes,2
 "sǫʼtah,anah","NSub,NSub",Star Wars,NSub,,,,,,TRUE,,,,star + wars,Yes,2
-"t’áá,jííkʼe","Adv,Adv",for free,Adv,,,,,,,,,,just + ??,Yes,2
+"t’áá,jííkʼe","Part,Adv",for free,Adv,,,,,,,,,,just + ??,Yes,2
 "t’áá,sáhí","Part,Adv",alone,Adv,,,,,,,,,,just + ??,Yes,2
 "t’óó,báhádzidgo ","Adv,Adv",very seriously,Adv,,,,,,,,,,just + be feared,Yes,2
 "tábąąh,dlǫ́ʼii","NSub,NSub",mink,NSub,,,,,,,,,,beach + weasel,Yes,2
@@ -1314,7 +1353,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tsin,naabąąs,yázhí","NSub,VImpf,NSub",toy wagon,NSub,,,,,,,,,,wood + it is rolling about + the little one,Yes,3
 "tsinsitą́,dikʼą́","NSub,VImpf",square mile,NSub,,,,,,,,,,mile + it is squared,Yes,2
 "tʼáá,aaníí","Part,NSub",truly,Adv,,,,,,,,,,just + that which is true,Yes,2
-"tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,just + toward that which is true,Yes,2
+"tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,just + truly,Yes,2
 "tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,just + the one does,Yes,2
 "tʼáá,ádzíłtso","Part,ProSub",everyone,NSub,,,,,,,,,,(just) + all those,Yes,2
 "tʼáá,ájíłah","Part,Adv",both are,VImpf,4th,D,,,,,,,,just + together,Yes,2
@@ -1331,7 +1370,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼáá,ánółah","Part,Adv",both are,VImpf,2nd,D,,,,,,,,just + together,Yes,2
 "tʼáá,ánółtso","Part,Adv",all of you,NSub,,,,,,,,,,just + you are complete,Yes,2
 "tʼáá,bééhózíní","Part,NSub",self-evidently,Adv,,,,,,,,,,just + what is known,Yes,2
+"tʼáá,bíniʼdii","Part,Part",automatically,Adv,,,,,,,,,,just + (let it be),Yes,2
 "tʼáá,díkwíí","Part,Adv",few,Det,,,,,,,,,,just + how many (?),Yes,2
+"tʼáá,díkwííhígo","Part,Adv",only a few,Adv,,,,,,,,,,just + numbering (?),Yes,2
 "tʼáá,shǫǫ","Part,Adv",please,Adv,,,,,,,,,,just + kindly,Yes,2
 "tʼáá,shǫǫdí","Part,Adv",please,Adv,,,,,,,,,,just + kindly,Yes,2
 "tʼáá,shxǫǫdí","Part,Adv",please,Adv,,,,,,,,,,just + kindly,Yes,2
@@ -1371,7 +1412,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,4thO,,make room for,,,,,for + make,Yes,2
 "yá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,4thO,,make room for,,,,,for + make,Yes,2
 "yá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,4thO,,make room for,,,,,for + make,Yes,2
+"yaa,halneʼgo","Postp,Adv",explaining [to one],Adv,,,4thO,,,,,,,to + telling,Yes,2
 "yaa,nídiikai","Postp,VPerf",started to work on,VPerf,3rd,P,3rd,S,start work on,,,,,,Yes,2
+"yaa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "yąąh,dah,dahojiiłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,4th,P,,,catch (an illness),,,,,on + upward + make,Yes,3
 "yąąh,dah,hojiiłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,4th,SD,,,catch (an illness),,,,,on + upward + make,Yes,3
 "yąąh,haajííł","Postp,VImpf",owes/owe a debt,VImpf,4th,,,,owe a debt,,,,,on + stick out,Yes,2
@@ -1404,6 +1447,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yigaanstsiin,yiltązhí,nímazígíí","NSub,NSub,NSub",one's banjo,NSub,,,,,,,,,,one's guitar + he who plucks it + one that is round,Yes,3
 "yigaanstsiin,yiltązhí,yázhí","NSub,NSub,NSub",one's ukelele,NSub,,,,,,,,,,one's guitar + he who plucks it + little one,Yes,3
 "yiiʼ,sizíinii","Postp,NSub",one's soul,NSub,4thO,,,,,,,,,within + it stands,Yes,2
+"yił,ééhózin","Postp,VImpf",one's knowledge,NSub,4thO,,,,,,,,,with one + there is knowledge,Yes,2
+"yił,naalbąąsí","Postp,NSub",one's wheelchair,NSub,4thO,,,,,,,,,with one + ??,Yes,2
+"yił,náhodighááh","Postp,VImpf",one's dizziness,NSub,4thO,,,,,,,,,with one + starts to go around the area,Yes,2
 "yimá,yazhí","NSub,NSub",one's maternal aunt(s),NSub,4th,,,,,,yi,,,one's mother + little one,Yes,2
 "yiską́,damį́įgo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,tomorrow + Sunday,Yes,2
 "yiską́,damóo","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,tomorrow + Sunday,Yes,2
