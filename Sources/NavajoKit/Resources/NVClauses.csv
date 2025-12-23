@@ -134,15 +134,17 @@ TOKENS,LABELS,English,Match?,Count
 "Doo,bikʼiʼdiishtįįh,da,.","Part,VImpf,Part,Punct",I don't understand.,Yes,4
 "Dóó,hataał,.","Conj,VImpf,Punct",And he/she sings.,Yes,3
 "Dóó,honóołnééł,.","Conj,VPerf,Punct",And he was winning.,Yes,3
+"Doo,nááhódlǫ́ǫ́,da,.","Adv,VImpf,Part,Punct",There is no other.,Yes,4
 "Doo,shił,yáʼátʼéeh,da,.","Adv,Postp,VImpf,Adv,Punct",I don't like it.,Yes,5
 "Dooda,dishní,!","Interj,VImpf,Punct","No, I say!",Yes,3
 "Dóola,naadą́ą́,dóó,nímasii,bił,yáʼátʼééh,.","NSub,NPostp,Conj,NPostp,Postp,VImpf,Punct",The bull likes corn and potatoes.,Yes,7
 "Dootłʼizhii,dootłʼizh,.","NSub,VImpf,Punct",The turquoise gem is turquoise colored.,Yes,3
 "Dził,bichahaʼoh,kéyah,bikʼestʼiʼ,.","NSub,NSub,NObj,VImpf,Punct",The mountainʼs shadow covers the land.,Yes,5
-"Éí,aaníígóó,áhoot'é,.","ProSub,Adv,VImpf,Punct",The truth is out there. (Lit. That toward truth is happening.),Yes,4
+"Éí,aaníígóó,áhoot'é,.","ProSub,Adv,VImpf,Punct",The truth is out there. (Lit. That truly is happening.),Yes,4
 "Éí,adinídíín,.","ProSub,VImpf,Punct",It is sunny.,Yes,3
 "Éí,movie,nił,yáʼátʼééh,yaʼ,? ","ProDem,NObj,Postp,VImpf,Part,Punct","You like that movie, right?",Yes,6
 "Éí,nahałtin,.","ProSub,VImpf,Punct",It is raining.,Yes,3
+"Éí,tʼéiyá,bee,hinishná,.","ProDem,Adv,Postp,VImpf,Punct",I live by means of him alone.,Yes,5
 "Éí,yáʼátʼééh,.","ProSub,VImpf,Punct",It is good.,Yes,3
 "eʼeʼaah,dóó,haʼaʼaah","NSub,Conj,NSub",west and east,Yes,3
 "Eʼeʼaah,łitso,.","NSub,VImpf,Punct",The west is yellow.,Yes,3
@@ -184,6 +186,7 @@ TOKENS,LABELS,English,Match?,Count
 "Hazhóʼó,baa,hweeshneʼ,.","Adv,Postp,VPerf,Punct",I carefully explained it.,Yes,4
 "Hazhóʼógo,"","",awééʼ,ałhosh,.","Adv,Punct,NSub,VImpf,Punct","Calmly, the baby sleeps.",Yes,5
 "Haʼátʼíí,yíníʼı̨́,dinitsʼaʼ,dóó,niłchin,?","ProInt,VImpf,VImpf,Conj,VImpf,Punct","What do you see, hear, and smell?",Yes,6
+"Háʼą́yį́į́h,bį́,shá,nilį́,.","NObj,NObj,Postp,VImpf,Punct",He is rest for me.,Yes,5
 "Haʼaʼaah,łitso,.","NSub,VImpf,Punct",The east is yellow.,Yes,3
 "Haʼaʼaah,łitsxo,.","NSub,VImpf,Punct",The east is orange.,Yes,3
 "Haʼaʼaahjígo,dighádídeeshwoł,.","Adv,VFut,Punct",I will walk eastward.,Yes,3
@@ -193,9 +196,15 @@ TOKENS,LABELS,English,Match?,Count
 "Hózhǫ́,náhásdlį́į́ʼ,.","NSub,VImpf,Punct",Beauty has come again.,Yes,3
 "Iʼiiʼnííł,!,Ílį́įgo,átʼé,!","NSub,Punct,Adv,VImpf,Punct",Vote! It is important!,Yes,5
 "Jáan,bimá","NSub,NSub",Johnʼs mother,Yes,2
+"Jesus,éí,adziil,shá,nilį́,.","NSub,ProDem,NObj,Postp,NSub,Punct",Jesus is the strength for me.,Yes,6
+"Jesus,tʼéí,éí,haííníshní,.","NSub,Adv,ProDem,VImpf,Punct",I trust only Jesus.,Yes,5
 "John,bichʼiyąʼ,éí,nahachagiitsoh,dóó,tsésʼná,bitłʼizh,.","NSub,NSub,ProDem,NObj,Conj,NObj,VPerf,Punct",Johnʼs food consisted of locusts and wild honey.,Yes,8
+"John,éí,Késhmish,ádeilééhígíí,yił,daʼiidis,.","NSub,ProDem,NObj,NObj,Postp,VImpf,Punct",John is wrapping Christmas gifts.,Yes,7
 "jooł,iihnálniihhígíí,dóó,jooł,yikalí","NSub,NSub,Conj,NSub,NSub",basketball and baseball,Yes,5
 "jooł,nímazgo,yitalí,dóó,jooł,yitalí","NSub,NSub,NSub,Conj,NSub,NSub",soccer ball and football,Yes,6
+"Késhmish,ádaashłééhígíí,bił,da’iisdis,.","NObj,NObj,Postp,VImpf,Punct",I'm wrapping Christmas gifts.,Yes,5
+"Késhmish,ádanilééhígíísh,bił,daʼiinidis,?","NObj,NObj,Postp,VImpf,Punct",Are you wrapping Christmas gifts?,Yes,5
+"Késhmish,áshłééhígíí,naaltsoos,bee,bił,iisdis,.","NObj,NObj,NPostp,Postp,Postp,VImpf,Punct",I'm wrapping the Christmas gift with paper.,Yes,7
 "Kii,bimá,dóó,bizhéʼé,bighan,hólǫ́,.","NSub,NSub,Conj,NSub,NObj,VImpf,Punct",Kiiʼs mother and father have a home.,Yes,7
 "Kii,bimá,dóó,bizhéʼé,hólǫ́,.","NSub,NObj,Conj,NObj,VImpf,Punct",Kii has a mother and father.,Yes,6
 "Kweʼé,akónǫ́ǫ,bikááʼ,?","Adv,NObj,VImpf,Punct",It says it right here.,Yes,4
@@ -305,6 +314,7 @@ TOKENS,LABELS,English,Match?,Count
 "tádiin,béésh,łigaii","NumC,NSub,NSub",30 pieces of silver,Yes,3
 "tádiin,télii","NumC,NSub",thirty donkeys,Yes,2
 "Tłʼééʼ,ííłnííʼ,.","NSub,VPerf,Punct",It became midnight.,Yes,3
+"tó,bee,iiná","NPostp,Postp,NSub",water of life,Yes,3
 "Tó,dóó,chʼiyáán,tʼáágééd,.","NObj,Conj,NObj,VPerf,Punct",He had no food and water.,Yes,5
 "Tó,hólǫ́,.","NSub,VImpf,Punct",There is water.,Yes,3
 "Tó,nábish,.","NSub,VImpf,Punct",The water continues boiling.,Yes,3
