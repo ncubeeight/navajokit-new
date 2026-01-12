@@ -47,7 +47,9 @@ Swift Package Manager URL: [https://gitlab.com/HullBreach/navajokit](https://git
 * - - - **NVPTPostpositionTests.swift:** Unit tests for postposition subtokenization
 * - - - **NVPTTestCase.swift:** Structure used by unit tests
 * - - **NVAspectTests.swift:** Unit tests for NVAspect enum
+* - - **NVDataFormatterTests.swift:** Unit tests for data conversions
 * - - **NVPersonTests.swift:** Unit tests for NVPerson enum
 * - - **NVPluralityTests.swift:** Unit tests for NVPlurality enum
+* - - **NVWordTests.swift:** Unit tests for NVWord struct
 
 > Note: This package also includes the source files used to build the documentation.
