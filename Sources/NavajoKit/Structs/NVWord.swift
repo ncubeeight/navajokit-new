@@ -5,11 +5,16 @@
 //  Created by Daniel Gump on 1/19/25.
 //
 
+import Foundation
+
 /**
 Representation of a single Navajo word with its morphology and other details attached
 (Compatible with encoding and decoding for JSON)
 */
-public struct NVWord: Codable {
+public struct NVWord: Codable, Identifiable {
+
+	public let id: UUID
+	
 	///Original Navajo word
 	public var navajo: String
 	///English translation
@@ -37,8 +42,9 @@ public struct NVWord: Codable {
 	///Additional translation notes
 	public let notes: String?
 
-	public init(navajo: String, english: String, partOfSpeech: String, validated: Bool, aspect: NVAspect? = nil, subject: NVInflection? = nil, object: NVInflection? = nil, infinitive: String? = nil, proper: Bool? = nil, prefix: String? = nil, stem: String? = nil, suffix: String? = nil, notes: String? = nil) {
+	public init(id: UUID = UUID(), navajo: String, english: String, partOfSpeech: String, validated: Bool, aspect: NVAspect? = nil, subject: NVInflection? = nil, object: NVInflection? = nil, infinitive: String? = nil, proper: Bool? = nil, prefix: String? = nil, stem: String? = nil, suffix: String? = nil, notes: String? = nil) {
 
+		self.id = id
 		self.navajo = navajo
 		self.english = english
 		self.partOfSpeech = partOfSpeech
@@ -52,5 +58,20 @@ public struct NVWord: Codable {
 		self.stem = stem
 		self.suffix = suffix
 		self.notes = notes
+	}
+
+	public func getInflection() -> String {
+
+		var components: [String] = []
+
+		if let subject = subject?.getInflection(), !subject.isEmpty {
+			components.append(subject)
+		}
+		if let object = object?.getInflection(), !object.isEmpty {
+			components.append("->")
+			components.append(object)
+		}
+
+		return components.joined(separator: " ")
 	}
 }
