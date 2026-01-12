@@ -18,10 +18,10 @@ Postp | Postposition | May follow nouns or precede verbs
 ProDem | Pronoun - Demonstrative | 
 ProInt | Pronoun - Interrogative |
 ProObj | Pronoun - Object | Predicate pronouns
-ProPost | Pronoun - Postposition | Objects of postpositions
+ProPostp | Pronoun - Postposition | Objects of postpositions
 ProSub | Pronoun - Subject | 
 Punct | Punctuation | 
-Sp | Whitespace | 
+Sp | Whitespace | Fallback for unknown tags
 VFut | Verb - Future | 
 VImpf | Verb - Imperfective | Roughly equivalent to English present tense 
 VIter | Verb - Iterative | Repetitive actions
