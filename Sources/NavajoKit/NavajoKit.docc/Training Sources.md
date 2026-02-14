@@ -17,4 +17,5 @@ These sources assisted with the identification of specific words and their synth
 * Wall, Leon and Morgan, William. _Navajo-English Dictionary_. US Department of the Interior: Window Rock, Arizona (1958).
 * Wilson, Garth A. _Conversational Navajo Dictionary_. Conversaation Navajo Publications: Blanding, Utah (1989).
 * [Glosbe](https://glosbe.com/nv/en/)
+* [The Navajo Language Academy](https://fernald.domains.swarthmore.edu/nla/nla.htm)
 * [Wiktionary](https://en.wiktionary.org/wiki)
