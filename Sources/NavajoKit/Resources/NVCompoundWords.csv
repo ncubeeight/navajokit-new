@@ -410,6 +410,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "áńtʼé,ńtʼééʼ","VImpf,Part",were,VPerf,2nd,S,,,be,,,-tʼé,,be + (past),Yes,2
 "áńtʼée,doo","VImpf,Part",will be,VFut,2nd,S,,,be,,,-tʼé,,be + (future),Yes,2
 "ásaaʼ,yilghaałí","NSub,NSub",musical drum,NSub,,,,,,,,,,jar/pot + one that moves its eyes,Yes,2
+"aseezį́,binaaltsoos","NSub,NSub",newspaper,NSub,,,,,,,,,,gossip + its letter,Yes,2
 "ashdlaʼáadah,góneʼ","NumC,Adv",fifteenth,NumO,,,,,,,,,,fifteen + (ordinal),Yes,2
 "Áshįįh,biiʼtó,Hahoodzo","NSub,Adv,NSub",Utah,NSub,,,,,,TRUE,,,,salt + in it water + state,Yes,3
 "áshįįh,łikan","NSub,VImpf",sugar,NSub,,,,,,,,,,salt + is it sweet,Yes,2
@@ -420,6 +421,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "atsiniltłʼish,bee,adinídíín","NPostp,Postp,NSub",electric light,NSub,,,,,,,,,,electricity + by way of + light,Yes,3
 "atsiniltłʼish,ííłʼínígíí","NSub,NSub",electric eel,NSub,,,,,,,,,,electricity + eel,Yes,2
 "atsʼíís,doo,hináanii","NSub,Adv,NSub",corpse,NSub,,,,,,,,,,body + not + alive one,Yes,3
+"átʼah,índa","Adv,Conj",later,Adv,,,,,,,,,,soon + also,Yes,2
 "átʼé,nítʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
 "átʼé,ńtʼę́ę́","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
 "átʼé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
@@ -433,6 +435,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "átʼée,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
 "átʼéé,ntʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
 "átʼéé,ńtʼééʼ","VImpf,Part",was/were,VPerf,3rd,SD,,,be,,,-tʼé,,be + (past),Yes,2
+"atʼééd,yázhí","NSub,NSub",little girl,NSub,,,,,,,,,,girl + little one,Yes,2
 "awáalya,yaa,áhályání","NObj,Postp,VImpf",jailer,NSub,,,,,,,,,,jail + about him + he takes care,Yes,3
 "awééʼ,yázhí","NSub,NSub",little baby,NSub,,,,,,,,,,baby + small,Yes,2
 "awooʼ,diniih","NSub,NSub",toothache,NSub,,,,,,,,,,tooth + ache,Yes,2
@@ -768,6 +771,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "dah,dazhdéelnííh","Adv,VProg",are raising an arm,VProg,4th,P,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,deeshnih","Adv,VProg",am raising an arm,VProg,1st,S,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,deidéelnííh","Adv,VProg",are raising an arm,VProg,3rd,P,,,move an arm,,,,,upward + move an arm,Yes,2
+"dah,diijééʼ","Adv,VPerf",stampeded,VPerf,3rd,P,,,run,,,,,up + ran,Yes,2
 "dah,diilnih","Adv,VProg",are raising an arm,VProg,1st,D,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,díílnih","Adv,VProg",are raising an arm,VProg,2nd,S,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,doolnih","Adv,VProg",is/are raising an arm,VProg,3rd,SD,,,move an arm,,,,,upward + move an arm,Yes,2
@@ -775,6 +779,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "dah,jidoolnih","Adv,VProg",is/are raising an arm,VProg,4th,SD,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,nídiikai","Postp,VPerf",started back,VPerf,3rd,P,,,start back,,,,,upward + ??,Yes,2
 "dah,woozh","Adv,NSub",strawberry,NSub,,,,,,,,,,upward + ??,Yes,2
+"dah,yizdéél","Adv,VPerf",carried away,VPerf,3rd,SD,,,move,,,,,upward + move (SFO),Yes,2
 "dahwiilne’go,bide’yiniilniish","Adv,VImpf",ministry,NSub,,,,,,,,,,preach + work?,Yes,2
 "damį́įgo,yázhí","NSub,NSub",Saturday,NSub,,,,,,TRUE,,,,little Sunday,Yes,2
 "damóo,biiskání","NSub,NSub",Monday,NSub,,,,,,TRUE,,,,Sunday on the next day,Yes,2
@@ -871,6 +876,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "doo,yidziil,da","Adv,NSub,Adv",one's weakness,NSub,4th,,,,,,,,,not + strength + (not),Yes,3
 "Dził,Dahazkánídę́ę́ʼ","NSub,NSub","Mesa, Arizona",NSub,,,,,,TRUE,,,,mountain + ??,Yes,2
 "Dziłgaiitsoh,Honeezkʼazii","NSub,NSub",Himalayas,NSub,,,,,,TRUE,,,,big white mountain + area that has become cool,Yes,2
+"dziłghą́ą́ʼí,bizaad","NSub,NSub",White Mountain Apache language,NSub,,,,,,TRUE,,,,White Mountain Apache + their word,Yes,2
 "dziłghą́ʼiʼ,bizaad","NSub,NSub",Apache language,NSub,,,,,,TRUE,,,,Apache + their words,Yes,2
 "ééʼ,bee,naatʼáhí","NPostp,Postp,NSub",suitcase,NSub,,,,,,,,,,clothing + with + ??,Yes,3
 "ééʼ,ííłʼíní","NSub,NSub",tailor,NSub,,,,,,,,,,clothing + one who makes,Yes,2
@@ -1167,6 +1173,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "naalʼeełí,diłhiłígíí","NSub,NSub",ring-necked duck,NSub,,,,,,,,,,duck + dark one,Yes,2
 "naalʼeełí,naashchʼąąʼígíí","NSub,NSub",wood duck,NSub,,,,,,,,,,duck + decorated one,Yes,2
 "náátsʼózídę́ę́ʼ,naalʼeełí","NSub,NSub",Mandarin duck,NSub,,,,,,TRUE,,,,Asian + duck,Yes,2
+"Naayééʼ,Neizghání","NSub,NSub",Monster-Slayer,NSub,,,,,,TRUE,,,,monster + slayer,Yes,2
 "naayízí,łitsxo","NSub,NSub",pumpkin,NSub,,,,,,,,,,squash + orange,Yes,2
 "naaʼahóóhai,bichʼííʼ","NSub,NSub",spaghetti,NSub,,,,,,,,,,chicken's guts,Yes,2
 "naaʼahóóhai,bighan","NSub,NSub",chicken coup,NSub,,,,,,,,,,chicken's house,Yes,2
@@ -1282,6 +1289,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "nimá,yazhí","NSub,NSub",your maternal aunt,NSub,2nd,S,,,,,ni,,,your mother + little one,Yes,2
 "nímasii,bisgąʼ","NSub,NSub",potato chip,NSub,,,,,,,,,,potato + ??,Yes,2
 "nitsiitsʼiin,diniih","NSub,NSub",your headache,NSub,2nd,S,,,,,,,,head + pain,Yes,2
+"nitsʼą́ą́ʼ,nídiishʼaah","Postp,VImpf",am taking away from,VImpf,1st,S,2nd,S,lift up,,,,,away from you + am beginning to take,Yes,2
 "niʼééʼ,tʼáágééd","NSub,Adv",naked,VImpf,,,,,be naked,,,,,your clothing + without,Yes,2
 "ńló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,hail + the small one,Yes,2
 "óola,niłtólí","NSub,Adv",diamond,NSub,,,,,,,,,,gold + of glass,Yes,2

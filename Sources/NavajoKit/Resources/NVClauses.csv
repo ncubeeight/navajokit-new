@@ -4,13 +4,23 @@ TOKENS,LABELS,English,Match?,Count
 "áádóó,dínéeshdaał,.","Conj,VFut,Punct",And then I will sit.,Yes,3
 "ąąʼ,háádę́ę́ʼ,?","Interj,Adv,Punct",From where do you come?,Yes,3
 "Achʼííʼ,bitsʼániʼnísą́,ńtʼiʼ,łóód,silį́į́ʼ,.","NSub,NSub,VImpf,NObj,VImpf,Punct",The appendix is infected.,Yes,6
+"Adą́ą́dą́ą́ʼísh,tłʼóoʼdi,nishínílnish,?","NSub,Adv,VPerf,Punct","Yesterday, were you working outside?",Yes,4
+"Adeesdíilgo,dibé,sitsʼą́ą́ʼ,dah,diijééʼ,.","Adv,NSub,Postp,Adv,VPerf,Punct","When thunder rumbled, the sheep stampeded and ran away from me.",Yes,6
 "Aghá,ánéeltʼeʼ,.","Postp,VPerf,Punct",They are in the majority.,Yes,3
 "Ahbínígo,tłʼóóʼgóó,chʼínáshdááh,.","Adv,Adv,VFut,Punct",In the morning I will go out quietly.,Yes,4
 "ahéheeʼ,shidineʼé","Interj,NSub",Thank you my people,Yes,2
 "Ákweʼé,abeʼ,yistiní,nidahaniih,.","Adv,NObj,NObj,VImpf,Punct",This is where ice cream is sold.,Yes,5
+"Akʼah,łaʼ,dishhį́įhgo,baa,naashá,.","NObj,Det,Adv,Postp,VImpf,Punct",I am busy melting some lard.,Yes,6
+"Áłah,aleehdi,amá,bééhániih,daatsʼí,bá,ádazhniiyą́ą́ʼ,?,Áko,daatsʼí,nímasii,łaʼ,akǫ́ǫ́,dííkááł,.","Adv,Adv,NObj,VImpf,Adv,Postp,VPerf,Punct,Conj,Adv,NObj,Det,Postp,VFut,Punct",Are they perhaps having a Mother’s Day dinner at the chapter meeting? Perhaps you could take some potatoes there.,Yes,15
+"Áłah,aleehdi,hastiin,léiʼ,tʼóó,yááłtih,yiitsʼaʼ,.","Adv,Adv,NSub,Conj,Adv,VProg,VImpf,Punct",I hear a man talking at the meeting.,Yes,8
+"Ałkʼidą́ą́ʼ,Naayééʼ,Neizghání,haʼaʼaahjigo,atsiniltłʼish,bił,dah,yizdéél,jiní,.","Adv,NSub,NSub,Adv,NPostp,Postp,Adv,VPerf,VImpf,Punct",It is said that long ago Monster Slayer was carried away eastward by lightning.,Yes,10
 "Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,Yes,3
 "Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,Yes,3
 "Ałʼąą,átʼé,.","Adv,VImpf,Punct",They are different.,Yes,3
+"Ámá,chahaʼoh,yiyaagi,sidáago,dádíníigaazh,íílééh,.","NSub,NPostp,Adv,Adv,NObj,VImpf,Punct",The mother is sitting under the shade structure making frybread.,Yes,7
+"Ánístsʼísí,yę́ędą́ą́ʼ,kintahdi,shi,yaa,hooʼaʼ,éí,biniinaa,díshní,.","VImpf,Adv,Adv,ProPostp,Postp,VPerf,ProDem,Postp,VImpf,Punct","Back when I was young, I grew up in town which is why I’m saying.",Yes,10
+"Aooʼ,"","",ashdladigóó,oolkiłgo,áádę́ę́ʼ,shił,náʼílwod,.","Interj,Punct,Adv,Adv,Adv,Postp,VPerf,Punct","Yes, I drove back from there at 5 o’clock.",Yes,8
+"Aseezį́,binaaltsoos,biníkádinishchid,.","NSub,NSub,VPerf,Punct",I stuck my finger through the newspaper.,Yes,4
 "ashdladi,mííl","NumC,NumC",five thousant,Yes,2
 "ashdladi,mííltsoh,béeso","NumC,NumC,NSub","5,000,000 dollars",Yes,3
 "ashdladi,neeznádiin","NumC,NumC",five hundred,Yes,2
@@ -23,13 +33,17 @@ TOKENS,LABELS,English,Match?,Count
 "Ashkii,éí,łeetsʼaaʼ,tánéígis,.","NSub,ProDem,NObj,VImpf,Punct",The boy is washing dishes..,Yes,5
 "Ashkii,léi,háágóó,deeyá,nínízin,?","NSub,Det,Adv,VPerf,VImpf,Punct",Where is the boy going?,Yes,6
 "Ashkii,łóóʼ,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The boy is looking at the fish.,Yes,4
+"Ashkii,tó,nílinígíi,yiih,dzółhaał,.","NObj,NPostp,NPostp,Postp,VOpt,Punct",Don´t let the boy fall into the river.,Yes,6
 "Ashkii,yázhí,bááh,yį́yą́,.","NSub,NSub,NObj,VImpf,Punct",The little boy is eating bread.,Yes,5
+"Ashkii,yázhí,beeʼeldǫǫh,yikʼee,ádadeeznih,.","NSub,NSub,NPostp,Postp,VPerf,Punct",The little boy hurt himself with the gun.,Yes,6
 "Atsá,tłʼízí,yį́yą́,.","NSub,NObj,VImpf,Punct",The eagle eats a goat.,Yes,4
 "Atsiniltłʼish,dínóotsis,.","NSub,VFut,Punct",The electricity will go out.,Yes,3
+"Atsiniltłʼish,dóó,tó,dayókeedígíí,baa,áłah,aleeh,lá,.","NObj,Conj,NObj,NSub,Postp,Adv,VImpf,Part,Punct",Those who are requesting electricity and water will have a meeting.,Yes,9
 "Atsiniltłʼish,neeztsiz,.","NSub,VPerf,Punct",The electricity went out.,Yes,3
 "Atsiniltłʼish,nitséés,.","NSub,VImpf,Punct",The electricity is going out.,Yes,3
 "Atsooʼ,łichííʼ,.","NSub,VImpf,Punct",The tongue is red.,Yes,3
 "Atsʼáhoníyééʼ,nił,hólǫ́ǫ,doo,.","NSub,Postp,VImpf,Part,Punct",May the Force be with you.,Yes,5
+"Átʼah,índa,shaa,náádíídááł,.","Adv,Conj,Postp,VFut,Punct",Come back to see me later.,Yes,5
 "Atʼééd,náʼoolkiłí,yiníłʼį́,.","NSub,NObj,VImpf,Punct",The girl is looking at the clock.,Yes,4
 "Atʼééd,tsídii,bishtąsh,.","NSub,NObj,VPerf,Punct",The girl was pecked by the bird.,Yes,4
 "Atʼééd,yázhí,ałhosh,.","NSub,NSub,VImpf,Punct",The little girl sleeps.,Yes,4
@@ -53,6 +67,7 @@ TOKENS,LABELS,English,Match?,Count
 "Bee,shąąh,haajííł,.","Postp,Postp,VImpf,Punct",I get it on credit.,Yes,4
 "Béégashii,aniiʼ,bee,hólǫ́,.","NSub,NPostp,Postp,VImpf,Punct",The cow has a face.,Yes,5
 "Béégashii,atsooʼ,bee,hólǫ́,.","NSub,NPostp,Postp,VImpf,Punct",The cow has a tongue.,Yes,5
+"Béégashii,báháchxįʼgo,bikʼee,neeshchééł,.","NObj,Adv,Postp,VProg,Punct",I am fleeing the angry bull.,Yes,5
 "Béégashii,bitsįʼ,dóó,naadą́ą́,yishą́,.","NObj,NObj,Conj,NObj,VImpf,Punct",I am eating beef and corn.,Yes,6
 "Béégashii,bitsįʼ,yishą́,.","NObj,NObj,VImpf,Punct",I am eating beef.,Yes,4
 "Béégashii,haash,wolyé,?","NObj,Adv,VImpf,Punct",What is the cowʼs name?,Yes,4
@@ -63,14 +78,19 @@ TOKENS,LABELS,English,Match?,Count
 "Bichʼah,nteel,.","NSub,VImpf,Punct",His hat is wide.,Yes,3
 "Bichʼįʼ,nééhonisįįh,.","Postp,VImpf,Punct",I introduce you to him.,Yes,3
 "Bighan,bą́ą́h,déyá,.","NPostp,Postp,VPerf,Punct",I went by his home.,Yes,4
+"Bįįh,bił,daʼdoołdǫǫh,!","NObj,Postp,VImpf,Punct",You all shoot the deer!,Yes,4
+"Bįįh,bił,daʼdoółdǫǫh,!","NObj,Postp,VOpt,Punct",Don’t shoot the deer!,Yes,4
 "Bįįh,yildeeʼį́,łichííʼ,.","NSub,NSub,VImpf,Punct",The cherry is red.,Yes,4
 "Bíká,ádíshní,.","Adv,VImpf,Punct",I'm calling him.,Yes,3
+"Bikááʼ,naʼanishí,éí,doo,bikááʼ,dah,asdáa,da,.","Postp,NPostp,ProDem,Adv,Postp,Adv,VPerf,Part,Punct",You do not sit on the table.,Yes,9
 "Bił,chʼíníshʼáázh,.","Postp,VPerf,Punct",I left with him/her.,Yes,3
 "Bisóodi,bitsįʼ,bił,yáʼátʼééh,.","NPostp,NPostp,Postp,VImpf,Punct",He likes pork.,Yes,5
 "Bisóodi,bitsįʼ,yį́yą́,.","NObj,NObj,VImpf,Punct",He is eating pork.,Yes,4
 "Cháalatsoh,bimá,éí,Asdzą́ą́łchííʼ,wolyé,.","NSub,NSub,ProDem,NObj,VImpf,Punct",Big Charlie's mother is named Red Woman.,Yes,6
 "Chahałheeł,yóóʼeeldoh,.","NSub,VPerf,Punct",The darkness wafted away.,Yes,3
 "Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,Yes,3
+"Chidí,doo,diitsʼį́į́hgóó,biniinaa,bitooʼ,biih,yíką́ą́,nítʼééʼ,áłtʼąą,diistsʼą́ą́ʼ,.","NSub,Adv,Adv,Postp,NPostp,Postp,VPerf,Part,Adv,VPerf,Punct","The car wouldn’t start, so once gas was added afterwards it started.",Yes,11
+"Chidíísh,bee,hólǫ́,doodaiiʼ,ni,daatsʼí,chidí,nee,hólǫ́,?","NPostp,Postp,VImpf,Conj,ProSub,Adv,NPostp,Postp,VImpf,Punct","Does (s)he have a car, or do you have a car?",Yes,10
 "Christ,yisdáʼiiníiłii,nihokáaʼgi,biʼdizhchį́,!","NSub,NSub,Adv,VPerf,Punct",Christ the savior was born on Earth!,Yes,5
 "Chʼaa,naashá,ńtʼééʼ,.","NObj,VImpf,Part,Punct",I was on a vacation.,Yes,4
 "COVID,bąąh,dah,dahoołʼaʼ,.","NObj,Postp,Adv,VPerf,Punct",They caught COVID.,Yes,5
@@ -90,6 +110,7 @@ TOKENS,LABELS,English,Match?,Count
 "Dah,yooʼááł,. ","Adv,VImpf,Punct",He's holding it up.,Yes,3
 "Daniel,ání,.","NSub,VImpf,Punct",Daniel says.,Yes,3
 "Daʼ,atsilí,bee,hólǫ́,?","Adv,NPostp,Postp,VImpf,Punct",Does he have a younger brother?,Yes,5
+"Daʼ,dichin,nínízin,?","Part,NObj,VImpf,Punct",Are you hungry?,Yes,4
 "Daʼ,Diné,bizaadísh,beeyádaałtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do you speak Navajo?,Yes,5
 "Daʼ,Diné,bizaadísh,beeyádaałtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do they speak Navajo?,Yes,5
 "Daʼ,Diné,bizaadísh,beeyádajiłtiʼ,?","Part,NObj,NObj,VImpf,Punct",Do the others speak Navajo?,Yes,5
@@ -106,14 +127,18 @@ TOKENS,LABELS,English,Match?,Count
 "Dibááʼ,nisin,.","NSub,VImpf,Punct",I want thirst. (I am thirsty.),Yes,3
 "Dibé,daditléé,dóó,dabiʼniidlí,.","NSub,VImpf,Conj,VImpf,Punct",The sheep are wet and cold.,Yes,5
 "Dibé,łigai,.","NSub,VImpf,Punct",The sheep is white.,Yes,3
+"Dibé,nee,hólǫ́,"","",yaʼ,?","NPostp,Postp,VImpf,Punct,Part,Punct","You have sheep, right?",Yes,6
 "Dibé,nihee,ádin,.","NObj,Postp,VImpf,Punct",We have no sheep.,Yes,4
 "Dibé,yázhí,łigai,.","NSub,NSub,VImpf,Punct",The lamb is white.,Yes,4
+"Dichin,nínízin,yaʼ,?","NObj,VImpf,Part,Punct","You're hungry, right?",Yes,4
 "Dichin,nishłį́,.","NSub,VImpf,Punct",I am hunger. (I am very hungry.),Yes,3
 "Dichin,nisin,.","NSub,VImpf,Punct",I want hunger. (I am hungry.),Yes,3
+"Dichinísh,doodaiiʼ,dibááʼísh,jinízin,?","NSub,Conj,NObj,VImpf,Punct",Is that one hungry or thirsty?,Yes,5
 "Díí,ashkii,yázhí,bizhéʼé,yideeskááʼ,.","ProSub,NSub,NSub,NSub,VPerf,Punct",This little boy took after his father,Yes,6
 "Díí,hastiin,azeeʼ,naagháagi,haniih,.","ProDem,NSub,NObj,Adv,VImpf,Punct",This man knows all about medicine.,Yes,6
 "Díí,naaltsoos,shił,yáʼátʼééh,.","Det,NObj,Postp,VImpf,Punct",I like that book.,Yes,5
 "Díí,nidaashchʼąąʼígíí,éí,łitsxo,.","ProDem,NSub,ProDem,VImpf,Punct",The color is orange.,Yes,5
+"Díidí,háísh,bichidí,?","ProDem,ProInt,NObj,Punct",Whose car is this?,Yes,4
 "Dííjį́,éí,iʼiiʼnííł,.,Adaʼdiiyohnił,!","NSub,ProDem,NObj,Punct,VFut,Punct",Today is the election. Go cast your ballets!,Yes,6
 "Dííjį́ʼ,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",Today is sunny.,Yes,4
 "Dííjį́ʼ,éí,nahałtin,.","NSub,ProDem,VImpf,Punct",Today is raining.,Yes,4
@@ -123,6 +148,7 @@ TOKENS,LABELS,English,Match?,Count
 "dį́įʼdi,mííltsoh","NumC,NumC",four million,Yes,2
 "dį́įʼdi,neeznádiin","NumC,NumC",four hundred,Yes,2
 "díkwíí,łą́","Adv,Adv",How many (?),Yes,2
+"Díkwíí,lá,ninááhai,?","Adv,Part,NObj,Punct",How old are you?,Yes,4
 "Dił,shąąh,háálį́,.","NSub,Postp,VPerf,Punct",I'm bleeding.,Yes,4
 "Diné,bizaad,bíhooshʼaah,.","NObj,NObj,VImpf,Punct",I speak the Navajo language.,Yes,4
 "Diné,yázhí,yááłtiʼ,.","NSub,NSub,VPerf,Punct",The midget talked.,Yes,4
@@ -140,6 +166,9 @@ TOKENS,LABELS,English,Match?,Count
 "Dóola,naadą́ą́,dóó,nímasii,bił,yáʼátʼééh,.","NSub,NPostp,Conj,NPostp,Postp,VImpf,Punct",The bull likes corn and potatoes.,Yes,7
 "Dootłʼizhii,dootłʼizh,.","NSub,VImpf,Punct",The turquoise gem is turquoise colored.,Yes,3
 "Dził,bichahaʼoh,kéyah,bikʼestʼiʼ,.","NSub,NSub,NObj,VImpf,Punct",The mountainʼs shadow covers the land.,Yes,5
+"Dził,bitʼáahgi,bįįh,haalzheeh,.","NPostp,Adv,NObj,VImpf,Punct","Near the mountain, he is hunting deer.",Yes,5
+"Dziłghą́ą́ʼgóó,deeshááł,nissin,.","Adv,VFut,VImpf,Punct",I want to go toward the mountain top.,Yes,4
+"Dziłghą́ą́ʼí,bizaad,doo,shił,bééhózin,da,.","NObj,NObj,Adv,Postp,VImpf,Part,Punct",I don't know the White Mountain Apache language.,Yes,7
 "Éí,aaníígóó,áhoot'é,.","ProSub,Adv,VImpf,Punct",The truth is out there. (Lit. That truly is happening.),Yes,4
 "Éí,adinídíín,.","ProSub,VImpf,Punct",It is sunny.,Yes,3
 "Éí,movie,nił,yáʼátʼééh,yaʼ,? ","ProDem,NObj,Postp,VImpf,Part,Punct","You like that movie, right?",Yes,6
@@ -171,6 +200,7 @@ TOKENS,LABELS,English,Match?,Count
 "Háágóó,ayííʼą́,?","Adv,VPerf,Punct",To where did they take her?,Yes,3
 "Háágóó,díníyá,?","Adv,VPerf,Punct",To where are you going?,Yes,3
 "Haash,yinílyé,?","Adv,VImpf,Punct",What is your name?,Yes,3
+"Hágoóneeʼ,"","",béeso,shaa,níʼaah,.","Adv,Punct,NPostp,Postp,VImpf,Punct","Well then, give me a dollar.",Yes,6
 "Hai,ííłniih,.","NSub,VPerf,Punct",It becomes mid-winter.,Yes,3
 "Hashtłʼish,gohwééh,náshdlį́į́h,.","NObj,NObj,VImpf,Punct",I am drinking hot chocolate.,Yes,4
 "Hashtłʼish,gohwééh,shéłbeezh,.","NObj,NObj,VPerf,Punct",I boiled hot chocolate.,Yes,4
@@ -182,6 +212,7 @@ TOKENS,LABELS,English,Match?,Count
 "hastiin,biłį́įʼ","NSub,NSub",the manʼs horse,Yes,2
 "Hastiin,Gorman,yę́ę,ádin,.","NSub,NSub,Postp,VImpf,Punct",Mr. Gorman has died.,Yes,5
 "Hastiin,Hall,Ohio,hoolyéédę́ę́ʼ,naaghá,.","NSub,NSub,NObj,Adv,VImpf,Punct",Mr. Hall comes from a place called Ohio.,Yes,6
+"Hastiin,hooghan,yikááʼ,hasʼnaʼ,.","NSub,NPostp,Postp,VPerf,Punct",The man climbed atop the house.,Yes,5
 "Hazhóóʼógo,yááłtiʼ,.","Adv,VPerf,Punct","Slowly, I spoke.",Yes,3
 "Hazhóʼó,baa,hweeshneʼ,.","Adv,Postp,VPerf,Punct",I carefully explained it.,Yes,4
 "Hazhóʼógo,"","",awééʼ,ałhosh,.","Adv,Punct,NSub,VImpf,Punct","Calmly, the baby sleeps.",Yes,5
@@ -189,11 +220,14 @@ TOKENS,LABELS,English,Match?,Count
 "Háʼą́yį́į́h,bį́,shá,nilį́,.","NObj,NObj,Postp,VImpf,Punct",He is rest for me.,Yes,5
 "Haʼaʼaah,łitso,.","NSub,VImpf,Punct",The east is yellow.,Yes,3
 "Haʼaʼaah,łitsxo,.","NSub,VImpf,Punct",The east is orange.,Yes,3
+"Haʼaʼaahdę́ę́sh,naaghan,éí,doodago,eʼeʼaahdę́ę́sh,naaghan,?","Adv,NSub,ProDem,Conj,Adv,NSub,Punct",Is your home in the east or the west?,Yes,7
 "Haʼaʼaahjígo,dighádídeeshwoł,.","Adv,VFut,Punct",I will walk eastward.,Yes,3
 "haʼaʼaahjígo,dóó,eʼeʼaahjigo","Adv,Conj,Adv",eastward and westward,Yes,3
+"Haʼaʼaahjíísh,éí,doodago,eʼeʼaahjíísh,nighan,?","Adv,ProDem,Conj,Adv,NSub,Punct",Is your home in the east or the west?,Yes,6
 "Hosh,ayóo,adijił,.","NSub,Adv,VImpf,Punct",The cactus is full of thorns.,Yes,4
 "Hosh,shaa,ííjil,.","NSub,Postp,VPerf,Punct",The thorn pierced me.,Yes,4
 "Hózhǫ́,náhásdlį́į́ʼ,.","NSub,VImpf,Punct",Beauty has come again.,Yes,3
+"Ííshją́ą́,atʼééd,yázhí,hooghandę́ę́ʼ,chʼidoogááł,.","Adv,NSub,NSub,Adv,VFut,Punct","Certainly, the little girl will walk out of the house.",Yes,6
 "Iʼiiʼnííł,!,Ílį́įgo,átʼé,!","NSub,Punct,Adv,VImpf,Punct",Vote! It is important!,Yes,5
 "Jáan,bimá","NSub,NSub",Johnʼs mother,Yes,2
 "Jesus,éí,adziil,shá,nilį́,.","NSub,ProDem,NObj,Postp,NSub,Punct",Jesus is the strength for me.,Yes,6
@@ -202,6 +236,7 @@ TOKENS,LABELS,English,Match?,Count
 "John,éí,Késhmish,ádeilééhígíí,yił,daʼiidis,.","NSub,ProDem,NObj,NObj,Postp,VImpf,Punct",John is wrapping Christmas gifts.,Yes,7
 "jooł,iihnálniihhígíí,dóó,jooł,yikalí","NSub,NSub,Conj,NSub,NSub",basketball and baseball,Yes,5
 "jooł,nímazgo,yitalí,dóó,jooł,yitalí","NSub,NSub,NSub,Conj,NSub,NSub",soccer ball and football,Yes,6
+"Jooł,nitsʼą́ą́ʼ,nídiishʼaah,.","NObj,Postp,VImpf,Punct",I am taking the ball away from you.,Yes,4
 "Késhmish,ádaashłééhígíí,bił,da’iisdis,.","NObj,NObj,Postp,VImpf,Punct",I'm wrapping Christmas gifts.,Yes,5
 "Késhmish,ádanilééhígíísh,bił,daʼiinidis,?","NObj,NObj,Postp,VImpf,Punct",Are you wrapping Christmas gifts?,Yes,5
 "Késhmish,áshłééhígíí,naaltsoos,bee,bił,iisdis,.","NObj,NObj,NPostp,Postp,Postp,VImpf,Punct",I'm wrapping the Christmas gift with paper.,Yes,7
@@ -240,6 +275,7 @@ TOKENS,LABELS,English,Match?,Count
 "náhástʼéidi,neeznádiin,nímasii","NumC,NumC,NSub",nine hundred potatoes,Yes,3
 "Náhookǫs,éí,adinídíín,.","NSub,ProDem,VImpf,Punct",The north is sunny.,Yes,4
 "Náhookǫs,éí,nahałtin,.","NSub,ProDem,VImpf,Punct",The north is raining.,Yes,4
+"Náshdóítsoh,shichʼį,ńdiilwodgo,yíníiłdon,ńtʼééʼ,kʼasídą́ą́ʼ,sésiih,.","NSub,Postp,Adv,VPerf,Part,Adv,VPerf,Punct",As the mountain lion came for me I fired at him and very nearly missed him.,Yes,8
 "názbas,béeso,dóó,naaki,yáál","NumC,NSub,Conj,NumC,NSub",0 dollars and 2 bits (25 cents),Yes,5
 "Naʼahóóhai,bitsįʼ,dóó,naadą́ą́,dóó,neeznáá,dah,woozh,yishą́,.","NObj,NObj,Conj,NObj,Conj,NumC,NObj,NObj,VImpf,Punct",I am eating chicken meat and corn and ten strawberries.,Yes,10
 "Naʼahóóhai,naadą́ą́,yį́yą́,.","NSub,NObj,VImpf,Punct",The chicken is eating corn.,Yes,4
@@ -249,7 +285,9 @@ TOKENS,LABELS,English,Match?,Count
 "neeznánígíí,naakijįʼ,ałtsʼájíniłgo","NumC,NumC,Adv",Ten divided by two,Yes,3
 "Néʼéshjaaʼ,mósí,yidiłní,.","NSub,NObj,VImpf,Punct",The owl is mimicking the sound of a cat.,Yes,4
 "Ni,dooda,"","",John,ábidishní,.","ProObj,Adv,Punct,NObj,VImpf,Punct","Not you, I mean John.",Yes,6
+"Ni,gaʼ,kʼad,dibé,bikééʼ,díínááł,.","ProSub,Part,Adv,NPostp,Postp,VFut,Punct",You will go with the sheep now.,Yes,7
 "Ni,shidiltłish,honílǫ́,...,dóó,sheʼałtį́į́ʼ,...,dóó,sitsénił,.","ProSub,NObj,VImpf,Punct,Conj,NObj,Punct,Conj,NObj,Punct","You have my sword, ... and my bow, ... and my axe.",Yes,10
+"Nichidí,háadish,nííníłbą́ą́z,?","NSub,Adv,VPerf,Punct",Where did you park your car?,Yes,4
 "Nichʼįʼ,bééhonisįįh,.","Postp,VImpf,Punct",I introduce him to you.,Yes,3
 "Nidagaʼ,"","",tsídii,dootłʼizh,.","Interj,Punct,NSub,VImpf,Punct","No, the bird is blue/turquoise.",Yes,5
 "Nidaʼniłkaadii,daʼíistsʼą́ą́ʼ,.","NSub,VPerf,Punct",The shepherds heard.,Yes,3
@@ -286,11 +324,14 @@ TOKENS,LABELS,English,Match?,Count
 "Shį́,ííłniih,.","NSub,VPerf,Punct",It becomes mid-summer.,Yes,3
 "Shí,nichidí,adisbąąs,.","ProSub,NObj,VImpf,Punct",I am starting to drive your car.,Yes,4
 "Shí,télii,bee,hólǫ́,.","ProSub,NPostp,Postp,VImpf,Punct",I have a donkey.,Yes,5
+"Shí,tʼóó,ááłkʼiis,yisháałgo,shizhéʼé,tsékooh,gódeg,haʼasbą́ą́z,.","ProObj,Adv,Adv,Adv,NSub,NPostp,Postp,VPerf,Punct",My father drove up out of the canyon with me walking alongside.,Yes,9
 "shibéésh,dóó,shighéél","NSub,Conj,NSub",my knife and my pack,Yes,3
 "Shicheii,dziłkʼijí,haniih,.","NSub,NObj,VImpf,Punct",My grandfather knows the Mountain Chant.,Yes,4
 "shichʼéʼé,éí,łaʼtsʼáadah,binááhai","NSub,ProDem,NumC,NObj",My daughter is 11 years old. (my daughter that 11 her years),Yes,4
+"Shideezhí,dóó,sítsílí,bidááh,sézį́,.","NObj,Conj,NObj,Postp,VPerf,Punct",I guard my younger sister and younger brother.,Yes,6
 "Shigaan,éi,shijáád,bi’oh,áníłtso,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My arms are shorter than my legs.,Yes,6
 "Shijáád,éí,nijáád,bilááh,áníłnééz,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My legs are longer than your legs.,Yes,6
+"Shíká,anánílwoʼ,doodaiiʼ,tʼáadoo,shaa,nánítʼíní,.","Postp,VIter,Conj,Adv,Postp,VImpf,Punct",Help me or else don’t bother me.,Yes,7
 "Shił,yáʼáhootʼééh,.","Postp,VImpf,Punct",I like the place.,Yes,3
 "Shimá,"","",naatʼáaniinééz,góó,déyá,.","NSub,Punct,NPostp,Postp,VPerf,Punct","My mother, I am going to Shiprock.",Yes,6
 "Shimá,bidibé,dóó,bitłʼízí,dóó,bighan,bee,hólǫ́,.","NSub,NPostp,Conj,NPostp,Conj,NPostp,Postp,VImpf,Punct",My mother has her sheep and her goat and her house.,Yes,9
@@ -305,6 +346,7 @@ TOKENS,LABELS,English,Match?,Count
 "Shíyeʼ,waaʼ,yį́yą́,.","NSub,NObj,VImpf,Punct",My son is eating spinach.,Yes,4
 "Shizheʼé,łééchąąʼí,bił,yáʼátʼééh,.","NSub,NPostp,Postp,VImpf,Punct",My father likes dogs.,Yes,5
 "Sin,bee,hataał,.","NPostp,Postp,VImpf,Punct",He is singing a song.,Yes,4
+"Sitsóí,óltaʼgóó,dah,diigháahgo,łaʼ,béeso,baa,yishʼááh,.","NSub,Adv,Adv,Adv,Det,NObj,Postp,VIter,Punct","When my grandchild leaves for school, I usually give him/her some money.",Yes,9
 "Sǫʼ,álííl,bee,hoolʼin,.","NSub,NSub,Postp,VImpf,Punct",The miraculous star shines dimly.,Yes,5
 "t’áá,éí,bijį́","Part,ProDem,NObj",on that day,Yes,3
 "táá,tsʼáadah,tłʼoh,chin","NumC,NumC,NSub,NSub",thirteen onions,Yes,4
@@ -313,6 +355,7 @@ TOKENS,LABELS,English,Match?,Count
 "táadi,neeznádiin,dóó,biʼaan,naaki,tłʼoh,naadą́ą́ʼ","NumC,NumC,Conj,Conj,NumC,NSub,NSub",three hundred two wheat,Yes,7
 "tádiin,béésh,łigaii","NumC,NSub,NSub",30 pieces of silver,Yes,3
 "tádiin,télii","NumC,NSub",thirty donkeys,Yes,2
+"Tłʼéédą́ą́ʼ,ńléí,dził,bineʼjí,adildííl,yiitsʼaʼ,niʼ,.","Adv,ProDem,NPostp,Postp,NSub,VPerf,Part,Punct","Last night on the other side of the mountain, thunder rumbled.",Yes,8
 "Tłʼééʼ,ííłnííʼ,.","NSub,VPerf,Punct",It became midnight.,Yes,3
 "tó,bee,iiná","NPostp,Postp,NSub",water of life,Yes,3
 "Tó,dóó,chʼiyáán,tʼáágééd,.","NObj,Conj,NObj,VPerf,Punct",He had no food and water.,Yes,5
@@ -344,6 +387,7 @@ TOKENS,LABELS,English,Match?,Count
 "tʼááłáʼí,béeso","NumC,NSub",one dollar,Yes,2
 "Tʼáásh,aaníí,?","Adv,VImpf,Punct",Is that so?,Yes,3
 "Tʼááshʼaaníí,dahólǫ́,?","NSub,VImpf,Punct",Do they really exist?,Yes,3
+"Tʼiis,bąąh,nidaohnaʼ,.","NObj,Postp,VImpf,Punct",Climb the cottonwood tree.,Yes,4
 "Wááshindoon,góó,déyá,.","NPostp,Postp,VPerf,Punct",I am going to Washington.,Yes,4
 "Yáʼąąsh,dóó,Chʼį́įdiitah","NSub,Conj,NSub",Heaven and Hell,Yes,3
 "Yáʼąąshii,biyiʼdę́ę́ʼ","NPostp,Postp",From within Heaven,Yes,2
@@ -354,3 +398,4 @@ TOKENS,LABELS,English,Match?,Count
 "yáʼátʼéehgo,háádíilyįh","Adv,NSub",good night,Yes,2
 "yáʼátʼéehgo,tązhii,daʼaghał,adííłeeł","Adv,NSub,NSub,NSub",happy Thanksgiving,Yes,4
 "Yíká,ání,.","Adv,VImpf,Punct",Heʼs calling him.,Yes,3
+"Yiską́ągo,Naʼnízhoozhígóó,deetʼáazhgo,haaʼí,lá,adiidį́į́ł,?","Adv,Adv,Adv,Adv,Part,VFut,Punct","Tomorrow when we go to Gallup, where will we eat?",Yes,7
