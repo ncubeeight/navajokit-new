@@ -26,14 +26,18 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,ádadiilnííł","Adv,VFut",will open,VFut,1st,P,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádadoohłííł","Adv,VFut",will open,VFut,2nd,P,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádajiilaa","Adv,VPerf",opened,VPerf,4th,P,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,ádajiilaago","Postp,VPerf",having opened it,Adv,4th,P,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ádajilééh","Adv,VImpf",are opening,VImpf,4th,P,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,ádaoohłaa","Adv,VPerf",opened,VPerf,2nd,P,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,ádaoohłaago","Postp,VPerf",having opened it,Adv,2nd,P,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ádayiilaa","Adv,VPerf",opened,VPerf,3rd,P,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,ádayiilaago","Postp,VPerf",having opened it,Adv,3rd,P,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ádazhdoolííł","Adv,VFut",will open,VFut,4th,P,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádeeshłííł","Adv,VFut",will open,VFut,1st,S,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádeidoolííł","Adv,VFut",will open,VFut,3rd,P,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádeiilnééh","Adv,VImpf",are opening,VImpf,1st,P,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,ádeiilyaa","Adv,VPerf",opened,VPerf,1st,P,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,ádeiilyaago","Postp,VPerf",having opened it,Adv,1st,P,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ádeilééh","Adv,VImpf",are opening,VImpf,3rd,P,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,ádíílííł","Adv,VFut",will open,VFut,2nd,S,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,ádiilnííł","Adv,VFut",will open,VFut,1st,D,3rd,,open,,,,,beyond + make,Yes,2
@@ -41,6 +45,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,ádoolnííł","Adv,VFut",will be opened,VFut,3rd,S,,,open,,,,,beyond + make (passive),Yes,2
 "ąą,áhályáanii","Adv,NSub",bodyguard,NSub,,,,,,,,,,beyond + those who care for them,Yes,2
 "ąą,ájiilaa","Adv,VPerf",opened,VPerf,4th,SD,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,ájiilaago","Postp,VPerf",having opened it,Adv,4th,SD,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ájílééh","Adv,VImpf",is/are opening,VImpf,4th,SD,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,álnééh","Adv,VImpf",is being opened,VImpf,3rd,,,,open,,,,,beyond + make (passive),Yes,2
 "ąą,ályaa","Adv,VPerf",was opened,VPerf,3rd,S,,,open,,,,,beyond + make (passive),Yes,2
@@ -56,8 +61,10 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,ánílééh","Adv,VImpf",are opening,VImpf,2nd,S,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,áńjiilʼįįh","Adv,VIter",do(es) open,VIter,4th,SD,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,áshłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,áshłaago","Postp,VPerf",having opened it,Adv,1st,S,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,áshłééh","Adv,VImpf",am opening,VImpf,1st,S,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,áyiilaa","Adv,VPerf",opened,VPerf,3rd,SD,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,áyiilaago","Postp,VPerf",having opened it,Adv,3rd,SD,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,ázhdoolííł","Adv,VFut",will open,VFut,4th,SD,3rd,,open,,,,,beyond + make,Yes,2
 "aa,deetʼą́","Postp,NSub",transfer (of ownership),NSub,,,,,,,,,,,Yes,2
 "aa,halneʼgo","Postp,Adv",explaining,Adv,,,Unspec,,,,,,,to + telling,Yes,2
@@ -69,11 +76,15 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ąą,íílééh","Adv,VImpf",is/are opening,VImpf,3rd,SD,3rd,,open,,,,,beyond + make,Yes,2
 "ąą,íílnééh","Adv,VImpf",are opening,VImpf,1st,D,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,íilyaa","Adv,VPerf",opened,VPerf,1st,D,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,íilyaago","Postp,VPerf",having opened it,Adv,1st,D,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,íinilaa","Adv,VPerf",opened,VPerf,2nd,S,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,íinilaago","Postp,VPerf",having opened it,Adv,2nd,S,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,íishłaa","Adv,VPerf",opened,VPerf,1st,S,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,íishłaago","Postp,VPerf",having opened it,Adv,1st,S,3rd,S,open,,,,,beyond + made,Yes,2
 "ąą,kwáániił","Adv,VImpf",is/are expanding,VImpf,3rd,S,,,expand,,,,,,Yes,2
 "ąą,óhłééh","Adv,VImpf",are opening,VImpf,2nd,D,3rd,,make,,,,,beyond + make,Yes,2
 "ąą,óohłaa","Adv,VPerf",opened,VPerf,2nd,D,3rd,,open,,,,,beyond + make,Yes,2
+"ąą,óohłaago","Postp,VPerf",having opened it,Adv,2nd,D,3rd,S,open,,,,,beyond + made,Yes,2
 "aa,yánízin","Postp,VImpf",ashamed,Adv,,,,,,,,,,about + feel (?),Yes,2
 "aa,yílyáii","Postp,NSub",donation,NSub,,,,,,,,,,,Yes,2
 "áádóó,bikʼijįʼ","Conj,Postp",thereafter,Conj,,,,,,,,,,and then + after that,Yes,2
@@ -676,6 +687,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "bił,ahóóyóígo","Postp,Adv",amazing,Adv,3rd,D,,,become many,,,,,with + becoming many,Yes,2
 "bił,baaʼih","Postp,VImpf",is disgusted by,VImpf,3rd,,3rd,S,be disgusting,,,,,with + be disgusted,Yes,2
 "bił,bahooʼih","Postp,VImpf",is disgusted by,VImpf,3rd,,Area,,be disgusting,,,,,with + be disgusted,Yes,2
+"bił,bééhoozingo","Postp,Adv",having found out,Adv,3rd,S,,,,,,,,with + having known,Yes,2
 "bił,daniidzin","Postp,VImpf",are sleepy,VImpf,1st,P,,,think,,,,,with + think,Yes,2
 "bił,danízin","Postp,VImpf",are sleepy,VImpf,3rd,P,,,think,,,,,with + think,Yes,2
 "bił,danohsin","Postp,VImpf",are sleepy,VImpf,2nd,P,,,think,,,,,with + think,Yes,2
@@ -931,6 +943,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "hamá,yazhí","NSub,NSub",one's maternal aunt(s),NSub,4th,,,,,,ha,,,one's mother + little one,Yes,2
 "haneʼ,yáʼátʼéehii","NSub,NSub",gospel,NSub,,,,,,,,,,news + virtuosity,Yes,2
 "hashtłʼish,gohwééh","NSub,NSub",hot chocolate,NSub,,,,,,,,,,?? + coffee,Yes,2
+"hastóí,dahóyáanii","NSub,NSub",wisemen/Magi,NSub,,,,,,,,,,men + the wise ones,Yes,2
 "hatsiitsʼiin,diniih","NSub,NSub",one's headache,NSub,4thA,,,,,,,,,head + pain,Yes,2
 "hazhóʼó,baa,dahalneʼ","Adv,Postp,VImpf",are explaining,VImpf,3rd,P,Area,,tell,TRUE,,,,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,dahodiilnih","Adv,Postp,VFut",will explain,VFut,1st,P,Area,,explain,,,,,carefully + to it + tell,Yes,3
@@ -1104,6 +1117,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "łeetsoh,bee,atsiniltłʼish,álʼį́","NPostp,Postp,NSub,VImpf",nuclear power,NSub,,,,,,,,,,uranium + by means of + electricity + is made,Yes,4
 "łeeyiʼ,chʼosh","Adv,NObj",earthworm,NObj,,,,,,,,,,in the ground + insect,Yes,2
 "łeeyiʼ,chʼosh","Adv,NSub",earthworm,NSub,,,,,,,,,,in the ground + insect,Yes,2
+"łikaní,halchinii","NSub,NSub",that which smells sweet,NSub,,,,,,,,,,that which is sweet + that which smells,Yes,2
+"łikání,halchinii","NSub,NSub",that which smells sweet,NSub,,,,,,,,,,that which is sweet + that which smells,Yes,2
 "łį́ʼígíí,asbáala","NSub,NSub",queen of spades,NSub,,,,,,,,,,,Yes,2
 "łį́ʼígíí,báabas","NSub,NSub",queen of hearts,NSub,,,,,,,,,,,Yes,2
 "łį́ʼígíí,báasdos","NSub,NSub",queen of clubs,NSub,,,,,,,,,,,Yes,2
@@ -1376,9 +1391,11 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tłʼoh,chin","NSub,NSub",onion,NSub,,,,,,,,,,grass + smell,Yes,2
 "tłʼoh,naadą́ą́ʼ","NSub,NSub",wheat/grain,NSub,,,,,,,,,,grass + corn,Yes,2
 "tó,háálínígi","NSub,Adv",water fountain,NSub,,,,,,,,,,water + flowing out at,Yes,2
+"tó,łikání,halchiní","NSub,NSub,NSub",perfume,NSub,,,,,,,,,,water + that which is sweet + that which smells,Yes,3
 "tó,náádiidááh","NSub,NSub",wave (water),NSub,,,,,,,,,,water + ??,Yes,2
 "tooh,nílíní","NSub,NSub",river,NSub,,,,,,,,,,river + which flows along,Yes,2
 "tooh,nílínígíí","NSub,NSub",stream/river,NSub,,,,,,,,,,river + that which flows along,Yes,2
+"tsáskʼeh,áłtsʼóózígíí","NSub,NSub",cot,NSub,,,,,,,,,,bed + the narrow one,Yes,2
 "tsáskʼeh,áłtsʼóózígíí","NSub,NSub",bed,NSub,,,,,,,,,,bed + that which is slender,Yes,2
 "tsé,nástáán","NSub,NSub",petrified wood,NSub,,,,,,,,,,rock + log,Yes,2
 "Tsékooh,Hatsoh","NSub,NSub",Grand Canyon,NSub,,,,,,TRUE,,,,canyon + the large area,Yes,2
@@ -1400,6 +1417,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tsiitsʼiin,diniih","NSub,NSub",headache,NSub,,,,,,,,,,head + pain,Yes,2
 "tsiitsʼiin,łichíʼítsoh","NSub,NSub",Jerusalem cricket,NSub,,,,,,,,,,head + big red one,Yes,2
 "tsin,bigaan","NSub,NSub",tree branch,NSub,,,,,,,,,,tree + its arm,Yes,2
+"tsin,bijeeh","NSub,NSub",tree resin,NSub,,,,,,,,,,tree + its resin,Yes,2
 "tsin,naabąąs","NSub,VImpf",wagon,NSub,,,,,,,,,,wood + it is rolling about,Yes,2
 "tsin,naabąąs,yázhí","NSub,VImpf,NSub",toy wagon,NSub,,,,,,,,,,wood + it is rolling about + the little one,Yes,3
 "tsinsitą́,dikʼą́","NSub,VImpf",square mile,NSub,,,,,,,,,,mile + it is squared,Yes,2
