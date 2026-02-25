@@ -56,7 +56,7 @@ TOKENS,LABELS,English,Match?,Count
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
-"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́į́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VPerf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
+"Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́į́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
 "Aʼoh,ánéeltʼeʼ,.","Postp,VPerf,Punct",They are in the minority.,Yes,3
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Postp,Adv,Postp,VImpf",Happy New Year,Yes,4
 "Baa,iijííł,.","Postp,VImpf,Punct",It pierces into it.,Yes,3
@@ -311,7 +311,6 @@ TOKENS,LABELS,English,Match?,Count
 "Shee,ádin,.","Postp,VImpf,Punct",I have none.,Yes,3
 "Shee,yił,halneʼ,.","Postp,Postp,VImpf,Punct",He tells him about me.,Yes,4
 "Sheʼééʼ,ląʼí","NSub,Adv",I have many clothes.,Yes,2
-"Shí,ákwíinisin,.","NSub,VImpf,Punct",That is what I think.,Yes,3
 "Shí,ákwíinisin,.","ProSub,VImpf,Punct",That is what I think.,Yes,3
 "Shí,aniitsį́ʼ,hólǫ́,.","NSub,NObj,VImpf,Punct",I have a cheek.,Yes,4
 "Shí,atsooʼ,hólǫ́,.","NSub,NObj,VImpf,Punct",I have a tongue.,Yes,4
