@@ -8,8 +8,8 @@ Part-of-speech tagger model for Navajo text
 
 ## Statistics
 
-* 54,544 training tokens
-* 12,930 training records
+* 55,288 training tokens
+* 13,160 training records
 * 91.6% model accuracy
 
 ## Usage
