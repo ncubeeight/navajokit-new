@@ -56,6 +56,7 @@ TOKENS,LABELS,English,Match?,Count
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
+"Azhéʼé,dóó,amá","NSub,Conj,NSub",father and mother,Yes,3
 "Aʼáán,góneʼ,łeeyiʼ,Hobbit,kééhatʼį́į́,ńtʼééʼ,.","NSub,Adv,Adv,NSub,VImpf,Part,Punct","In a hole in the ground, there lived a hobbit.",Yes,7
 "Aʼoh,ánéeltʼeʼ,.","Postp,VPerf,Punct",They are in the minority.,Yes,3
 "baa,hózhǫ́ǫgo,nee,nínáádoohah","Postp,Adv,Postp,VImpf",Happy New Year,Yes,4
@@ -88,6 +89,7 @@ TOKENS,LABELS,English,Match?,Count
 "Bisóodi,bitsįʼ,yį́yą́,.","NObj,NObj,VImpf,Punct",He is eating pork.,Yes,4
 "Cháalatsoh,bimá,éí,Asdzą́ą́łchííʼ,wolyé,.","NSub,NSub,ProDem,NObj,VImpf,Punct",Big Charlie's mother is named Red Woman.,Yes,6
 "Chahałheeł,yóóʼeeldoh,.","NSub,VPerf,Punct",The darkness wafted away.,Yes,3
+"chánah,nishłį́,.","Adv,VImpf,Punct",I’m healthy. (Lit: I am healthily.),Yes,3
 "Chidí,adisbąąs,.","NObj,VPerf,Punct",I drove the car.,Yes,3
 "Chidí,doo,diitsʼį́į́hgóó,biniinaa,bitooʼ,biih,yíką́ą́,nítʼééʼ,áłtʼąą,diistsʼą́ą́ʼ,.","NSub,Adv,Adv,Postp,NPostp,Postp,VPerf,Part,Adv,VPerf,Punct","The car wouldn’t start, so once gas was added afterwards it started.",Yes,11
 "Chidíísh,bee,hólǫ́,doodaiiʼ,ni,daatsʼí,chidí,nee,hólǫ́,?","NPostp,Postp,VImpf,Conj,ProSub,Adv,NPostp,Postp,VImpf,Punct","Does (s)he have a car, or do you have a car?",Yes,10
@@ -329,6 +331,7 @@ TOKENS,LABELS,English,Match?,Count
 "shichʼéʼé,éí,łaʼtsʼáadah,binááhai","NSub,ProDem,NumC,NObj",My daughter is 11 years old. (my daughter that 11 her years),Yes,4
 "Shideezhí,dóó,sítsílí,bidááh,sézį́,.","NObj,Conj,NObj,Postp,VPerf,Punct",I guard my younger sister and younger brother.,Yes,6
 "Shigaan,éi,shijáád,bi’oh,áníłtso,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My arms are shorter than my legs.,Yes,6
+"Shiiʼ,sizíinii,chánah,náádleeł,.","NSub,Nsub,Adv,VImpf,Punct",My soul becomes encouraged again.,Yes,5
 "Shijáád,éí,nijáád,bilááh,áníłnééz,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My legs are longer than your legs.,Yes,6
 "Shíká,anánílwoʼ,doodaiiʼ,tʼáadoo,shaa,nánítʼíní,.","Postp,VIter,Conj,Adv,Postp,VImpf,Punct",Help me or else don’t bother me.,Yes,7
 "Shił,yáʼáhootʼééh,.","Postp,VImpf,Punct",I like the place.,Yes,3
