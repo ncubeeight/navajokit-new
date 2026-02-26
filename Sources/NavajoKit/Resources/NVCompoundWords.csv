@@ -144,6 +144,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ádá,hwiilʼaah","Postp,VImpf",make room for,VImpf,1st,D,Refl,S,make room for,,,,,for + make,Yes,2
 "ádá,hwiilʼaʼ","Postp,VPerf",made room for,VPerf,1st,D,Refl,S,make room for,,,,,for + make,Yes,2
 "ádá,hwiiniłʼaʼ","Postp,VPerf",made room for,VPerf,2nd,S,Refl,S,make room for,,,,,for + make,Yes,2
+"ádaa,dahoolneʼgo","Postp,Adv",confessing,Adv,3rd,P,,,tell,,,,,to + telling,Yes,2
 "ádąąh,dah,daahtįįh","Postp,Adv,VImpf",are strapping onto,VImpf,2nd,P,Refl,,strap onto,,,,,beside + up + move (SSO),Yes,3
 "ádąąh,dah,dadiitį́į́ł","Postp,Adv,VFut",will strap onto,VFut,1st,P,Refl,,strap onto,,,,,beside + up + move (SSO),Yes,3
 "ádąąh,dah,dadoohtį́į́ł","Postp,Adv,VFut",will strap onto,VFut,2nd,P,Refl,,strap onto,,,,,beside + up + move (SSO),Yes,3
@@ -331,7 +332,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ájítʼée,doo","VImpf,Part",will be,VFut,4th,SD,,,be,,,-tʼé,,be + (future),Yes,2
 "akááʼ,ałtsoozígíí","Postp,NSub",condom,NSub,,,,,,,,,,on its surface + that which is slender,Yes,2
 "akááʼ,ałtsóózígíí","Postp,NSub",condom,NSub,,,,,,,,,,on its surface + that which is slender,Yes,2
+"akał,bistłeeʼii","NSub,NSub",cowboy,NSub,,,,,,,,,,leather + his stockings,Yes,2
 "akétłʼóól,łichxííʼí,yázhí","NSub,NSub,NSub",radish,NSub,,,,,,,,,,root + the orange one + the little one,Yes,3
+"ákwii,yoołkááł,yę́ędą́ą́ʼ","Adv,VProg,Adv",in those days,Adv,3rd,S,,,,,,,,there + becomes the day + ago,Yes,3
 "akʼah,bee,sitʼé ","NPostp,Postp,VImpf",fried food,NSub,,,,,,,,,,grease + by means of + is cooked,Yes,3
 "akʼah,diltłiʼí","NSub,VImpf",candle,NSub,,,,,,,,,,fire is burning,Yes,2
 "akʼah,níyizígíí","NSub,NSub",candle,NSub,,,,,,,,,,wax cylinder,Yes,2
@@ -425,6 +428,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "ashdlaʼáadah,góneʼ","NumC,Adv",fifteenth,NumO,,,,,,,,,,fifteen + (ordinal),Yes,2
 "Áshįįh,biiʼtó,Hahoodzo","NSub,Adv,NSub",Utah,NSub,,,,,,TRUE,,,,salt + in it water + state,Yes,3
 "áshįįh,łikan","NSub,VImpf",sugar,NSub,,,,,,,,,,salt + is it sweet,Yes,2
+"atłʼizh,bizis","NSub,NSub",gallbladder,NSub,,,,,,,,,,bile + its sac,Yes,2
+"atłʼizh,tsé","NSub,NSub",gallstone,NSub,,,,,,,,,,bile + stone,Yes,2
 "atsá,biyáázh","NSub,NSub",eaglet (February),NSub,,,,,,,,,,eagle's son,Yes,2
 "atsą́,hodiniih","NSub,VImpf",stomach ache,NSub,,,,,,,,,,stomach/belly + it hurts,Yes,2
 "atsiitsʼiin,diniih","NSub,NSub",the headache,NSub,Unspec,,,,,,,,,head + pain,Yes,2
@@ -944,6 +949,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "haneʼ,yáʼátʼéehii","NSub,NSub",gospel,NSub,,,,,,,,,,news + virtuosity,Yes,2
 "hashtłʼish,gohwééh","NSub,NSub",hot chocolate,NSub,,,,,,,,,,?? + coffee,Yes,2
 "hastóí,dahóyáanii","NSub,NSub",wisemen/Magi,NSub,,,,,,,,,,men + the wise ones,Yes,2
+"hatłʼoh,naadą́ą́ʼ","NSub,NSub",wheat/grain,NSub,Area,,,,,,,,,grass + corn,Yes,2
 "hatsiitsʼiin,diniih","NSub,NSub",one's headache,NSub,4thA,,,,,,,,,head + pain,Yes,2
 "hazhóʼó,baa,dahalneʼ","Adv,Postp,VImpf",are explaining,VImpf,3rd,P,Area,,tell,TRUE,,,,carefully + to it + tell,Yes,3
 "hazhóʼó,baa,dahodiilnih","Adv,Postp,VFut",will explain,VFut,1st,P,Area,,explain,,,,,carefully + to it + tell,Yes,3
@@ -1007,7 +1013,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "jáád,łánii","NSub,NSub",centipede/millipede,NSub,,,,,,,,,,leg + one with many,Yes,2
 "jesus,biʼdiisxíné̜e̜dá̜á̜ʼ,bééhániih","NSub,Adv,VImpf",Good Friday,NSub,,,,,,,,,,Jesus + back when he was killed + it is remembered,Yes,3
 "jew,dineʼé","NSub,NSub",Jews,NSub,,,,,,TRUE,,,,Jew + people,Yes,2
-"jii,łtsą́ągo","VPerf,VPerf",saw,VPerf,4th,SD,3rd,S,see,,,,,typo in NVJOB Mt 5:1,Yes,2
+"jii,łtsą́ągo","VPerf,VPerf",saw,VPerf,4th,SD,3rd,S,see,,,,,(typo in NVJOB Mt 5:1),Yes,2
 "jóhonaaʼéí,yináádáłígíí","NSub,NSub",planet,NSub,,,,,,,,,,the Sun + that which is walking around it,Yes,2
 "jooł,iihnálniihhígíí","NSub,NSub",basketball,NSub,,,,,,,,,,ball + ??,Yes,2
 "jooł,nímazgo,yitalí","NSub,Adv,NSub",soccer ball,NSub,,,,,,,,,,ball + while round + that which is kicked,Yes,3
@@ -1300,6 +1306,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "níłchʼi,yáʼátʼéehii","NSub,NSub",oxygen,NSub,,,,,,,,,,air + the good one,Yes,2
 "níłchʼih,naalkidí","NSub,NSub",television,NSub,,,,,,,,,,,Yes,2
 "níló,yázhí","NSub,NSub",sleet,NSub,,,,,,,,,,hail + the small one,Yes,2
+"níłtéél,nítʼééʼ","VImpf,Part",was wide,VPerf,3rd,S,,,be wide,,,,,is wide + (past),Yes,2
 "níłtsą́,biʼáád","NSub,NSub",shower,NSub,,,,,,,,,,,Yes,2
 "nimá,yazhí","NSub,NSub",your maternal aunt,NSub,2nd,S,,,,,ni,,,your mother + little one,Yes,2
 "nímasii,bisgąʼ","NSub,NSub",potato chip,NSub,,,,,,,,,,potato + ??,Yes,2
@@ -1372,6 +1379,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "sóóda,góobas","NSub,NSub",jack of hearts,NSub,,,,,,,,,,,Yes,2
 "sóóda,óola","NSub,NSub",jack of diamonds,NSub,,,,,,,,,,,Yes,2
 "sǫʼtah,anah","NSub,NSub",Star Wars,NSub,,,,,,TRUE,,,,star + wars,Yes,2
+"t,łʼiish","NSub,NSub",snake/serpent,NSub,,,,,,,,,,(typo in NVJOB Mt. 3:7),Yes,2
 "t’áá,jííkʼe","Part,Adv",for free,Adv,,,,,,,,,,just + ??,Yes,2
 "t’áá,sáhí","Part,Adv",alone,Adv,,,,,,,,,,just + ??,Yes,2
 "t’óó,báhádzidgo ","Adv,Adv",very seriously,Adv,,,,,,,,,,just + be feared,Yes,2
@@ -1388,6 +1396,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tłʼiish,áníní","NSub,NSub",rattlesnake,NSub,,,,,,,,,,snake + ??,Yes,2
 "tłʼiish,bichóhí","NSub,NSub",sidewinder (snake),NSub,,,,,,,,,,snake + its maternal great grandmother,Yes,2
 "tłʼiish,bikʼós,niteelígíí","NSub,NSub,NSub",cobra,NSub,,,,,,,,,,snake + its neck + that which is wide,Yes,3
+"yáʼ,ąąsh","NSub,NSub",heaven,NSub,,,,,,,,,,(typo in NVJOB Mt 3:16),Yes,2
 "tłʼoh,chin","NSub,NSub",onion,NSub,,,,,,,,,,grass + smell,Yes,2
 "tłʼoh,naadą́ą́ʼ","NSub,NSub",wheat/grain,NSub,,,,,,,,,,grass + corn,Yes,2
 "tó,háálínígi","NSub,Adv",water fountain,NSub,,,,,,,,,,water + flowing out at,Yes,2
@@ -1421,6 +1430,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tsin,naabąąs","NSub,VImpf",wagon,NSub,,,,,,,,,,wood + it is rolling about,Yes,2
 "tsin,naabąąs,yázhí","NSub,VImpf,NSub",toy wagon,NSub,,,,,,,,,,wood + it is rolling about + the little one,Yes,3
 "tsinsitą́,dikʼą́","NSub,VImpf",square mile,NSub,,,,,,,,,,mile + it is squared,Yes,2
+"tsísʼná,bitłʼizh","NSub,NSub",honey,NSub,,,,,,,,,,bee + its bile,Yes,2
 "tʼáá,aaníí","Part,NSub",truly,Adv,,,,,,,,,,just + that which is true,Yes,2
 "tʼáá,aaníígóó","Part,Adv",the truth,NSub,,,,,,,,,,just + truly,Yes,2
 "tʼáá,ádzaaí","Part,NSub",foolishness,NSub,,,,,,,,,,just + the one does,Yes,2
