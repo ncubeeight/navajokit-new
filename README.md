@@ -33,7 +33,7 @@ Swift Package URL: [https://gitlab.com/HullBreach/navajokit](https://gitlab.com/
 
 ## Status
 
-* **Part-of-speech tagger model:** Trained on 55,288 word-level tokens
+* **Part-of-speech tagger model:** Trained on 55,844 word-level tokens
 * **Tokenizer:** Several configurations and can divide by syllables, words, sentences, and paragraphs
 * **Data Formatter:** Data conversions between CSV, TSV, and JSON
 * **Polysynthetic tokenizer:** Early in development to tokenize by Navajo word components
