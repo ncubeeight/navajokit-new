@@ -27,7 +27,13 @@ let package = Package(
 				.copy("Resources/NVCompoundWords.csv"),
 				.copy("Resources/NVClauses.csv"),
 				.copy("Resources/NVPassages.csv"),
-				.process("Resources/NavajoTagger.mlmodel")
+				.copy("Resources/training_data.json"),
+				.copy("Resources/train_transformer.py"),
+				.copy("Resources/scores.json"),
+				.copy("Resources/vocab.json"),
+				.process("Resources/NavajoTagger.mlmodel"),
+				.process("Resources/NavajoEncoder.mlpackage"),
+				.process("Resources/NavajoDecoder.mlpackage")
 			],
 		),
 		.testTarget(
