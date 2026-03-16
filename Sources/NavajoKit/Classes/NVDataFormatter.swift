@@ -89,34 +89,67 @@ public class NVDataFormatter {
 		for row in rows[1...] where !row.isEmpty {
 
 			let values = splitRecord(fromTsv: row)
-			var rowDict: [String: [String]] = [:]
 
 			await delegate?.conversionPercent(current: 100.0 * (Double(row) ?? 0.0) / Double(rows.count))
 
-			if let tokensIndex = tokensIndex,
-				tokensIndex < values.count {
+			if options.contains(.exportForTransformer) {
 
-				rowDict[tokensName] = splitRecord(fromCsv: values[tokensIndex].lowercased())
-			}
+				var transDict: [String: String] = [:]
 
-			if let labelsIndex = labelsIndex,
-				labelsIndex < values.count {
+				if let tokensIndex = tokensIndex,
+					tokensIndex < values.count {
 
-				rowDict[labelsName] = splitRecord(fromCsv: values[labelsIndex])
-
-			}
-
-			//Strip out additional table header rows
-			if options.contains(.stripMergedTableReferences) {
-
-				if rowDict[tokensName]?.first?.lowercased() == tokensName,
-					rowDict[labelsName]?.first?.lowercased() == labelsName {
-
-					continue
+					transDict[tokensName] = values[tokensIndex].lowercased()
 				}
-			}
 
-			jsonArray.append(rowDict)
+				if let labelsIndex = labelsIndex,
+					labelsIndex < values.count {
+
+					transDict[labelsName] = values[labelsIndex]
+				}
+
+				//Strip out additional table header rows
+				if options.contains(.stripMergedTableReferences) {
+
+					if transDict[tokensName]?.lowercased() == tokensName,
+						transDict[labelsName]?.lowercased() == labelsName {
+
+						continue
+					}
+				}
+
+				jsonArray.append(transDict)
+
+			} else {
+
+				var rowDict: [String: [String]] = [:]
+
+				if let tokensIndex = tokensIndex,
+					tokensIndex < values.count {
+
+					rowDict[tokensName] = splitRecord(fromCsv: values[tokensIndex].lowercased())
+				}
+
+				if let labelsIndex = labelsIndex,
+					labelsIndex < values.count {
+
+					rowDict[labelsName] = splitRecord(fromCsv: values[labelsIndex])
+
+				}
+
+				//Strip out additional table header rows
+				if options.contains(.stripMergedTableReferences) {
+
+					if rowDict[tokensName]?.first?.lowercased() == tokensName,
+						rowDict[labelsName]?.first?.lowercased() == labelsName {
+
+						continue
+					}
+				}
+
+				jsonArray.append(rowDict)
+
+			}
 
 		}
 
@@ -129,9 +162,9 @@ public class NVDataFormatter {
 			}
 
 			let jsonData = try JSONSerialization.data(withJSONObject: jsonArray, options: opt)
-		  return String(data: jsonData, encoding: .utf8) ?? "Error converting to JSON"
+			return String(data: jsonData, encoding: .utf8) ?? "Error converting to JSON"
 		} catch {
-		  return "Error: \(error.localizedDescription)"
+			return "Error: \(error.localizedDescription)"
 		}
 	}
 
