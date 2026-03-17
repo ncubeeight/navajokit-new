@@ -41,6 +41,13 @@ public class NVTokenizer {
 		case syllable, word, sentence, paragraph
 	}
 
+	public var vocab: [String: Int] = [:]
+	public var idToPiece: [Int: String] = [:]
+
+	public static let BOS = 1
+	public static let EOS = 2
+	public static let UNK = 3
+
 	///MARK: Private let
 
 	///Grapheme shortcuts to expand in the appreviated syllable list
@@ -417,6 +424,17 @@ public class NVTokenizer {
 			return $0.count > $1.count
 		})
 
+		//Load token definition for transformer
+		if let url = Bundle.navajoKit.url(forResource: "vocab", withExtension: "json"),
+			let data = try? Data(contentsOf: url) {
+
+			vocab = (try? JSONDecoder().decode([String: Int].self, from: data)) ?? [:]
+
+			for (k, v) in vocab {
+				idToPiece[v] = k
+			}
+		}
+
 	}
 
 	///Deinitializer
@@ -471,6 +489,66 @@ public class NVTokenizer {
 
 		}
 
+	}
+
+	public func encode(text: String) -> [Int] {
+
+		var normalized = text.lowercased()
+
+		normalized = "▁" + normalized.replacingOccurrences(of: " ", with: "▁")
+
+		var tokens: [Int] = []
+
+		var i = normalized.startIndex
+
+		while i < normalized.endIndex {
+
+			var end = normalized.endIndex
+			var match: String? = nil
+
+			while end > i {
+
+				let piece = String(normalized[i..<end])
+
+				if vocab[piece] != nil {
+					match = piece
+					break
+				}
+
+				end = normalized.index(before:end)
+			}
+
+			if let m = match {
+
+				tokens.append(vocab[m]!)
+				i = normalized.index(i, offsetBy: m.count)
+
+			} else {
+
+				tokens.append(NVTokenizer.UNK)
+				i = normalized.index(after:i)
+			}
+		}
+
+		return tokens
+	}
+
+	public func decode(tokens: [Int]) -> String {
+
+		var text = ""
+
+		for id in tokens {
+
+			guard let piece = idToPiece[id] else { continue }
+
+			if piece == "<eos>" { break }
+
+			text += piece
+		}
+
+		text = text.replacingOccurrences(of: "▁", with: " ")
+
+		return text.trimmingCharacters(in: .whitespaces)
 	}
 
 	///Tokenize by syllables, calls word tokenization first
