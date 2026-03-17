@@ -29,7 +29,6 @@ let package = Package(
 				.copy("Resources/NVPassages.csv"),
 				.copy("Resources/training_data.json"),
 				.copy("Resources/train_transformer.py"),
-				.copy("Resources/scores.json"),
 				.copy("Resources/vocab.json"),
 				.process("Resources/NavajoTagger.mlmodel"),
 				.process("Resources/NavajoEncoder.mlpackage"),
