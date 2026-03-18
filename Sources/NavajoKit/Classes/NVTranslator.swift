@@ -205,9 +205,7 @@ public class NVTranslator {
 
 	public func translate(_ text: String, tokenizer: NVTokenizer) -> String {
 
-		let tokens = tokenizer.encode(text: text)
-
-		print("tokens: \(tokens)")
+		let tokens = tokenizer.encode(text)
 
 		let src = try! MLMultiArray(
 			shape: [1, NSNumber(value: maxLen)],
