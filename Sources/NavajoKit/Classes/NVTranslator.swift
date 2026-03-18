@@ -203,7 +203,7 @@ public class NVTranslator {
 		return words.filter({ return $0.token != "_" })
 	}
 
-	func translate(_ text: String, tokenizer: NVTokenizer) -> String {
+	public func translate(_ text: String, tokenizer: NVTokenizer) -> String {
 
 		let tokens = tokenizer.encode(text: text)
 
