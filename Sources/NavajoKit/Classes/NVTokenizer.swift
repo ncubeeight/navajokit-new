@@ -595,10 +595,6 @@ public class NVTokenizer {
 
 		}
 
-		if options.contains(.caseInsensitive) {
-			string = string.lowercased()
-		}
-
 		return string
 	}
 
@@ -657,6 +653,13 @@ public class NVTokenizer {
 
 	///Tokenize by words
 	private func words(for string: String, options: NVTokenizer.Options) -> [Range<String.Index>] {
+
+		var string = string
+
+		//Parse words on first pass
+		if options.contains(.caseInsensitive) {
+			string = string.lowercased()
+		}
 
 		let range = string.startIndex..<string.endIndex
 		var wordRanges: [Range<String.Index>] = []
