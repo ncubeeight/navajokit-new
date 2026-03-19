@@ -490,18 +490,10 @@ public class NVTokenizer {
 		switch unit {
 
 			case .syllable:
-				if options.contains(.caseInsensitive) {
-					return (string, syllables(for: string.lowercased(), options: options))
-				} else {
-					return (string, syllables(for: string, options: options))
-				}
+				return (string, syllables(for: string, options: options))
 
 			case .word:
-				if options.contains(.caseInsensitive) {
-					return (string, words(for: string.lowercased(), options: options))
-				} else {
-					return (string, words(for: string, options: options))
-				}
+				return (string, words(for: string, options: options))
 
 			case .sentence:
 				return (string, sentences(for: string, options: options))
