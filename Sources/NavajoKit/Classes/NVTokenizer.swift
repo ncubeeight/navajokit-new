@@ -490,10 +490,18 @@ public class NVTokenizer {
 		switch unit {
 
 			case .syllable:
-				return (string, syllables(for: string, options: options))
+				if options.contains(.caseInsensitive) {
+					return (string, syllables(for: string.lowercased(), options: options))
+				} else {
+					return (string, syllables(for: string, options: options))
+				}
 
 			case .word:
-				return (string, words(for: string, options: options))
+				if options.contains(.caseInsensitive) {
+					return (string, words(for: string.lowercased(), options: options))
+				} else {
+					return (string, words(for: string, options: options))
+				}
 
 			case .sentence:
 				return (string, sentences(for: string, options: options))
@@ -653,13 +661,6 @@ public class NVTokenizer {
 
 	///Tokenize by words
 	private func words(for string: String, options: NVTokenizer.Options) -> [Range<String.Index>] {
-
-		var string = string
-
-		//Parse words on first pass
-		if options.contains(.caseInsensitive) {
-			string = string.lowercased()
-		}
 
 		let range = string.startIndex..<string.endIndex
 		var wordRanges: [Range<String.Index>] = []
