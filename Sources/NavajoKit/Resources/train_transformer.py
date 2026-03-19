@@ -1,9 +1,11 @@
 import contextlib
 import coremltools as ct #convert to CoreML
+import glob
 import json #JSON encode/decode
 import math #Calculations for attention
 import os #file system
 import sentencepiece as spm #tokenizing
+import shutil #director delation
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -24,24 +26,24 @@ os.environ["COREMLTOOLS_VERBOSE"] = "0"
 # Config
 ########################################
 
-DATA_FILE = "training_data.json"
+DATA_FOLDER = "training_data"
 
-VOCAB_SIZE = 8000 #Will like need to increase later
-MAX_LEN = 40 #includes BOS + EOS + padding
+VOCAB_SIZE = 10000
+MAX_LEN = 128 # paragraph-level translations
 
-D_MODEL = 160
-HEADS = 4
-LAYERS = 3
+D_MODEL = 256 # long-range representations
+HEADS = 8
+LAYERS = 4 # handled context
 DROPOUT = 0.1
 
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 EPOCHS = 10
 LR = 3e-4
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 ########################################
-# Special Token IDs (will be set after tokenizer training)
+# Special Token IDs
 ########################################
 
 global PAD, BOS, EOS, UNK
@@ -80,9 +82,9 @@ class TranslationDataset(Dataset):
 
 		item = self.data[idx]
 		src = self.encode(item["nv"])
-		dest = self.encode(item["en"])
+		tgt = self.encode(item["en"])
 
-		return src, dest
+		return src, tgt
 
 	def __len__(self):
 		return len(self.data)
@@ -212,7 +214,7 @@ class Encoder(nn.Module):
 	def __init__(self, vocab_size):
 		super().__init__()
 
-		self.embed = nn.Embedding(vocab_size, D_MODEL, padding_idx = PAD)
+		self.embed = nn.Embedding(vocab_size, D_MODEL)
 		self.pos = PositionalEncoding(D_MODEL)
 		self.dropout = nn.Dropout(DROPOUT)
 		self.blocks = nn.ModuleList([
@@ -237,7 +239,7 @@ class Decoder(nn.Module):
 	def __init__(self, vocab_size):
 		super().__init__()
 
-		self.embed = nn.Embedding(vocab_size, D_MODEL, padding_idx = PAD)
+		self.embed = nn.Embedding(vocab_size, D_MODEL)
 		self.pos = PositionalEncoding(D_MODEL)
 		self.dropout = nn.Dropout(DROPOUT)
 
@@ -251,9 +253,9 @@ class Decoder(nn.Module):
 		self.final_norm = nn.LayerNorm(D_MODEL)
 		self.head = nn.Linear(D_MODEL, vocab_size)
 
-	def forward(self, dest, memory):
+	def forward(self, tgt, memory):
 
-		x = self.embed(dest)
+		x = self.embed(tgt)
 		x = self.pos(x)
 		x = self.dropout(x)
 
@@ -268,41 +270,128 @@ class Decoder(nn.Module):
 		return self.head(x)
 
 ########################################
-# Clean up old for fresh start
+# Debugging
 ########################################
 
-if os.path.exists("tokenizer.model"):
-	os.remove("tokenizer.model")
+def debug_translation(text):
+	encoder.eval()
+	decoder.eval()
+	print("INPUT:", text)
 
-if os.path.exists("scores.json"):
-	os.remove("scores.json")
+	src = dataset.encode(text).unsqueeze(0).to(DEVICE)
+	memory = encoder(src)
+
+	decoded = [BOS]
+	for step in range(MAX_LEN - 1):
+		tgt = torch.full(
+			(1, MAX_LEN),
+			PAD,
+			dtype = torch.long,
+			device = DEVICE
+		)
+
+		for i, t in enumerate(decoded):
+			tgt[0, i] = t
+		logits = decoder(tgt, memory)
+		next_token = logits[0, step].argmax().item()
+		decoded.append(next_token)
+		if next_token == EOS:
+			break
+
+	print("OUTPUT TOKENS:", decoded)
+	print("OUTPUT TEXT:", sp.decode(decoded[1: -1]))
+
+########################################
+# Clean up old files for fresh start
+########################################
+
+files_to_delete = [
+	"combined.txt",
+	"decoder.pt",
+	"encoder.pt",
+	"tokenizer.model",
+	"vocab.json"
+]
+
+packages_to_delete = [
+	"NavajoDecoder.mlpackage",
+	"NavajoEncoder.mlpackage"
+]
+
+for f in files_to_delete:
+	if os.path.exists(f):
+		try:
+			os.remove(f)
+		except:
+			pass
+
+for pkg in packages_to_delete:
+	if os.path.exists(pkg):
+		try:
+			shutil.rmtree(pkg)
+		except:
+			print(f"Warning: Could not delete {pkg} ({e})")
+
+#if os.path.exists("scores.json"):
+#	os.remove("scores.json")
 
 if os.path.exists("vocab.json"):
 	os.remove("vocab.json")
 
-if os.path.exists("decoder.pt"):
-	os.remove("decoder.pt")
-
-if os.path.exists("encoder.pt"):
-	os.remove("encoder.pt")
-
-if os.path.exists("NavajoEncoder.mlpackage"):
-	os.remove("NavajoEncoder.mlpackage")
-
-if os.path.exists("NavajoDecoder.mlpackage"):
-	os.remove("NavajoDecoder.mlpackage")
-
 ########################################
-# Load Data
+# Load Training Data Files
 ########################################
 
-print("Loading the training data...")
+DATA_FOLDER = "training_data"
 
-with open(DATA_FILE, "r", encoding = "utf-8") as f:
-	data = json.load(f)
+print(f"Loading training data from folder: {DATA_FOLDER}")
 
-nv = [x["nv"] for x in data]
-en = [x["en"] for x in data]
+data = []
+
+if not os.path.isdir(DATA_FOLDER):
+	print(f"Error: Folder '{DATA_FOLDER}' not found. Exiting.")
+	exit(1)
+
+json_files = glob.glob(os.path.join(DATA_FOLDER, "*.json"))
+
+if not json_files:
+	print(f"No .json files found in '{DATA_FOLDER}'. Exiting.")
+	exit(1)
+
+print(f"Found {len(json_files)} JSON file(s):")
+for f in json_files:
+	print(f"  - {os.path.basename(f)}")
+
+for file_path in json_files:
+	try:
+		with open(file_path, "r", encoding="utf-8") as f:
+			file_data = json.load(f)
+
+			if not isinstance(file_data, list):
+				print(f"Warning: {os.path.basename(file_path)} does not contain a list — skipping")
+				continue
+
+			for item in file_data:
+				if not isinstance(item, dict):
+					continue
+
+				nv = item.get("nv", "").strip()
+				en = item.get("en", "").strip()
+				if nv and en:  # skip empty/invalid pairs
+					data.append({"nv": nv, "en": en})
+                    
+		print(f"  Loaded {len(file_data):,} pairs from {os.path.basename(file_path)}")
+
+	except json.JSONDecodeError as e:
+		print(f"Error decoding {os.path.basename(file_path)}: {e}")
+	except Exception as e:
+		print(f"Unexpected error reading {os.path.basename(file_path)}: {e}")
+
+print(f"\nTotal valid sentence pairs loaded: {len(data):,}")
+
+if len(data) == 0:
+    print("No valid data loaded. Check your JSON files.")
+    exit(1)
 
 ########################################
 # Train SentencePiece Tokenizer
@@ -310,30 +399,31 @@ en = [x["en"] for x in data]
 
 print("Preparing tokenizer...")
 
-vocab = {}
-scores = {}
-
 if not os.path.exists("tokenizer.model"):
 
 	with open("combined.txt", "w", encoding = "utf-8") as f:
-		for nv, en in zip(nv, en):
-			f.write(nv + "\n")
-			f.write(en + "\n")
+		for record in data:
+			f.write(record["nv"] + "\n")
+			f.write(record["en"] + "\n")
 
-	with open(os.devnull, "w") as f, contextlib.redirect_stdout(f):
-		spm.SentencePieceTrainer.train(
+	os.environ["GLOG_minloglevel"] = "2"
+
+	with open(os.devnull, "w") as devnull:
+		with contextlib.redirect_stdout(devnull), contextlib.redirect_stderr(devnull):
+			spm.SentencePieceTrainer.train(
 			input = "combined.txt",
 			model_prefix = "tokenizer",
 			vocab_size = VOCAB_SIZE,
 			model_type = "bpe",
 			character_coverage = 1.0,
-			pad_id = PAD,
+			pad_id = 0,
 			bos_id = 1,
 			eos_id = 2,
 			unk_id = 3,
 		)
 
-	os.remove("combined.txt")
+	if os.path.exists("combined.txt"):
+		os.remove("combined.txt")
 
 sp = spm.SentencePieceProcessor(model_file = "tokenizer.model")
 
@@ -343,18 +433,25 @@ BOS = sp.bos_id() # 1
 EOS = sp.eos_id() # 2
 UNK = sp.unk_id() # 3
 
+print(f"Tokenizer ready, vocab size: {sp.get_piece_size()}")
+
+########################################
+# Generate token look-up tables for CoreML
+########################################
+
+vocab = {}
+#scores = {}
+
 for i in range(sp.get_piece_size()):
 	piece = sp.id_to_piece(i)
 	vocab[piece] = i
-	scores[piece] = sp.get_score(i)
+#	scores[piece] = sp.get_score(i)
 
 with open("vocab.json", "w") as f:
 	json.dump(vocab, f, ensure_ascii = False)
 
-with open("scores.json", "w") as f:
-	json.dump(scores, f, ensure_ascii = False)
-
-print(f"Generated vocabulary size: {sp.get_piece_size()}")
+#with open("scores.json", "w") as f:
+#	json.dump(scores, f, ensure_ascii = False)
 
 ########################################
 # Build models
@@ -365,9 +462,9 @@ loader = DataLoader(dataset, batch_size = BATCH_SIZE, shuffle = True)
 
 # calculate total training tokens
 total_tokens = 0
-for src, dest in dataset:
+for src, tgt in dataset:
 	total_tokens += (src != PAD).sum().item()
-	total_tokens += (dest != PAD).sum().item()
+	total_tokens += (tgt != PAD).sum().item()
 print(f"Total training tokens: {total_tokens:,}")
 
 encoder = Encoder(sp.get_piece_size()).to(DEVICE)
@@ -393,20 +490,20 @@ for epoch in range(EPOCHS):
 
 	pbar = tqdm(loader, desc = f"Epoch {epoch+1}/{EPOCHS}")
 
-	for src, dest in pbar:
+	for src, tgt in pbar:
 
 		src = src.to(DEVICE)
-		dest = dest.to(DEVICE)
+		tgt = tgt.to(DEVICE)
 
-		dest_input = dest[:, :-1] # excluse last token
-		dest_output = dest[:, 1:] # shift right
+		tgt_input = tgt[:, :-1] # excluse last token
+		tgt_output = tgt[:, 1:] # shift right
 
 		memory = encoder(src)
-		logits = decoder(dest_input, memory)
+		logits = decoder(tgt_input, memory)
 
 		loss = criterion(
 			logits.reshape(-1, logits.size(-1)),
-			dest_output.reshape(-1)
+			tgt_output.reshape(-1)
 		)
 
 		optimizer.zero_grad()
@@ -421,10 +518,10 @@ for epoch in range(EPOCHS):
 	print(f"Epoch {epoch+1}/{EPOCHS} completed - avg loss: {avg_loss:.4f}")
 
 ########################################
-# TorchScript Export to CoreML
+# TorchScript Export
 ########################################
 
-print("Exporting Models...")
+print("Exporting TorchScript...")
 
 encoder.eval()
 decoder.eval()
@@ -435,7 +532,7 @@ dummy_src = torch.full(
 	dtype = torch.long,
 	device = DEVICE
 )
-dummy_dest = torch.full(
+dummy_tgt = torch.full(
 	(1, MAX_LEN),
 	PAD,
 	dtype = torch.long,
@@ -445,12 +542,10 @@ dummy_dest = torch.full(
 with torch.no_grad():
 
 	traced_encoder = torch.jit.trace(encoder, dummy_src)
-
 	memory = traced_encoder(dummy_src)
-
 	traced_decoder = torch.jit.trace(
 		decoder,
-		(dummy_dest, memory)
+		(dummy_tgt, memory)
 	)
 
 traced_encoder.save("encoder.pt")
@@ -467,8 +562,11 @@ ml_encoder = ct.convert(
 	inputs = [
 		ct.TensorType(name = "source", shape = dummy_src.shape)
 	],
+	outputs = [
+		ct.TensorType(name = "memory")
+	],
 	convert_to = "mlprogram",
-	#compute_precision = ct.precision.FLOAT16,
+	compute_precision = ct.precision.FLOAT16,
 	minimum_deployment_target = ct.target.iOS15
 )
 ml_encoder.save("NavajoEncoder.mlpackage")
@@ -477,63 +575,25 @@ print("Exported CoreML Encoder model")
 ml_decoder = ct.convert(
 	traced_decoder,
 	inputs = [
-		ct.TensorType(name = "target", shape = dummy_dest.shape),
+		ct.TensorType(name = "target", shape = dummy_tgt.shape),
 		ct.TensorType(name = "memory", shape = memory.shape)
 	],
+	outputs = [
+		ct.TensorType(name = "logits")
+	],
 	convert_to = "mlprogram",
-	#compute_precision = ct.precision.FLOAT16,
+	compute_precision = ct.precision.FLOAT16,
 	minimum_deployment_target = ct.target.iOS15
 )
 ml_decoder.save("NavajoDecoder.mlpackage")
 print("Exported CoreML Decoder model")
 
 ########################################
-# Debugging
+# Final cleanup of .pt files
 ########################################
 
-def debug_translation(text):
+for f in ["encoder.pt", "decoder.pt"]:
+	if os.path.exists(f):
+		os.remove(f)
 
-	encoder.eval()
-	decoder.eval()
-
-	print("INPUT:", text)
-
-	# Tokenize
-	tokens = sp.encode(text, out_type=int)
-
-	print("TOKENS:", tokens)
-
-	src = torch.zeros(1, MAX_LEN, dtype = torch.long)
-
-	for i,t in enumerate(tokens[:MAX_LEN]):
-		src[0,i] = t
-
-	# Encoder
-	memory = encoder(src)
-
-	print("\nENCODER MEMORY SAMPLE:")
-	print(memory[0,0,:10])
-
-	decoded = [BOS]
-
-	for step in range(10):
-
-		tgt = torch.zeros(1, MAX_LEN, dtype = torch.long)
-
-		for i,t in enumerate(decoded):
-			tgt[0,i] = t
-
-		logits = decoder(tgt, memory)
-
-		step_logits = logits[0, step]
-
-		next_token = step_logits.argmax().item()
-
-		decoded.append(next_token)
-
-		if next_token == EOS:
-			break
-
-	print("\nOUTPUT TOKENS:", decoded)
-
-debug_translation("yáʼátʼééh shikʼéí")
+debug_translation("yáʼátʼééh shikʼéí dóó nihí dóó nihíkéyah bíł hólǫ́.")
