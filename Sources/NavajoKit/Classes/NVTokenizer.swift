@@ -485,7 +485,7 @@ public class NVTokenizer {
 	public func tokenize(_ text: String, unit: Unit, options: NVTokenizer.Options? = []) async -> (String, [Range<String.Index>]) {
 
 		let options = options ?? []
-		var string = cleanText(text, options: options)
+		let string = cleanText(text, options: options)
 
 		switch unit {
 
@@ -508,9 +508,9 @@ public class NVTokenizer {
 	public func encode(_ text: String, options: NVTokenizer.Options? = []) -> [Int] {
 
 		let options = options ?? []
-		var string = cleanText(text, options: options)
+		let string = cleanText(text, options: options)
 
-		var normalized = "▁" + string.replacingOccurrences(of: " ", with: "▁")
+		let normalized = "▁" + string.replacingOccurrences(of: " ", with: "▁")
 
 		var tokens: [Int] = []
 
@@ -576,7 +576,7 @@ public class NVTokenizer {
 		//Correct Unicode characters
 		for (key, values) in NVTokenizer.unicodeMap {
 			for value in values {
-				string = string.replacingOccurrences(of: value, with: key)
+				string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
 			}
 		}
 
