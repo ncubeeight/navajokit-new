@@ -81,14 +81,12 @@ public class NVTokenizer {
 	public static let spellingMap: [String: String] = [
 
 		// LOWERCASE
-		"nt": "nit",
 		"ńt": "nít",
-		"jt": "jit",
+		"jit": "jt",
 
 		// UPPERCASE
-		"Nt": "Nit",
 		"Ńt": "Nít",
-		"Jt": "Jit",
+		"Jit": "Jt",
 
 	]
 
