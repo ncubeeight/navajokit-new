@@ -77,6 +77,21 @@ public class NVTokenizer {
 		"ʼ": ["'", "’", "‘", "`"],
 	]
 
+	///Match some spelling variants to make models more compact
+	public static let spellingMap: [String: String] = [
+
+		// LOWERCASE
+		"nt": "nit",
+		"ńt": "nít",
+		"jt": "jit",
+
+		// UPPERCASE
+		"Nt": "Nit",
+		"Ńt": "Nít",
+		"Jt": "Jit",
+
+	]
+
 	///MARK: Private let
 
 	///Grapheme shortcuts to expand in the appreviated syllable list
@@ -578,6 +593,11 @@ public class NVTokenizer {
 			for value in values {
 				string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
 			}
+		}
+
+		//Make spelling consistent
+		for (key, value) in NVTokenizer.spellingMap {
+			string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
 		}
 
 		if options.contains(.stripDigits) {
