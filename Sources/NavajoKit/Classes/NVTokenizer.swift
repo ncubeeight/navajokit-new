@@ -78,13 +78,13 @@ public class NVTokenizer {
 	]
 
 	///Match some spelling variants to make models more compact
-	public static let spellingMap: [String: String] = [
+	public static let spellingMap: [String: [String]] = [
 
 		// LOWERCASE
-		"ńtʼééʼ": "nítʼééʼ",
+		"ńtʼééʼ": ["nítʼééʼ", "nítʼę́ę́ʼ"],
 
 		// UPPERCASE
-		"Ńtʼééʼ": "Nítʼééʼ",
+		"Ńtʼééʼ": ["Nítʼééʼ", "Nítʼę́ę́ʼ"],
 
 	]
 
@@ -592,8 +592,10 @@ public class NVTokenizer {
 		}
 
 		//Make spelling consistent
-		for (key, value) in NVTokenizer.spellingMap {
-			string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
+		for (key, values) in NVTokenizer.spellingMap {
+			for value in values {
+				string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
+			}
 		}
 
 		if options.contains(.stripDigits) {
