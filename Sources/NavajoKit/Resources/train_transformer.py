@@ -5,7 +5,7 @@ import json #JSON encode/decode
 import math #Calculations for attention
 import os #file system
 import sentencepiece as spm #tokenizing
-import shutil #director delation
+import shutil #director deletion
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -305,7 +305,7 @@ def debug_translation(text):
 # Clean up old files for fresh start
 ########################################
 
-files_to_delete = [
+files_to_predelete = [
 	"combined.txt",
 	"decoder.pt",
 	"encoder.pt",
@@ -313,17 +313,17 @@ files_to_delete = [
 	"vocab.json"
 ]
 
-packages_to_delete = [
-	"NavajoDecoder.mlpackage",
-	"NavajoEncoder.mlpackage"
-]
-
-for f in files_to_delete:
+for f in files_to_predelete:
 	if os.path.exists(f):
 		try:
 			os.remove(f)
 		except:
 			pass
+
+packages_to_delete = [
+	"NavajoDecoder.mlpackage",
+	"NavajoEncoder.mlpackage"
+]
 
 for pkg in packages_to_delete:
 	if os.path.exists(pkg):
@@ -331,12 +331,6 @@ for pkg in packages_to_delete:
 			shutil.rmtree(pkg)
 		except:
 			print(f"Warning: Could not delete {pkg} ({e})")
-
-#if os.path.exists("scores.json"):
-#	os.remove("scores.json")
-
-if os.path.exists("vocab.json"):
-	os.remove("vocab.json")
 
 ########################################
 # Load Training Data Files
@@ -379,7 +373,7 @@ for file_path in json_files:
 				en = item.get("en", "").strip()
 				if nv and en:  # skip empty/invalid pairs
 					data.append({"nv": nv, "en": en})
-                    
+					
 		print(f"  Loaded {len(file_data):,} pairs from {os.path.basename(file_path)}")
 
 	except json.JSONDecodeError as e:
@@ -390,8 +384,8 @@ for file_path in json_files:
 print(f"\nTotal valid sentence pairs loaded: {len(data):,}")
 
 if len(data) == 0:
-    print("No valid data loaded. Check your JSON files.")
-    exit(1)
+	print("No valid data loaded. Check your JSON files.")
+	exit(1)
 
 ########################################
 # Train SentencePiece Tokenizer
@@ -400,38 +394,49 @@ if len(data) == 0:
 print("Preparing tokenizer...")
 
 if not os.path.exists("tokenizer.model"):
-
-	with open("combined.txt", "w", encoding = "utf-8") as f:
+	# Combine data for training
+	with open("combined.txt", "w", encoding="utf-8") as f:
 		for record in data:
 			f.write(record["nv"] + "\n")
 			f.write(record["en"] + "\n")
 
-	os.environ["GLOG_minloglevel"] = "2"
+	print("Training SentencePiece BPE model (this may take a minute)...")
+
+	# Stronger suppression: set GLOG level + full redirect
+	os.environ["GLOG_minloglevel"] = "2"   # 0=INFO, 1=WARNING, 2=ERROR, 3=FATAL
+	os.environ["GLOG_logtostderr"] = "0"   # Optional: try to disable stderr logging
 
 	with open(os.devnull, "w") as devnull:
 		with contextlib.redirect_stdout(devnull), contextlib.redirect_stderr(devnull):
 			spm.SentencePieceTrainer.train(
-			input = "combined.txt",
-			model_prefix = "tokenizer",
-			vocab_size = VOCAB_SIZE,
-			model_type = "bpe",
-			character_coverage = 1.0,
-			pad_id = 0,
-			bos_id = 1,
-			eos_id = 2,
-			unk_id = 3,
-		)
+				input="combined.txt",
+				model_prefix="tokenizer",
+				vocab_size=VOCAB_SIZE,
+				model_type="bpe",
+				character_coverage=1.0,
+				pad_id=0,
+				bos_id=1,
+				eos_id=2,
+				unk_id=3,
+				# Extra quiet options (if supported in your version)
+				# minloglevel=2,   # sometimes works as a trainer arg
+			)
 
+	# Clean up
 	if os.path.exists("combined.txt"):
 		os.remove("combined.txt")
 
-sp = spm.SentencePieceProcessor(model_file = "tokenizer.model")
+	# Reset environment if desired
+	os.environ.pop("GLOG_minloglevel", None)
+	os.environ.pop("GLOG_logtostderr", None)
+
+sp = spm.SentencePieceProcessor(model_file="tokenizer.model")
 
 # set global token IDs
-PAD = sp.pad_id() # 0
-BOS = sp.bos_id() # 1
-EOS = sp.eos_id() # 2
-UNK = sp.unk_id() # 3
+PAD = sp.pad_id()  # 0
+BOS = sp.bos_id()  # 1
+EOS = sp.eos_id()  # 2
+UNK = sp.unk_id()  # 3
 
 print(f"Tokenizer ready, vocab size: {sp.get_piece_size()}")
 
@@ -589,11 +594,21 @@ ml_decoder.save("NavajoDecoder.mlpackage")
 print("Exported CoreML Decoder model")
 
 ########################################
-# Final cleanup of .pt files
+# Final clean up files
 ########################################
 
-for f in ["encoder.pt", "decoder.pt"]:
+files_to_postdelete = [
+	"combined.txt",
+	"decoder.pt",
+	"encoder.pt",
+	"tokenizer.model"
+]
+
+for f in files_to_postdelete:
 	if os.path.exists(f):
-		os.remove(f)
+		try:
+			os.remove(f)
+		except:
+			pass
 
 debug_translation("yáʼátʼééh shikʼéí dóó nihí dóó nihíkéyah bíł hólǫ́.")
