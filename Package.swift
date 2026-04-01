@@ -31,7 +31,7 @@ let package = Package(
 				.copy("Resources/training_data/compound words.json"),
 				.copy("Resources/training_data/phrases.json"),
 				.copy("Resources/training_data/sentences.json"),
-				.copy("Resources/training_data/words.json"),
+				//.copy("Resources/training_data/words.json"),
 				.copy("Resources/train_transformer.py"),
 				.copy("Resources/vocab.json"),
 				.process("Resources/NavajoTagger.mlmodel"),
