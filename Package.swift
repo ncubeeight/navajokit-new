@@ -23,11 +23,20 @@ let package = Package(
 			name: "NavajoKit",
 			dependencies: [],
 			resources: [
-				.copy("Resources/NVSingleWords.csv"),
-				.copy("Resources/NVCompoundWords.csv"),
-				.copy("Resources/NVClauses.csv"),
-				.copy("Resources/NVPassages.csv"),
-				.process("Resources/NavajoTagger.mlmodel")
+				.copy("Resources/training_data/NVSingleWords.csv"),
+				.copy("Resources/training_data/NVCompoundWords.csv"),
+				.copy("Resources/training_data/NVClauses.csv"),
+				.copy("Resources/training_data/NVPassages.csv"),
+				.copy("Resources/training_data/bible.json"),
+				.copy("Resources/training_data/compound words.json"),
+				.copy("Resources/training_data/phrases.json"),
+				.copy("Resources/training_data/sentences.json"),
+				//.copy("Resources/training_data/words.json"),
+				.copy("Resources/train_transformer.py"),
+				.copy("Resources/vocab.json"),
+				.process("Resources/NavajoTagger.mlmodel"),
+				.process("Resources/NavajoEncoder.mlpackage"),
+				.process("Resources/NavajoDecoder.mlpackage")
 			],
 		),
 		.testTarget(

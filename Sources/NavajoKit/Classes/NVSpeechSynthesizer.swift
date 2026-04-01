@@ -112,7 +112,7 @@ public class NVSpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate, @unchec
 	///Initializer with optional configuration for tokenization
 	public init(options: NVTokenizer.Options? = nil) {
 
-		self.options = options ?? [.caseInsensitive, .aposAsGlottalStop, .stripDigits, .stripLeadingGlottalStops, .tokenizePunctuation, .tokenizeWhitespace]
+		self.options = options ?? [.caseInsensitive, .stripDigits, .stripLeadingGlottalStops, .tokenizePunctuation, .tokenizeWhitespace]
 
 		super.init()
 
@@ -126,7 +126,7 @@ public class NVSpeechSynthesizer: NSObject, AVSpeechSynthesizerDelegate, @unchec
 	///Encode text string into attributed string with IPA references
 	public func ipaEncode(text: String) async -> NSMutableAttributedString {
 
-		let (text, ranges) = await tokenizer.tokenize(text: text, unit: .syllable, options: options)
+		let (text, ranges) = await tokenizer.tokenize(text, unit: .syllable, options: options)
 
 		let attributedText = NSMutableAttributedString(string: "")
 		var rawWord = ""

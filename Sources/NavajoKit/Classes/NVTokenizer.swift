@@ -22,24 +22,81 @@ public class NVTokenizer {
 			self.rawValue = rawValue
 		}
 
-		///Treat the standard apostrophe (0x27) as the glottal stop character
-		public static let aposAsGlottalStop = Options(rawValue: 1 << 0)
 		///Ignore case when tokenizing
-		public static let caseInsensitive = Options(rawValue: 1 << 1)
+		public static let caseInsensitive = Options(rawValue: 1 << 0)
 		///Remove all digits from the text
-		public static let stripDigits = Options(rawValue: 1 << 2)
+		public static let stripDigits = Options(rawValue: 1 << 1)
+		///Strip implied glottal stops from words leading with vowels
+		public static let stripLeadingGlottalStops = Options(rawValue: 1 << 2)
 		///Include punctuations as their own tokens
 		public static let tokenizePunctuation = Options(rawValue: 1 << 3)
 		///Include whitespaces as their own tokens
 		public static let tokenizeWhitespace = Options(rawValue: 1 << 4)
-		///Strip implied glottal stops from words leading with vowels
-		public static let stripLeadingGlottalStops = Options(rawValue: 1 << 5)
 	}
 
 	///Divisions of the text string to tokenize
 	public enum Unit: Int {
 		case syllable, word, sentence, paragraph
 	}
+
+	public var vocab: [String: Int] = [:]
+	public var idToPiece: [Int: String] = [:]
+
+	public static let BOS = 1
+	public static let EOS = 2
+	public static let UNK = 3
+
+	///Fixes to common erroneous unicode characters
+	public static let unicodeMap: [String: [String]] = [
+
+		// LOWERCASE - plain nasal
+		"ą": ["a̧", "a̦", "a̜", "ạ"],
+		"ę": ["ȩ", "e̦", "e̜", "ẹ", "ȩ"],
+		"į": ["i̧", "i̦", "i̜", "ị"],
+		"ǫ": ["o̧", "o̦", "o̜", "ọ"],
+
+		// LOWERCASE - nasal + acute
+		"ą́": ["á̧", "á̦", "á̜", "ạ́", "á̧", "á̦", "á̜", "ạ́"],
+		"ę́": ["ȩ́", "é̦", "é̜", "ẹ́", "ȩ́", "é̦", "é̜", "ẹ́", "ȩ́"],
+		"į́": ["í̧", "í̦", "í̜", "ị́", "í̧", "í̦", "í̜", "ị́"],
+		"ǫ́": ["ó̧", "ó̦", "ó̜", "ọ́", "ó̧", "ó̦", "ó̜", "ọ́"],
+
+		// UPPERCASE - plain nasal
+		"Ą": ["A̧", "A̦", "A̜", "Ạ"],
+		"Ę": ["Ȩ", "E̦", "E̜", "Ẹ", "Ȩ"],
+		"Į": ["I̧", "I̦", "I̜", "Ị"],
+		"Ǫ": ["O̧", "O̦", "O̜", "Ọ"],
+
+		// UPPERCASE - nasal + acute
+		"Ą́": ["Á̧", "Á̦", "Á̜", "Ạ́", "Á̧", "Á̦", "Á̜", "Ạ́"],
+		"Ę́": ["Ȩ́", "É̦", "É̜", "Ẹ́", "Ȩ́", "É̦", "É̜", "Ẹ́"],
+		"Į́": ["Í̧", "Í̦", "Í̜", "Ị́", "Í̧", "Í̦", "Í̜", "Ị́"],
+		"Ǫ́": ["Ó̧", "Ó̦", "Ó̜", "Ọ́", "Ó̧", "Ó̦", "Ó̜", "Ọ́"],
+
+		// GLOTTAL STOP
+		"ʼ": ["'", "’", "‘", "`"],
+	]
+
+	///Match some spelling variants to make models more compact
+	public static let spellingMap: [String: [String]] = [
+
+		// LOWERCASE
+		"ńtʼééʼ": ["nítʼééʼ", "nítʼę́ę́ʼ", "ntʼééʼ"],
+		"nd": ["nid"],
+		"ńd": ["níd"],
+		"nj": ["nij"],
+		"ńj": ["níj"],
+		"ńt": ["nít"],
+
+		// UPPERCASE
+		"Ńtʼééʼ": ["Nítʼééʼ", "Nítʼę́ę́ʼ", "Ntʼééʼ"],
+		"Nd": ["Nid"],
+		"Ńd": ["Níd"],
+		"Nj": ["Nij"],
+		"Ńj": ["Níj"],
+		"Ńt": ["Nít"],
+
+	]
 
 	///MARK: Private let
 
@@ -417,6 +474,17 @@ public class NVTokenizer {
 			return $0.count > $1.count
 		})
 
+		//Load token definition for transformer
+		if let url = Bundle.navajoKit.url(forResource: "vocab", withExtension: "json"),
+			let data = try? Data(contentsOf: url) {
+
+			vocab = (try? JSONDecoder().decode([String: Int].self, from: data)) ?? [:]
+
+			for (k, v) in vocab {
+				idToPiece[v] = k
+			}
+		}
+
 	}
 
 	///Deinitializer
@@ -435,33 +503,18 @@ public class NVTokenizer {
 			- options: modifications to methodology
 		- Returns: Tuple with with string modified by any of the options and an array of tokenization ranges within that string
 	*/
-	public func tokenize(text: String, unit: Unit, options: NVTokenizer.Options? = []) async -> (String, [Range<String.Index>]) {
+	public func tokenize(_ text: String, unit: Unit, options: NVTokenizer.Options? = []) async -> (String, [Range<String.Index>]) {
 
-		var string = text
 		let options = options ?? []
-
-		if options.contains(.aposAsGlottalStop) {
-			string = string.replacingOccurrences(of: "'", with: "ʼ").replacingOccurrences(of: "’", with: "ʼ")
-		}
-		if options.contains(.stripDigits) {
-			string = string.components(separatedBy: .decimalDigits).joined()
-		}
+		let string = cleanText(text, options: options)
 
 		switch unit {
 
 			case .syllable:
-				if options.contains(.caseInsensitive) {
-					return (string, syllables(for: string.lowercased(), options: options))
-				} else {
-					return (string, syllables(for: string, options: options))
-				}
+				return (string, syllables(for: string, options: options))
 
 			case .word:
-				if options.contains(.caseInsensitive) {
-					return (string, words(for: string.lowercased(), options: options))
-				} else {
-					return (string, words(for: string, options: options))
-				}
+				return (string, words(for: string, options: options))
 
 			case .sentence:
 				return (string, sentences(for: string, options: options))
@@ -471,6 +524,106 @@ public class NVTokenizer {
 
 		}
 
+	}
+
+	public func encode(_ text: String, options: NVTokenizer.Options? = []) -> [Int] {
+
+		let options = options ?? []
+		let string = cleanText(text, options: options)
+
+		let normalized = "▁" + string.replacingOccurrences(of: " ", with: "▁")
+
+		var tokens: [Int] = []
+
+		var i = normalized.startIndex
+
+		while i < normalized.endIndex {
+
+			var end = normalized.endIndex
+			var match: String? = nil
+
+			while end > i {
+
+				let piece = String(normalized[i..<end])
+
+				if vocab[piece] != nil {
+					match = piece
+					break
+				}
+
+				end = normalized.index(before:end)
+			}
+
+			if let m = match {
+
+				tokens.append(vocab[m]!)
+				i = normalized.index(i, offsetBy: m.count)
+
+			} else {
+
+				tokens.append(NVTokenizer.UNK)
+				i = normalized.index(after:i)
+			}
+		}
+
+		return tokens
+	}
+
+	public func decode(tokens: [Int]) -> String {
+
+		var text = ""
+
+		for id in tokens {
+
+			guard let piece = idToPiece[id] else { continue }
+
+			if piece == "<eos>" { break }
+
+			text += piece
+		}
+
+		text = text.replacingOccurrences(of: "▁", with: " ")
+
+		return text.trimmingCharacters(in: .whitespaces)
+	}
+
+	//MARK: Private functions
+
+	///Apply options to properly format the text
+	private func cleanText(_ text: String, options: NVTokenizer.Options) -> String {
+
+		var string = text
+
+		//Correct Unicode characters
+		for (key, values) in NVTokenizer.unicodeMap {
+			for value in values {
+				string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
+			}
+		}
+
+		//Make spelling consistent
+		for (key, values) in NVTokenizer.spellingMap {
+			for value in values {
+				string = string.replacingOccurrences(of: value.decomposedStringWithCanonicalMapping, with: key)
+			}
+		}
+
+		if options.contains(.stripDigits) {
+			string = string.components(separatedBy: .decimalDigits).joined()
+		}
+
+		if options.contains(.stripLeadingGlottalStops) {
+
+			string = string
+				.components(separatedBy: .whitespacesAndNewlines)
+				.map({
+					return $0.hasPrefix("ʼ") ? String($0.dropFirst()) : $0
+				})
+				.joined(separator: " ")
+
+		}
+
+		return string
 	}
 
 	///Tokenize by syllables, calls word tokenization first
@@ -529,6 +682,13 @@ public class NVTokenizer {
 	///Tokenize by words
 	private func words(for string: String, options: NVTokenizer.Options) -> [Range<String.Index>] {
 
+		var string = string
+
+		//Parse words on first pass
+		if options.contains(.caseInsensitive) {
+			string = string.lowercased()
+		}
+
 		let range = string.startIndex..<string.endIndex
 		var wordRanges: [Range<String.Index>] = []
 
@@ -568,17 +728,6 @@ public class NVTokenizer {
 
 		if lowerIndex < upperIndex {
 			wordRanges.append(lowerIndex..<upperIndex)
-		}
-
-		//Run a final pass to strip leading glottal stops
-		if options.contains(.stripLeadingGlottalStops) {
-
-			for (index, range) in wordRanges.enumerated() {
-				if string[range.lowerBound] == "ʼ" {
-					wordRanges[index] = string.index(range.lowerBound, offsetBy: 1)..<range.upperBound
-				}
-			}
-
 		}
 
 		return wordRanges
