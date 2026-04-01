@@ -26,6 +26,10 @@ public class NVDataFormatter {
 		public static let stripMergedTableReferences = Options(rawValue: 1 << 0)
 		///Export the JSON  in pretty print format
 		public static let prettyPrintedJSON = Options(rawValue: 1 << 1)
+		///Export for transformer to handle end-to-end translation
+		public static let exportForTransformer = Options(rawValue: 1 << 2)
+		///Switch the direction of formatting (i.e. EN -> NV)
+		public static let invertDirection = Options(rawValue: 1 << 3)
 	}
 
 	///Report on conversion status
@@ -54,41 +58,98 @@ public class NVDataFormatter {
 
 		// Process header row
 		let headers = splitRecord(fromTsv: rows.first ?? "")
-		let tokensIndex = headers.firstIndex { $0.lowercased() == "tokens" }
-		let labelsIndex = headers.firstIndex { $0.lowercased() == "labels" }
-        
+
+		var tokensIndex: Int?
+		var labelsIndex: Int?
+		var tokensName = ""
+		var labelsName = ""
+
+		if options.contains(.exportForTransformer) {
+
+			tokensIndex = headers.firstIndex { $0.lowercased() == "nv" }
+			labelsIndex = headers.firstIndex { $0.lowercased() == "en" }
+			tokensName = "nv"
+			labelsName = "en"
+
+		} else {
+
+			tokensIndex = headers.firstIndex { $0.lowercased() == "tokens" }
+			labelsIndex = headers.firstIndex { $0.lowercased() == "labels" }
+			tokensName = "tokens"
+			labelsName = "labels"
+
+		}
+
+		if options.contains(.invertDirection) {
+			swap(&tokensIndex, &labelsIndex)
+			swap(&tokensName, &labelsName)
+		}
+
 		//Process data rows
 		for row in rows[1...] where !row.isEmpty {
 
 			let values = splitRecord(fromTsv: row)
-			var rowDict: [String: [String]] = [:]
 
 			await delegate?.conversionPercent(current: 100.0 * (Double(row) ?? 0.0) / Double(rows.count))
 
-			if let tokensIndex = tokensIndex,
-				tokensIndex < values.count {
+			if options.contains(.exportForTransformer) {
 
-				rowDict["tokens"] = splitRecord(fromCsv: values[tokensIndex].lowercased())
-			}
+				var transDict: [String: String] = [:]
 
-			if let labelsIndex = labelsIndex,
-				labelsIndex < values.count {
+				if let tokensIndex = tokensIndex,
+					tokensIndex < values.count {
 
-				rowDict["labels"] = splitRecord(fromCsv: values[labelsIndex])
-
-			}
-
-			//Strip out additional table header rows
-			if options.contains(.stripMergedTableReferences) {
-
-				if rowDict["tokens"]?.first?.lowercased() == "tokens",
-					rowDict["labels"]?.first?.lowercased() == "labels" {
-
-					continue
+					transDict[tokensName] = values[tokensIndex].lowercased()
 				}
-			}
 
-			jsonArray.append(rowDict)
+				if let labelsIndex = labelsIndex,
+					labelsIndex < values.count {
+
+					transDict[labelsName] = values[labelsIndex]
+				}
+
+				//Strip out additional table header rows
+				if options.contains(.stripMergedTableReferences) {
+
+					if transDict[tokensName]?.lowercased() == tokensName,
+						transDict[labelsName]?.lowercased() == labelsName {
+
+						continue
+					}
+				}
+
+				jsonArray.append(transDict)
+
+			} else {
+
+				var rowDict: [String: [String]] = [:]
+
+				if let tokensIndex = tokensIndex,
+					tokensIndex < values.count {
+
+					rowDict[tokensName] = splitRecord(fromCsv: values[tokensIndex].lowercased())
+				}
+
+				if let labelsIndex = labelsIndex,
+					labelsIndex < values.count {
+
+					rowDict[labelsName] = splitRecord(fromCsv: values[labelsIndex])
+
+				}
+
+				//Strip out additional table header rows
+				if options.contains(.stripMergedTableReferences) {
+
+					if rowDict[tokensName]?.first?.lowercased() == tokensName,
+						rowDict[labelsName]?.first?.lowercased() == labelsName {
+
+						continue
+					}
+				}
+
+				jsonArray.append(rowDict)
+
+			}
 
 		}
 
@@ -101,9 +162,9 @@ public class NVDataFormatter {
 			}
 
 			let jsonData = try JSONSerialization.data(withJSONObject: jsonArray, options: opt)
-		  return String(data: jsonData, encoding: .utf8) ?? "Error converting to JSON"
+			return String(data: jsonData, encoding: .utf8) ?? "Error converting to JSON"
 		} catch {
-		  return "Error: \(error.localizedDescription)"
+			return "Error: \(error.localizedDescription)"
 		}
 	}
 
