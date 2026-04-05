@@ -15,6 +15,7 @@ These sources assisted with complex grammatical syntax and provided less-common 
 These sources assisted with the identification of specific words and their synthesized forms, idiomatic expressions, and examples of word usage within sentences.
 
 * Benally, Onri Jay. "Navaho-Linguistics". [GitHub](https://github.com/OJB-Quantum/Navaho-Linguistics)
+* Denk, Lukas and Melvatha R. Chee. _A Navajo Corpus of Historical Narratives_. (2025). [UNM](https://digitalrepository.unm.edu/navajocorpus/1)
 * Faltz, Leonard M. _The Navajo Verb: A Grammar for Students and Scholars_. University of New Mexico Press: Albuquerque (1998).
 * Wall, Leon and Morgan, William. _Navajo-English Dictionary_. US Department of the Interior: Window Rock, Arizona (1958).
 * Wilson, Garth A. _Conversational Navajo Dictionary_. Conversation Navajo Publications: Blanding, Utah (1989).
