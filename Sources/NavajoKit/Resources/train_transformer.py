@@ -611,4 +611,4 @@ for f in files_to_postdelete:
 		except:
 			pass
 
-debug_translation("yáʼátʼééh shikʼéí dóó nihí dóó nihíkéyah bíł hólǫ́.")
+debug_translation("yáʼátʼééh shikʼéí dóó nihí dóó nihikéyah bił hólǫ́.")
