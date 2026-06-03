@@ -15,13 +15,12 @@ TOKENS,LABELS,English,Match?,Count
 "Áłah,aleehdi,hastiin,léiʼ,tʼóó,yááłtih,yiitsʼaʼ,.","Adv,Adv,NSub,Conj,Adv,VProg,VImpf,Punct",I hear a man talking at the meeting.,Yes,8
 "Ałkʼidą́ą́ʼ,Naayééʼ,Neizghání,haʼaʼaahjigo,atsiniltłʼish,bił,dah,yizdéél,jiní,.","Adv,NSub,NSub,Adv,NPostp,Postp,Adv,VPerf,VImpf,Punct",It is said that long ago Monster Slayer was carried away eastward by lightning.,Yes,10
 "Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,Yes,3
-"Ałtso,yishdlą́ą́ʼ,.","Adv,VPerf,Punct",I drank it all.,Yes,3
 "Ałʼąą,átʼé,.","Adv,VImpf,Punct",They are different.,Yes,3
 "Ámá,chahaʼoh,yiyaagi,sidáago,dádíníigaazh,íílééh,.","NSub,NPostp,Adv,Adv,NObj,VImpf,Punct",The mother is sitting under the shade structure making frybread.,Yes,7
 "Ánístsʼísí,yę́ędą́ą́ʼ,kintahdi,shi,yaa,hooʼaʼ,éí,biniinaa,díshní,.","VImpf,Adv,Adv,ProPostp,Postp,VPerf,ProDem,Postp,VImpf,Punct","Back when I was young, I grew up in town which is why I’m saying.",Yes,10
 "Aooʼ,"","",ashdladigóó,oolkiłgo,áádę́ę́ʼ,shił,náʼílwod,.","Interj,Punct,Adv,Adv,Adv,Postp,VPerf,Punct","Yes, I drove back from there at 5 o’clock.",Yes,8
 "Aseezį́,binaaltsoos,biníkádinishchid,.","NSub,NSub,VPerf,Punct",I stuck my finger through the newspaper.,Yes,4
-"ashdladi,mííl","NumC,NumC",five thousant,Yes,2
+"ashdladi,mííl","NumC,NumC",five thousand,Yes,2
 "ashdladi,mííltsoh,béeso","NumC,NumC,NSub","5,000,000 dollars",Yes,3
 "ashdladi,neeznádiin","NumC,NumC",five hundred,Yes,2
 "ashdlaʼ,béeso","NumC,NSub",5 dollars,Yes,2
@@ -52,7 +51,6 @@ TOKENS,LABELS,English,Match?,Count
 "Awééʼ,bidiyésaʼ,.","NSub,VPerf,Punct",The baby burped.,Yes,3
 "Awééʼ,éí,tʼáá,naaki,ńdeezid,.,Éí,Dlíníbaaʼ,wolyé,.","NSub,ProDem,Adv,NumC,VPerf,Punct,ProDem,NObj,VImpf,Punct",The baby is only two months old. She is called Dlíníbaaʼ.,Yes,10
 "Ayóogo,Diné,bizaad,bóhooshʼaah,.","Adv,NObj,NObj,VImpf,Punct",I am really studying Navajo.,Yes,5
-"Azeeʼ,áshʼį́,.","NObj,VImpf,Punct",I'm a doctor. (Lit: I make medicine.),Yes,3
 "Azeeʼ,áshʼį́,.","NObj,VImpf,Punct","I'm a doctor. (Lit. ""I make medicine."")",Yes,3
 "Azhą́,shibéeso,hólǫ́‌ǫ,ndi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
 "Azhą́,shibéeso,hólǫ́‌ǫ,nidi,.","Conj,NObj,VImpf,Conj,Punct",Although my money exists. (I have my money.),Yes,5
@@ -331,7 +329,7 @@ TOKENS,LABELS,English,Match?,Count
 "shichʼéʼé,éí,łaʼtsʼáadah,binááhai","NSub,ProDem,NumC,NObj",My daughter is 11 years old. (my daughter that 11 her years),Yes,4
 "Shideezhí,dóó,sítsílí,bidááh,sézį́,.","NObj,Conj,NObj,Postp,VPerf,Punct",I guard my younger sister and younger brother.,Yes,6
 "Shigaan,éi,shijáád,bi’oh,áníłtso,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My arms are shorter than my legs.,Yes,6
-"Shiiʼ,sizíinii,chánah,náádleeł,.","NSub,Nsub,Adv,VImpf,Punct",My soul becomes encouraged again.,Yes,5
+"Shiiʼ,sizíinii,chánah,náádleeł,.","NSub,NSub,Adv,VImpf,Punct",My soul becomes encouraged again.,Yes,5
 "Shijáád,éí,nijáád,bilááh,áníłnééz,.","NSub,ProDem,NObj,Postp,VImpf,Punct",My legs are longer than your legs.,Yes,6
 "Shíká,anánílwoʼ,doodaiiʼ,tʼáadoo,shaa,nánítʼíní,.","Postp,VIter,Conj,Adv,Postp,VImpf,Punct",Help me or else don’t bother me.,Yes,7
 "Shił,yáʼáhootʼééh,.","Postp,VImpf,Punct",I like the place.,Yes,3
