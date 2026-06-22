@@ -9,6 +9,7 @@ These sources assisted with complex grammatical syntax and provided less-common 
 * Denk, Lukas and Melvatha R. Chee. "A Navajo Corpus of Historical Narratives." (2025). [University of New Mexico](https://digitalrepository.unm.edu/navajocorpus/1)
 * Corley, Ron & Jean. _Corley's Navajo-English Interlinear Bible_. Bearing Precious Seed: Milford, Ohio.
 * _Navajo Bible_ (trans). American Bible Society: Philadelphia (2000).
+* _Office of the President, The Navajo Nation_, "Diné Bizaad." (2026). [Diné Bizaad](https://opvp.navajo-nsn.gov/dine-bizaad/)
 
 ## Words and Sentences
 
@@ -22,3 +23,4 @@ These sources assisted with the identification of specific words and their synth
 * [Glosbe](https://glosbe.com/nv/en/)
 * Fernald, Theodore B., Bernadine Cody, Wallace Dale, Dana Desiderio, Natalie R. Desiderio, Jeremy Fahringer, Betsy H. Horner, Lester Kinsel, Sharon Nelson, Ellavina Perkins and Tyler Tinhorn. _Navajo Language Academy_ (2018). [Swarthmore College](https://fernald.domains.swarthmore.edu/nla/nla.htm)
 * [Wiktionary](https://en.wiktionary.org/wiki)
+* [Navajo Hymns](https://www.todaysnative.org/wp-content/uploads/2023/08/Navajo-Hymns.pdf) from https://todaysnative.org/native-language-audio-bible/navajo-audio-bible/
