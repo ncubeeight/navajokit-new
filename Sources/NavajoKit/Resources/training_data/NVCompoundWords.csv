@@ -332,6 +332,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "akʼah,bee,sitʼé ","NPostp,Postp,VImpf",fried food,NSub,,,,,,,,,,grease + by means of + is cooked,Yes,3
 "akʼah,diltłiʼí","NSub,VImpf",candle,NSub,,,,,,,,,,fire is burning,Yes,2
 "akʼah,níyizígíí","NSub,NSub",candle,NSub,,,,,,,,,,wax cylinder,Yes,2
+"alą́ąjįʼ,dahsidáhígíí","Adv,NSub",president,NSub,,,,,,,,,,in front + he who is sitting elevated,Yes,2
 "áłah,aleeh","Adv,VImpf",meeting takes place,VImpf,Unspec,,,,meet,,,,,together + become,Yes,2
 "áłah,azlį́į́ʼ","Adv,VPerf",meeting took place,VPerf,Unspec,,,,meet,,,,,together + became,Yes,2
 "áłah,daahłeeh","Adv,VImpf",meet,VImpf,2nd,P,,,meet,,,,,together + become,Yes,2
@@ -391,6 +392,8 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "áłah,yishłeeh","Adv,VImpf",meet,VImpf,1st,S,,,meet,,,,,together + become,Yes,2
 "alizh,bizis","VImpf,NSub",bladder,NSub,,,,,,,,,,is/are urinating + its sack,Yes,2
 "ałkʼee,diníʼniihgo","Adv,Adv",hostility,NSub,,,,,,,,,,one another + attacking,Yes,2
+"Ałnánoodǫ́ǫ́z,Dineʼé","NSub,NSub",Scottish,NSub,,,,,,,,,,checkered people’s land,Yes,2
+"Ałnánoodǫ́ǫ́z,Dineʼé,Bikéyah","NSub,NSub,NSub",Scotland,NSub,,,,,,,,,,checkered people,Yes,3
 "áłtsé,asdzą́ą́","Part,NSub",First Woman,NSub,,,,,,,,,,first + woman,Yes,2
 "áłtsé,hastiin","Part,NSub",First Man,NSub,,,,,,,,,,first + man,Yes,2
 "amá,yazhí","NSub,NSub",maternal aunt,NSub,,,,,,,,,,mother + small,Yes,2
@@ -776,7 +779,6 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "chʼiyáán,álʼį́įgi","NSub,Adv",kitchen,NSub,,,,,,,,,,food + it is made at,Yes,2
 "dah,alzhin","Adv,VImpf",speck,NSub,,,,,,,,,,upward + is black,Yes,2
 "dah,alzhin","NSub,NSub",minute (time),NSub,,,,,,,,,,upward + ??,Yes,2
-"alą́ąjįʼ,dahsidáhígíí","Adv,NSub",president,NSub,,,,,,,,,,in front + he who is sitting elevated,Yes,2
 "dah,azką́","Adv,NSub",mesa,NSub,,,,,,,,,,upward + ??,Yes,2
 "dah,dadííníilnííh","Adv,VProg",are raising an arm,VProg,1st,P,,,move an arm,,,,,upward + move an arm,Yes,2
 "dah,dadíínółnííh","Adv,VProg",are raising an arm,VProg,2nd,P,,,move an arm,,,,,upward + move an arm,Yes,2
@@ -1172,6 +1174,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "Naabeehó,bizaadísh","NSub,NSub",Navajo language (?),NSub,,,,,,TRUE,,,,People's language (question),Yes,2
 "naadą́ą́ʼ,bisgąʼ","NSub,NSub",corn chip,NSub,,,,,,,,,,corn + ??,Yes,2
 "naadą́ą́ʼ,bitsiighaʼ","NSub,NSub",corn silk,NSub,,,,,,,,,,corn's mane/hair,Yes,2
+"naadą́ą́ʼ,dootłʼizhí","NSub,NSub",blue corn gruel,NSub,,,,,,,,,,corn + blue one,Yes,2
 "nąąh,dah,hwiiniłʼaʼ","Postp,Adv,VPerf",caught (an illness),VPerf,2nd,S,,,catch (an illness),,,,,on + upward + make,Yes,3
 "nąąh,haajííł","Postp,VImpf",owe a debt,VImpf,2nd,S,,,owe a debt,,,,,on + stick out,Yes,2
 "nąąh,háájil","Postp,VPerf",owed a debt,Perf,2nd,S,,,owe a debt,,,,,on + stick out,Yes,2
@@ -1383,7 +1386,6 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tłʼiish,áníní","NSub,NSub",rattlesnake,NSub,,,,,,,,,,snake + ??,Yes,2
 "tłʼiish,bichóhí","NSub,NSub",sidewinder (snake),NSub,,,,,,,,,,snake + its maternal great grandmother,Yes,2
 "tłʼiish,bikʼós,niteelígíí","NSub,NSub,NSub",cobra,NSub,,,,,,,,,,snake + its neck + that which is wide,Yes,3
-"yáʼ,ąąsh","NSub,NSub",heaven,NSub,,,,,,,,,,(typo in NVJOB Mt 3:16),Yes,2
 "tłʼoh,chin","NSub,NSub",onion,NSub,,,,,,,,,,grass + smell,Yes,2
 "tłʼoh,naadą́ą́ʼ","NSub,NSub",wheat/grain,NSub,,,,,,,,,,grass + corn,Yes,2
 "tó,háálínígi","NSub,Adv",water fountain,NSub,,,,,,,,,,water + flowing out at,Yes,2
@@ -1397,6 +1399,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "Tsékooh,Hatsoh","NSub,NSub",Grand Canyon,NSub,,,,,,TRUE,,,,canyon + the large area,Yes,2
 "tsénił,yázhí","NSub,NSub",hatchet,NSub,,,,,,,,,,axe + small one,Yes,2
 "tsésǫʼ,yitʼoodí","NSub,NSub",windshield wiper,NSub,,,,,,,,,,,Yes,2
+"tsídii,naʼałkʼaiʼí","NSub,NSub",penguin,NSub,,,,,,,,,,bird + ??,Yes,2
 "tsídii,yáłtiʼí","NSub,NSub",parrot,NSub,,,,,,,,,,bird + one that speaks,Yes,2
 "tsídii,yáłtiʼí,yázhí","NSub,NSub,NSub",parakeet,NSub,,,,,,,,,,bird + one that speaks + little one,Yes,3
 "tsídiidaaʼ,bił,naaldlooshii","NPostp,Postp,NSub",duckbill,NSub,,,,,,,,,,phlox + with it + animals,Yes,3
@@ -1462,6 +1465,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "tʼóó,bílaʼ,dijool","Adv,NSub,VImpf",clumsily,Adv,,,,,,,,,,"just + his hands + are spherical (Adj ""all-thumbs"")",Yes,3
 "Wááshindoon,Bikéyah,Ałhidadiidzooígíí","NSub,NSub,NSub",United States,NSub,,,,,,TRUE,,,,Washington's land federation,Yes,3
 "Wááshindoon,Hahoodzo","NSub,NSub",Washington (state),NSub,,,,,,TRUE,,,,(loanword) + state,Yes,2
+"wótááhgóó,ałnááʼáłtʼahí","NSub,NSub",astronaut,NSub,,,,,,,,,,sky + ??,Yes,2
 "yá,dahojiiłʼaah","Postp,VImpf",make room for,VImpf,4th,P,4thO,,make room for,,,,,for + make,Yes,2
 "yá,dahojiiłʼaʼ","Postp,VPerf",made room for,VPerf,4th,P,4thO,,make room for,,,,,for + make,Yes,2
 "yá,dahoołʼaah","Postp,VImpf",make room for,VImpf,2nd,P,4thO,,make room for,,,,,for + make,Yes,2
@@ -1493,6 +1497,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "yah,aaʼnaʼ","Postp,VPerf",crawled in,VPerf,3rd,S,,,crawl in,,,,,,Yes,2
 "yah,eeʼnaʼ","Postp,VPerf",crawled in,VPerf,3rd,S,,,crawl in,,,,,,Yes,2
 "yas,niłtʼees","NSub,NSub",January,NSub,,,,,,TRUE,,,,frying snow,Yes,2
+"yáʼ,ąąsh","NSub,NSub",heaven,NSub,,,,,,,,,,(typo in NVJOB Mt 3:16),Yes,2
 "yáʼátʼééh,késhmish","Interj,NSub",merry Christmas,Interj,,,,,,,,,,happy + Christmas,Yes,2
 "yę́ę,ádaadin","Adv,VImpf",have died,VImpf,3rd,P,,,die,,,,,aforementioned + is absent,Yes,2
 "yę́ę,ádajídin","Adv,VImpf",have died,VImpf,4th,P,,,die,,,,,aforementioned + is absent,Yes,2
