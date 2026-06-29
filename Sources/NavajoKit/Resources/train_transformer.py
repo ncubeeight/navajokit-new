@@ -301,6 +301,7 @@ def debug_nv_to_en(text):
 
 	print("OUTPUT TOKENS:", decoded)
 	print("OUTPUT TEXT (EN):", sp.decode(decoded[1: -1]))
+	print("")
 
 #English to Navajo
 def debug_en_to_nv(text):
@@ -330,6 +331,7 @@ def debug_en_to_nv(text):
 
 	print("OUTPUT TOKENS:", decoded)
 	print("OUTPUT TEXT (NV):", sp.decode(decoded[1: -1]))
+	print("")
 
 ########################################
 # Clean up old files for fresh start
