@@ -36,8 +36,10 @@ let package = Package(
 				//.copy("Resources/train_transformer.py"),
 				.copy("Resources/vocab.json"),
 				.process("Resources/NavajoTagger.mlmodel"),
+				.process("Resources/EnglishDecoder.mlpackage"),
+				.process("Resources/EnglishEncoder.mlpackage"),
+				.process("Resources/NavajoDecoder.mlpackage"),
 				.process("Resources/NavajoEncoder.mlpackage"),
-				.process("Resources/NavajoDecoder.mlpackage")
 			],
 		),
 		.testTarget(
