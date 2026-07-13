@@ -22,8 +22,10 @@ public class NVTranslator {
 
 	private var debug = false
 
-	private let encoder: NavajoEncoder
-	private let decoder: NavajoDecoder
+	private let nvEncoder: NavajoEncoder
+	private let enDecoder: EnglishDecoder
+	private let enEncoder: EnglishEncoder
+	private let nvDecoder: NavajoDecoder
 	private let maxLen = 128
 
 	/**
@@ -56,8 +58,10 @@ public class NVTranslator {
 			print("Loading transformer models...")
 		}
 
-		encoder = try! NavajoEncoder(configuration: config)
-		decoder = try! NavajoDecoder(configuration: config)
+		nvEncoder = try! NavajoEncoder(configuration: config)
+		enDecoder = try! EnglishDecoder(configuration: config)
+		enEncoder = try! EnglishEncoder(configuration: config)
+		nvDecoder = try! NavajoDecoder(configuration: config)
 
 		if debug {
 			print("... Done.")
@@ -203,9 +207,7 @@ public class NVTranslator {
 		return words.filter({ return $0.token != "_" })
 	}
 
-	public func translate(_ text: String, tokenizer: NVTokenizer) -> String {
-
-		let tokens = tokenizer.encode(text)
+	private func prepareSource(tokens: [Int]) -> MLMultiArray {
 
 		let src = try! MLMultiArray(
 			shape: [1, NSNumber(value: maxLen)],
@@ -217,9 +219,17 @@ public class NVTranslator {
 			src[i] = NSNumber(value: val)
 		}
 
-		let encInput = NavajoEncoderInput(source: src)
-		let encOutput = try! encoder.prediction(input: encInput)
-		let memory = encOutput.memory
+		return src
+	}
+
+	public func translateNvEn(_ text: String, tokenizer: NVTokenizer) -> String {
+
+		let tokens = tokenizer.encode(text)
+		let src = prepareSource(tokens: tokens)
+
+		let nvEncInput = NavajoEncoderInput(source: src)
+		let nvEncOutput = try! nvEncoder.prediction(input: nvEncInput)
+		let memory = nvEncOutput.memory
 
 		var decoded: [Int] = [NVTokenizer.BOS]
 
@@ -235,10 +245,10 @@ public class NVTranslator {
 				dest[i] = NSNumber(value: val)
 			}
 
-			let decInput = NavajoDecoderInput(target: dest, memory: memory)
-			let decOutput = try! decoder.prediction(input: decInput)
+			let enDecInput = EnglishDecoderInput(target: dest, memory: memory)
+			let enDecOutput = try! enDecoder.prediction(input: enDecInput)
 
-			let logits = decOutput.logits
+			let logits = enDecOutput.logits
 			let timestep = decoded.count - 1
 
 			let nextToken = argmax(logits: logits, timestep: timestep)
@@ -253,6 +263,49 @@ public class NVTranslator {
 		let filtered = decoded.dropFirst().prefix(while: { $0 != NVTokenizer.EOS })
 		return tokenizer.decode(tokens: Array(filtered))
 	}
+
+	public func translateEnNv(_ text: String, tokenizer: NVTokenizer) -> String {
+
+		let tokens = tokenizer.encode(text)
+		let src = prepareSource(tokens: tokens)
+
+		let enEncInput = EnglishEncoderInput(source: src)
+		let enEncOutput = try! enEncoder.prediction(input: enEncInput)
+		let memory = enEncOutput.memory
+
+		var decoded: [Int] = [NVTokenizer.BOS]
+
+		for _ in 0..<(maxLen - 1) {
+
+			let dest = try! MLMultiArray(
+				shape: [1, NSNumber(value: maxLen)],
+				dataType: .int32
+			)
+
+			for i in 0..<maxLen {
+				let val = i < decoded.count ? Int32(decoded[i]) : Int32(0)
+				dest[i] = NSNumber(value: val)
+			}
+
+			let nvDecInput = NavajoDecoderInput(target: dest, memory: memory)
+			let nvDecOutput = try! nvDecoder.prediction(input: nvDecInput)
+
+			let logits = nvDecOutput.logits
+			let timestep = decoded.count - 1
+
+			let nextToken = argmax(logits: logits, timestep: timestep)
+
+			//print("timestep: \(timestep), token: \(nextToken)")
+
+			if nextToken == NVTokenizer.EOS { break }
+
+			decoded.append(nextToken)
+		}
+
+		let filtered = decoded.dropFirst().prefix(while: { $0 != NVTokenizer.EOS })
+		return tokenizer.decode(tokens: Array(filtered))
+	}
+
 
 	private func argmax(logits: MLMultiArray, timestep: Int) -> Int {
 
