@@ -6,7 +6,7 @@
 //
 
 ///Person applied to several parts-of-speech, both subjects and objects
-public enum NVPerson: String, Codable {
+public enum NVPerson: String, Codable, Sendable {
 
 	case first
 	case second

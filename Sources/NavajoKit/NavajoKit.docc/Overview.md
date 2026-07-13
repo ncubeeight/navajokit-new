@@ -28,15 +28,17 @@ Eventually, the secondary goal would be to translate the other direction, as wel
 
 ## Status
 
-* At the moment, this project's primary focus is growing the dataset, which combines individual words, compound words, longer sentences/phrases, and full text passages. This relatively small dataset does not yet allow for complex modeling, such as with transformers.
+* At the moment, this project's primary focus is growing the datasets to train the part-of-speech tagger model and the transformer encoder/decoder models.
 
-* It includes tokenization for a number of sizes but has been trained for word-based tokens at the moment. The tokenizer has several options, such as handling of Unicode characters and ignoring the lead glottal stops.
+* It includes tokenization for a number of sizes and support for handling of Unicode characters and ignoring the lead glottal stops.
 
 * A polysynthetic tokenizer is very early in development for better helping with identifying word components. Its initial focus is on prefixes and suffixes for several parts-of-speech.
 
-* The ML model in the project is Apple's Core ML flavor of the part-of-speech (POS) tagger with the conditional random field (CRF) algorithm for applying the appropriate parts-of-speech to recognize or inferred words. Alternate transfer-learning algorithems using BERT and ELMo are not possible for Navajo.
+* The part-of-speech tagger model is Apple's Core ML flavor (called the "word tagger") with the conditional random field (CRF) algorithm for applying the appropriate parts-of-speech to recognize or inferred words. Alternate transfer-learning algorithems using BERT and ELMo are not possible for Navajo.
 
-* The translation portion performs a direct, case-insensitive search for single words or compounds words/phrases, attempting by the tagged POS first with "miss" fallback to any match (and a flag to indicate that suggested fallback). This serves well for interlinear translations but not yet for end-to-end translation that models of more advanced architectures would provide.
+* The interlinear translation portion performs a direct, case-insensitive search for single words or compounds words/phrases, attempting by the tagged POS first with "miss" fallback to any match (and a flag to indicate that suggested fallback).
+
+* End-to-end translation uses a pair of encoder-decoder transformer models with a shared vocabulary of 10,000 tokens. The shell script and Python script for training in PyTorch and converting to Core ML are both included. Raw training data are also included, where possible.
 
 * The text-to-speech feature is very early in development. It works but sounds very robotic yet and applies American English inflection to long vowel sounds, producing a faint "R".
 
