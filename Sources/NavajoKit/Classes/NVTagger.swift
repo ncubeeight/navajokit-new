@@ -9,7 +9,7 @@ import CoreML
 import NaturalLanguage
 
 ///Tag tokenized text using the built-in parts-of-speech tagger model
-public class NVTagger {
+public actor NVTagger {
 
 	///Singleton
 	@MainActor
@@ -40,18 +40,23 @@ public class NVTagger {
 	 */
 	public func tag(_ tokenText: [String]) async -> [NVTaggedWord] {
 
-		let labels = nvModel?.predictedLabels(forTokens: tokenText.map({ return $0.lowercased() })) ?? []
+		return await Task(priority: .userInitiated) {
 
-		var tags: [NVTaggedWord] = []
-		for (index, label) in labels.enumerated() {
+			let labels = nvModel?.predictedLabels(forTokens: tokenText.map({ return $0.lowercased() })) ?? []
 
-			let fixedLabel = label.isEmpty ? "Sp" : label
+			var tags: [NVTaggedWord] = []
+			for (index, label) in labels.enumerated() {
 
-			let tag = NVTaggedWord(token: tokenText[index], label: fixedLabel, translation: nil)
-			tags.append(tag)
-		}
+				let fixedLabel = label.isEmpty ? "Sp" : label
 
-		return tags
+				let tag = NVTaggedWord(token: tokenText[index], label: fixedLabel, translation: nil)
+				tags.append(tag)
+			}
+
+			return tags
+
+		}.value
+
 	}
 
 	private nonisolated static func loadModel() -> NLModel {

@@ -273,10 +273,11 @@ class Decoder(nn.Module):
 # Debugging
 ########################################
 
-def debug_translation(text):
+#Navajo to English
+def debug_nv_to_en(text):
 	encoder.eval()
 	decoder.eval()
-	print("INPUT:", text)
+	print("INPUT TEXT (NV):", text)
 
 	src = dataset.encode(text).unsqueeze(0).to(DEVICE)
 	memory = encoder(src)
@@ -299,7 +300,38 @@ def debug_translation(text):
 			break
 
 	print("OUTPUT TOKENS:", decoded)
-	print("OUTPUT TEXT:", sp.decode(decoded[1: -1]))
+	print("OUTPUT TEXT (EN):", sp.decode(decoded[1: -1]))
+	print("")
+
+#English to Navajo
+def debug_en_to_nv(text):
+	encoder_rev.eval()
+	decoder_rev.eval()
+	print("INPUT TEXT (EN):", text)
+
+	src = dataset.encode(text).unsqueeze(0).to(DEVICE)
+	memory = encoder_rev(src)
+
+	decoded = [BOS]
+	for step in range(MAX_LEN - 1):
+		tgt = torch.full(
+			(1, MAX_LEN),
+			PAD,
+			dtype = torch.long,
+			device = DEVICE
+		)
+
+		for i, t in enumerate(decoded):
+			tgt[0, i] = t
+		logits = decoder_rev(tgt, memory)
+		next_token = logits[0, step].argmax().item()
+		decoded.append(next_token)
+		if next_token == EOS:
+			break
+
+	print("OUTPUT TOKENS:", decoded)
+	print("OUTPUT TEXT (NV):", sp.decode(decoded[1: -1]))
+	print("")
 
 ########################################
 # Clean up old files for fresh start
@@ -308,7 +340,9 @@ def debug_translation(text):
 files_to_predelete = [
 	"combined.txt",
 	"decoder.pt",
+	"decoder_rev.pt",
 	"encoder.pt",
+	"encoder_rev.pt",
 	"tokenizer.model",
 	"vocab.json"
 ]
@@ -321,6 +355,8 @@ for f in files_to_predelete:
 			pass
 
 packages_to_delete = [
+	"EnglishDecoder.mlpackage",
+	"EnglishEncoder.mlpackage",
 	"NavajoDecoder.mlpackage",
 	"NavajoEncoder.mlpackage"
 ]
@@ -472,16 +508,17 @@ for src, tgt in dataset:
 	total_tokens += (tgt != PAD).sum().item()
 print(f"Total training tokens: {total_tokens:,}")
 
+criterion = nn.CrossEntropyLoss(ignore_index = PAD)
+
+########################################
+# Training Navajo-to-English
+########################################
+
+print("Training Navajo-to-English models...")
+
 encoder = Encoder(sp.get_piece_size()).to(DEVICE)
 decoder = Decoder(sp.get_piece_size()).to(DEVICE)
 
-########################################
-# Training
-########################################
-
-print("Training models...")
-
-criterion = nn.CrossEntropyLoss(ignore_index = PAD)
 optimizer = optim.Adam(
 	list(encoder.parameters()) + list(decoder.parameters()),
 	lr = LR
@@ -493,14 +530,14 @@ for epoch in range(EPOCHS):
 	total_loss = 0
 	num_batches = 0
 
-	pbar = tqdm(loader, desc = f"Epoch {epoch+1}/{EPOCHS}")
+	pbar = tqdm(loader, desc = f"NV-EN Epoch {epoch+1}/{EPOCHS}")
 
 	for src, tgt in pbar:
 
 		src = src.to(DEVICE)
 		tgt = tgt.to(DEVICE)
 
-		tgt_input = tgt[:, :-1] # excluse last token
+		tgt_input = tgt[:, :-1] # exclude last token
 		tgt_output = tgt[:, 1:] # shift right
 
 		memory = encoder(src)
@@ -520,7 +557,7 @@ for epoch in range(EPOCHS):
 		pbar.set_postfix(loss = f"{loss.item():.4f}")
 
 	avg_loss = total_loss / num_batches
-	print(f"Epoch {epoch+1}/{EPOCHS} completed - avg loss: {avg_loss:.4f}")
+	print(f"NV-EN Epoch {epoch+1}/{EPOCHS} completed - avg loss: {avg_loss:.4f}")
 
 ########################################
 # TorchScript Export
@@ -575,7 +612,7 @@ ml_encoder = ct.convert(
 	minimum_deployment_target = ct.target.iOS15
 )
 ml_encoder.save("NavajoEncoder.mlpackage")
-print("Exported CoreML Encoder model")
+print("Exported CoreML NavajoEncoder model")
 
 ml_decoder = ct.convert(
 	traced_decoder,
@@ -590,8 +627,128 @@ ml_decoder = ct.convert(
 	compute_precision = ct.precision.FLOAT16,
 	minimum_deployment_target = ct.target.iOS15
 )
-ml_decoder.save("NavajoDecoder.mlpackage")
-print("Exported CoreML Decoder model")
+ml_decoder.save("EnglishDecoder.mlpackage")
+print("Exported CoreML EnglishDecoder model")
+
+########################################
+# Training English-to-Navajo
+########################################
+
+print("Training English-to-Navajo models...")
+
+encoder_rev = Encoder(sp.get_piece_size()).to(DEVICE)
+decoder_rev = Decoder(sp.get_piece_size()).to(DEVICE)
+
+optimizer_rev = optim.Adam(
+	list(encoder_rev.parameters()) + list(decoder_rev.parameters()),
+	lr = LR
+)
+
+for epoch in range(EPOCHS):
+	encoder_rev.train()
+	decoder_rev.train()
+	total_loss = 0
+	num_batches = 0
+
+	pbar = tqdm(loader, desc = f"EN-NV Epoch {epoch+1}/{EPOCHS}")
+
+	for src, tgt in pbar:
+
+		src_rev = tgt.to(DEVICE)
+		tgt_rev = src.to(DEVICE)
+
+		tgt_input = tgt_rev[:, :-1] # exclude last token
+		tgt_output = tgt_rev[:, 1:] # shift right
+
+		memory = encoder_rev(src_rev)
+		logits = decoder_rev(tgt_input, memory)
+
+		loss = criterion(
+			logits.reshape(-1, logits.size(-1)),
+			tgt_output.reshape(-1)
+		)
+
+		optimizer_rev.zero_grad()
+		loss.backward()
+		optimizer_rev.step()
+
+		total_loss += loss.item()
+		num_batches += 1
+		pbar.set_postfix(loss = f"{loss.item():.4f}")
+
+	avg_loss = total_loss / num_batches
+	print(f"EN-NV Epoch {epoch+1}/{EPOCHS} completed - avg loss: {avg_loss:.4f}")
+
+########################################
+# TorchScript Export
+########################################
+
+print("Exporting TorchScript...")
+
+encoder_rev.eval()
+decoder_rev.eval()
+
+dummy_src = torch.full(
+	(1, MAX_LEN),
+	PAD,
+	dtype = torch.long,
+	device = DEVICE
+)
+dummy_tgt = torch.full(
+	(1, MAX_LEN),
+	PAD,
+	dtype = torch.long,
+	device = DEVICE
+)
+
+with torch.no_grad():
+
+	traced_encoder_rev = torch.jit.trace(encoder_rev, dummy_src)
+	memory = traced_encoder_rev(dummy_src)
+	traced_decoder_rev = torch.jit.trace(
+		decoder_rev,
+		(dummy_tgt, memory)
+	)
+
+traced_encoder_rev.save("encoder_rev.pt")
+traced_decoder_rev.save("decoder_rev.pt")
+
+########################################
+# Convert to CoreML
+########################################
+
+print("Converting to CoreML...")
+
+ml_encoder_rev = ct.convert(
+	traced_encoder_rev,
+	inputs = [
+		ct.TensorType(name = "source", shape = dummy_src.shape)
+	],
+	outputs = [
+		ct.TensorType(name = "memory")
+	],
+	convert_to = "mlprogram",
+	compute_precision = ct.precision.FLOAT16,
+	minimum_deployment_target = ct.target.iOS15
+)
+ml_encoder_rev.save("EnglishEncoder.mlpackage")
+print("Exported CoreML EnglishEncoder model")
+
+ml_decoder_rev = ct.convert(
+	traced_decoder_rev,
+	inputs = [
+		ct.TensorType(name = "target", shape = dummy_tgt.shape),
+		ct.TensorType(name = "memory", shape = memory.shape)
+	],
+	outputs = [
+		ct.TensorType(name = "logits")
+	],
+	convert_to = "mlprogram",
+	compute_precision = ct.precision.FLOAT16,
+	minimum_deployment_target = ct.target.iOS15
+)
+ml_decoder_rev.save("NavajoDecoder.mlpackage")
+print("Exported CoreML NavajoDecoder model")
 
 ########################################
 # Final clean up files
@@ -600,7 +757,9 @@ print("Exported CoreML Decoder model")
 files_to_postdelete = [
 	"combined.txt",
 	"decoder.pt",
+	"decoder_rev.pt",
 	"encoder.pt",
+	"encoder_rev.pt",
 	"tokenizer.model"
 ]
 
@@ -611,4 +770,12 @@ for f in files_to_postdelete:
 		except:
 			pass
 
-debug_translation("yáʼátʼééh shikʼéí dóó nihí dóó nihíkéyah bíł hólǫ́.")
+debug_nv_to_en("yáʼátʼééh shikʼéí dóó nihí dóó nihikéyah bił hólǫ́.")
+debug_nv_to_en("Yá'át'ééh abíní shik'éí.") #Good morning, my friend
+
+debug_en_to_nv("Hello my relatives and friends.")
+debug_en_to_nv("How are you today on this beautiful land?")
+
+print("CoreML packages ready for iOS integration:")
+print("  - NavajoEncoder.mlpackage + EnglishDecoder.mlpackage   (Navajo → English)")
+print("  - EnglishEncoder.mlpackage + NavajoDecoder.mlpackage   (English → Navajo)")

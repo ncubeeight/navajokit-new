@@ -11,7 +11,7 @@ import Foundation
 Representation of a single Navajo word with its morphology and other details attached
 (Compatible with encoding and decoding for JSON)
 */
-public struct NVWord: Codable, Identifiable {
+public struct NVWord: Codable, Identifiable, Sendable {
 
 	public let id: UUID
 	

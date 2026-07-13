@@ -6,7 +6,7 @@
 //
 
 ///Representation of grammatical details for subject or object of several parts of speech
-public struct NVInflection: Codable {
+public struct NVInflection: Codable, Sendable {
 	///Person for verb or possession
 	public let person: NVPerson?
 	///Plurality for verb or possession
