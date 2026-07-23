@@ -1011,6 +1011,7 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "jesus,biʼdiisxíné̜e̜dá̜á̜ʼ,bééhániih","NSub,Adv,VImpf",Good Friday,NSub,,,,,,,,,,Jesus + back when he was killed + it is remembered,Yes,3
 "jew,dineʼé","NSub,NSub",Jews,NSub,,,,,,TRUE,,,,Jew + people,Yes,2
 "jii,łtsą́ągo","VPerf,VPerf",saw,VPerf,4th,SD,3rd,S,see,,,,,(typo in NVJOB Mt 5:1),Yes,2
+"john,yáʼátʼééh,yaa,halneʼíí","NPostp,NPostp,Postp,NSub",The Gospel of John,NSub,,,,,,,,,,John + good one + about + news,Yes,4
 "jóhonaaʼéí,yináádáłígíí","NSub,NSub",planet,NSub,,,,,,,,,,the Sun + that which is walking around it,Yes,2
 "jooł,iihnálniihhígíí","NSub,NSub",basketball,NSub,,,,,,,,,,ball + ??,Yes,2
 "jooł,nímazgo,yitalí","NSub,Adv,NSub",soccer ball,NSub,,,,,,,,,,ball + while round + that which is kicked,Yes,3
@@ -1148,6 +1149,9 @@ TOKENS,LABELS,english,part-of-speech,subject-person,subject-plural,object-person
 "łóóʼntsxaaí,łikizhígíí","NSub,NSub",whale shark,NSub,,,,,,,,,,really large fish + that is spotted,Yes,2
 "łóóʼtsoh,dootłizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,whale + the one that is blue,Yes,2
 "łóóʼtsoh,dootłʼizhígíí","NSub,NSub",blue whale,NSub,,,,,,,,,,whale + the one that is blue,Yes,2
+"luke,yáʼátʼééh,yaa,halneʼíí","NPostp,NPostp,Postp,NSub",The Gospel of Luke,NSub,,,,,,,,,,Luke + good one + about + news,Yes,4
+"mark,yáʼátʼééh,yaa,halneʼíí","NPostp,NPostp,Postp,NSub",The Gospel of Mark,NSub,,,,,,,,,,Mark + good one + about + news,Yes,4
+"matthew,yáʼátʼééh,yaa,halneʼíí","NPostp,NPostp,Postp,NSub",The Gospel of Matthew,NSub,,,,,,,,,,Matthew + good one + about + news,Yes,4
 "mąʼii,łitsooí","NSub,NSub",red fox,NSub,,,,,,,,,,coyote + the yellow one,Yes,2
 "mąʼiiłtsooí,yázhí","NSub,NSub",fox kit,NSub,,,,,,,,,,fox + the little one,Yes,2
 "mósí,bichʼiyąʼ","NSub,NSub",cat food,NSub,,,,,,,,,,cat + its food,Yes,2
