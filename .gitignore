@@ -8,3 +8,5 @@ DerivedData/
 .netrc
 *.mlmodel
 *.mlpackage
+tokenizer.vocab
+vocab.json
