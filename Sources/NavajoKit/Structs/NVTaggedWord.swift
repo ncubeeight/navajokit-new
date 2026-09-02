@@ -6,7 +6,7 @@
 //
 
 ///Word with part-of-speech tag applied
-public struct NVTaggedWord {
+public struct NVTaggedWord: Sendable {
 	///Navajo word
 	public var token: String
 	//Part-of-speech

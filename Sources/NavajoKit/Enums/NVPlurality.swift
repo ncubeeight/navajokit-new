@@ -6,7 +6,7 @@
 //
 
 ///Plurality applied to several parts-of-speech, both subjects and objects
-public enum NVPlurality: String, Codable {
+public enum NVPlurality: String, Codable, Sendable {
 
 	case singular
 	case dual

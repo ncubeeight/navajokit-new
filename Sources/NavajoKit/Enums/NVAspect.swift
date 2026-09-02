@@ -6,7 +6,7 @@
 //
 
 ///Verb aspects/tenses
-public enum NVAspect: String, Codable {
+public enum NVAspect: String, Codable, Sendable {
 
 	///Roughly equivalent to past tense in English
 	case perfective
