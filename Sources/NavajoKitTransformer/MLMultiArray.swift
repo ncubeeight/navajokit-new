@@ -1,6 +1,6 @@
 //
 //  MLMultiArray.swift
-//  NavajoKit
+//  NavajoKitTransformer
 //
 //  Created by Daniel Gump on 3/17/26.
 //

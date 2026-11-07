@@ -14,6 +14,13 @@ let package = Package(
 			name: "NavajoKit",
 			targets: ["NavajoKit"]
 		),
+		// Optional sentence translation (NVTranslator.translate(_:tokenizer:)).
+		// Kept separate because its transformer models are ~33 MB; apps that
+		// only need word lookups, tagging and pronunciation can skip it.
+		.library(
+			name: "NavajoKitTransformer",
+			targets: ["NavajoKitTransformer"]
+		),
 	],
 	dependencies: [
 		.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.4.0")
@@ -22,22 +29,39 @@ let package = Package(
 		.target(
 			name: "NavajoKit",
 			dependencies: [],
+			exclude: [
+				// Training data and scripts stay in the repo but aren't
+				// shipped: nothing loads them at run time.
+				"Resources/training_data/NVClauses.csv",
+				"Resources/training_data/NVPassages.csv",
+				"Resources/training_data/bible.json",
+				"Resources/training_data/compound words.json",
+				"Resources/training_data/hymns.json",
+				"Resources/training_data/narratives.json",
+				"Resources/training_data/phrases.json",
+				"Resources/training_data/sentences.json",
+				"Resources/train_transformer.py",
+				"Resources/setup_and_run.sh",
+				"Resources/tokenizer.vocab"
+			],
 			resources: [
 				.copy("Resources/training_data/NVSingleWords.csv"),
 				.copy("Resources/training_data/NVCompoundWords.csv"),
-				.copy("Resources/training_data/NVClauses.csv"),
-				.copy("Resources/training_data/NVPassages.csv"),
-				.copy("Resources/training_data/bible.json"),
-				.copy("Resources/training_data/compound words.json"),
-				.copy("Resources/training_data/phrases.json"),
-				.copy("Resources/training_data/sentences.json"),
-				//.copy("Resources/training_data/words.json"),
-				.copy("Resources/train_transformer.py"),
 				.copy("Resources/vocab.json"),
-				.process("Resources/NavajoTagger.mlmodel"),
+				.process("Resources/NavajoTagger.mlmodel")
+			],
+		),
+		.target(
+			name: "NavajoKitTransformer",
+			dependencies: ["NavajoKit"],
+			resources: [
 				.process("Resources/NavajoEncoder.mlpackage"),
 				.process("Resources/NavajoDecoder.mlpackage")
 			],
+		),
+		.testTarget(
+			name: "NavajoKitTransformerTests",
+			dependencies: ["NavajoKitTransformer"]
 		),
 		.testTarget(
 			name: "NavajoKitTests",
